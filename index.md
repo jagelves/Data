@@ -2,7 +2,7 @@
 
 # Coding In R
 
-1. Data Visualization
+## 1. Data Visualization
 
 1.1 Does Size Matter in Batting?
 

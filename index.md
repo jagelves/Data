@@ -2,7 +2,7 @@
 
 # Coding In R
 
-## 1. Data Visualization
+## 1. Data Visualization (ggplot and Plotly)
 
 1.1 Does Size Matter in Batting?
 
@@ -10,7 +10,7 @@
 
 # Coding in Python
 
-## 1. Using Tensor Flow (Image Classification)
+## 1. Image Classification (Tensor Flow and Keras)
 
 1.1 Clasifying Cats and Dogs
 

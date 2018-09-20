@@ -8,6 +8,13 @@
 
 1.2 Continental US Climate Change.
 
+# Coding in Python
+
+## 1. Using Tensor Flow (Image Classification)
+
+1.1 Clasifying Cats and Dogs
+
+1.2 Classifying 10 Monkey Species
 
 
 [Link](url) and ![Image](src)

@@ -20,8 +20,6 @@
 
 1.2 Classifying 10 Monkey Species
 
-1.3
-
 
 [Link](url) and ![Image](src)
 ```

@@ -1,6 +1,6 @@
 
 
-# Coding In R
+# Coding in R
 
 ### 1. Data Visualization (ggplot, Plotly and GoogleVis)
 

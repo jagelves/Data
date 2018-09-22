@@ -12,13 +12,7 @@
 
 
 
-# Coding in Python
 
-### 1. Image Classification (Tensor Flow and Keras)
-
-1.1 Clasifying Cats and Dogs
-
-1.2 Classifying 10 Monkey Species
 
 
 [Link](url) and ![Image](src)

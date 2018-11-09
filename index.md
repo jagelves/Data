@@ -3,7 +3,7 @@ title: Hello
 description: subtitle
 ---
 
-![MyPicture]()
+![MyPicture](cypher-partial-hp-thumb.jpg)
 
 # Coding in R
 

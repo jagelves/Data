@@ -7,7 +7,7 @@ description: subtitle
 
 ### 1. Data Visualization (ggplot, Plotly and GoogleVis)
 
-1.1 [Does Size Matter in Batting?](/files/index.md)
+1.1 [Does Size Matter in Batting?](Does_Size_Matter_in_Batting1.html)
 
 1.2 Continental US Climate Change
 

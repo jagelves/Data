@@ -1,13 +1,13 @@
 ---
 title: Hello
-description:subtitle
+description: subtitle
 ---
 
 # Coding in R
 
 ### 1. Data Visualization (ggplot, Plotly and GoogleVis)
 
-1.1 Does Size Matter in Batting?
+1.1 [Does Size Matter in Batting?](/files/index.md)
 
 1.2 Continental US Climate Change
 

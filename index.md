@@ -1,5 +1,5 @@
 ---
-title: Hello
+title: Techniques in Data Analytics
 description: subtitle
 ---
 
@@ -14,6 +14,12 @@ description: subtitle
 1.2 [Continental US Climate Change]()
 
 1.3 [Alternative Fuel Stations]()
+
+### 2. Classification (glm, lda and qda)
+
+2.1 [Predicting Avocado Prices]()
+
+### 3. Optization ()
 
 ```
 

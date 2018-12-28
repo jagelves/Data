@@ -1,6 +1,6 @@
 ---
 title: Techniques in Data Analytics
-description: subtitle
+description: Sample Work
 ---
 
 ![MyPicture](cypher-partial-hp-thumb.jpg)

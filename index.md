@@ -19,7 +19,7 @@ description: subtitle
 
 2.1 [Predicting Avocado Prices]()
 
-### 3. Optization ()
+### 3. Optimization ()
 
 ```
 

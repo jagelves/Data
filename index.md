@@ -17,7 +17,7 @@ description: Sample Work
 
 ### 2. Classification (glm, lda and qda)
 
-2.1 [Predicting Avocado Prices]()
+2.1 [Predicting Avocado Prices](Avocado.html)
 
 ### 3. Optimization ()
 

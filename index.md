@@ -21,5 +21,12 @@ description: Sample Work
 
 ### 3. Optimization (igraph,Optrees)
 
+# Coding in Python
+
+### 1. Optimization (gurobipy)
+
+1.1 [Portfolio Optimization]()
+
+### 2. Image Classification (TensorFlow)
 ```
 

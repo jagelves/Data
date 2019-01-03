@@ -11775,20 +11775,29 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Optimizing-a-Nasdaq-Portfolio">Optimizing a Nasdaq Portfolio<a class="anchor-link" href="#Optimizing-a-Nasdaq-Portfolio">&#182;</a></h1><p>Author: J. Alejandro Gelves</p>
+<h1 id="Optimizing-a-Nasdaq-Portfolio">Optimizing a Nasdaq Portfolio<a class="anchor-link" href="#Optimizing-a-Nasdaq-Portfolio">&#182;</a></h1><h2 id="J.-Alejandro-Gelves">J. Alejandro Gelves<a class="anchor-link" href="#J.-Alejandro-Gelves">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>This script shows how to construct a porfolio of stocks in the nasdaq that yield a certain amount of return with a minimium risk. Start by loading the packages.</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">import</span> <span class="nn">mysql.connector</span>
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 <span class="kn">from</span> <span class="nn">gurobipy</span> <span class="k">import</span> <span class="o">*</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 </pre></div>
 
 </div>
@@ -11796,27 +11805,51 @@ div#notebook {
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The data is in an SQL database. So we establish the connection to the database and enable the cursor.</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">m</span> <span class="o">=</span> <span class="n">Model</span><span class="p">(</span><span class="s2">&quot;Investments&quot;</span><span class="p">)</span>
-<span class="n">m</span><span class="o">.</span><span class="n">ModelSense</span> <span class="o">=</span> <span class="n">GRB</span><span class="o">.</span><span class="n">MINIMIZE</span>
-<span class="n">m</span><span class="o">.</span><span class="n">setParam</span><span class="p">(</span><span class="s2">&quot;TimeLimit&quot;</span><span class="p">,</span> <span class="mi">7200</span><span class="p">)</span>
-
-<span class="c1"># Establishing the SQL connection to get the data</span>
-<span class="n">db</span><span class="o">=</span><span class="n">mysql</span><span class="o">.</span><span class="n">connector</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="n">host</span><span class="o">=</span><span class="s1">&#39;localhost&#39;</span><span class="p">,</span><span class="n">user</span><span class="o">=</span><span class="s1">&#39;root&#39;</span><span class="p">,</span><span class="n">passwd</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span><span class="n">database</span><span class="o">=</span><span class="s1">&#39;nasdaq&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">db</span><span class="o">=</span><span class="n">mysql</span><span class="o">.</span><span class="n">connector</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="n">host</span><span class="o">=</span><span class="s1">&#39;localhost&#39;</span><span class="p">,</span><span class="n">user</span><span class="o">=</span><span class="s1">&#39;root&#39;</span><span class="p">,</span><span class="n">passwd</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span><span class="n">database</span><span class="o">=</span><span class="s1">&#39;nasdaq&#39;</span><span class="p">)</span>
 <span class="n">cur</span><span class="o">=</span><span class="n">db</span><span class="o">.</span><span class="n">cursor</span><span class="p">()</span>
+</pre></div>
 
-<span class="c1"># Get the returns</span>
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Now that we have the connection, we can get the desired data. Mainly, we need the monthly returns, the name of the stocks and the covariance matrix of the returns.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Get the returns</span>
 <span class="n">cur</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s1">&#39;SELECT meanReturn FROM nasdaq.r&#39;</span><span class="p">)</span>
 <span class="n">returns</span><span class="o">=</span><span class="n">cur</span><span class="o">.</span><span class="n">fetchall</span><span class="p">()</span>
 <span class="n">returns</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">matrix</span><span class="p">(</span><span class="n">returns</span><span class="p">)</span>
 <span class="n">maxreturns</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">max</span><span class="p">(</span><span class="n">returns</span><span class="p">))</span>
 <span class="n">minreturns</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">min</span><span class="p">(</span><span class="n">returns</span><span class="p">))</span>
 
-<span class="c1"># Loading in the Stock names</span>
+<span class="c1"># Get the Stock names</span>
 <span class="n">cur</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s1">&#39;SELECT stock FROM nasdaq.r&#39;</span><span class="p">)</span>
 <span class="n">stocks</span><span class="o">=</span><span class="n">cur</span><span class="o">.</span><span class="n">fetchall</span><span class="p">()</span>
 <span class="n">stock</span><span class="o">=</span><span class="p">[]</span>
@@ -11824,7 +11857,7 @@ div#notebook {
   <span class="k">for</span> <span class="n">a</span> <span class="ow">in</span> <span class="n">i</span><span class="p">:</span>
     <span class="n">stock</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
 
-<span class="c1"># Import covariance data</span>
+<span class="c1"># Get the covariance</span>
 <span class="n">cur</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s1">&#39;SELECT * FROM nasdaq.cov&#39;</span><span class="p">)</span>
 <span class="n">cov</span><span class="o">=</span><span class="n">cur</span><span class="o">.</span><span class="n">fetchall</span><span class="p">()</span>
 <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">cov</span><span class="p">)</span>
@@ -11836,17 +11869,80 @@ div#notebook {
     <span class="n">k</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="n">cov</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="mi">1</span><span class="p">])</span><span class="o">-</span><span class="mi">1</span>
     <span class="n">covmatrix</span><span class="p">[</span><span class="n">j</span><span class="p">,</span><span class="n">k</span><span class="p">]</span><span class="o">=</span><span class="nb">float</span><span class="p">(</span><span class="n">cov</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="mi">2</span><span class="p">])</span>
     <span class="n">covmatrix</span><span class="p">[</span><span class="n">k</span><span class="p">,</span><span class="n">j</span><span class="p">]</span><span class="o">=</span><span class="n">covmatrix</span><span class="p">[</span><span class="n">j</span><span class="p">,</span><span class="n">k</span><span class="p">]</span>
+</pre></div>
 
-<span class="c1"># uploading multiple variables to optimize. The fraction of each stock that should be held.</span>
-<span class="n">variables</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">addVars</span><span class="p">(</span><span class="n">stock</span><span class="p">,</span><span class="n">vtype</span><span class="o">=</span><span class="n">GRB</span><span class="o">.</span><span class="n">CONTINUOUS</span><span class="p">,</span><span class="n">lb</span><span class="o">=</span><span class="mf">0.0</span><span class="p">,</span><span class="n">ub</span><span class="o">=</span><span class="mf">1.0</span><span class="p">),</span> <span class="n">index</span><span class="o">=</span><span class="n">stock</span><span class="p">)</span>
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Now that we have the data, we use gorobi to minimize the risk in the portfolio. We set the model.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">m</span> <span class="o">=</span> <span class="n">Model</span><span class="p">(</span><span class="s2">&quot;Investments&quot;</span><span class="p">)</span>
+<span class="n">m</span><span class="o">.</span><span class="n">ModelSense</span> <span class="o">=</span> <span class="n">GRB</span><span class="o">.</span><span class="n">MINIMIZE</span>
+<span class="n">m</span><span class="o">.</span><span class="n">setParam</span><span class="p">(</span><span class="s2">&quot;TimeLimit&quot;</span><span class="p">,</span> <span class="mi">7200</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>We want to choose the fraction of each investment that should be held to yield a given expected return i at minimum risk. These are our choice variables.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">variables</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">addVars</span><span class="p">(</span><span class="n">stock</span><span class="p">,</span><span class="n">vtype</span><span class="o">=</span><span class="n">GRB</span><span class="o">.</span><span class="n">CONTINUOUS</span><span class="p">,</span><span class="n">lb</span><span class="o">=</span><span class="mf">0.0</span><span class="p">,</span><span class="n">ub</span><span class="o">=</span><span class="mf">1.0</span><span class="p">),</span> <span class="n">index</span><span class="o">=</span><span class="n">stock</span><span class="p">)</span>
 <span class="n">m</span><span class="o">.</span><span class="n">update</span><span class="p">()</span>
 
 <span class="c1"># Creating a numpy matrix for the fractions of investments. Creating the expected profit.</span>
 <span class="n">fractions</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">matrix</span><span class="p">(</span><span class="n">variables</span><span class="p">)</span>
 <span class="n">sfractions</span><span class="o">=</span><span class="nb">sum</span><span class="p">(</span><span class="n">fractions</span><span class="p">)</span><span class="o">.</span><span class="n">item</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
 <span class="n">exprofit</span><span class="o">=</span><span class="n">fractions</span><span class="o">*</span><span class="n">returns</span>
+</pre></div>
 
-<span class="c1"># Creating the objective function</span>
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Finally, we create the objective function (risk) and calculate the profolio for 20 different inteval between the minimum and max returns possible in the portfolio.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Creating the objective function</span>
 <span class="n">objrisk</span><span class="o">=</span><span class="n">fractions</span><span class="o">*</span><span class="n">covmatrix</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">transpose</span><span class="p">(</span><span class="n">fractions</span><span class="p">)</span>
 
 <span class="n">portfolio</span><span class="o">=</span><span class="p">[]</span>
@@ -11862,8 +11958,6 @@ div#notebook {
   <span class="n">m</span><span class="o">.</span><span class="n">update</span><span class="p">()</span>
   <span class="n">m</span><span class="o">.</span><span class="n">optimize</span><span class="p">()</span>
   <span class="n">portfolio</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="n">i</span><span class="p">,</span><span class="n">m</span><span class="o">.</span><span class="n">getObjective</span><span class="p">()</span><span class="o">.</span><span class="n">getValue</span><span class="p">()])</span>
-  <span class="n">cur</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s2">&quot;insert into portfolio (expReturn, expRisk) values (</span><span class="si">%s</span><span class="s2">, </span><span class="si">%s</span><span class="s2">)&quot;</span><span class="p">,(</span><span class="nb">float</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="p">,</span><span class="nb">float</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">getObjective</span><span class="p">()</span><span class="o">.</span><span class="n">getValue</span><span class="p">())))</span> <span class="c1"># what we send to the db using tuples and place holders</span>
-<span class="n">db</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span>
 <span class="n">cur</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>  
 <span class="n">db</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
 </pre></div>
@@ -11882,178 +11976,7 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Academic license - for non-commercial use only
-Changed value of parameter TimeLimit to 7200.0
-   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
- 2 
-Optimize a model with 2 rows, 1158 columns and 2316 nonzeros
-Model has 671061 quadratic objective terms
-Coefficient statistics:
-  Matrix range     [8e-07, 1e+00]
-  Objective range  [0e+00, 0e+00]
-  QObjective range [2e-08, 9e-01]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [2e-02, 1e+00]
-Presolve time: 0.09s
-Presolved: 2 rows, 1158 columns, 2316 nonzeros
-Presolved model has 671061 quadratic objective terms
-Ordering time: 0.00s
-
-Barrier statistics:
- Free vars  : 119
- AA&#39; NZ     : 7.260e+03
- Factor NZ  : 7.381e+03 (roughly 1 MByte of memory)
- Factor Ops : 5.979e+05 (less than 1 second per iteration)
- Threads    : 6
-
-                  Objective                Residual
-Iter       Primal          Dual         Primal    Dual     Compl     Time
-   0   3.77745330e-15 -3.77745330e-15  1.16e+06 2.71e-08  2.50e+05     0s
-   1   6.24531938e+03 -6.75931337e+03  2.09e+04 4.90e-10  4.53e+03     0s
-   2   2.26535566e-01 -5.29937155e+02  2.45e+01 5.72e-13  5.52e+00     0s
-   3   4.11873090e-03 -4.80062011e+02  2.45e-05 1.73e-17  2.07e-01     0s
-   4   4.11849993e-03 -4.85559241e-01  4.91e-10 3.47e-18  2.11e-04     0s
-   5   3.95593195e-03 -5.69231434e-03  6.12e-12 3.47e-18  4.16e-06     0s
-   6   9.39140973e-04 -4.77381620e-03  1.55e-15 9.54e-18  2.47e-06     0s
-   7   5.59022137e-04 -3.92901773e-04  3.33e-16 3.90e-18  4.11e-07     0s
-   8   3.33654842e-04 -4.23818378e-05  6.66e-16 1.73e-18  1.62e-07     0s
-   9   2.43377525e-04  7.16473391e-05  1.11e-14 1.30e-18  7.41e-08     0s
-  10   1.83460268e-04  1.18374727e-04  4.66e-15 1.08e-18  2.81e-08     0s
-  11   1.53103444e-04  1.34583668e-04  4.44e-16 8.67e-19  7.99e-09     0s
-  12   1.42103566e-04  1.38759450e-04  4.66e-15 1.30e-18  1.44e-09     0s
-  13   1.39615484e-04  1.39208025e-04  1.11e-15 8.67e-19  1.76e-10     0s
-  14   1.39268205e-04  1.39265765e-04  1.55e-14 1.30e-18  1.05e-12     0s
-
-Barrier solved model in 14 iterations and 0.23 seconds
-Optimal objective 1.39268205e-04
-
-Optimize a model with 4 rows, 1158 columns and 4632 nonzeros
-Model has 671061 quadratic objective terms
-Coefficient statistics:
-  Matrix range     [8e-07, 1e+00]
-  Objective range  [0e+00, 0e+00]
-  QObjective range [2e-08, 9e-01]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [2e-02, 1e+00]
-Presolve removed 2 rows and 0 columns
-Presolve time: 0.07s
-Presolved: 2 rows, 1158 columns, 2316 nonzeros
-Presolved model has 671061 quadratic objective terms
-Ordering time: 0.00s
-
-Barrier statistics:
- Free vars  : 119
- AA&#39; NZ     : 7.260e+03
- Factor NZ  : 7.381e+03 (roughly 1 MByte of memory)
- Factor Ops : 5.979e+05 (less than 1 second per iteration)
- Threads    : 6
-
-                  Objective                Residual
-Iter       Primal          Dual         Primal    Dual     Compl     Time
-   0   3.30127323e-15 -3.30127323e-15  1.16e+06 2.44e-08  2.50e+05     0s
-   1   6.24587732e+03 -6.75572982e+03  2.09e+04 4.42e-10  4.53e+03     0s
-   2   2.26949904e-01 -5.25529119e+02  2.45e+01 5.16e-13  5.52e+00     0s
-   3   4.14745287e-03 -4.78140893e+02  2.45e-05 2.43e-17  2.06e-01     0s
-   4   4.14721762e-03 -4.83627648e-01  4.94e-10 3.47e-18  2.11e-04     0s
-   5   3.98217494e-03 -5.69551514e-03  6.18e-12 3.47e-18  4.18e-06     0s
-   6   9.40411828e-04 -4.80930462e-03  2.22e-15 6.94e-18  2.48e-06     0s
-   7   5.60088780e-04 -3.95096086e-04  2.89e-15 3.47e-18  4.12e-07     0s
-   8   3.32635214e-04 -4.04127753e-05  3.33e-16 1.73e-18  1.61e-07     0s
-   9   2.42971328e-04  7.20315017e-05  4.22e-15 1.30e-18  7.38e-08     0s
-  10   1.83318346e-04  1.18377277e-04  2.22e-15 8.67e-19  2.80e-08     0s
-  11   1.53047684e-04  1.34596909e-04  7.77e-16 8.67e-19  7.96e-09     0s
-  12   1.42105080e-04  1.38757597e-04  4.88e-15 1.08e-18  1.44e-09     0s
-  13   1.39615558e-04  1.39207837e-04  1.93e-14 1.30e-18  1.76e-10     0s
-  14   1.39268205e-04  1.39265765e-04  1.78e-15 1.08e-18  1.05e-12     0s
-
-Barrier solved model in 14 iterations and 0.20 seconds
-Optimal objective 1.39268205e-04
-
-Optimize a model with 6 rows, 1158 columns and 6948 nonzeros
-Model has 671061 quadratic objective terms
-Coefficient statistics:
-  Matrix range     [8e-07, 1e+00]
-  Objective range  [0e+00, 0e+00]
-  QObjective range [2e-08, 9e-01]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [1e-02, 1e+00]
-Presolve removed 4 rows and 0 columns
-Presolve time: 0.07s
-Presolved: 2 rows, 1158 columns, 2316 nonzeros
-Presolved model has 671061 quadratic objective terms
-Ordering time: 0.00s
-
-Barrier statistics:
- Free vars  : 119
- AA&#39; NZ     : 7.260e+03
- Factor NZ  : 7.381e+03 (roughly 1 MByte of memory)
- Factor Ops : 5.979e+05 (less than 1 second per iteration)
- Threads    : 6
-
-                  Objective                Residual
-Iter       Primal          Dual         Primal    Dual     Compl     Time
-   0   2.96696684e-15 -2.96696684e-15  1.16e+06 2.18e-08  2.50e+05     0s
-   1   6.24643528e+03 -6.75214587e+03  2.09e+04 3.93e-10  4.53e+03     0s
-   2   2.27364765e-01 -5.21119672e+02  2.45e+01 4.59e-13  5.52e+00     0s
-   3   4.17990543e-03 -4.75987446e+02  2.45e-05 2.43e-17  2.05e-01     0s
-   4   4.17966527e-03 -4.81461240e-01  4.97e-10 3.47e-18  2.10e-04     0s
-   5   4.01178677e-03 -5.69733456e-03  6.25e-12 3.47e-18  4.19e-06     0s
-   6   9.41835666e-04 -4.84899707e-03  8.88e-16 6.94e-18  2.50e-06     0s
-   7   5.61281161e-04 -3.97213063e-04  1.44e-15 2.17e-18  4.14e-07     0s
-   8   3.31178103e-04 -3.78188074e-05  2.22e-16 1.73e-18  1.59e-07     0s
-   9   2.42313830e-04  7.25526583e-05  6.82e-16 1.73e-18  7.33e-08     0s
-  10   1.82992028e-04  1.18474078e-04  5.55e-16 1.08e-18  2.78e-08     0s
-  11   1.52951337e-04  1.34624592e-04  4.66e-15 1.30e-18  7.91e-09     0s
-  12   1.42121194e-04  1.38751407e-04  4.44e-15 1.30e-18  1.45e-09     0s
-  13   1.39616291e-04  1.39207366e-04  4.55e-15 1.30e-18  1.76e-10     0s
-  14   1.39268199e-04  1.39265766e-04  7.11e-15 1.30e-18  1.05e-12     0s
-
-Barrier solved model in 14 iterations and 0.20 seconds
-Optimal objective 1.39268199e-04
-
-Optimize a model with 8 rows, 1158 columns and 9264 nonzeros
-Model has 671061 quadratic objective terms
-Coefficient statistics:
-  Matrix range     [8e-07, 1e+00]
-  Objective range  [0e+00, 0e+00]
-  QObjective range [2e-08, 9e-01]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [7e-03, 1e+00]
-Presolve removed 6 rows and 0 columns
-Presolve time: 0.07s
-Presolved: 2 rows, 1158 columns, 2316 nonzeros
-Presolved model has 671061 quadratic objective terms
-Ordering time: 0.00s
-
-Barrier statistics:
- Free vars  : 119
- AA&#39; NZ     : 7.260e+03
- Factor NZ  : 7.381e+03 (roughly 1 MByte of memory)
- Factor Ops : 5.979e+05 (less than 1 second per iteration)
- Threads    : 6
-
-                  Objective                Residual
-Iter       Primal          Dual         Primal    Dual     Compl     Time
-   0   2.77453414e-15 -2.77453414e-15  1.16e+06 1.99e-08  2.50e+05     0s
-   1   6.24699328e+03 -6.74856155e+03  2.09e+04 3.60e-10  4.53e+03     0s
-   2   2.27780151e-01 -5.16708813e+02  2.45e+01 4.20e-13  5.52e+00     0s
-   3   4.21668265e-03 -4.73574121e+02  2.45e-05 2.08e-17  2.04e-01     0s
-   4   4.21643684e-03 -4.79031276e-01  5.01e-10 3.47e-18  2.09e-04     0s
-   5   4.04530230e-03 -5.69630555e-03  6.33e-12 3.47e-18  4.20e-06     0s
-   6   9.43530771e-04 -4.89256334e-03  1.11e-15 8.67e-18  2.52e-06     0s
-   7   5.62542240e-04 -3.98405249e-04  1.11e-16 2.60e-18  4.15e-07     0s
-   8   3.28178871e-04 -3.31002094e-05  4.44e-16 1.73e-18  1.56e-07     0s
-   9   2.40875615e-04  7.34210071e-05  6.44e-15 1.30e-18  7.23e-08     0s
-  10   1.81976420e-04  1.18960503e-04  3.33e-15 1.30e-18  2.72e-08     0s
-  11   1.52705396e-04  1.34711860e-04  4.44e-16 1.73e-18  7.77e-09     0s
-  12   1.42181786e-04  1.38733790e-04  1.22e-15 9.83e-19  1.49e-09     0s
-  13   1.39617196e-04  1.39206588e-04  1.37e-14 1.08e-18  1.77e-10     0s
-  14   1.39268144e-04  1.39265776e-04  1.49e-14 1.52e-18  1.02e-12     0s
-
-Barrier solved model in 14 iterations and 0.20 seconds
-Optimal objective 1.39268144e-04
-
-Optimize a model with 10 rows, 1158 columns and 11580 nonzeros
+<pre>Optimize a model with 42 rows, 1158 columns and 48636 nonzeros
 Model has 671061 quadratic objective terms
 Coefficient statistics:
   Matrix range     [8e-07, 1e+00]
@@ -12061,7 +11984,7 @@ Coefficient statistics:
   QObjective range [2e-08, 9e-01]
   Bounds range     [1e+00, 1e+00]
   RHS range        [2e-03, 1e+00]
-Presolve removed 8 rows and 0 columns
+Presolve removed 40 rows and 0 columns
 Presolve time: 0.08s
 Presolved: 2 rows, 1158 columns, 2316 nonzeros
 Presolved model has 671061 quadratic objective terms
@@ -12076,26 +11999,24 @@ Barrier statistics:
 
                   Objective                Residual
 Iter       Primal          Dual         Primal    Dual     Compl     Time
-   0   2.72397514e-15 -2.72397514e-15  1.16e+06 1.94e-08  2.50e+05     0s
-   1   6.24755131e+03 -6.74497684e+03  2.09e+04 3.51e-10  4.53e+03     0s
-   2   2.28196060e-01 -5.12296542e+02  2.45e+01 4.13e-13  5.52e+00     0s
-   3   4.25849596e-03 -4.70869539e+02  2.45e-05 2.78e-17  2.03e-01     0s
-   4   4.25824366e-03 -4.76303967e-01  5.05e-10 3.47e-18  2.07e-04     0s
-   5   4.08337802e-03 -5.68920049e-03  6.41e-12 3.47e-18  4.22e-06     0s
-   6   9.45830944e-04 -4.93809566e-03  6.66e-16 1.04e-17  2.54e-06     0s
-   7   5.63991610e-04 -3.96749502e-04  4.44e-16 2.60e-18  4.15e-07     0s
-   8   3.21476238e-04 -2.31650370e-05  2.66e-15 2.17e-18  1.49e-07     0s
-   9   2.37533380e-04  7.52906832e-05  3.77e-15 1.30e-18  7.00e-08     0s
-  10   1.78889506e-04  1.20753729e-04  2.89e-15 1.30e-18  2.51e-08     0s
-  11   1.51959040e-04  1.35053794e-04  6.88e-15 1.30e-18  7.30e-09     0s
-  12   1.42299233e-04  1.38723363e-04  6.66e-16 1.30e-18  1.54e-09     0s
-  13   1.39600866e-04  1.39210909e-04  4.11e-15 1.08e-18  1.68e-10     0s
-  14   1.39267756e-04  1.39265862e-04  1.89e-14 8.67e-19  8.17e-13     0s
+   0   1.89904327e-14 -1.89904327e-14  1.16e+06 8.70e-08  2.50e+05     0s
+   1   6.25592543e+03 -6.69116017e+03  2.09e+04 1.57e-09  4.53e+03     0s
+   2   2.35996599e-01 -4.45935407e+02  2.46e+01 1.85e-12  5.52e+00     0s
+   3   4.28293993e-02 -3.30372706e+02  6.10e+00 4.59e-13  1.45e+00     0s
+   4   3.64497585e-01 -1.45858849e+02  1.41e+00 1.06e-13  4.69e-01     0s
+   5   3.77690981e-01 -4.47551233e+01  2.35e-02 1.78e-15  2.57e-02     0s
+   6   3.79489723e-01 -2.41224179e+00  2.35e-08 2.78e-17  1.20e-03     0s
+   7   3.78990247e-01  2.67401844e-01  9.35e-10 2.78e-17  4.82e-05     0s
+   8   2.88125095e-01  1.72474292e-01  3.05e-10 2.78e-17  4.99e-05     0s
+   9   2.87469798e-01  2.79980346e-01  2.51e-11 2.78e-17  3.23e-06     0s
+  10   2.86967407e-01  2.85265105e-01  1.24e-11 4.66e-15  7.35e-07     0s
+  11   2.85873980e-01  2.85872094e-01  1.36e-12 4.44e-16  8.14e-10     0s
+  12   2.85872879e-01  2.85872878e-01  1.26e-12 4.44e-16  8.15e-13     0s
 
-Barrier solved model in 14 iterations and 0.24 seconds
-Optimal objective 1.39267756e-04
+Barrier solved model in 12 iterations and 0.21 seconds
+Optimal objective 2.85872879e-01
 
-Optimize a model with 12 rows, 1158 columns and 13896 nonzeros
+Optimize a model with 44 rows, 1158 columns and 50952 nonzeros
 Model has 671061 quadratic objective terms
 Coefficient statistics:
   Matrix range     [8e-07, 1e+00]
@@ -12103,7 +12024,7 @@ Coefficient statistics:
   QObjective range [2e-08, 9e-01]
   Bounds range     [1e+00, 1e+00]
   RHS range        [2e-03, 1e+00]
-Presolve removed 10 rows and 0 columns
+Presolve removed 42 rows and 0 columns
 Presolve time: 0.07s
 Presolved: 2 rows, 1158 columns, 2316 nonzeros
 Presolved model has 671061 quadratic objective terms
@@ -12118,26 +12039,24 @@ Barrier statistics:
 
                   Objective                Residual
 Iter       Primal          Dual         Primal    Dual     Compl     Time
-   0   2.81528982e-15 -2.81528982e-15  1.16e+06 2.19e-08  2.50e+05     0s
-   1   6.24810937e+03 -6.74139175e+03  2.09e+04 3.96e-10  4.53e+03     0s
-   2   2.28611968e-01 -5.07882858e+02  2.45e+01 4.67e-13  5.52e+00     0s
-   3   4.30619703e-03 -4.67837839e+02  2.45e-05 1.91e-17  2.02e-01     0s
-   4   4.30593738e-03 -4.73237656e-01  5.09e-10 3.47e-18  2.06e-04     0s
-   5   4.12686105e-03 -5.66786055e-03  6.48e-12 3.47e-18  4.23e-06     0s
-   6   9.49852537e-04 -4.97828140e-03  3.33e-16 8.67e-18  2.56e-06     0s
-   7   5.66774493e-04 -4.00878663e-04  2.22e-15 3.47e-18  4.18e-07     0s
-   8   3.20534486e-04 -2.91119184e-05  5.55e-16 1.73e-18  1.51e-07     0s
-   9   2.29849694e-04  7.88951812e-05  7.77e-16 1.30e-18  6.52e-08     0s
-  10   1.78778990e-04  1.19549590e-04  9.99e-16 1.30e-18  2.56e-08     0s
-  11   1.51850296e-04  1.34646681e-04  1.11e-15 8.67e-19  7.42e-09     0s
-  12   1.42263588e-04  1.38684053e-04  4.55e-15 8.67e-19  1.54e-09     0s
-  13   1.39637760e-04  1.39199384e-04  8.66e-15 1.08e-18  1.89e-10     0s
-  14   1.39268274e-04  1.39265760e-04  4.44e-15 1.30e-18  1.08e-12     0s
+   0   1.89904327e-14 -1.89904327e-14  1.16e+06 8.70e-08  2.50e+05     0s
+   1   6.25592543e+03 -6.69116017e+03  2.09e+04 1.57e-09  4.53e+03     0s
+   2   2.35996599e-01 -4.45935407e+02  2.46e+01 1.85e-12  5.52e+00     0s
+   3   4.28293993e-02 -3.30372706e+02  6.10e+00 4.59e-13  1.45e+00     0s
+   4   3.64497585e-01 -1.45858849e+02  1.41e+00 1.06e-13  4.69e-01     0s
+   5   3.77690981e-01 -4.47551233e+01  2.35e-02 1.78e-15  2.57e-02     0s
+   6   3.79489723e-01 -2.41224179e+00  2.35e-08 2.78e-17  1.20e-03     0s
+   7   3.78990247e-01  2.67401844e-01  9.35e-10 2.78e-17  4.82e-05     0s
+   8   2.88125095e-01  1.72474292e-01  3.05e-10 2.78e-17  4.99e-05     0s
+   9   2.87469798e-01  2.79980346e-01  2.51e-11 2.78e-17  3.23e-06     0s
+  10   2.86967407e-01  2.85265105e-01  1.24e-11 4.66e-15  7.35e-07     0s
+  11   2.85873980e-01  2.85872094e-01  1.36e-12 4.44e-16  8.14e-10     0s
+  12   2.85872879e-01  2.85872878e-01  1.26e-12 4.44e-16  8.15e-13     0s
 
-Barrier solved model in 14 iterations and 0.21 seconds
-Optimal objective 1.39268274e-04
+Barrier solved model in 12 iterations and 0.20 seconds
+Optimal objective 2.85872879e-01
 
-Optimize a model with 14 rows, 1158 columns and 16212 nonzeros
+Optimize a model with 46 rows, 1158 columns and 53268 nonzeros
 Model has 671061 quadratic objective terms
 Coefficient statistics:
   Matrix range     [8e-07, 1e+00]
@@ -12145,7 +12064,7 @@ Coefficient statistics:
   QObjective range [2e-08, 9e-01]
   Bounds range     [1e+00, 1e+00]
   RHS range        [2e-03, 1e+00]
-Presolve removed 12 rows and 0 columns
+Presolve removed 44 rows and 0 columns
 Presolve time: 0.07s
 Presolved: 2 rows, 1158 columns, 2316 nonzeros
 Presolved model has 671061 quadratic objective terms
@@ -12160,26 +12079,24 @@ Barrier statistics:
 
                   Objective                Residual
 Iter       Primal          Dual         Primal    Dual     Compl     Time
-   0   3.04847819e-15 -3.04847819e-15  1.16e+06 2.66e-08  2.50e+05     0s
-   1   6.24866746e+03 -6.73780628e+03  2.09e+04 4.80e-10  4.53e+03     0s
-   2   2.29028398e-01 -5.03467761e+02  2.45e+01 5.58e-13  5.52e+00     0s
-   3   4.36082496e-03 -4.64437993e+02  2.45e-05 2.08e-17  2.00e-01     0s
-   4   4.36055750e-03 -4.69773026e-01  5.12e-10 3.47e-18  2.05e-04     0s
-   5   4.17704356e-03 -5.60578670e-03  6.52e-12 3.47e-18  4.22e-06     0s
-   6   9.60685430e-04 -4.98145208e-03  2.22e-16 8.67e-18  2.56e-06     0s
-   7   6.12500918e-04 -4.91299341e-04  1.44e-15 2.60e-18  4.76e-07     0s
-   8   3.95605896e-04 -5.86354333e-05  6.66e-16 3.47e-18  1.96e-07     0s
-   9   2.84678582e-04  7.76593428e-05  2.66e-15 1.73e-18  8.93e-08     0s
-  10   2.10703525e-04  1.38879568e-04  1.55e-15 1.52e-18  3.10e-08     0s
-  11   1.75242720e-04  1.57842277e-04  4.44e-16 1.30e-18  7.51e-09     0s
-  12   1.64526897e-04  1.60886895e-04  8.88e-16 9.76e-19  1.57e-09     0s
-  13   1.61555215e-04  1.61422282e-04  1.58e-16 1.30e-18  5.74e-11     0s
-  14   1.61438888e-04  1.61438442e-04  5.66e-15 1.08e-18  1.92e-13     0s
+   0   1.89904327e-14 -1.89904327e-14  1.16e+06 8.70e-08  2.50e+05     0s
+   1   6.25592543e+03 -6.69116017e+03  2.09e+04 1.57e-09  4.53e+03     0s
+   2   2.35996599e-01 -4.45935407e+02  2.46e+01 1.85e-12  5.52e+00     0s
+   3   4.28293993e-02 -3.30372706e+02  6.10e+00 4.59e-13  1.45e+00     0s
+   4   3.64497585e-01 -1.45858849e+02  1.41e+00 1.06e-13  4.69e-01     0s
+   5   3.77690981e-01 -4.47551233e+01  2.35e-02 1.78e-15  2.57e-02     0s
+   6   3.79489723e-01 -2.41224179e+00  2.35e-08 2.78e-17  1.20e-03     0s
+   7   3.78990247e-01  2.67401844e-01  9.35e-10 2.78e-17  4.82e-05     0s
+   8   2.88125095e-01  1.72474292e-01  3.05e-10 2.78e-17  4.99e-05     0s
+   9   2.87469798e-01  2.79980346e-01  2.51e-11 2.78e-17  3.23e-06     0s
+  10   2.86967407e-01  2.85265105e-01  1.24e-11 4.66e-15  7.35e-07     0s
+  11   2.85873980e-01  2.85872094e-01  1.36e-12 4.44e-16  8.14e-10     0s
+  12   2.85872879e-01  2.85872878e-01  1.26e-12 4.44e-16  8.15e-13     0s
 
-Barrier solved model in 14 iterations and 0.21 seconds
-Optimal objective 1.61438888e-04
+Barrier solved model in 12 iterations and 0.20 seconds
+Optimal objective 2.85872879e-01
 
-Optimize a model with 16 rows, 1158 columns and 18528 nonzeros
+Optimize a model with 48 rows, 1158 columns and 55584 nonzeros
 Model has 671061 quadratic objective terms
 Coefficient statistics:
   Matrix range     [8e-07, 1e+00]
@@ -12187,7 +12104,7 @@ Coefficient statistics:
   QObjective range [2e-08, 9e-01]
   Bounds range     [1e+00, 1e+00]
   RHS range        [2e-03, 1e+00]
-Presolve removed 14 rows and 0 columns
+Presolve removed 46 rows and 0 columns
 Presolve time: 0.07s
 Presolved: 2 rows, 1158 columns, 2316 nonzeros
 Presolved model has 671061 quadratic objective terms
@@ -12202,27 +12119,24 @@ Barrier statistics:
 
                   Objective                Residual
 Iter       Primal          Dual         Primal    Dual     Compl     Time
-   0   3.42354025e-15 -3.42354025e-15  1.16e+06 3.12e-08  2.50e+05     0s
-   1   6.24922558e+03 -6.73422042e+03  2.09e+04 5.64e-10  4.53e+03     0s
-   2   2.29446466e-01 -4.99051252e+02  2.45e+01 6.59e-13  5.52e+00     0s
-   3   4.42364478e-03 -4.60622874e+02  2.45e-05 3.82e-17  1.99e-01     0s
-   4   4.42337286e-03 -4.65759062e-01  5.09e-10 3.47e-18  2.03e-04     0s
-   5   4.23747204e-03 -5.35208061e-03  6.34e-12 3.47e-18  4.14e-06     0s
-   6   1.88282120e-03 -1.89167709e-03  8.73e-13 3.47e-18  1.63e-06     0s
-   7   1.00584587e-03 -7.98226436e-04  2.07e-13 1.73e-18  7.79e-07     0s
-   8   6.15069555e-04 -1.28848568e-04  3.13e-14 1.73e-18  3.21e-07     0s
-   9   4.16842785e-04  1.32569644e-04  8.22e-15 8.67e-19  1.23e-07     0s
-  10   3.17030194e-04  2.07835765e-04  2.00e-15 1.08e-18  4.71e-08     0s
-  11   2.77108160e-04  2.33552808e-04  1.33e-15 1.73e-18  1.88e-08     0s
-  12   2.54419514e-04  2.43928311e-04  5.55e-16 1.08e-18  4.53e-09     0s
-  13   2.47721409e-04  2.45866916e-04  1.11e-15 1.30e-18  8.00e-10     0s
-  14   2.46257558e-04  2.46179749e-04  1.11e-15 1.30e-18  3.36e-11     0s
-  15   2.46189019e-04  2.46188167e-04  1.05e-14 1.95e-18  3.68e-13     0s
+   0   1.89904327e-14 -1.89904327e-14  1.16e+06 8.70e-08  2.50e+05     0s
+   1   6.25592543e+03 -6.69116017e+03  2.09e+04 1.57e-09  4.53e+03     0s
+   2   2.35996599e-01 -4.45935407e+02  2.46e+01 1.85e-12  5.52e+00     0s
+   3   4.28293993e-02 -3.30372706e+02  6.10e+00 4.59e-13  1.45e+00     0s
+   4   3.64497585e-01 -1.45858849e+02  1.41e+00 1.06e-13  4.69e-01     0s
+   5   3.77690981e-01 -4.47551233e+01  2.35e-02 1.78e-15  2.57e-02     0s
+   6   3.79489723e-01 -2.41224179e+00  2.35e-08 2.78e-17  1.20e-03     0s
+   7   3.78990247e-01  2.67401844e-01  9.35e-10 2.78e-17  4.82e-05     0s
+   8   2.88125095e-01  1.72474292e-01  3.05e-10 2.78e-17  4.99e-05     0s
+   9   2.87469798e-01  2.79980346e-01  2.51e-11 2.78e-17  3.23e-06     0s
+  10   2.86967407e-01  2.85265105e-01  1.24e-11 4.66e-15  7.35e-07     0s
+  11   2.85873980e-01  2.85872094e-01  1.36e-12 4.44e-16  8.14e-10     0s
+  12   2.85872879e-01  2.85872878e-01  1.26e-12 4.44e-16  8.15e-13     0s
 
-Barrier solved model in 15 iterations and 0.20 seconds
-Optimal objective 2.46189019e-04
+Barrier solved model in 12 iterations and 0.20 seconds
+Optimal objective 2.85872879e-01
 
-Optimize a model with 18 rows, 1158 columns and 20844 nonzeros
+Optimize a model with 50 rows, 1158 columns and 57900 nonzeros
 Model has 671061 quadratic objective terms
 Coefficient statistics:
   Matrix range     [8e-07, 1e+00]
@@ -12230,7 +12144,7 @@ Coefficient statistics:
   QObjective range [2e-08, 9e-01]
   Bounds range     [1e+00, 1e+00]
   RHS range        [2e-03, 1e+00]
-Presolve removed 16 rows and 0 columns
+Presolve removed 48 rows and 0 columns
 Presolve time: 0.07s
 Presolved: 2 rows, 1158 columns, 2316 nonzeros
 Presolved model has 671061 quadratic objective terms
@@ -12245,27 +12159,24 @@ Barrier statistics:
 
                   Objective                Residual
 Iter       Primal          Dual         Primal    Dual     Compl     Time
-   0   3.94047600e-15 -3.94047600e-15  1.16e+06 3.59e-08  2.50e+05     0s
-   1   6.24978373e+03 -6.73063417e+03  2.09e+04 6.48e-10  4.53e+03     0s
-   2   2.29865060e-01 -4.94633330e+02  2.45e+01 7.58e-13  5.52e+00     0s
-   3   4.82327793e-03 -4.56409132e+02  1.77e-01 5.49e-15  2.32e-01     0s
-   4   4.80609378e-03 -8.10287980e+01  1.35e-02 4.16e-16  3.55e-02     0s
-   5   4.81254868e-03 -1.06030891e-01  4.12e-06 3.47e-18  4.78e-05     0s
-   6   4.38928430e-03 -1.96160509e-02  8.69e-07 3.47e-18  1.04e-05     0s
-   7   3.18334801e-03 -4.99037773e-03  1.28e-07 3.47e-18  3.53e-06     0s
-   8   2.04629962e-03 -1.67681829e-03  3.29e-08 1.73e-18  1.61e-06     0s
-   9   1.22884865e-03 -3.20740215e-04  6.68e-09 1.73e-18  6.69e-07     0s
-  10   7.69272342e-04  2.16434675e-04  6.48e-10 8.67e-19  2.39e-07     0s
-  11   6.17575093e-04  3.67550816e-04  2.50e-10 1.73e-18  1.08e-07     0s
-  12   5.07858663e-04  4.10328811e-04  4.91e-11 8.67e-19  4.21e-08     0s
-  13   4.56068834e-04  4.32160488e-04  6.64e-12 8.67e-19  1.03e-08     0s
-  14   4.38072918e-04  4.36613991e-04  2.44e-14 4.34e-19  6.30e-10     0s
-  15   4.36741716e-04  4.36733751e-04  2.68e-14 2.60e-18  3.44e-12     0s
+   0   1.89904327e-14 -1.89904327e-14  1.16e+06 8.70e-08  2.50e+05     0s
+   1   6.25592543e+03 -6.69116017e+03  2.09e+04 1.57e-09  4.53e+03     0s
+   2   2.35996599e-01 -4.45935407e+02  2.46e+01 1.85e-12  5.52e+00     0s
+   3   4.28293993e-02 -3.30372706e+02  6.10e+00 4.59e-13  1.45e+00     0s
+   4   3.64497585e-01 -1.45858849e+02  1.41e+00 1.06e-13  4.69e-01     0s
+   5   3.77690981e-01 -4.47551233e+01  2.35e-02 1.78e-15  2.57e-02     0s
+   6   3.79489723e-01 -2.41224179e+00  2.35e-08 2.78e-17  1.20e-03     0s
+   7   3.78990247e-01  2.67401844e-01  9.35e-10 2.78e-17  4.82e-05     0s
+   8   2.88125095e-01  1.72474292e-01  3.05e-10 2.78e-17  4.99e-05     0s
+   9   2.87469798e-01  2.79980346e-01  2.51e-11 2.78e-17  3.23e-06     0s
+  10   2.86967407e-01  2.85265105e-01  1.24e-11 4.66e-15  7.35e-07     0s
+  11   2.85873980e-01  2.85872094e-01  1.36e-12 4.44e-16  8.14e-10     0s
+  12   2.85872879e-01  2.85872878e-01  1.26e-12 4.44e-16  8.15e-13     0s
 
-Barrier solved model in 15 iterations and 0.21 seconds
-Optimal objective 4.36741716e-04
+Barrier solved model in 12 iterations and 0.20 seconds
+Optimal objective 2.85872879e-01
 
-Optimize a model with 20 rows, 1158 columns and 23160 nonzeros
+Optimize a model with 52 rows, 1158 columns and 60216 nonzeros
 Model has 671061 quadratic objective terms
 Coefficient statistics:
   Matrix range     [8e-07, 1e+00]
@@ -12273,7 +12184,7 @@ Coefficient statistics:
   QObjective range [2e-08, 9e-01]
   Bounds range     [1e+00, 1e+00]
   RHS range        [2e-03, 1e+00]
-Presolve removed 18 rows and 0 columns
+Presolve removed 50 rows and 0 columns
 Presolve time: 0.07s
 Presolved: 2 rows, 1158 columns, 2316 nonzeros
 Presolved model has 671061 quadratic objective terms
@@ -12288,30 +12199,24 @@ Barrier statistics:
 
                   Objective                Residual
 Iter       Primal          Dual         Primal    Dual     Compl     Time
-   0   4.59928544e-15 -4.59928544e-15  1.16e+06 4.05e-08  2.50e+05     0s
-   1   6.25034191e+03 -6.72704755e+03  2.09e+04 7.32e-10  4.53e+03     0s
-   2   2.30284610e-01 -4.90213995e+02  2.45e+01 8.61e-13  5.52e+00     0s
-   3   6.30824440e-03 -4.51831470e+02  8.10e-01 2.85e-14  3.58e-01     0s
-   4   7.03537277e-03 -2.60566573e+02  2.06e-01 7.23e-15  1.41e-01     0s
-   5   8.46801589e-03 -1.70726739e+01  2.06e-07 3.47e-18  7.37e-03     0s
-   6   8.43210589e-03 -1.07707813e-01  1.40e-09 3.47e-18  5.01e-05     0s
-   7   6.08767338e-03 -3.94197114e-02  3.64e-10 1.73e-18  1.96e-05     0s
-   8   4.30983521e-03 -1.69832141e-02  6.94e-11 3.47e-18  9.19e-06     0s
-   9   3.22174282e-03 -4.54132657e-03  1.33e-11 1.73e-18  3.35e-06     0s
-  10   2.41383089e-03 -2.09519300e-03  5.51e-12 3.47e-18  1.95e-06     0s
-  11   1.65054683e-03 -8.17693387e-05  8.93e-13 1.73e-18  7.48e-07     0s
-  12   1.28711101e-03  2.14899390e-04  3.17e-13 1.73e-18  4.63e-07     0s
-  13   9.96885537e-04  5.26380921e-04  7.57e-14 8.67e-19  2.03e-07     0s
-  14   8.36069091e-04  7.24165120e-04  5.33e-15 1.73e-18  4.83e-08     0s
-  15   7.81546108e-04  7.50467719e-04  3.55e-15 2.60e-18  1.34e-08     0s
-  16   7.60136265e-04  7.55586155e-04  5.55e-15 2.60e-18  1.96e-09     0s
-  17   7.56207090e-04  7.56044160e-04  9.99e-15 3.04e-18  7.03e-11     0s
-  18   7.56060586e-04  7.56059118e-04  7.08e-14 2.60e-18  6.33e-13     0s
+   0   1.89904327e-14 -1.89904327e-14  1.16e+06 8.70e-08  2.50e+05     0s
+   1   6.25592543e+03 -6.69116017e+03  2.09e+04 1.57e-09  4.53e+03     0s
+   2   2.35996599e-01 -4.45935407e+02  2.46e+01 1.85e-12  5.52e+00     0s
+   3   4.28293993e-02 -3.30372706e+02  6.10e+00 4.59e-13  1.45e+00     0s
+   4   3.64497585e-01 -1.45858849e+02  1.41e+00 1.06e-13  4.69e-01     0s
+   5   3.77690981e-01 -4.47551233e+01  2.35e-02 1.78e-15  2.57e-02     0s
+   6   3.79489723e-01 -2.41224179e+00  2.35e-08 2.78e-17  1.20e-03     0s
+   7   3.78990247e-01  2.67401844e-01  9.35e-10 2.78e-17  4.82e-05     0s
+   8   2.88125095e-01  1.72474292e-01  3.05e-10 2.78e-17  4.99e-05     0s
+   9   2.87469798e-01  2.79980346e-01  2.51e-11 2.78e-17  3.23e-06     0s
+  10   2.86967407e-01  2.85265105e-01  1.24e-11 4.66e-15  7.35e-07     0s
+  11   2.85873980e-01  2.85872094e-01  1.36e-12 4.44e-16  8.14e-10     0s
+  12   2.85872879e-01  2.85872878e-01  1.26e-12 4.44e-16  8.15e-13     0s
 
-Barrier solved model in 18 iterations and 0.22 seconds
-Optimal objective 7.56060586e-04
+Barrier solved model in 12 iterations and 0.23 seconds
+Optimal objective 2.85872879e-01
 
-Optimize a model with 22 rows, 1158 columns and 25476 nonzeros
+Optimize a model with 54 rows, 1158 columns and 62532 nonzeros
 Model has 671061 quadratic objective terms
 Coefficient statistics:
   Matrix range     [8e-07, 1e+00]
@@ -12319,52 +12224,7 @@ Coefficient statistics:
   QObjective range [2e-08, 9e-01]
   Bounds range     [1e+00, 1e+00]
   RHS range        [2e-03, 1e+00]
-Presolve removed 20 rows and 0 columns
-Presolve time: 0.07s
-Presolved: 2 rows, 1158 columns, 2316 nonzeros
-Presolved model has 671061 quadratic objective terms
-Ordering time: 0.00s
-
-Barrier statistics:
- Free vars  : 119
- AA&#39; NZ     : 7.260e+03
- Factor NZ  : 7.381e+03 (roughly 1 MByte of memory)
- Factor Ops : 5.979e+05 (less than 1 second per iteration)
- Threads    : 6
-
-                  Objective                Residual
-Iter       Primal          Dual         Primal    Dual     Compl     Time
-   0   5.39996857e-15 -5.39996857e-15  1.16e+06 4.52e-08  2.50e+05     0s
-   1   6.25090012e+03 -6.72346054e+03  2.09e+04 8.16e-10  4.53e+03     0s
-   2   2.30705323e-01 -4.85793247e+02  2.45e+01 9.57e-13  5.52e+00     0s
-   3   8.22531285e-03 -4.42682815e+02  1.20e+00 4.69e-14  4.31e-01     0s
-   4   1.70450433e-02 -2.60286020e+02  1.20e-06 6.94e-18  1.12e-01     0s
-   5   1.70368065e-02 -3.75970689e-01  1.81e-09 6.94e-18  1.70e-04     0s
-   6   1.34862569e-02 -8.26229957e-02  4.23e-10 3.47e-18  4.15e-05     0s
-   7   6.30045895e-03 -3.62230024e-02  3.64e-11 3.47e-18  1.84e-05     0s
-   8   4.90416406e-03 -1.17431717e-02  4.22e-12 3.47e-18  7.18e-06     0s
-   9   3.98367324e-03 -3.78634799e-03  1.73e-12 1.73e-18  3.35e-06     0s
-  10   2.71293107e-03 -3.64276265e-04  1.82e-13 1.73e-18  1.33e-06     0s
-  11   2.05656693e-03  1.04454585e-04  5.55e-14 1.73e-18  8.43e-07     0s
-  12   1.68840869e-03  8.94820735e-04  3.55e-15 1.73e-18  3.43e-07     0s
-  13   1.50503399e-03  1.10996430e-03  9.77e-15 1.73e-18  1.71e-07     0s
-  14   1.32931789e-03  1.22806056e-03  4.44e-15 4.34e-18  4.37e-08     0s
-  15   1.26195722e-03  1.25147300e-03  8.99e-15 4.34e-18  4.52e-09     0s
-  16   1.25307676e-03  1.25292422e-03  1.31e-14 3.47e-18  6.58e-11     0s
-  17   1.25294338e-03  1.25294203e-03  8.33e-14 3.47e-18  5.85e-13     0s
-
-Barrier solved model in 17 iterations and 0.22 seconds
-Optimal objective 1.25294338e-03
-
-Optimize a model with 24 rows, 1158 columns and 27792 nonzeros
-Model has 671061 quadratic objective terms
-Coefficient statistics:
-  Matrix range     [8e-07, 1e+00]
-  Objective range  [0e+00, 0e+00]
-  QObjective range [2e-08, 9e-01]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [2e-03, 1e+00]
-Presolve removed 22 rows and 0 columns
+Presolve removed 52 rows and 0 columns
 Presolve time: 0.08s
 Presolved: 2 rows, 1158 columns, 2316 nonzeros
 Presolved model has 671061 quadratic objective terms
@@ -12379,29 +12239,24 @@ Barrier statistics:
 
                   Objective                Residual
 Iter       Primal          Dual         Primal    Dual     Compl     Time
-   0   6.34252538e-15 -6.34252538e-15  1.16e+06 4.98e-08  2.50e+05     0s
-   1   6.25145837e+03 -6.71987314e+03  2.09e+04 9.00e-10  4.53e+03     0s
-   2   2.31126566e-01 -4.81371084e+02  2.45e+01 1.06e-12  5.51e+00     0s
-   3   1.07627374e-02 -4.32593985e+02  1.72e+00 7.40e-14  5.29e-01     0s
-   4   3.22547669e-02 -2.88151618e+02  1.72e-06 6.94e-18  1.24e-01     0s
-   5   3.22380290e-02 -4.33667520e-01  2.77e-09 6.94e-18  2.01e-04     0s
-   6   2.49857289e-02 -1.07839614e-01  7.46e-10 6.94e-18  5.73e-05     0s
-   7   1.28949216e-02 -4.65756132e-02  1.90e-10 3.47e-18  2.57e-05     0s
-   8   6.70009616e-03 -9.12859855e-03  2.34e-11 3.47e-18  6.83e-06     0s
-   9   5.26523535e-03 -3.47234438e-03  9.43e-12 1.73e-18  3.77e-06     0s
-  10   3.73478866e-03  8.86948753e-05  1.42e-12 1.73e-18  1.57e-06     0s
-  11   2.91878890e-03  1.25733863e-03  2.97e-13 1.73e-18  7.17e-07     0s
-  12   2.36379597e-03  1.77816651e-03  3.49e-14 1.73e-18  2.53e-07     0s
-  13   2.17535085e-03  1.88717705e-03  8.66e-15 1.73e-18  1.24e-07     0s
-  14   2.06302379e-03  1.98372552e-03  5.01e-14 4.05e-18  3.42e-08     0s
-  15   2.03141198e-03  2.00428409e-03  1.29e-14 4.87e-18  1.17e-08     0s
-  16   2.00706852e-03  2.00690530e-03  5.71e-14 3.69e-18  7.04e-11     0s
-  17   2.00691820e-03  2.00691803e-03  1.27e-14 5.20e-18  7.35e-14     0s
+   0   1.89904327e-14 -1.89904327e-14  1.16e+06 8.70e-08  2.50e+05     0s
+   1   6.25592543e+03 -6.69116017e+03  2.09e+04 1.57e-09  4.53e+03     0s
+   2   2.35996599e-01 -4.45935407e+02  2.46e+01 1.85e-12  5.52e+00     0s
+   3   4.28293993e-02 -3.30372706e+02  6.10e+00 4.59e-13  1.45e+00     0s
+   4   3.64497585e-01 -1.45858849e+02  1.41e+00 1.06e-13  4.69e-01     0s
+   5   3.77690981e-01 -4.47551233e+01  2.35e-02 1.78e-15  2.57e-02     0s
+   6   3.79489723e-01 -2.41224179e+00  2.35e-08 2.78e-17  1.20e-03     0s
+   7   3.78990247e-01  2.67401844e-01  9.35e-10 2.78e-17  4.82e-05     0s
+   8   2.88125095e-01  1.72474292e-01  3.05e-10 2.78e-17  4.99e-05     0s
+   9   2.87469798e-01  2.79980346e-01  2.51e-11 2.78e-17  3.23e-06     0s
+  10   2.86967407e-01  2.85265105e-01  1.24e-11 4.66e-15  7.35e-07     0s
+  11   2.85873980e-01  2.85872094e-01  1.36e-12 4.44e-16  8.14e-10     0s
+  12   2.85872879e-01  2.85872878e-01  1.26e-12 4.44e-16  8.15e-13     0s
 
-Barrier solved model in 17 iterations and 0.29 seconds
-Optimal objective 2.00691820e-03
+Barrier solved model in 12 iterations and 0.21 seconds
+Optimal objective 2.85872879e-01
 
-Optimize a model with 26 rows, 1158 columns and 30108 nonzeros
+Optimize a model with 56 rows, 1158 columns and 64848 nonzeros
 Model has 671061 quadratic objective terms
 Coefficient statistics:
   Matrix range     [8e-07, 1e+00]
@@ -12409,7 +12264,7 @@ Coefficient statistics:
   QObjective range [2e-08, 9e-01]
   Bounds range     [1e+00, 1e+00]
   RHS range        [2e-03, 1e+00]
-Presolve removed 24 rows and 0 columns
+Presolve removed 54 rows and 0 columns
 Presolve time: 0.07s
 Presolved: 2 rows, 1158 columns, 2316 nonzeros
 Presolved model has 671061 quadratic objective terms
@@ -12424,30 +12279,24 @@ Barrier statistics:
 
                   Objective                Residual
 Iter       Primal          Dual         Primal    Dual     Compl     Time
-   0   7.42695589e-15 -7.42695589e-15  1.16e+06 5.45e-08  2.50e+05     0s
-   1   6.25201664e+03 -6.71628536e+03  2.09e+04 9.84e-10  4.53e+03     0s
-   2   2.31548339e-01 -4.76947507e+02  2.45e+01 1.15e-12  5.51e+00     0s
-   3   1.40581018e-02 -4.23764908e+02  2.53e+00 1.18e-13  6.88e-01     0s
-   4   2.74808587e-02 -2.73039531e+02  7.06e-01 3.31e-14  2.60e-01     0s
-   5   5.27355046e-02 -9.33425617e+01  7.06e-07 6.94e-18  4.03e-02     0s
-   6   5.26635942e-02 -3.25424069e-01  2.86e-09 6.94e-18  1.63e-04     0s
-   7   3.26701131e-02 -1.18690241e-01  7.44e-10 6.94e-18  6.53e-05     0s
-   8   1.31465682e-02 -3.51336924e-02  4.85e-14 1.67e-16  2.08e-05     0s
-   9   9.46274058e-03 -1.17972129e-02  4.31e-14 8.51e-17  9.18e-06     0s
-  10   6.92824539e-03 -6.88415496e-04  1.44e-13 2.78e-17  3.29e-06     0s
-  11   4.96522221e-03  1.21009846e-03  2.32e-14 1.65e-17  1.62e-06     0s
-  12   4.05533573e-03  2.80214271e-03  2.13e-14 2.15e-17  5.41e-07     0s
-  13   3.73522456e-03  3.11815958e-03  2.69e-14 7.08e-18  2.66e-07     0s
-  14   3.47501929e-03  3.27528725e-03  2.49e-15 1.12e-17  8.62e-08     0s
-  15   3.35591232e-03  3.30847451e-03  2.07e-13 6.94e-18  2.05e-08     0s
-  16   3.32142295e-03  3.31604026e-03  1.06e-13 7.35e-18  2.32e-09     0s
-  17   3.31634113e-03  3.31633020e-03  5.65e-14 1.94e-17  4.72e-12     0s
-  18   3.31633089e-03  3.31633086e-03  6.72e-13 6.94e-18  1.27e-14     0s
+   0   1.89904327e-14 -1.89904327e-14  1.16e+06 8.70e-08  2.50e+05     0s
+   1   6.25592543e+03 -6.69116017e+03  2.09e+04 1.57e-09  4.53e+03     0s
+   2   2.35996599e-01 -4.45935407e+02  2.46e+01 1.85e-12  5.52e+00     0s
+   3   4.28293993e-02 -3.30372706e+02  6.10e+00 4.59e-13  1.45e+00     0s
+   4   3.64497585e-01 -1.45858849e+02  1.41e+00 1.06e-13  4.69e-01     0s
+   5   3.77690981e-01 -4.47551233e+01  2.35e-02 1.78e-15  2.57e-02     0s
+   6   3.79489723e-01 -2.41224179e+00  2.35e-08 2.78e-17  1.20e-03     0s
+   7   3.78990247e-01  2.67401844e-01  9.35e-10 2.78e-17  4.82e-05     0s
+   8   2.88125095e-01  1.72474292e-01  3.05e-10 2.78e-17  4.99e-05     0s
+   9   2.87469798e-01  2.79980346e-01  2.51e-11 2.78e-17  3.23e-06     0s
+  10   2.86967407e-01  2.85265105e-01  1.24e-11 4.66e-15  7.35e-07     0s
+  11   2.85873980e-01  2.85872094e-01  1.36e-12 4.44e-16  8.14e-10     0s
+  12   2.85872879e-01  2.85872878e-01  1.26e-12 4.44e-16  8.15e-13     0s
 
-Barrier solved model in 18 iterations and 0.25 seconds
-Optimal objective 3.31633089e-03
+Barrier solved model in 12 iterations and 0.20 seconds
+Optimal objective 2.85872879e-01
 
-Optimize a model with 28 rows, 1158 columns and 32424 nonzeros
+Optimize a model with 58 rows, 1158 columns and 67164 nonzeros
 Model has 671061 quadratic objective terms
 Coefficient statistics:
   Matrix range     [8e-07, 1e+00]
@@ -12455,268 +12304,7 @@ Coefficient statistics:
   QObjective range [2e-08, 9e-01]
   Bounds range     [1e+00, 1e+00]
   RHS range        [2e-03, 1e+00]
-Presolve removed 26 rows and 0 columns
-Presolve time: 0.07s
-Presolved: 2 rows, 1158 columns, 2316 nonzeros
-Presolved model has 671061 quadratic objective terms
-Ordering time: 0.00s
-
-Barrier statistics:
- Free vars  : 119
- AA&#39; NZ     : 7.260e+03
- Factor NZ  : 7.381e+03 (roughly 1 MByte of memory)
- Factor Ops : 5.979e+05 (less than 1 second per iteration)
- Threads    : 6
-
-                  Objective                Residual
-Iter       Primal          Dual         Primal    Dual     Compl     Time
-   0   8.65326009e-15 -8.65326009e-15  1.16e+06 5.91e-08  2.50e+05     0s
-   1   6.25257495e+03 -6.71269720e+03  2.09e+04 1.07e-09  4.53e+03     0s
-   2   2.31970642e-01 -4.72522515e+02  2.45e+01 1.25e-12  5.51e+00     0s
-   3   1.71678954e-02 -4.17375906e+02  3.35e+00 1.71e-13  8.60e-01     0s
-   4   3.99125634e-02 -2.55267789e+02  9.32e-01 4.75e-14  3.10e-01     0s
-   5   8.13672378e-02 -1.16775126e+02  9.32e-07 6.94e-18  5.04e-02     0s
-   6   8.12982049e-02 -3.59714549e-01  3.52e-09 1.39e-17  1.90e-04     0s
-   7   5.97657346e-02 -1.58680380e-01  1.35e-09 6.94e-18  9.43e-05     0s
-   8   4.14508439e-02 -8.08633558e-02  6.31e-10 6.94e-18  5.28e-05     0s
-   9   1.89076266e-02 -1.99961269e-02  2.93e-12 6.94e-18  1.68e-05     0s
-  10   1.21338057e-02 -8.38514507e-03  4.23e-14 6.94e-17  8.86e-06     0s
-  11   9.15476779e-03  2.38809321e-03  4.49e-14 4.16e-17  2.92e-06     0s
-  12   7.33948136e-03  3.84205940e-03  8.88e-15 1.43e-17  1.51e-06     0s
-  13   6.34228734e-03  5.41643497e-03  2.78e-14 2.07e-17  4.00e-07     0s
-  14   6.05032942e-03  5.58348775e-03  2.93e-14 1.39e-17  2.01e-07     0s
-  15   5.86351910e-03  5.76355614e-03  3.63e-13 1.39e-17  4.31e-08     0s
-  16   5.82371806e-03  5.80991491e-03  3.99e-13 1.04e-17  5.96e-09     0s
-  17   5.81328470e-03  5.81326582e-03  1.94e-13 1.39e-17  8.15e-12     0s
-  18   5.81327105e-03  5.81327100e-03  3.09e-12 1.39e-17  2.44e-14     0s
-
-Barrier solved model in 18 iterations and 0.24 seconds
-Optimal objective 5.81327105e-03
-
-Optimize a model with 30 rows, 1158 columns and 34740 nonzeros
-Model has 671061 quadratic objective terms
-Coefficient statistics:
-  Matrix range     [8e-07, 1e+00]
-  Objective range  [0e+00, 0e+00]
-  QObjective range [2e-08, 9e-01]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [2e-03, 1e+00]
-Presolve removed 28 rows and 0 columns
-Presolve time: 0.06s
-Presolved: 2 rows, 1158 columns, 2316 nonzeros
-Presolved model has 671061 quadratic objective terms
-Ordering time: 0.00s
-
-Barrier statistics:
- Free vars  : 119
- AA&#39; NZ     : 7.260e+03
- Factor NZ  : 7.381e+03 (roughly 1 MByte of memory)
- Factor Ops : 5.979e+05 (less than 1 second per iteration)
- Threads    : 6
-
-                  Objective                Residual
-Iter       Primal          Dual         Primal    Dual     Compl     Time
-   0   1.00214380e-14 -1.00214380e-14  1.16e+06 6.37e-08  2.50e+05     0s
-   1   6.25313329e+03 -6.70910865e+03  2.09e+04 1.15e-09  4.53e+03     0s
-   2   2.32393476e-01 -4.68096107e+02  2.45e+01 1.35e-12  5.51e+00     0s
-   3   2.01612587e-02 -4.07802474e+02  3.88e+00 2.14e-13  9.71e-01     0s
-   4   5.76658861e-02 -2.29640203e+02  1.05e+00 5.80e-14  3.36e-01     0s
-   5   1.15125281e-01 -1.22253433e+02  1.05e-06 1.39e-17  5.28e-02     0s
-   6   1.15053840e-01 -3.45434201e-01  3.96e-09 1.39e-17  1.99e-04     0s
-   7   9.11578769e-02 -1.53180632e-01  1.68e-09 1.39e-17  1.05e-04     0s
-   8   6.09845727e-02 -6.27662766e-02  6.29e-10 6.94e-18  5.34e-05     0s
-   9   2.57986928e-02 -2.22793482e-02  1.14e-13 1.47e-16  2.08e-05     0s
-  10   2.18389528e-02 -4.44460504e-03  4.34e-14 1.11e-16  1.13e-05     0s
-  11   1.79014004e-02  3.43785394e-03  3.66e-14 1.18e-16  6.24e-06     0s
-  12   1.50080688e-02  7.86821236e-03  9.20e-14 4.16e-17  3.08e-06     0s
-  13   1.27881037e-02  1.01348473e-02  1.10e-13 4.16e-17  1.15e-06     0s
-  14   1.15927232e-02  1.07124936e-02  3.04e-14 2.78e-17  3.80e-07     0s
-  15   1.10087249e-02  1.08112983e-02  9.70e-14 2.78e-17  8.52e-08     0s
-  16   1.08627252e-02  1.08403292e-02  1.02e-12 2.08e-17  9.67e-09     0s
-  17   1.08440049e-02  1.08434862e-02  4.02e-13 2.78e-17  2.24e-10     0s
-  18   1.08434963e-02  1.08434957e-02  1.26e-12 2.70e-17  2.26e-13     0s
-
-Barrier solved model in 18 iterations and 0.21 seconds
-Optimal objective 1.08434963e-02
-
-Optimize a model with 32 rows, 1158 columns and 37056 nonzeros
-Model has 671061 quadratic objective terms
-Coefficient statistics:
-  Matrix range     [8e-07, 1e+00]
-  Objective range  [0e+00, 0e+00]
-  QObjective range [2e-08, 9e-01]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [2e-03, 1e+00]
-Presolve removed 30 rows and 0 columns
-Presolve time: 0.07s
-Presolved: 2 rows, 1158 columns, 2316 nonzeros
-Presolved model has 671061 quadratic objective terms
-Ordering time: 0.00s
-
-Barrier statistics:
- Free vars  : 119
- AA&#39; NZ     : 7.260e+03
- Factor NZ  : 7.381e+03 (roughly 1 MByte of memory)
- Factor Ops : 5.979e+05 (less than 1 second per iteration)
- Threads    : 6
-
-                  Objective                Residual
-Iter       Primal          Dual         Primal    Dual     Compl     Time
-   0   1.15314895e-14 -1.15314895e-14  1.16e+06 6.84e-08  2.50e+05     0s
-   1   6.25369165e+03 -6.70551973e+03  2.09e+04 1.24e-09  4.53e+03     0s
-   2   2.32817844e-01 -4.63668286e+02  2.45e+01 1.45e-12  5.51e+00     0s
-   3   2.36939256e-02 -3.94145702e+02  4.31e+00 2.55e-13  1.06e+00     0s
-   4   8.08397397e-02 -1.98469486e+02  1.12e+00 6.61e-14  3.47e-01     0s
-   5   1.54579725e-01 -1.18145026e+02  1.12e-06 2.78e-17  5.11e-02     0s
-   6   1.54507260e-01 -2.94648940e-01  4.24e-09 1.39e-17  1.94e-04     0s
-   7   1.29796431e-01 -1.25730053e-01  1.99e-09 6.94e-18  1.10e-04     0s
-   8   7.38346720e-02 -2.70959049e-02  4.89e-11 1.39e-17  4.36e-05     0s
-   9   4.18999066e-02 -2.03910388e-02  1.60e-11 6.94e-18  2.69e-05     0s
-  10   3.28196990e-02  1.44778903e-02  2.36e-12 6.94e-18  7.92e-06     0s
-  11   3.15598401e-02  1.36977217e-02  2.23e-12 6.94e-18  7.71e-06     0s
-  12   2.93023483e-02  1.69555288e-02  1.46e-12 6.94e-18  5.33e-06     0s
-  13   2.71234421e-02  1.99068108e-02  6.16e-13 6.94e-18  3.11e-06     0s
-  14   2.45163128e-02  2.22026192e-02  3.65e-14 5.55e-17  9.99e-07     0s
-  15   2.25432197e-02  2.24859457e-02  5.25e-13 5.55e-17  2.47e-08     0s
-  16   2.24870047e-02  2.24869456e-02  7.25e-13 5.55e-17  2.55e-11     0s
-  17   2.24869466e-02  2.24869465e-02  2.13e-12 5.55e-17  2.55e-14     0s
-
-Barrier solved model in 17 iterations and 0.22 seconds
-Optimal objective 2.24869466e-02
-
-Optimize a model with 34 rows, 1158 columns and 39372 nonzeros
-Model has 671061 quadratic objective terms
-Coefficient statistics:
-  Matrix range     [8e-07, 1e+00]
-  Objective range  [0e+00, 0e+00]
-  QObjective range [2e-08, 9e-01]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [2e-03, 1e+00]
-Presolve removed 32 rows and 0 columns
-Presolve time: 0.07s
-Presolved: 2 rows, 1158 columns, 2316 nonzeros
-Presolved model has 671061 quadratic objective terms
-Ordering time: 0.00s
-
-Barrier statistics:
- Free vars  : 119
- AA&#39; NZ     : 7.260e+03
- Factor NZ  : 7.381e+03 (roughly 1 MByte of memory)
- Factor Ops : 5.979e+05 (less than 1 second per iteration)
- Threads    : 6
-
-                  Objective                Residual
-Iter       Primal          Dual         Primal    Dual     Compl     Time
-   0   1.31834148e-14 -1.31834148e-14  1.16e+06 7.30e-08  2.50e+05     0s
-   1   6.25425005e+03 -6.70193041e+03  2.09e+04 1.32e-09  4.53e+03     0s
-   2   2.33346391e-01 -4.59238681e+02  2.45e+01 1.55e-12  5.51e+00     0s
-   3   2.76514770e-02 -3.85658202e+02  4.81e+00 3.03e-13  1.17e+00     0s
-   4   7.82261481e-02 -2.18035433e+02  2.08e+00 1.31e-13  5.84e-01     0s
-   5   2.11345490e-01 -1.39323262e+02  2.08e-06 2.78e-17  6.02e-02     0s
-   6   2.11306930e-01 -2.57839484e-01  7.00e-09 1.39e-17  2.02e-04     0s
-   7   1.98663491e-01 -1.01479606e-01  3.98e-09 2.78e-17  1.30e-04     0s
-   8   1.11199454e-01 -2.41255826e-03  1.29e-14 7.08e-16  4.90e-05     0s
-   9   8.69457876e-02  3.03963995e-02  1.04e-14 3.33e-16  2.44e-05     0s
-  10   5.86131534e-02  4.69058721e-02  1.84e-13 1.89e-16  5.05e-06     0s
-  11   4.93940091e-02  4.88158524e-02  2.53e-13 1.11e-16  2.50e-07     0s
-  12   4.88338383e-02  4.88328133e-02  5.90e-13 1.11e-16  4.42e-10     0s
-  13   4.88328469e-02  4.88328409e-02  7.61e-12 1.11e-16  2.56e-12     0s
-
-Barrier solved model in 13 iterations and 0.21 seconds
-Optimal objective 4.88328469e-02
-
-Optimize a model with 36 rows, 1158 columns and 41688 nonzeros
-Model has 671061 quadratic objective terms
-Coefficient statistics:
-  Matrix range     [8e-07, 1e+00]
-  Objective range  [0e+00, 0e+00]
-  QObjective range [2e-08, 9e-01]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [2e-03, 1e+00]
-Presolve removed 34 rows and 0 columns
-Presolve time: 0.07s
-Presolved: 2 rows, 1158 columns, 2316 nonzeros
-Presolved model has 671061 quadratic objective terms
-Ordering time: 0.00s
-
-Barrier statistics:
- Free vars  : 119
- AA&#39; NZ     : 7.260e+03
- Factor NZ  : 7.381e+03 (roughly 1 MByte of memory)
- Factor Ops : 5.979e+05 (less than 1 second per iteration)
- Threads    : 6
-
-                  Objective                Residual
-Iter       Primal          Dual         Primal    Dual     Compl     Time
-   0   1.49772138e-14 -1.49772138e-14  1.16e+06 7.77e-08  2.50e+05     0s
-   1   6.25480848e+03 -6.69834071e+03  2.09e+04 1.40e-09  4.53e+03     0s
-   2   2.34226759e-01 -4.54806130e+02  2.46e+01 1.65e-12  5.52e+00     0s
-   3   3.20934210e-02 -3.73302046e+02  5.30e+00 3.56e-13  1.28e+00     0s
-   4   6.14844296e-02 -1.20939818e+02  2.78e+00 1.86e-13  7.11e-01     0s
-   5   2.64622314e-01 -1.13944969e+02  2.78e-06 2.78e-17  4.93e-02     0s
-   6   2.64596713e-01 -1.28253716e-01  9.55e-09 1.39e-17  1.70e-04     0s
-   7   2.58361571e-01 -9.39489573e-03  5.87e-09 2.78e-17  1.16e-04     0s
-   8   1.54566340e-01  2.38905196e-02  2.30e-13 6.66e-16  5.64e-05     0s
-   9   1.22209018e-01  7.56375905e-02  1.29e-13 3.33e-16  2.01e-05     0s
-  10   1.06864610e-01  8.48668463e-02  8.55e-13 3.33e-16  9.49e-06     0s
-  11   9.81771174e-02  9.77574061e-02  5.41e-13 3.33e-16  1.81e-07     0s
-  12   9.79268372e-02  9.79264135e-02  3.71e-13 2.22e-16  1.83e-10     0s
-  13   9.79265840e-02  9.79265835e-02  8.84e-13 2.22e-16  1.83e-13     0s
-
-Barrier solved model in 13 iterations and 0.21 seconds
-Optimal objective 9.79265840e-02
-
-Optimize a model with 38 rows, 1158 columns and 44004 nonzeros
-Model has 671061 quadratic objective terms
-Coefficient statistics:
-  Matrix range     [8e-07, 1e+00]
-  Objective range  [0e+00, 0e+00]
-  QObjective range [2e-08, 9e-01]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [2e-03, 1e+00]
-Presolve removed 36 rows and 0 columns
-Presolve time: 0.07s
-Presolved: 2 rows, 1158 columns, 2316 nonzeros
-Presolved model has 671061 quadratic objective terms
-Ordering time: 0.00s
-
-Barrier statistics:
- Free vars  : 119
- AA&#39; NZ     : 7.260e+03
- Factor NZ  : 7.381e+03 (roughly 1 MByte of memory)
- Factor Ops : 5.979e+05 (less than 1 second per iteration)
- Threads    : 6
-
-                  Objective                Residual
-Iter       Primal          Dual         Primal    Dual     Compl     Time
-   0   1.69128864e-14 -1.69128864e-14  1.16e+06 8.23e-08  2.50e+05     0s
-   1   6.25536694e+03 -6.69475063e+03  2.09e+04 1.49e-09  4.53e+03     0s
-   2   2.35110186e-01 -4.50371706e+02  2.46e+01 1.75e-12  5.52e+00     0s
-   3   3.71546119e-02 -3.53493715e+02  5.71e+00 4.07e-13  1.37e+00     0s
-   4   3.07734723e-01 -1.71362545e+02  1.24e+00 8.83e-14  4.29e-01     0s
-   5   3.21266929e-01 -7.85871352e+01  2.13e-02 1.53e-15  3.90e-02     0s
-   6   3.21962022e-01 -1.02422478e+00  4.92e-06 2.78e-17  5.81e-04     0s
-   7   3.19261112e-01  1.15877694e-01  7.35e-07 2.78e-17  8.78e-05     0s
-   8   2.03738090e-01  3.47885359e-02  2.69e-07 1.39e-17  7.29e-05     0s
-   9   1.92442028e-01  1.50526995e-01  6.37e-08 1.39e-17  1.81e-05     0s
-  10   1.78943944e-01  1.70958032e-01  2.46e-12 4.44e-16  3.45e-06     0s
-  11   1.74483689e-01  1.73119788e-01  1.05e-12 2.22e-16  5.89e-07     0s
-  12   1.73974514e-01  1.73496892e-01  3.15e-13 2.22e-16  2.06e-07     0s
-  13   1.73512282e-01  1.73511151e-01  7.45e-13 4.44e-16  4.88e-10     0s
-  14   1.73511414e-01  1.73511413e-01  7.74e-12 3.33e-16  4.93e-13     0s
-
-Barrier solved model in 14 iterations and 0.21 seconds
-Optimal objective 1.73511414e-01
-
-Optimize a model with 40 rows, 1158 columns and 46320 nonzeros
-Model has 671061 quadratic objective terms
-Coefficient statistics:
-  Matrix range     [8e-07, 1e+00]
-  Objective range  [0e+00, 0e+00]
-  QObjective range [2e-08, 9e-01]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [2e-03, 1e+00]
-Presolve removed 38 rows and 0 columns
+Presolve removed 56 rows and 0 columns
 Presolve time: 0.08s
 Presolved: 2 rows, 1158 columns, 2316 nonzeros
 Presolved model has 671061 quadratic objective terms
@@ -12748,8 +12336,382 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
 Barrier solved model in 12 iterations and 0.22 seconds
 Optimal objective 2.85872879e-01
 
+Optimize a model with 60 rows, 1158 columns and 69480 nonzeros
+Model has 671061 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [8e-07, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  QObjective range [2e-08, 9e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-03, 1e+00]
+Presolve removed 58 rows and 0 columns
+Presolve time: 0.07s
+Presolved: 2 rows, 1158 columns, 2316 nonzeros
+Presolved model has 671061 quadratic objective terms
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 119
+ AA&#39; NZ     : 7.260e+03
+ Factor NZ  : 7.381e+03 (roughly 1 MByte of memory)
+ Factor Ops : 5.979e+05 (less than 1 second per iteration)
+ Threads    : 6
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.89904327e-14 -1.89904327e-14  1.16e+06 8.70e-08  2.50e+05     0s
+   1   6.25592543e+03 -6.69116017e+03  2.09e+04 1.57e-09  4.53e+03     0s
+   2   2.35996599e-01 -4.45935407e+02  2.46e+01 1.85e-12  5.52e+00     0s
+   3   4.28293993e-02 -3.30372706e+02  6.10e+00 4.59e-13  1.45e+00     0s
+   4   3.64497585e-01 -1.45858849e+02  1.41e+00 1.06e-13  4.69e-01     0s
+   5   3.77690981e-01 -4.47551233e+01  2.35e-02 1.78e-15  2.57e-02     0s
+   6   3.79489723e-01 -2.41224179e+00  2.35e-08 2.78e-17  1.20e-03     0s
+   7   3.78990247e-01  2.67401844e-01  9.35e-10 2.78e-17  4.82e-05     0s
+   8   2.88125095e-01  1.72474292e-01  3.05e-10 2.78e-17  4.99e-05     0s
+   9   2.87469798e-01  2.79980346e-01  2.51e-11 2.78e-17  3.23e-06     0s
+  10   2.86967407e-01  2.85265105e-01  1.24e-11 4.66e-15  7.35e-07     0s
+  11   2.85873980e-01  2.85872094e-01  1.36e-12 4.44e-16  8.14e-10     0s
+  12   2.85872879e-01  2.85872878e-01  1.26e-12 4.44e-16  8.15e-13     0s
+
+Barrier solved model in 12 iterations and 0.22 seconds
+Optimal objective 2.85872879e-01
+
+Optimize a model with 62 rows, 1158 columns and 71796 nonzeros
+Model has 671061 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [8e-07, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  QObjective range [2e-08, 9e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-03, 1e+00]
+Presolve removed 60 rows and 0 columns
+Presolve time: 0.08s
+Presolved: 2 rows, 1158 columns, 2316 nonzeros
+Presolved model has 671061 quadratic objective terms
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 119
+ AA&#39; NZ     : 7.260e+03
+ Factor NZ  : 7.381e+03 (roughly 1 MByte of memory)
+ Factor Ops : 5.979e+05 (less than 1 second per iteration)
+ Threads    : 6
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.89904327e-14 -1.89904327e-14  1.16e+06 8.70e-08  2.50e+05     0s
+   1   6.25592543e+03 -6.69116017e+03  2.09e+04 1.57e-09  4.53e+03     0s
+   2   2.35996599e-01 -4.45935407e+02  2.46e+01 1.85e-12  5.52e+00     0s
+   3   4.28293993e-02 -3.30372706e+02  6.10e+00 4.59e-13  1.45e+00     0s
+   4   3.64497585e-01 -1.45858849e+02  1.41e+00 1.06e-13  4.69e-01     0s
+   5   3.77690981e-01 -4.47551233e+01  2.35e-02 1.78e-15  2.57e-02     0s
+   6   3.79489723e-01 -2.41224179e+00  2.35e-08 2.78e-17  1.20e-03     0s
+   7   3.78990247e-01  2.67401844e-01  9.35e-10 2.78e-17  4.82e-05     0s
+   8   2.88125095e-01  1.72474292e-01  3.05e-10 2.78e-17  4.99e-05     0s
+   9   2.87469798e-01  2.79980346e-01  2.51e-11 2.78e-17  3.23e-06     0s
+  10   2.86967407e-01  2.85265105e-01  1.24e-11 4.66e-15  7.35e-07     0s
+  11   2.85873980e-01  2.85872094e-01  1.36e-12 4.44e-16  8.14e-10     0s
+  12   2.85872879e-01  2.85872878e-01  1.26e-12 4.44e-16  8.15e-13     0s
+
+Barrier solved model in 12 iterations and 0.22 seconds
+Optimal objective 2.85872879e-01
+
+Optimize a model with 64 rows, 1158 columns and 74112 nonzeros
+Model has 671061 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [8e-07, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  QObjective range [2e-08, 9e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-03, 1e+00]
+Presolve removed 62 rows and 0 columns
+Presolve time: 0.07s
+Presolved: 2 rows, 1158 columns, 2316 nonzeros
+Presolved model has 671061 quadratic objective terms
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 119
+ AA&#39; NZ     : 7.260e+03
+ Factor NZ  : 7.381e+03 (roughly 1 MByte of memory)
+ Factor Ops : 5.979e+05 (less than 1 second per iteration)
+ Threads    : 6
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.89904327e-14 -1.89904327e-14  1.16e+06 8.70e-08  2.50e+05     0s
+   1   6.25592543e+03 -6.69116017e+03  2.09e+04 1.57e-09  4.53e+03     0s
+   2   2.35996599e-01 -4.45935407e+02  2.46e+01 1.85e-12  5.52e+00     0s
+   3   4.28293993e-02 -3.30372706e+02  6.10e+00 4.59e-13  1.45e+00     0s
+   4   3.64497585e-01 -1.45858849e+02  1.41e+00 1.06e-13  4.69e-01     0s
+   5   3.77690981e-01 -4.47551233e+01  2.35e-02 1.78e-15  2.57e-02     0s
+   6   3.79489723e-01 -2.41224179e+00  2.35e-08 2.78e-17  1.20e-03     0s
+   7   3.78990247e-01  2.67401844e-01  9.35e-10 2.78e-17  4.82e-05     0s
+   8   2.88125095e-01  1.72474292e-01  3.05e-10 2.78e-17  4.99e-05     0s
+   9   2.87469798e-01  2.79980346e-01  2.51e-11 2.78e-17  3.23e-06     0s
+  10   2.86967407e-01  2.85265105e-01  1.24e-11 4.66e-15  7.35e-07     0s
+  11   2.85873980e-01  2.85872094e-01  1.36e-12 4.44e-16  8.14e-10     0s
+  12   2.85872879e-01  2.85872878e-01  1.26e-12 4.44e-16  8.15e-13     0s
+
+Barrier solved model in 12 iterations and 0.20 seconds
+Optimal objective 2.85872879e-01
+
+Optimize a model with 66 rows, 1158 columns and 76428 nonzeros
+Model has 671061 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [8e-07, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  QObjective range [2e-08, 9e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-03, 1e+00]
+Presolve removed 64 rows and 0 columns
+Presolve time: 0.07s
+Presolved: 2 rows, 1158 columns, 2316 nonzeros
+Presolved model has 671061 quadratic objective terms
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 119
+ AA&#39; NZ     : 7.260e+03
+ Factor NZ  : 7.381e+03 (roughly 1 MByte of memory)
+ Factor Ops : 5.979e+05 (less than 1 second per iteration)
+ Threads    : 6
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.89904327e-14 -1.89904327e-14  1.16e+06 8.70e-08  2.50e+05     0s
+   1   6.25592543e+03 -6.69116017e+03  2.09e+04 1.57e-09  4.53e+03     0s
+   2   2.35996599e-01 -4.45935407e+02  2.46e+01 1.85e-12  5.52e+00     0s
+   3   4.28293993e-02 -3.30372706e+02  6.10e+00 4.59e-13  1.45e+00     0s
+   4   3.64497585e-01 -1.45858849e+02  1.41e+00 1.06e-13  4.69e-01     0s
+   5   3.77690981e-01 -4.47551233e+01  2.35e-02 1.78e-15  2.57e-02     0s
+   6   3.79489723e-01 -2.41224179e+00  2.35e-08 2.78e-17  1.20e-03     0s
+   7   3.78990247e-01  2.67401844e-01  9.35e-10 2.78e-17  4.82e-05     0s
+   8   2.88125095e-01  1.72474292e-01  3.05e-10 2.78e-17  4.99e-05     0s
+   9   2.87469798e-01  2.79980346e-01  2.51e-11 2.78e-17  3.23e-06     0s
+  10   2.86967407e-01  2.85265105e-01  1.24e-11 4.66e-15  7.35e-07     0s
+  11   2.85873980e-01  2.85872094e-01  1.36e-12 4.44e-16  8.14e-10     0s
+  12   2.85872879e-01  2.85872878e-01  1.26e-12 4.44e-16  8.15e-13     0s
+
+Barrier solved model in 12 iterations and 0.20 seconds
+Optimal objective 2.85872879e-01
+
+Optimize a model with 68 rows, 1158 columns and 78744 nonzeros
+Model has 671061 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [8e-07, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  QObjective range [2e-08, 9e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-03, 1e+00]
+Presolve removed 66 rows and 0 columns
+Presolve time: 0.07s
+Presolved: 2 rows, 1158 columns, 2316 nonzeros
+Presolved model has 671061 quadratic objective terms
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 119
+ AA&#39; NZ     : 7.260e+03
+ Factor NZ  : 7.381e+03 (roughly 1 MByte of memory)
+ Factor Ops : 5.979e+05 (less than 1 second per iteration)
+ Threads    : 6
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.89904327e-14 -1.89904327e-14  1.16e+06 8.70e-08  2.50e+05     0s
+   1   6.25592543e+03 -6.69116017e+03  2.09e+04 1.57e-09  4.53e+03     0s
+   2   2.35996599e-01 -4.45935407e+02  2.46e+01 1.85e-12  5.52e+00     0s
+   3   4.28293993e-02 -3.30372706e+02  6.10e+00 4.59e-13  1.45e+00     0s
+   4   3.64497585e-01 -1.45858849e+02  1.41e+00 1.06e-13  4.69e-01     0s
+   5   3.77690981e-01 -4.47551233e+01  2.35e-02 1.78e-15  2.57e-02     0s
+   6   3.79489723e-01 -2.41224179e+00  2.35e-08 2.78e-17  1.20e-03     0s
+   7   3.78990247e-01  2.67401844e-01  9.35e-10 2.78e-17  4.82e-05     0s
+   8   2.88125095e-01  1.72474292e-01  3.05e-10 2.78e-17  4.99e-05     0s
+   9   2.87469798e-01  2.79980346e-01  2.51e-11 2.78e-17  3.23e-06     0s
+  10   2.86967407e-01  2.85265105e-01  1.24e-11 4.66e-15  7.35e-07     0s
+  11   2.85873980e-01  2.85872094e-01  1.36e-12 4.44e-16  8.14e-10     0s
+  12   2.85872879e-01  2.85872878e-01  1.26e-12 4.44e-16  8.15e-13     0s
+
+Barrier solved model in 12 iterations and 0.20 seconds
+Optimal objective 2.85872879e-01
+
+Optimize a model with 70 rows, 1158 columns and 81060 nonzeros
+Model has 671061 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [8e-07, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  QObjective range [2e-08, 9e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-03, 1e+00]
+Presolve removed 68 rows and 0 columns
+Presolve time: 0.07s
+Presolved: 2 rows, 1158 columns, 2316 nonzeros
+Presolved model has 671061 quadratic objective terms
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 119
+ AA&#39; NZ     : 7.260e+03
+ Factor NZ  : 7.381e+03 (roughly 1 MByte of memory)
+ Factor Ops : 5.979e+05 (less than 1 second per iteration)
+ Threads    : 6
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.89904327e-14 -1.89904327e-14  1.16e+06 8.70e-08  2.50e+05     0s
+   1   6.25592543e+03 -6.69116017e+03  2.09e+04 1.57e-09  4.53e+03     0s
+   2   2.35996599e-01 -4.45935407e+02  2.46e+01 1.85e-12  5.52e+00     0s
+   3   4.28293993e-02 -3.30372706e+02  6.10e+00 4.59e-13  1.45e+00     0s
+   4   3.64497585e-01 -1.45858849e+02  1.41e+00 1.06e-13  4.69e-01     0s
+   5   3.77690981e-01 -4.47551233e+01  2.35e-02 1.78e-15  2.57e-02     0s
+   6   3.79489723e-01 -2.41224179e+00  2.35e-08 2.78e-17  1.20e-03     0s
+   7   3.78990247e-01  2.67401844e-01  9.35e-10 2.78e-17  4.82e-05     0s
+   8   2.88125095e-01  1.72474292e-01  3.05e-10 2.78e-17  4.99e-05     0s
+   9   2.87469798e-01  2.79980346e-01  2.51e-11 2.78e-17  3.23e-06     0s
+  10   2.86967407e-01  2.85265105e-01  1.24e-11 4.66e-15  7.35e-07     0s
+  11   2.85873980e-01  2.85872094e-01  1.36e-12 4.44e-16  8.14e-10     0s
+  12   2.85872879e-01  2.85872878e-01  1.26e-12 4.44e-16  8.15e-13     0s
+
+Barrier solved model in 12 iterations and 0.25 seconds
+Optimal objective 2.85872879e-01
+
+Optimize a model with 72 rows, 1158 columns and 83376 nonzeros
+Model has 671061 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [8e-07, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  QObjective range [2e-08, 9e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-03, 1e+00]
+Presolve removed 70 rows and 0 columns
+Presolve time: 0.07s
+Presolved: 2 rows, 1158 columns, 2316 nonzeros
+Presolved model has 671061 quadratic objective terms
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 119
+ AA&#39; NZ     : 7.260e+03
+ Factor NZ  : 7.381e+03 (roughly 1 MByte of memory)
+ Factor Ops : 5.979e+05 (less than 1 second per iteration)
+ Threads    : 6
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.89904327e-14 -1.89904327e-14  1.16e+06 8.70e-08  2.50e+05     0s
+   1   6.25592543e+03 -6.69116017e+03  2.09e+04 1.57e-09  4.53e+03     0s
+   2   2.35996599e-01 -4.45935407e+02  2.46e+01 1.85e-12  5.52e+00     0s
+   3   4.28293993e-02 -3.30372706e+02  6.10e+00 4.59e-13  1.45e+00     0s
+   4   3.64497585e-01 -1.45858849e+02  1.41e+00 1.06e-13  4.69e-01     0s
+   5   3.77690981e-01 -4.47551233e+01  2.35e-02 1.78e-15  2.57e-02     0s
+   6   3.79489723e-01 -2.41224179e+00  2.35e-08 2.78e-17  1.20e-03     0s
+   7   3.78990247e-01  2.67401844e-01  9.35e-10 2.78e-17  4.82e-05     0s
+   8   2.88125095e-01  1.72474292e-01  3.05e-10 2.78e-17  4.99e-05     0s
+   9   2.87469798e-01  2.79980346e-01  2.51e-11 2.78e-17  3.23e-06     0s
+  10   2.86967407e-01  2.85265105e-01  1.24e-11 4.66e-15  7.35e-07     0s
+  11   2.85873980e-01  2.85872094e-01  1.36e-12 4.44e-16  8.14e-10     0s
+  12   2.85872879e-01  2.85872878e-01  1.26e-12 4.44e-16  8.15e-13     0s
+
+Barrier solved model in 12 iterations and 0.20 seconds
+Optimal objective 2.85872879e-01
+
+Optimize a model with 74 rows, 1158 columns and 85692 nonzeros
+Model has 671061 quadratic objective terms
+Coefficient statistics:
+  Matrix range     [8e-07, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  QObjective range [2e-08, 9e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-03, 1e+00]
+Presolve removed 72 rows and 0 columns
+Presolve time: 0.07s
+Presolved: 2 rows, 1158 columns, 2316 nonzeros
+Presolved model has 671061 quadratic objective terms
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 119
+ AA&#39; NZ     : 7.260e+03
+ Factor NZ  : 7.381e+03 (roughly 1 MByte of memory)
+ Factor Ops : 5.979e+05 (less than 1 second per iteration)
+ Threads    : 6
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.89904327e-14 -1.89904327e-14  1.16e+06 8.70e-08  2.50e+05     0s
+   1   6.25592543e+03 -6.69116017e+03  2.09e+04 1.57e-09  4.53e+03     0s
+   2   2.35996599e-01 -4.45935407e+02  2.46e+01 1.85e-12  5.52e+00     0s
+   3   4.28293993e-02 -3.30372706e+02  6.10e+00 4.59e-13  1.45e+00     0s
+   4   3.64497585e-01 -1.45858849e+02  1.41e+00 1.06e-13  4.69e-01     0s
+   5   3.77690981e-01 -4.47551233e+01  2.35e-02 1.78e-15  2.57e-02     0s
+   6   3.79489723e-01 -2.41224179e+00  2.35e-08 2.78e-17  1.20e-03     0s
+   7   3.78990247e-01  2.67401844e-01  9.35e-10 2.78e-17  4.82e-05     0s
+   8   2.88125095e-01  1.72474292e-01  3.05e-10 2.78e-17  4.99e-05     0s
+   9   2.87469798e-01  2.79980346e-01  2.51e-11 2.78e-17  3.23e-06     0s
+  10   2.86967407e-01  2.85265105e-01  1.24e-11 4.66e-15  7.35e-07     0s
+  11   2.85873980e-01  2.85872094e-01  1.36e-12 4.44e-16  8.14e-10     0s
+  12   2.85872879e-01  2.85872878e-01  1.26e-12 4.44e-16  8.15e-13     0s
+
+Barrier solved model in 12 iterations and 0.21 seconds
+Optimal objective 2.85872879e-01
 </pre>
 </div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Finally, we can plot the results of the optimization. Specifically, the efficient frontier shows the realtionship between the
+expected return and the risk.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">frontier</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">portfolio</span><span class="p">)</span>
+<span class="n">frontier</span><span class="o">.</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Return&#39;</span><span class="p">,</span><span class="s1">&#39;Risk&#39;</span><span class="p">]</span>
+
+<span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">()</span>
+
+<span class="n">ax</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">frontier</span><span class="p">[</span><span class="s1">&#39;Risk&#39;</span><span class="p">],</span> <span class="n">frontier</span><span class="p">[</span><span class="s1">&#39;Return&#39;</span><span class="p">],</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span> <span class="n">c</span> <span class="o">=</span> <span class="s1">&#39;b&#39;</span><span class="p">)</span>  
+<span class="n">fig</span><span class="o">.</span><span class="n">suptitle</span><span class="p">(</span><span class="s1">&#39;Nasdaq Portfolio Efficient Frontier&#39;</span><span class="p">)</span>   
+<span class="n">ax</span><span class="o">.</span><span class="n">xaxis</span><span class="o">.</span><span class="n">set_label_text</span><span class="p">(</span><span class="s1">&#39;Risk&#39;</span><span class="p">)</span>  
+<span class="n">ax</span><span class="o">.</span><span class="n">yaxis</span><span class="o">.</span><span class="n">set_label_text</span><span class="p">(</span><span class="s1">&#39;Return&#39;</span><span class="p">)</span>     
+<span class="n">fig</span><span class="o">.</span><span class="n">set_size_inches</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span><span class="mi">5</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAcwAAAFhCAYAAAD9WZq2AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAADl0RVh0U29mdHdhcmUAbWF0cGxvdGxpYiB2ZXJzaW9uIDMuMC4wLCBodHRwOi8vbWF0cGxvdGxpYi5vcmcvqOYd8AAAIABJREFUeJzt3X24ZXVd9/H3hxnBR57HBx6GgcAKCi2PqKXpLYLQnWKEOZpJtxhlYKXOlaClRFpaqFlyVaQW6p1A3FNNqRGK1OUzAyowKDIOMIwQAoODIIrI9/5jrQN7TufMrDNn77PP3uf9uq597bV/67f2/v72OrO/81tr7e9OVSFJkrZtp2EHIEnSKDBhSpLUgQlTkqQOTJiSJHVgwpQkqQMTpiRJHZgwNZKS3JDkecOOY0ckeWuS25P8d4e+D44zyRuTvG8A8STJ3yW5M8kX27ZXJ7k1yd1J9mrvD9rO8yxv+y3pd4wLTZKPJzlx2HFofpkw1Tfth/utSR7V0/aqJJcOMaxZSXJGkh+0H/zfTvLZJM/YwedakaSSLO1p2x94PXBoVT1+Ns9XVX9cVa/awVgqyT3tuCZvv9eufiZwFLBfVR2R5GHAu4Cjq+rRVXVHe79hO/FtbPv9cEdinBLvpUlmHGvPe9s7nq/M9XVneK0zkny4t62qjq2qcwfxelq4TJjqt6XA7ww7iDk6v6oeDSwDPg2sTpLZPEFvkpziAOCOqvrWHGPcEU9qE9rk7U97Yrqhqu5pHz8OeDiwbggxztbuPeN50nQdtrEv5t1CikWzZ8JUv/0ZsCrJ7tOtTPKeJDcluSvJ5Ume1bPuiCRr23W3JnlXz7pfTXJjkjuSvGnKcx6R5HPtjPCWJO9NsnPP+qOSfC3Jlnbdf25r9jKpqn4AnAs8HtgryU5Jfr+N41tJPphkt/Y1Jmc8JyXZCFwC/Ff7VN9uZ0B/AFwM7NM+/vt22xcmWdfGf2mSH5/hvdtqptN1u21JchLwPuAZbUwfAa7tifuStl8lObhdfkSSd7bvw5Ykn27btppRJ9ktyfvbffLNNIeil7Trfq3d7qw0h4KvT3Jsu+5twLOA97YxvXeWY/q1JJ9J8u4km4EzOu67E5NsTHO4/E3tumOANwIv6Z3FTp0BJ3llkq+2Y7koyQE96yrJKUmuA66b3R7SglJV3rz15QbcADwPWA28tW17FXBpT5+XA3vRzERfD/w38PB23eeAX22XHw08vV0+FLgb+DlgF5rDhfcDz2vXPwV4evucK4CvAr/brtsbuAs4AXgY8Np221fNMIYzgA+3y7vQ/AfgpvbxK4H1wEFtfKuBD7XrVgAFfBB4FPCInralPc//HGBTz+MnAvfQHBJ9GPB77Wvs3PueThPbNrebZlwFHDzDul8DPt3zeLq4H9weOBu4FNgXWAL8TPtebbUd8M/A37Tvx2OBLwK/0fOaPwB+vX2OVwM3A2nXXzrTPpopxinjuR94Tfs38YiO++5v275PAr4P/PjU973nNR6MD3hR+9w/3r7e7wOfnfLeXQzsCTxi2P9Ove34zRmmBuHNwGuSLJu6oqo+XM05sfur6p00H7Q/2q7+AXBwkr2r6u6q+nzbfgLwb1X1X1X1feAPgAd6nvPyqvp8+5w30HxIP7td/fPANVV1YTUzxj+nSdLb8stJvg3cRJOMX9S2/wrwrqraUFV3A6cDK6ccZjujqu6pqnu3+y41XgJ8tKoubuM7i+ZD+2cGsN0V7Wx08vb8jjE+KMlONMnnd6rqm1X1w6r6bLtfevs9DjiW5j8u91RzCPrdwMqebjdW1d9Wc87zXOAJNIeDZ+P2nvGs6mm/uar+sv2buJdu++4Pq+reqvoK8BWaxNnFbwB/UlVfrar7gT8Gntw7y2zXb57F34UWII+nq++q6uok/wacRjPbe1CS19PMOveh+Z/3rjSzQICTgDOBryW5nuYD7N/avjf1PP89Se7oec4n0sw6J4BH0vxdX96unrptJXnw8QwuqKqXT9O+D3Bjz+Mb29fq/ZDf3nNv8zmr6oE2vn0HsN1PV9X6WcY31d405ze/sZ1+B9DMfG/JQ6d/d2Lr9+fB/7hU1Xfbfo+ebTxtkppq6n7osu96/yP13VnEcgDwniTv7GkLzb6YfM3Z/l1oAXKGqUF5C83htgc/wNOcr3wD8MvAHlW1O7CF5sOFqrquql5Kc/juHcCFaa64vQXYv+d5HklzWHfSXwFfAw6pql1pzjlNfkpP3Ta9j2fpZpoPx0nLaQ793drTVjMsd3rOnvi+OaDt5up24HvAj2yn3000hzX3rqrd29uuVXVYx9eZ688oTd2+y77b0VhuojnUvHvP7RFV9dlZPIdGgAlTA9HOZM4Hfrun+TE0H1K3AUuTvJlmhglAkpcnWVZVDwDfbpt/CFwI/EKSZ6a5mOdMtv7bfQzNecq7k/wYzfmwSR8FDktyfHv47bdpLuLZER8BXpvkwCSPpjn0dv4MMxzacT5Ac95sJhcA/zvJkWm+zvF6mkTz2W1sM5ft5qTdNx8A3pVknyRLkjwjyS5T+t0C/AfwziS7thfd/EiSZ0/3vNO4lW2/b7M12303NZYV7eHo6fw1cHqSw+DBi51e3JeotaCYMDVIZ9Jc8DHpIuDjwNdpDlV9j60PVR0DrEtyN/AeYGVVfa+q1gGnAP9AM2O8E9jUs90q4GXAd2gu3Dh/ckVV3Q68GHg7cAdwCPCZHRzPB4AP0Vz9en0b/2tm6lxV3wXeBnymPcf29Gn6XEtzIdRf0szeXgC8oKru21YgO7jdV7L19xb/fFuvsQ2rgKuAy4DNNEcDpvsseQWwM3ANzT67kOY8ZRfvAU5orzr9ix2Ms9es9t0U/9je35Hkiqkrq+qfaN6D85LcBVxNc/5WY2byijRp0UhTSOHDVdX3qjmSxpczTEmSOjBhSpLUgYdkJUnqwBmmJEkdmDAlSerAhClJUgcmTEmSOjBhSpLUgQlTkqQOTJiSJHVgwpQkqQMTpiRJHZgwJUnqwIQpSVIHJkxJkjowYUqS1IEJU5KkDkyYkiR1YMKUJKkDE6YkSR2YMCVJ6sCEKUlSByZMSZI6MGFKktSBCVOSpA6WDjuA+bT33nvXihUrhh2GJGmBuPzyy2+vqmVd+i6qhLlixQrWrl077DAkSQtEkhu79vWQrCRJHZgwJUnqwIQpSVIHJkxJkjowYUqS1IEJU5KkDkyYkiR1YMKUJKkDE6YkSR2YMCVJ6sCEKUlSByZMSZI6MGFKktSBCVOSpA5MmJIkdWDClCSpAxOmJEkdmDAlSerAhClJUgcmTEmSOjBhSpLUgQlTkqQOTJiSJHUw1ISZ5Jgk1yZZn+S0adbvkuT8dv0Xkqxo2x+W5NwkVyX5apLT5zt2SdLiMrSEmWQJcDZwLHAo8NIkh07pdhJwZ1UdDLwbeEfb/mJgl6r6SeApwG9MJlNJkgZhmDPMI4D1VbWhqu4DzgOOm9LnOODcdvlC4MgkAQp4VJKlwCOA+4C75idsSdJiNMyEuS9wU8/jTW3btH2q6n5gC7AXTfK8B7gF2AicVVWbp3uRJCcnWZtk7W233dbfEUiSFo1hJsxM01Yd+xwB/BDYBzgQeH2Sg6Z7kao6p6omqmpi2bJlc4lXkrSIDTNhbgL273m8H3DzTH3aw6+7AZuBlwH/XlU/qKpvAZ8BJgYesSRp0RpmwrwMOCTJgUl2BlYCa6b0WQOc2C6fAFxSVUVzGPa5aTwKeDrwtXmKW5K0CA0tYbbnJE8FLgK+ClxQVeuSnJnkhW239wN7JVkPvA6Y/OrJ2cCjgatpEu/fVdWV8zoASdKikmbCtjhMTEzU2rVrhx2GJGmBSHJ5VXU6pWelH0mSOjBhSpLUgQlTkqQOlg47AEmSrrwSVq+GjRth+XI4/ng4/PBhR7U1Z5iSpKG68ko46yy4807Yb7/m/qyzmvaFxIQpSRqq1athjz2a2047PbS8evWwI9uaCVOSNFQbN8Juu23dtttuTftCYsKUJA3V8uWwZcvWbVu2NO0LiQlTkjRUxx/fnLe880544IGHlo8/ftiRbc2EKUkaqsMPh1WrmvOWmzY196tWLbyrZP1aiSRp6A4/fOElyKmcYUqS1IEJU5KkDjwkK2loRqG6izTJGaakoRiV6i7SJBOmpKEYleou0iQTpqShGJXqLtIkE6akoRiV6i7SJBOmpKEYleou0iQTpqShGJXqLtIkv1YiaWhGobqLNMkZpiRJHZgwJUnqwEOy0gysQiOplzNMaRpWoZE0lQlTmoZVaCRNZcKUpmEVGklTmTClaViFRtJUJkxpGlahkTSVCVOahlVoJE3l10qkGViFRlKvoc4wkxyT5Nok65OcNs36XZKc367/QpIVPesOT/K5JOuSXJXk4fMZuyRpcRlawkyyBDgbOBY4FHhpkkOndDsJuLOqDgbeDbyj3XYp8GHgN6vqMOA5wA/mKXRJ0iI0zEOyRwDrq2oDQJLzgOOAa3r6HAec0S5fCLw3SYCjgSur6isAVXXHfAWthlVwJC02wzwkuy9wU8/jTW3btH2q6n5gC7AX8ESgklyU5IokvzfTiyQ5OcnaJGtvu+22vg5gsbIKjqTFaJgJM9O0Vcc+S4FnAr/S3v9ikiOne5GqOqeqJqpqYtmyZXOJVy2r4EhajIaZMDcB+/c83g+4eaY+7XnL3YDNbft/VtXtVfVd4GPATw88YgFWwZG0OA0zYV4GHJLkwCQ7AyuBNVP6rAFObJdPAC6pqgIuAg5P8sg2kT6brc99aoCsgiNpMRpawmzPSZ5Kk/y+ClxQVeuSnJnkhW239wN7JVkPvA44rd32TuBdNEn3y8AVVfXR+R7DYmUVHEmLUZoJ2+IwMTFRa9euHXYYY8GrZCWNgySXV9VEl75W+tEOsQqOpMXGWrKSJHVgwpQkqQMPyY4wzyNK0vxxhjmirLYjSfPLhDmirLYjSfPLhDmirLYjSfPLhDmirLYjSfPLhDmirLYjSfPLhDmiDj8cVq1qzltu2tTcr1rlVbKSNCh+rWSEWW1HkuaPM0xJkjowYUqS1IGHZBcAK/ZI0sLnDHPIrNgjSaPBhDlkVuyRpNFgwhwyK/ZI0mgwYQ6ZFXskaTSYMIfMij2SNBpMmENmxR5JGg1+rWQBsGKPJC18zjAlSerAhClJUgcmTEmSOvAc5jyzDJ4kjSZnmPPIMniSNLpMmPPIMniSNLpMmPPIMniSNLpMmPPIMniSNLpMmPPIMniSNLqGmjCTHJPk2iTrk5w2zfpdkpzfrv9CkhVT1i9PcneSVfMV81xYBk+SRtfQvlaSZAlwNnAUsAm4LMmaqrqmp9tJwJ1VdXCSlcA7gJf0rH838PH5irkfLIMnSaNpmDPMI4D1VbWhqu4DzgOOm9LnOODcdvlC4MgkAUjyImADsG6e4pUkLWLDTJj7Ajf1PN7Utk3bp6ruB7YAeyV5FPAG4A/nIU5JkoZa6SfTtFXHPn8IvLuq7m4nnDO/SHIycDLA8iFdjmp1H0kafcOcYW4C9u95vB9w80x9kiwFdgM2A08D/jTJDcDvAm9Mcup0L1JV51TVRFVNLFu2rL8j6MDqPpI0HoY5w7wMOCTJgcA3gZXAy6b0WQOcCHwOOAG4pKoKeNZkhyRnAHdX1XvnI+jZ6q3uAw/dr17tLFOSRsnQZpjtOclTgYuArwIXVNW6JGcmeWHb7f005yzXA68D/sdXTxY6q/tI0ngY6q+VVNXHgI9NaXtzz/L3gBdv5znOGEhwfbJ8eXMYdnJmCVb3kaRRZKWfAbO6jySNBxPmgFndR5LGgz8gPQ+s7iNJo88ZpiRJHZgwJUnqwEOyA2SFH0kaH84wB8QKP5I0XkyYA9Jb4WennR5aXr162JFJknaECXNArPAjSeOlU8JM8rNJLk7y9SQbklyfZMOggxtly5c3FX16WeFHkkZX1xnm+4F3Ac8EngpMtPeagRV+JGm8dE2YW6rq41X1raq6Y/I20MhGnBV+JGm8dP1ayaeS/BmwGvj+ZGNVXTGQqMaEFX4kaXx0TZhPa+8netoKeG5/w5EkaWHabsJMshPwV1V1wTzEI0nSgrTdhFlVDyQ5FTBhzoJVfiRpvHS96OfiJKuS7J9kz8nbQCMbYVb5kaTx0/Uc5ivb+1N62go4qL/hjIfeKj/w0P3q1c4yJWlUdUqYVXXgoAMZJxs3NjPLXlb5kaTR1ilhJnnFdO1V9cH+hjMeli9vDsNOzizBKj+SNOq6nsN8as/tWcAZwAsHFNPIs8qPJI2frodkX9P7OMluwIcGEtEYmKzy03uV7Eknef5SkkbZjv6A9HeBQ/oZyLixyo8kjZeu5zD/leaqWGgO4x4K/OOggpIkaaHpOsM8q2f5fuDGqto0gHgkSVqQuibMn6+qN/Q2JHnH1DY9xEo/kjReul4le9Q0bcf2M5BxYqUfSRo/25xhJnk18FvAQUl6P+4fA3xmkIGNMiv9SNL42d4h2X8APg78CXBaT/t3qmrzwKIacVb6kaTxs81DslW1papuqKqXAvsDz62qG4GdklgubwbLlzeVfXpZ6UeSRlunc5hJ3gK8ATi9bdoZ+PCgghp1VvqRpPHT9aKfX6QphXcPQFXdTHMec06SHJPk2iTrk5w2zfpdkpzfrv9CkhVt+1FJLk9yVXv/3LnG0k+TlX722AM2bWruV63y/KUkjbKuXyu5r6oqSQEkedRcXzjJEuBsmitwNwGXJVlTVdf0dDsJuLOqDk6yEngH8BLgduAFVXVzkp8ALgL2nWtM/WSlH0kaL11nmBck+Rtg9yS/DnwCeN8cX/sIYH1Vbaiq+4DzgOOm9DkOOLddvhA4Mkmq6kvtLBdgHfDwJLvMMR5JkmbUtfj6WUmOAu4CfhR4c1VdPMfX3he4qefxJuBpM/WpqvuTbAH2oplhTvol4EtV9f05xiNJ0ow6F19vE+TF0BxOTfIrVfV/5/Dame5lZtMnyWE0h2mPnvFFkpOBkwGWz9Nlqlb5kaTxs81Dskl2TXJ6kvcmOTqNU4ENwC/P8bU30XxVZdJ+wM0z9UmyFNgN2Nw+3g/4J+AVVfWNmV6kqs6pqomqmli2bNkcQ94+q/xI0nja3jnMD9Ecgr0KeBXwH8CLgeOqaur5xtm6DDgkyYFJdgZWAmum9FkDnNgunwBc0l58tDvwUeD0qlpQFYd6q/zstNNDy6tXDzsySdJcbO+Q7EFV9ZMASd5Hc+5weVV9Z64v3J6TPJXmCtclwAeqal2SM4G1VbUGeD/woSTraWaWK9vNTwUOBv4gyR+0bUdX1bfmGtdcWeVHksbT9hLmDyYXquqHSa7vR7Lsec6PAR+b0vbmnuXv0cxop273VuCt/Yqjn5Yvbw7DTtaPBav8SNI42N4h2Scluau9fQc4fHI5yV3zEeCoscqPJI2n7dWSXVJVu7a3x1TV0p7lXecryFFilR9JGk+dv1ai7qzyI0njp2ulH0mSFjUTpiRJHXhIdgCs9CNJ48cZZp9Z6UeSxpMJs8+s9CNJ48mE2WcbNzaVfXpZ6UeSRp8Js8+WL28q+/Sy0o8kjT4TZp9Z6UeSxpMJs8+s9CNJ48mvlQyAlX4kafw4w5QkqQMTpiRJHXhIdgCs9CNJ48cZZp9Z6UeSxpMJs8+s9CNJ48mE2WdW+pGk8WTC7DMr/UjSeDJh9pmVfiRpPJkw+8xKP5I0nvxayQBY6UeSxo8zTEmSOjBhSpLUgYdkB8BKP5I0fpxh9pmVfiRpPJkw+8xKP5I0nkyYfWalH0kaTybMPrPSjySNJxNmn1npR5LG01ATZpJjklybZH2S06ZZv0uS89v1X0iyomfd6W37tUmeP59xb4uVfiRpPA3tayVJlgBnA0cBm4DLkqypqmt6up0E3FlVBydZCbwDeEmSQ4GVwGHAPsAnkjyxqn44v6OYnpV+JGn8DHOGeQSwvqo2VNV9wHnAcVP6HAec2y5fCByZJG37eVX1/aq6HljfPp8kSQMxzIS5L3BTz+NNbdu0farqfmALsFfHbSVJ6pthJsxM01Yd+3TZtnmC5OQka5Osve2222YZoiRJjWGWxtsE7N/zeD/g5hn6bEqyFNgN2NxxWwCq6hzgHICJiYlpk2q/WRpPksbPMGeYlwGHJDkwyc40F/GsmdJnDXBiu3wCcElVVdu+sr2K9kDgEOCL8xT3NlkaT5LG09BmmFV1f5JTgYuAJcAHqmpdkjOBtVW1Bng/8KEk62lmlivbbdcluQC4BrgfOGWhXCHbWxoPHrpfvdpZpiSNsqH+WklVfQz42JS2N/csfw948Qzbvg1420AD3AEbNzYzy16WxpOk0Welnz6zNJ4kjScTZp9ZGk+SxpMJs88sjSdJ42mo5zDHlaXxJGn8OMOUJKkDE6YkSR14SHYArPQjSePHGWafWelHksaTCbPPeiv97LTTQ8urVw87MknSXJgw+2zjxqayTy8r/UjS6DNh9pmVfiRpPJkw+8xKP5I0nkyYfWalH0kaT36tZACs9CNJ48cZpiRJHZgwJUnqwEOyA2ClH0kaP84w+8xKP5I0nkyYfWalH0kaTybMPrPSjySNJxNmn1npR5LGkwmzz6z0I0njyYTZZ1b6kaTx5NdKBsBKP5I0fpxhSpLUgQlTkqQOPCQ7AFb6kaTx4wyzz6z0I0njyYTZZ1b6kaTxZMLsMyv9SNJ4MmH2mZV+JGk8DSVhJtkzycVJrmvv95ih34ltn+uSnNi2PTLJR5N8Lcm6JG+f3+i3zUo/kjSehjXDPA34ZFUdAnyyfbyVJHsCbwGeBhwBvKUnsZ5VVT8G/BTws0mOnZ+wt89KP5I0nob1tZLjgOe0y+cClwJvmNLn+cDFVbUZIMnFwDFV9RHgUwBVdV+SK4D95iHmzqz0I0njZ1gzzMdV1S0A7f1jp+mzL3BTz+NNbduDkuwOvIBmlipJ0sAMbIaZ5BPA46dZ9aauTzFNW/U8/1LgI8BfVNWGbcRxMnAywHKvvJEk7aCBJcyqet5M65LcmuQJVXVLkicA35qm2yYeOmwLzWHXS3senwNcV1V/vp04zmn7MjExUdvq2y9W+pGk8TOsQ7JrgBPb5ROBf5mmz0XA0Un2aC/2ObptI8lbgd2A352HWGfFSj+SNJ6GlTDfDhyV5DrgqPYxSSaSvA+gvdjnj4DL2tuZVbU5yX40h3UPBa5I8uUkrxrGIKZjpR9JGk9DuUq2qu4AjpymfS3wqp7HHwA+MKXPJqY/v7kgbNzYzCx7WelHkkaflX76zEo/kjSeTJh9ZqUfSRpPJsw+s9KPJI0nf0B6AKz0I0njxxmmJEkdmDAlSerAhClJUgcmTEmSOjBhSpLUgQlTkqQOTJiSJHVgwpQkqQMTpiRJHZgwJUnqwIQpSVIHJkxJkjowYUqS1IEJU5KkDkyYkiR1YMKUJKkDE6YkSR2YMCVJ6sCEKUlSByZMSZI6MGFKktSBCVOSpA5MmJIkdWDClCSpAxOmJEkdmDAlSerAhClJUgdDSZhJ9kxycZLr2vs9Zuh3YtvnuiQnTrN+TZKrBx+xJGmxG9YM8zTgk1V1CPDJ9vFWkuwJvAV4GnAE8JbexJrkeODu+QlXkrTYDSthHgec2y6fC7xomj7PBy6uqs1VdSdwMXAMQJJHA68D3joPsUqSNLSE+biqugWgvX/sNH32BW7qebypbQP4I+CdwHcHGaQkSZOWDuqJk3wCePw0q97U9SmmaaskTwYOrqrXJlnRIY6TgZMBli9f3vGlJUna2sASZlU9b6Z1SW5N8oSquiXJE4BvTdNtE/Ccnsf7AZcCzwCekuQGmvgfm+TSqnoO06iqc4BzACYmJmr2I5EkaXiHZNcAk1e9ngj8yzR9LgKOTrJHe7HP0cBFVfVXVbVPVa0Angl8faZkKUlSvwwrYb4dOCrJdcBR7WOSTCR5H0BVbaY5V3lZezuzbZMkad6lavEcpUxyG3DjPL7k3sDt8/h6w7JYxgmLZ6yLZZyweMa6WMYJsxvrAVW1rEvHRZUw51uStVU1Mew4Bm2xjBMWz1gXyzhh8Yx1sYwTBjdWS+NJktSBCVOSpA5MmIN1zrADmCeLZZyweMa6WMYJi2esi2WcMKCxeg5TkqQOnGFKktSBCXMHJDkmybVJ1ieZ7pdWdklyfrv+C70l/JKc3rZfm+T58xn3jtjRsSZZkeTeJF9ub38937HPRodx/lySK5Lcn+SEKeu2+TN0C80cx/rDnn26Zv6inr0O43xdkmuSXJnkk0kO6Fk3bvt0W2Mdp336m0muasfy6SSH9qyb+2dvVXmbxQ1YAnwDOAjYGfgKcOiUPr8F/HW7vBI4v10+tO2/C3Bg+zxLhj2mAY11BXD1sMfQx3GuAA4HPgic0NO+J7Chvd+jXd5j2GMaxFjbdXcPewx9HOf/Ah7ZLr+65293HPfptGMdw326a8/yC4F/b5f78tnrDHP2jgDWV9WGqroPOI/m58p69f582YXAkUnStp9XVd+vquuB9e3zLVRzGeso2e44q+qGqroSeGDKtjP+DN0CNZexjpIu4/xUVU3+4tHnaepVw3ju05nGOkq6jPOunoePAiYv0unLZ68Jc/a29bNj/6NPVd0PbAH26rjtQjKXsQIcmORLSf4zybMGHewczGW/jOM+3ZaHJ1mb5PNJpvsd24VituM8Cfj4Dm47bHMZK4zZPk1ySpJvAH8K/PZstt2egf1ayRib9mfHOvbpsu1CMpex3gIsr6o7kjwF+Ockh035H+BCMZf9Mo77dFuWV9XNSQ4CLklyVVV9o0+x9VPncSZ5OTABPHu22y4QcxkrjNk+raqzgbOTvAz4fZof+OjLPnWGOXubgP17Hu8H3DxTnyRLgd2AzR23XUh2eKztoY87AKrqcppzBk8ceMQ7Zi77ZRz36Yyq6ub2fgPNz+39VD+D66NO40zyPJrf6H1hVX1/NtsuIHMZ69jt0x7nAZMz5v7s02GfyB21G82sfAPNiePJE8+HTelzCltfCHNBu3wYW5943sDCvuhnLmNdNjk2mpP03wT2HPaYdnScPX3/nv950c/1NBeH7NEuL8hx9mGsewC7tMt7A9cx5aKLhXLr+Lf7UzT/kTtkSvvY7dNtjHXc9ukhPcsvANa2y3357B2loKfZAAACCElEQVT6mzCKN+Dnga+3f4BvatvOpPmfG8DDgX+kObH8ReCgnm3f1G53LXDssMcyqLECvwSsa/9IrwBeMOyxzHGcT6X5X+o9wB3Aup5tX9mOfz3wf4Y9lkGNFfgZ4Kp2n14FnDTsscxxnJ8AbgW+3N7WjPE+nXasY7hP39N+7nwZ+BQ9CbUfn71W+pEkqQPPYUqS1IEJU5KkDkyYkiR1YMKUJKkDE6YkSR2YMKUx0/PrE1cn+dcku7ft+yS5cBvbrUhy9fxFKo0WE6Y0fu6tqidX1U/QVJg6BZqKLlV1wrY3lTQTE6Y03j5HW2S6dwaZ5LAkX2xnolcmOaR3oyQHtYXznzqEmKUFyYQpjakkS4Ajgel+FPg3gfdU1ZNpinFv6tnuR4H/R1Ph5rL5iFUaBSZMafw8IsmXacra7Unze45TfQ54Y5I3AAdU1b1t+zLgX4CXV9WX5yVaaUSYMKXxc287czyApkj1KVM7VNU/0Pwi/b3ARUme267aQvO7gT87T7FKI8OEKY2pqtpC8wO6q5I8rHdd+9uHG6rqL2gO2R7errqP5ieRXtH+nqCklglTGmNV9SWaX6JYOWXVS4Cr20O3PwZ8sGebe4BfAF6b5Lj5ilVa6Py1EkmSOnCGKUlSByZMSZI6MGFKktSBCVOSpA5MmJIkdWDClCSpAxOmJEkdmDAlSerg/wNrBEey8eH3vwAAAABJRU5ErkJggg==
+"
+>
+</div>
+
 </div>
 
 </div>

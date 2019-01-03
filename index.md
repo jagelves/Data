@@ -25,7 +25,7 @@ description: Sample Work
 
 ### 1. Optimization (gurobipy)
 
-1.1 [Portfolio Optimization](Portfolio.py)
+1.1 [Portfolio Optimization](Portfolio.html)
 
 ### 2. Image Classification (TensorFlow)
 ```

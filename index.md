@@ -13,7 +13,7 @@ description: Sample Work
 
 1.2 [Continental US Climate Change](Climate.html)
 
-1.3 [Alternative Fuel Stations]()
+1.3 [Alternative Fuel Stations](Stations1.html)
 
 ### 2. Classification (glm, lda and qda)
 
@@ -21,12 +21,14 @@ description: Sample Work
 
 ### 3. Optimization (igraph,Optrees)
 
+3.1 [Max Flow](Max_Flow.html)
+
 # Coding in Python
 
 ### 1. Optimization (gurobipy)
 
 1.1 [Portfolio Optimization](Portfolio.html)
 
-### 2. Image Classification (TensorFlow)
+### 2. Image Classification (Keras)
 ```
 

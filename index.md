@@ -3,8 +3,6 @@ title: Techniques in Data Analytics
 description: Sample Work
 ---
 
-![MyPicture](cypher-partial-hp-thumb.jpg)
-
 # Coding in R
 
 ### 1. Data Visualization (ggplot, Plotly and GoogleVis)
@@ -33,3 +31,4 @@ description: Sample Work
 
 2.1 [Cats and Dogs](Cats and Dogs.html)
 
+![MyPicture](cypher-partial-hp-thumb.jpg)

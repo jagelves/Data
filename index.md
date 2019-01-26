@@ -4,7 +4,7 @@ description: Sample Work
 ---
 
 # Coding in R
-|
+|:-----------|
 ### 1. Data Visualization (ggplot, Plotly and GoogleVis)
 
 1.1 [Does Size Matter in Batting?](Does_Size_Matter_in_Batting1.html)
@@ -12,8 +12,6 @@ description: Sample Work
 1.2 [Continental US Climate Change](Climate.html)
 
 1.3 [Alternative Fuel Stations](Stations1.html)
-|
-|:--------------------------------------------------------------------|
 
 ### 2. Classification (glm, lda and qda)
 
@@ -25,7 +23,7 @@ description: Sample Work
 
 
 # Coding in Python
-
+|:----------------|
 ### 1. Optimization (gurobipy)
 
 1.1 [Portfolio Optimization](Portfolio.html)

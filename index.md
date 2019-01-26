@@ -2,7 +2,7 @@
 title: Techniques in Data Analytics
 description: Sample Work
 ---
-
+|
 # Coding in R
 
 ### 1. Data Visualization (ggplot, Plotly and GoogleVis)
@@ -19,7 +19,8 @@ description: Sample Work
 
 ### 3. Optimization (igraph,Optrees)
 
-3.1 [Max Flow](Max_Flow.html)
+3.1 [Max Flow](Max_Flow.html)|
+|:---------------------------|
 
 # Coding in Python
 

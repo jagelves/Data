@@ -12,22 +12,14 @@ description: Sample Work
 |1.3 [Alternative Fuel Stations](Stations1.html)|||
 
 
-
-
-
-
-
-
-
-
 # Coding in Python
-|:----------------|
-### 1. Optimization (gurobipy)
 
-1.1 [Portfolio Optimization](Portfolio.html)
+|1. Optimization (gurobipy)|2. Image Classification (Keras)|
+|:------------------------:|:-----------------------------:|
+|1.1 [Portfolio Optimization](Portfolio.html)|2.1 [Cats and Dogs](Cats and Dogs.html)|
 
-### 2. Image Classification (Keras)
 
-2.1 [Cats and Dogs](Cats and Dogs.html)
+
+
 
 

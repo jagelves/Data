@@ -2,8 +2,9 @@
 title: Techniques in Data Analytics
 description: Sample Work
 ---
-
+|
 # Coding in R
+|
 |:-----------|
 ### 1. Data Visualization (ggplot, Plotly and GoogleVis)
 

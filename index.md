@@ -30,5 +30,6 @@ description: Sample Work
 1.1 [Portfolio Optimization](Portfolio.html)
 
 ### 2. Image Classification (Keras)
-```
+
+2.1 [Cats and Dogs](Cats and Dogs.html)
 

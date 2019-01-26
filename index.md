@@ -31,4 +31,4 @@ description: Sample Work
 
 2.1 [Cats and Dogs](Cats and Dogs.html)
 
-![MyPicture](cypher-partial-hp-thumb.jpg)
+

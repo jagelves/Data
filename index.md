@@ -21,6 +21,6 @@ description: Sample Work
 
 # Tableau
 |1. Dashboards|
-|:-----------:|
-|1.1 [David Bowie Tour](BowieTour.png)|
+
+|[David Bowie (modification of @jeweloree dashboard](BowieTour.png)|
 

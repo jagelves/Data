@@ -22,5 +22,5 @@ description: Sample Work
 # Tableau
 |1. Dashboards|2. Story|
 |:------------------------:|:-----------------------------:|
-|[David Bowie (modification of @jeweloree dashboard)](BowieTour.png)| |
+|[David Bowie (modification of @jeweloree dashboard)](BowieTour.png)|-|
 

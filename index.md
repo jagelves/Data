@@ -3,7 +3,7 @@ title: Techniques in Data Analytics
 description: Sample Work
 ---
 
-# Coding in R
+# R
 
 |1. Data Visualization|2. Regression and Classification|3. Optimization|
 |:--------------------------------------------------:|:----------------------------------:|:------------------------------:|
@@ -12,7 +12,7 @@ description: Sample Work
 |1.3 [Alternative Fuel Stations](Stations1.html)|||
 
 
-# Coding in Python
+# Python
 
 |1. Optimization|2. Image Classification|
 |:------------------------:|:-----------------------------:|

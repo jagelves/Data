@@ -30,6 +30,6 @@ description: Sample Work
 
 |352|
 |:-:|
-|[Data 1](Data 1.html)|
+|[Data 1](Data1.html)|
 |[Data 2](Data2.html)|
 |[Data 3](Data3.html)|

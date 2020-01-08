@@ -30,5 +30,5 @@ description: Sample Work
 
 |352|
 |:-:|
-|[Data1](Data 1.xlsx)-|
-|[Data2](Data 2.xlsx)-|
+|[Data 1](Data 1.html)|
+|[Data 2](Data 2.html)|

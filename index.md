@@ -26,3 +26,9 @@ description: Sample Work
 |[David Bowie (modification of @jeweloree dashboard)](BowieTour.png)|-|
 |[Refugee Program U.S.](Ref_2_001.png)|-|
 
+# Data
+
+|352|
+|:-:|
+|[Data1](Data 1.xlsx)-|
+|[Data2](Data 2.xlsx)-|

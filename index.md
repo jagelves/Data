@@ -23,7 +23,7 @@ description: Sample Work
 
 |1. Dashboards|2. Graphs|
 |:-----------:|:------:|
-|[David Bowie (modification of @jeweloree dashboard)](BowieTour.png)|-|
+|[David Bowie (modification of @jeweloree dashboard)](BowieTour.png)|Virginia Population(Virginia Population.png|
 |[Refugee Program U.S.](Ref_2_001.png)|-|
 
 # Data

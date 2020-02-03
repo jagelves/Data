@@ -29,7 +29,7 @@ description: Sample Work
 # Data
 
 |352|
-|:-:|
+|:-:|:-:|
 |[Data 1](Data1.html)|[Data 3](Data3.html)|
 |[Data 2](Data2.html)|[Data 4](Data4.html)|
 

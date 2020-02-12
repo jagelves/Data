@@ -24,7 +24,7 @@ description: Sample Work
 |1. Dashboards|2. Graphs|
 |:-----------:|:------:|
 |[David Bowie (modification of @jeweloree dashboard)](BowieTour.png)|[Virginia Population](Virginia Population.png)|
-|[Refugee Program U.S.](Ref_2_001.png)|-|
+|[Refugee Program U.S.](Ref_2_001.png)|[Fertility and Life Expectancy](WDI.png)|
 
 # Data
 

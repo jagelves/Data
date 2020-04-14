@@ -25,7 +25,7 @@ description: Sample Work
 |:-----------:|:------:|
 |[David Bowie (modification of @jeweloree dashboard)](BowieTour.png)|[Virginia Population](Virginia Population.png)|
 |[Refugee Program U.S.](Ref_2_001.png)|[Fertility and Life Expectancy](WDI.png)|
-|[College Scorecard Debt/Earnings](DebtToEarnings.png)||
+|[College Scorecard Debt/Earnings](DebtToEarnings.png)|[Animation](calvin.git)|
 
 # Data
 

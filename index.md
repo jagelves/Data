@@ -14,9 +14,9 @@ description: Sample Work
 
 # Python
 
-|1. Optimization|2. Image Classification|
-|:------------------------:|:-----------------------------:|
-|1.1 [Portfolio Optimization](Portfolio.html)|2.1 [Cats and Dogs](Cats and Dogs.html)|
+|1. Optimization|
+|:------------------------:|
+|1.1 [Portfolio Optimization](Portfolio.html)|
 
 
 # Tableau
@@ -33,4 +33,8 @@ description: Sample Work
 |:-:|:-:|
 |[Data 1](Data1.html)|[Data 2](Data2.html)|
 |[Data 4](Data4.html)|[Data 3](Data3.html)|
+
+# Stats
+|Descriptive Stats|Probability|
+|:-:|:-:|
 

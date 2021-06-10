@@ -35,6 +35,8 @@ description: Sample Work
 |[Data 4](Data4.html)|[Data 3](Data3.html)|
 
 # Stats
-|Descriptive Stats|Probability|
+
+|1. Descriptive Stats|2. Probability|
 |:-:|:-:|
+|File1|File2|
 

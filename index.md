@@ -12,9 +12,9 @@ description: A collection of data to practice data analytics
 
 # Times Series
 
-|1. Avocado|2. Loans|
-|:-:|:-:|
-|[Avocado](avocado2020.csv)|[Kiva Loans](KivaLoans.csv)|
+|1. Avocado|2. Loans|3. Peloton|
+|:--------:|:------:|:--------:|
+|[Avocado](avocado2020.csv)|[Kiva Loans](KivaLoans.csv)|[Peloton Workout](peloton.csv)|
 
 # Cross Section
 

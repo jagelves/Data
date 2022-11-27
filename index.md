@@ -12,7 +12,7 @@ description: Sample Work
 
 # Stats 231
 
-|1. Avocado|2. Temperature|
+|1. Avocado|2. Loans|
 |:-:|:-:|
-|[Avocado](avocado2020.csv)|[Temperature]|
+|[Avocado](avocado2020.csv)|[Kiva Loans](KivaLoans.csv)|
 

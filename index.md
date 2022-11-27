@@ -1,6 +1,6 @@
 ---
-title: Techniques in Data Analytics
-description: Sample Work
+title: Data Repository
+description: A collection of data to practice data analytics
 ---
 
 # Data 352

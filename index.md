@@ -14,5 +14,5 @@ description: Sample Work
 
 |1. Avocado|2. Temperature|
 |:-:|:-:|
-|[Avocado]|[Temperature]|
+|[Avocado](avocado2020.csv)|[Temperature]|
 

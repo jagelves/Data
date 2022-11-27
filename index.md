@@ -12,7 +12,7 @@ description: Sample Work
 
 # Stats 231
 
-|1. Descriptive Stats|2. Probability|
+|1. Avocado|2. Temperature|
 |:-:|:-:|
-|File1|File2|
+|[Avocado]|[Temperature]|
 

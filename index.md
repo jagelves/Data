@@ -10,9 +10,11 @@ description: Sample Work
 |[Data 1](Data1.html)|[Data 2](Data2.html)|
 |[Data 4](Data4.html)|[Data 3](Data3.html)|
 
-# Stats 231
+# Times Series
 
 |1. Avocado|2. Loans|
 |:-:|:-:|
 |[Avocado](avocado2020.csv)|[Kiva Loans](KivaLoans.csv)|
+
+# Cross Section
 

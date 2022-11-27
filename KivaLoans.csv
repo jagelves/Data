@@ -1,0 +1,36 @@
+Loan,ID,Activity,Country,Partner,Amount,Gender,Arrears,Term,Schedule,Defaulted Date,Ended Date,You Loaned,Purchase Date,Paid Back to You,Total Paid Back,Amount Funded,Your Arrears,Currency Loss,Defaulted Amount,Refunded Amount
+Irene,2481014,General Store,Philippines,Negros Women for Tomorrow Foundation (NWTF),175,female,,8,Monthly,,,25,11/24/22 5:31,0,0,175,,0,0,0
+Hannah,2469356,Farming,Kenya,Juhudi Kilimo,350,female,,14,Monthly,,,25,11/24/22 5:14,0,0,350,,0,0,0
+Javier Enrique,2470230,Food Production/Sales,El Salvador,CrediCampo,400,male,,14,Monthly,,,20,11/24/22 5:12,0,0,400,,0,0,0
+Sheila,2474385,Farming,Kenya,Juhudi Kilimo,600,female,,20,Monthly,,,25,11/16/22 2:52,0,0,600,,0,0,0
+Joemarie,2467899,Fishing,Philippines,"Community Economic Ventures, Inc. (CEVI)",525,male,,9,Monthly,,,25,11/11/22 9:19,0,0,525,,0,0,0
+Leydi Aura,2470199,Dental,Ecuador,Fundación ESPOIR,350,female,,8,Monthly,,,50,11/11/22 9:18,0,0,350,,0,0,0
+Juanito,2467872,Fishing,Philippines,"Community Economic Ventures, Inc. (CEVI)",525,male,,9,Monthly,,,25,11/11/22 9:17,0,0,525,,0,0,0
+Gerald,2465954,Fishing,Philippines,"Community Economic Ventures, Inc. (CEVI)",525,male,,13,Monthly,,,25,11/11/22 9:16,0,0,525,,0,0,0
+Jose Joel,2423304,Fishing,Philippines,"Community Economic Ventures, Inc. (CEVI)",450,male,,11,Monthly,,,25,8/21/22 7:00,9.39,169,450,,0,0,0
+Hernani,2412901,Fishing,Philippines,"Community Economic Ventures, Inc. (CEVI)",625,male,,10,Monthly,,,25,8/17/22 7:42,10.76,271.98,625,,0.12,0,0
+Mark John,2403889,Fishing,Philippines,"Community Economic Ventures, Inc. (CEVI)",350,male,,9,Monthly,,,20,7/31/22 2:33,13.81,248.86,350,,0.41,0,0
+Chandrina,2408704,Fishing,Philippines,"Community Economic Ventures, Inc. (CEVI)",375,female,,8,Monthly,,,15,7/31/22 2:33,9.02,232.73,375,,0.29,0,0
+Jernie,2402676,Fishing,Philippines,"Community Economic Ventures, Inc. (CEVI)",375,male,,9,Monthly,,,15,7/31/22 2:33,10.34,266.25,375,,0.31,0,0
+Maria Consuelo,2405410,Grocery Store,Ecuador,Fundación ESPOIR,1100,female,,8,Monthly,,,25,7/23/22 7:02,15.63,688,1100,,0,0,0
+Alma Leticia,2410185,Personal Medical Expenses,Mexico,Alivio Capital,1550,female,,21,Monthly,,,25,7/22/22 17:29,2,124.27,1550,,0,0,0
+Marco Antonio,2410168,Pharmacy,Honduras,Prisma Honduras,1450,male,,14,Monthly,,,25,7/22/22 17:15,8.29,483.36,1450,,0.04,0,0
+Mujeres Emprendedoras ,2405688,Beverages,Paraguay,Fundación Paraguaya,3900,female,,5,Monthly,,9/25/22 14:28,20,7/10/22 17:19,19.93,3900,3900,,0.07,0,0
+Manantial ,2390995,Bakery,Paraguay,Fundación Paraguaya,5800,female,,6,Monthly,,10/17/22 14:57,25,6/24/22 11:26,24.86,5800,5800,,0.14,0,0
+Anastasie,2371712,Spare Parts,Rwanda,Inkomoko,2950,female,,14,Monthly,,,25,5/18/22 11:54,8.33,983.34,2950,,0,0,0
+Gilmer,2366413,Farming,Peru,Cooperativa de Ahorro y Crédito Norandino,1375,male,,9,At end of term,,,25,5/14/22 8:11,0,0,1375,,0,0,0
+EREKA,2370003,Charcoal Sales,The Democratic Republic of the Congo,Hekima,6250,female,1567.27,6,Monthly,,,25,5/13/22 17:18,18.73,4682.73,6250,6.27,0,0,0
+Khuyên,2360746,Livestock,Vietnam,Thanh Hoa Microfinance Institution,1750,female,,17,Monthly,,,25,4/27/22 9:28,11.67,816.91,1750,,0,0,0
+Jackie Lou,2330776,Food Production/Sales,Philippines,Negros Women for Tomorrow Foundation (NWTF),300,female,,11,Monthly,,11/17/22 10:06,25,3/31/22 6:07,25,300,300,,0,0,0
+Lufel,2343832,General Store,Philippines,Negros Women for Tomorrow Foundation (NWTF),325,female,,7,Monthly,,10/17/22 18:55,25,3/31/22 6:04,25,325,325,,0,0,0
+BARAKA ALANINE ,2298436,Food Market,The Democratic Republic of the Congo,Hekima,4950,female,,5,Monthly,,4/17/22 6:26,25,12/30/21 14:13,25,4950,4950,,0,0,0
+HUMILDES,2298527,Agriculture,Guatemala,Friendship Bridge,3900,female,,13,Monthly,,11/17/22 7:26,25,12/30/21 14:11,25,3900,3900,,0,0,0
+Marcial,2265839,Agriculture,Costa Rica,FUDECOSUR,400,male,,38,Monthly,,,25,10/30/21 13:11,6.33,104.04,400,,0.17,0,0
+Nurgul,2251305,Dairy,Kyrgyzstan,Bai Tushum Bank,2950,female,,14,Monthly,,10/17/22 12:42,25,10/18/21 17:19,24.61,2950,2950,,0.39,0,0
+Alejandro Agustín,2258036,Cattle,El Salvador,CrediCampo,700,male,,20,Monthly,,10/17/22 13:59,25,10/15/21 9:04,25,700,700,,0,0,0
+Twere Awurade 2 Group,2234915,Food,Ghana,ID Ghana,1800,female,,8,Monthly,,5/17/22 6:40,25,9/30/21 11:13,24.87,1800,1800,,0.13,0,0
+Walter Isaac,2217840,Retail,Nicaragua,FUNDENUSE,1025,male,,21,Monthly,,,50,9/9/21 10:44,38.89,797.26,1025,,0,0,0
+Anah Rustianah,2233869,Personal Housing Expenses,Indonesia,Benteng Mikro Indonesia (BMI),1050,female,,26,Monthly,,,50,9/1/21 5:06,29.41,640.5,1050,,1.09,0,0
+Nenita,2217942,Fruits & Vegetables,Philippines,Negros Women for Tomorrow Foundation (NWTF),400,female,,8,Monthly,,3/17/22 10:38,25,8/31/21 6:51,25,400,400,,0,0,0
+Vohid,2218050,Primary/secondary school costs,Tajikistan,Humo,550,male,,14,Monthly,,8/17/22 13:30,25,8/31/21 4:54,24.6,550,550,,0.4,0,0
+Iago,2225669,Higher education costs,Georgia,Credo,825,male,,51,Monthly,,4/17/22 5:36,25,8/31/21 4:34,24.98,825,825,,0.02,0,0

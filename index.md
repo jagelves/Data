@@ -18,3 +18,6 @@ description: A collection of data to practice data analytics
 
 # Cross Section
 
+|1. Avocado|
+|:--------:|
+|[College](College.csv)|

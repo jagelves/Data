@@ -16,6 +16,10 @@ description: A collection of data to practice data analytics
 |:--------:|:------:|:--------:|:--------|
 |[Avocado](avocado2020.csv)|[Kiva Loans](KivaLoans.csv)|[Peloton Workout](peloton.csv)|[TSLA, VTI, GBTC](Stocks.csv)|
 
+|1. Population|2. More|3. More|4. More|
+|:-----------:|:------:|:--------:|:--------|
+|[Population](Population.csv)|
+
 # Cross Section
 
 |1. College|2. Education|

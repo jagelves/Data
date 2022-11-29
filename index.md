@@ -18,6 +18,6 @@ description: A collection of data to practice data analytics
 
 # Cross Section
 
-|1. College|
-|:--------:|
-|[College](College.csv)|
+|1. College|2. Education|
+|:--------:|:-----------|
+|[College](College.csv)|[Education](Education.csv)|

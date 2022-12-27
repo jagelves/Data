@@ -25,3 +25,6 @@ description: A collection of data to practice data analytics
 |1. College|2. Education|3. Food Expenditure|4. Dog Intelligence|5. Crash Data|
 |:--------:|:----------:|:-----------------:|:-----------------:|:-----------:|
 |[College](College.csv)|[Education](Education.csv)|[FoodSpend](FoodSpend.csv)|[Dogs](dog_intelligence.csv)|[Crash](Crash.csv)|
+
+|6. More|7. More|8. More|9. More|10. More|
+|:--------:|:----------:|:-----------------:|:-----------------:|:-----------:|

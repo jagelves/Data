@@ -1,0 +1,4859 @@
+﻿ID,Crash Type,Light Condition
+1,Not Head-On,Not Daylight
+2,Not Head-On,Daylight
+3,Not Head-On,Not Daylight
+4,Not Head-On,Not Daylight
+5,Not Head-On,Daylight
+6,Not Head-On,Daylight
+7,Not Head-On,Daylight
+8,Not Head-On,Daylight
+9,Not Head-On,Not Daylight
+10,Not Head-On,Not Daylight
+11,Not Head-On,Not Daylight
+12,Not Head-On,Daylight
+13,Not Head-On,Daylight
+14,Not Head-On,Not Daylight
+15,Not Head-On,Not Daylight
+16,Not Head-On,Daylight
+17,Not Head-On,Daylight
+18,Not Head-On,Daylight
+19,Not Head-On,Daylight
+20,Not Head-On,Daylight
+21,Not Head-On,Not Daylight
+22,Not Head-On,Daylight
+23,Not Head-On,Daylight
+24,Not Head-On,Daylight
+25,Not Head-On,Daylight
+26,Not Head-On,Not Daylight
+27,Not Head-On,Daylight
+28,Not Head-On,Daylight
+29,Not Head-On,Daylight
+30,Not Head-On,Not Daylight
+31,Not Head-On,Daylight
+32,Not Head-On,Daylight
+33,Not Head-On,Not Daylight
+34,Not Head-On,Daylight
+35,Not Head-On,Not Daylight
+36,Not Head-On,Daylight
+37,Not Head-On,Daylight
+38,Not Head-On,Daylight
+39,Not Head-On,Daylight
+40,Not Head-On,Daylight
+41,Not Head-On,Not Daylight
+42,Not Head-On,Daylight
+43,Not Head-On,Not Daylight
+44,Not Head-On,Daylight
+45,Not Head-On,Not Daylight
+46,Not Head-On,Daylight
+47,Not Head-On,Not Daylight
+48,Not Head-On,Daylight
+49,Not Head-On,Not Daylight
+50,Not Head-On,Daylight
+51,Not Head-On,Not Daylight
+52,Not Head-On,Not Daylight
+53,Not Head-On,Daylight
+54,Not Head-On,Daylight
+55,Not Head-On,Daylight
+56,Not Head-On,Daylight
+57,Not Head-On,Not Daylight
+58,Not Head-On,Daylight
+59,Not Head-On,Daylight
+60,Not Head-On,Daylight
+61,Not Head-On,Daylight
+62,Not Head-On,Daylight
+63,Not Head-On,Daylight
+64,Not Head-On,Daylight
+65,Not Head-On,Daylight
+66,Not Head-On,Daylight
+67,Head-on,Daylight
+68,Not Head-On,Daylight
+69,Not Head-On,Daylight
+70,Not Head-On,Daylight
+71,Head-on,Daylight
+72,Not Head-On,Not Daylight
+73,Not Head-On,Not Daylight
+74,Not Head-On,Daylight
+75,Not Head-On,Not Daylight
+76,Not Head-On,Daylight
+77,Not Head-On,Not Daylight
+78,Not Head-On,Not Daylight
+79,Head-on,Not Daylight
+80,Not Head-On,Daylight
+81,Not Head-On,Daylight
+82,Not Head-On,Daylight
+83,Not Head-On,Daylight
+84,Not Head-On,Not Daylight
+85,Not Head-On,Not Daylight
+86,Not Head-On,Daylight
+87,Not Head-On,Daylight
+88,Not Head-On,Daylight
+89,Not Head-On,Daylight
+90,Not Head-On,Not Daylight
+91,Not Head-On,Daylight
+92,Not Head-On,Daylight
+93,Not Head-On,Daylight
+94,Not Head-On,Not Daylight
+95,Not Head-On,Daylight
+96,Not Head-On,Daylight
+97,Not Head-On,Daylight
+98,Not Head-On,Daylight
+99,Not Head-On,Daylight
+100,Not Head-On,Not Daylight
+101,Not Head-On,Daylight
+102,Head-on,Not Daylight
+103,Not Head-On,Daylight
+104,Not Head-On,Not Daylight
+105,Not Head-On,Daylight
+106,Not Head-On,Daylight
+107,Not Head-On,Daylight
+108,Not Head-On,Not Daylight
+109,Not Head-On,Not Daylight
+110,Not Head-On,Daylight
+111,Not Head-On,Daylight
+112,Not Head-On,Daylight
+113,Not Head-On,Daylight
+114,Not Head-On,Daylight
+115,Not Head-On,Not Daylight
+116,Not Head-On,Daylight
+117,Not Head-On,Daylight
+118,Not Head-On,Daylight
+119,Not Head-On,Not Daylight
+120,Not Head-On,Daylight
+121,Not Head-On,Daylight
+122,Not Head-On,Daylight
+123,Not Head-On,Not Daylight
+124,Not Head-On,Daylight
+125,Not Head-On,Daylight
+126,Not Head-On,Daylight
+127,Not Head-On,Daylight
+128,Not Head-On,Daylight
+129,Not Head-On,Not Daylight
+130,Not Head-On,Daylight
+131,Not Head-On,Daylight
+132,Not Head-On,Daylight
+133,Not Head-On,Daylight
+134,Not Head-On,Daylight
+135,Not Head-On,Daylight
+136,Not Head-On,Daylight
+137,Not Head-On,Not Daylight
+138,Not Head-On,Not Daylight
+139,Not Head-On,Daylight
+140,Not Head-On,Daylight
+141,Not Head-On,Daylight
+142,Not Head-On,Not Daylight
+143,Not Head-On,Daylight
+144,Not Head-On,Daylight
+145,Not Head-On,Not Daylight
+146,Not Head-On,Daylight
+147,Not Head-On,Not Daylight
+148,Not Head-On,Daylight
+149,Not Head-On,Not Daylight
+150,Not Head-On,Not Daylight
+151,Not Head-On,Not Daylight
+152,Not Head-On,Not Daylight
+153,Not Head-On,Daylight
+154,Head-on,Not Daylight
+155,Not Head-On,Not Daylight
+156,Not Head-On,Not Daylight
+157,Not Head-On,Not Daylight
+158,Not Head-On,Daylight
+159,Not Head-On,Not Daylight
+160,Not Head-On,Daylight
+161,Not Head-On,Daylight
+162,Not Head-On,Not Daylight
+163,Not Head-On,Daylight
+164,Not Head-On,Daylight
+165,Not Head-On,Daylight
+166,Not Head-On,Not Daylight
+167,Head-on,Not Daylight
+168,Not Head-On,Daylight
+169,Not Head-On,Not Daylight
+170,Not Head-On,Not Daylight
+171,Not Head-On,Daylight
+172,Not Head-On,Not Daylight
+173,Not Head-On,Daylight
+174,Not Head-On,Not Daylight
+175,Not Head-On,Daylight
+176,Not Head-On,Daylight
+177,Not Head-On,Daylight
+178,Head-on,Daylight
+179,Not Head-On,Daylight
+180,Not Head-On,Daylight
+181,Not Head-On,Daylight
+182,Not Head-On,Daylight
+183,Not Head-On,Daylight
+184,Not Head-On,Daylight
+185,Not Head-On,Daylight
+186,Not Head-On,Daylight
+187,Not Head-On,Daylight
+188,Not Head-On,Daylight
+189,Head-on,Not Daylight
+190,Head-on,Daylight
+191,Not Head-On,Daylight
+192,Not Head-On,Not Daylight
+193,Not Head-On,Daylight
+194,Not Head-On,Daylight
+195,Not Head-On,Daylight
+196,Not Head-On,Not Daylight
+197,Not Head-On,Not Daylight
+198,Not Head-On,Daylight
+199,Not Head-On,Daylight
+200,Not Head-On,Daylight
+201,Not Head-On,Not Daylight
+202,Not Head-On,Not Daylight
+203,Not Head-On,Not Daylight
+204,Not Head-On,Daylight
+205,Not Head-On,Daylight
+206,Not Head-On,Daylight
+207,Not Head-On,Not Daylight
+208,Not Head-On,Not Daylight
+209,Not Head-On,Daylight
+210,Not Head-On,Daylight
+211,Not Head-On,Daylight
+212,Not Head-On,Daylight
+213,Not Head-On,Not Daylight
+214,Not Head-On,Daylight
+215,Not Head-On,Not Daylight
+216,Not Head-On,Daylight
+217,Not Head-On,Daylight
+218,Head-on,Not Daylight
+219,Not Head-On,Daylight
+220,Not Head-On,Not Daylight
+221,Not Head-On,Daylight
+222,Not Head-On,Daylight
+223,Not Head-On,Daylight
+224,Not Head-On,Daylight
+225,Not Head-On,Not Daylight
+226,Not Head-On,Not Daylight
+227,Not Head-On,Not Daylight
+228,Not Head-On,Daylight
+229,Not Head-On,Daylight
+230,Not Head-On,Daylight
+231,Not Head-On,Daylight
+232,Not Head-On,Daylight
+233,Not Head-On,Daylight
+234,Not Head-On,Daylight
+235,Not Head-On,Daylight
+236,Not Head-On,Daylight
+237,Not Head-On,Daylight
+238,Not Head-On,Daylight
+239,Not Head-On,Not Daylight
+240,Not Head-On,Daylight
+241,Not Head-On,Not Daylight
+242,Not Head-On,Daylight
+243,Not Head-On,Not Daylight
+244,Not Head-On,Daylight
+245,Not Head-On,Daylight
+246,Head-on,Daylight
+247,Head-on,Not Daylight
+248,Not Head-On,Daylight
+249,Not Head-On,Daylight
+250,Not Head-On,Not Daylight
+251,Not Head-On,Daylight
+252,Not Head-On,Not Daylight
+253,Not Head-On,Daylight
+254,Not Head-On,Daylight
+255,Not Head-On,Daylight
+256,Not Head-On,Not Daylight
+257,Not Head-On,Daylight
+258,Not Head-On,Not Daylight
+259,Not Head-On,Not Daylight
+260,Not Head-On,Daylight
+261,Not Head-On,Not Daylight
+262,Not Head-On,Daylight
+263,Not Head-On,Not Daylight
+264,Not Head-On,Not Daylight
+265,Not Head-On,Daylight
+266,Not Head-On,Daylight
+267,Head-on,Daylight
+268,Not Head-On,Not Daylight
+269,Not Head-On,Not Daylight
+270,Not Head-On,Daylight
+271,Not Head-On,Daylight
+272,Not Head-On,Daylight
+273,Not Head-On,Daylight
+274,Not Head-On,Not Daylight
+275,Not Head-On,Daylight
+276,Not Head-On,Daylight
+277,Not Head-On,Not Daylight
+278,Not Head-On,Daylight
+279,Not Head-On,Not Daylight
+280,Head-on,Not Daylight
+281,Not Head-On,Not Daylight
+282,Not Head-On,Not Daylight
+283,Not Head-On,Daylight
+284,Not Head-On,Daylight
+285,Not Head-On,Daylight
+286,Not Head-On,Daylight
+287,Not Head-On,Not Daylight
+288,Not Head-On,Daylight
+289,Not Head-On,Daylight
+290,Not Head-On,Daylight
+291,Not Head-On,Daylight
+292,Not Head-On,Daylight
+293,Not Head-On,Not Daylight
+294,Not Head-On,Daylight
+295,Not Head-On,Not Daylight
+296,Not Head-On,Daylight
+297,Not Head-On,Daylight
+298,Not Head-On,Daylight
+299,Not Head-On,Daylight
+300,Not Head-On,Not Daylight
+301,Not Head-On,Daylight
+302,Not Head-On,Daylight
+303,Not Head-On,Daylight
+304,Not Head-On,Daylight
+305,Not Head-On,Daylight
+306,Not Head-On,Daylight
+307,Not Head-On,Daylight
+308,Not Head-On,Daylight
+309,Not Head-On,Daylight
+310,Head-on,Daylight
+311,Not Head-On,Not Daylight
+312,Not Head-On,Daylight
+313,Not Head-On,Not Daylight
+314,Not Head-On,Not Daylight
+315,Not Head-On,Daylight
+316,Not Head-On,Not Daylight
+317,Not Head-On,Daylight
+318,Not Head-On,Not Daylight
+319,Head-on,Daylight
+320,Not Head-On,Not Daylight
+321,Not Head-On,Daylight
+322,Not Head-On,Daylight
+323,Not Head-On,Not Daylight
+324,Not Head-On,Not Daylight
+325,Not Head-On,Daylight
+326,Not Head-On,Not Daylight
+327,Head-on,Not Daylight
+328,Not Head-On,Daylight
+329,Not Head-On,Daylight
+330,Not Head-On,Daylight
+331,Not Head-On,Daylight
+332,Not Head-On,Not Daylight
+333,Not Head-On,Daylight
+334,Not Head-On,Not Daylight
+335,Not Head-On,Daylight
+336,Not Head-On,Daylight
+337,Not Head-On,Not Daylight
+338,Not Head-On,Not Daylight
+339,Not Head-On,Daylight
+340,Not Head-On,Daylight
+341,Not Head-On,Daylight
+342,Not Head-On,Not Daylight
+343,Not Head-On,Daylight
+344,Head-on,Daylight
+345,Not Head-On,Daylight
+346,Not Head-On,Daylight
+347,Not Head-On,Daylight
+348,Head-on,Daylight
+349,Not Head-On,Daylight
+350,Not Head-On,Daylight
+351,Not Head-On,Daylight
+352,Not Head-On,Daylight
+353,Not Head-On,Daylight
+354,Not Head-On,Daylight
+355,Not Head-On,Daylight
+356,Not Head-On,Daylight
+357,Head-on,Daylight
+358,Not Head-On,Daylight
+359,Not Head-On,Daylight
+360,Not Head-On,Not Daylight
+361,Not Head-On,Daylight
+362,Head-on,Daylight
+363,Not Head-On,Daylight
+364,Not Head-On,Not Daylight
+365,Not Head-On,Not Daylight
+366,Not Head-On,Daylight
+367,Not Head-On,Daylight
+368,Not Head-On,Daylight
+369,Not Head-On,Not Daylight
+370,Not Head-On,Daylight
+371,Not Head-On,Daylight
+372,Not Head-On,Not Daylight
+373,Head-on,Not Daylight
+374,Not Head-On,Daylight
+375,Not Head-On,Not Daylight
+376,Not Head-On,Not Daylight
+377,Not Head-On,Daylight
+378,Not Head-On,Daylight
+379,Head-on,Daylight
+380,Not Head-On,Not Daylight
+381,Not Head-On,Daylight
+382,Not Head-On,Daylight
+383,Not Head-On,Not Daylight
+384,Head-on,Not Daylight
+385,Not Head-On,Daylight
+386,Not Head-On,Daylight
+387,Not Head-On,Daylight
+388,Not Head-On,Daylight
+389,Not Head-On,Not Daylight
+390,Not Head-On,Not Daylight
+391,Head-on,Daylight
+392,Not Head-On,Daylight
+393,Not Head-On,Daylight
+394,Not Head-On,Not Daylight
+395,Not Head-On,Daylight
+396,Not Head-On,Not Daylight
+397,Not Head-On,Daylight
+398,Not Head-On,Not Daylight
+399,Not Head-On,Daylight
+400,Not Head-On,Not Daylight
+401,Not Head-On,Daylight
+402,Not Head-On,Daylight
+403,Not Head-On,Daylight
+404,Not Head-On,Not Daylight
+405,Not Head-On,Daylight
+406,Not Head-On,Not Daylight
+407,Not Head-On,Daylight
+408,Not Head-On,Not Daylight
+409,Not Head-On,Daylight
+410,Not Head-On,Not Daylight
+411,Not Head-On,Not Daylight
+412,Not Head-On,Not Daylight
+413,Not Head-On,Daylight
+414,Not Head-On,Daylight
+415,Not Head-On,Daylight
+416,Not Head-On,Not Daylight
+417,Not Head-On,Not Daylight
+418,Not Head-On,Daylight
+419,Not Head-On,Not Daylight
+420,Not Head-On,Daylight
+421,Not Head-On,Daylight
+422,Not Head-On,Daylight
+423,Not Head-On,Not Daylight
+424,Not Head-On,Daylight
+425,Not Head-On,Not Daylight
+426,Not Head-On,Daylight
+427,Not Head-On,Daylight
+428,Not Head-On,Daylight
+429,Head-on,Daylight
+430,Not Head-On,Not Daylight
+431,Not Head-On,Daylight
+432,Not Head-On,Daylight
+433,Not Head-On,Not Daylight
+434,Not Head-On,Not Daylight
+435,Not Head-On,Daylight
+436,Not Head-On,Not Daylight
+437,Not Head-On,Daylight
+438,Not Head-On,Not Daylight
+439,Not Head-On,Daylight
+440,Not Head-On,Daylight
+441,Not Head-On,Daylight
+442,Head-on,Daylight
+443,Not Head-On,Not Daylight
+444,Not Head-On,Daylight
+445,Not Head-On,Not Daylight
+446,Not Head-On,Daylight
+447,Not Head-On,Daylight
+448,Not Head-On,Not Daylight
+449,Not Head-On,Daylight
+450,Not Head-On,Daylight
+451,Not Head-On,Daylight
+452,Not Head-On,Not Daylight
+453,Not Head-On,Not Daylight
+454,Not Head-On,Daylight
+455,Not Head-On,Not Daylight
+456,Not Head-On,Daylight
+457,Not Head-On,Daylight
+458,Not Head-On,Daylight
+459,Not Head-On,Not Daylight
+460,Head-on,Daylight
+461,Not Head-On,Daylight
+462,Not Head-On,Daylight
+463,Not Head-On,Not Daylight
+464,Not Head-On,Not Daylight
+465,Not Head-On,Daylight
+466,Not Head-On,Daylight
+467,Not Head-On,Not Daylight
+468,Not Head-On,Daylight
+469,Not Head-On,Not Daylight
+470,Not Head-On,Daylight
+471,Not Head-On,Daylight
+472,Not Head-On,Daylight
+473,Not Head-On,Daylight
+474,Not Head-On,Daylight
+475,Not Head-On,Not Daylight
+476,Head-on,Daylight
+477,Not Head-On,Daylight
+478,Not Head-On,Daylight
+479,Not Head-On,Daylight
+480,Not Head-On,Daylight
+481,Not Head-On,Daylight
+482,Not Head-On,Not Daylight
+483,Not Head-On,Daylight
+484,Not Head-On,Not Daylight
+485,Not Head-On,Daylight
+486,Not Head-On,Not Daylight
+487,Not Head-On,Daylight
+488,Not Head-On,Daylight
+489,Not Head-On,Not Daylight
+490,Not Head-On,Not Daylight
+491,Not Head-On,Daylight
+492,Not Head-On,Daylight
+493,Not Head-On,Daylight
+494,Not Head-On,Not Daylight
+495,Not Head-On,Daylight
+496,Not Head-On,Daylight
+497,Not Head-On,Daylight
+498,Not Head-On,Daylight
+499,Head-on,Daylight
+500,Not Head-On,Daylight
+501,Not Head-On,Daylight
+502,Not Head-On,Daylight
+503,Not Head-On,Daylight
+504,Not Head-On,Not Daylight
+505,Not Head-On,Daylight
+506,Not Head-On,Daylight
+507,Not Head-On,Daylight
+508,Not Head-On,Daylight
+509,Head-on,Not Daylight
+510,Not Head-On,Daylight
+511,Not Head-On,Daylight
+512,Not Head-On,Daylight
+513,Not Head-On,Daylight
+514,Not Head-On,Daylight
+515,Not Head-On,Daylight
+516,Not Head-On,Daylight
+517,Not Head-On,Daylight
+518,Not Head-On,Daylight
+519,Not Head-On,Daylight
+520,Not Head-On,Daylight
+521,Not Head-On,Daylight
+522,Not Head-On,Daylight
+523,Not Head-On,Not Daylight
+524,Not Head-On,Not Daylight
+525,Not Head-On,Daylight
+526,Not Head-On,Daylight
+527,Not Head-On,Daylight
+528,Not Head-On,Daylight
+529,Not Head-On,Daylight
+530,Not Head-On,Daylight
+531,Head-on,Daylight
+532,Not Head-On,Daylight
+533,Not Head-On,Daylight
+534,Not Head-On,Not Daylight
+535,Not Head-On,Not Daylight
+536,Not Head-On,Not Daylight
+537,Not Head-On,Daylight
+538,Not Head-On,Daylight
+539,Not Head-On,Not Daylight
+540,Not Head-On,Daylight
+541,Not Head-On,Not Daylight
+542,Not Head-On,Daylight
+543,Not Head-On,Daylight
+544,Not Head-On,Daylight
+545,Not Head-On,Daylight
+546,Not Head-On,Daylight
+547,Not Head-On,Daylight
+548,Not Head-On,Daylight
+549,Not Head-On,Daylight
+550,Not Head-On,Daylight
+551,Not Head-On,Daylight
+552,Head-on,Not Daylight
+553,Head-on,Daylight
+554,Not Head-On,Daylight
+555,Not Head-On,Daylight
+556,Head-on,Daylight
+557,Not Head-On,Not Daylight
+558,Not Head-On,Not Daylight
+559,Not Head-On,Daylight
+560,Head-on,Daylight
+561,Not Head-On,Daylight
+562,Not Head-On,Not Daylight
+563,Not Head-On,Daylight
+564,Head-on,Daylight
+565,Not Head-On,Daylight
+566,Not Head-On,Daylight
+567,Head-on,Not Daylight
+568,Not Head-On,Daylight
+569,Not Head-On,Daylight
+570,Not Head-On,Daylight
+571,Not Head-On,Not Daylight
+572,Not Head-On,Daylight
+573,Not Head-On,Not Daylight
+574,Not Head-On,Daylight
+575,Not Head-On,Not Daylight
+576,Not Head-On,Not Daylight
+577,Not Head-On,Not Daylight
+578,Not Head-On,Daylight
+579,Not Head-On,Not Daylight
+580,Not Head-On,Daylight
+581,Not Head-On,Daylight
+582,Not Head-On,Daylight
+583,Not Head-On,Daylight
+584,Not Head-On,Daylight
+585,Head-on,Daylight
+586,Not Head-On,Daylight
+587,Not Head-On,Daylight
+588,Not Head-On,Daylight
+589,Not Head-On,Daylight
+590,Not Head-On,Daylight
+591,Not Head-On,Daylight
+592,Not Head-On,Daylight
+593,Not Head-On,Daylight
+594,Not Head-On,Not Daylight
+595,Not Head-On,Not Daylight
+596,Not Head-On,Daylight
+597,Not Head-On,Daylight
+598,Not Head-On,Not Daylight
+599,Not Head-On,Daylight
+600,Not Head-On,Daylight
+601,Not Head-On,Daylight
+602,Not Head-On,Not Daylight
+603,Not Head-On,Daylight
+604,Not Head-On,Not Daylight
+605,Head-on,Not Daylight
+606,Not Head-On,Daylight
+607,Not Head-On,Daylight
+608,Not Head-On,Not Daylight
+609,Not Head-On,Daylight
+610,Not Head-On,Daylight
+611,Not Head-On,Daylight
+612,Not Head-On,Daylight
+613,Not Head-On,Daylight
+614,Not Head-On,Not Daylight
+615,Not Head-On,Daylight
+616,Not Head-On,Daylight
+617,Not Head-On,Daylight
+618,Not Head-On,Not Daylight
+619,Not Head-On,Not Daylight
+620,Not Head-On,Daylight
+621,Not Head-On,Not Daylight
+622,Not Head-On,Daylight
+623,Not Head-On,Daylight
+624,Not Head-On,Not Daylight
+625,Not Head-On,Daylight
+626,Not Head-On,Daylight
+627,Not Head-On,Daylight
+628,Head-on,Daylight
+629,Not Head-On,Not Daylight
+630,Not Head-On,Daylight
+631,Not Head-On,Daylight
+632,Not Head-On,Daylight
+633,Not Head-On,Not Daylight
+634,Not Head-On,Daylight
+635,Not Head-On,Not Daylight
+636,Not Head-On,Not Daylight
+637,Not Head-On,Daylight
+638,Head-on,Daylight
+639,Not Head-On,Daylight
+640,Not Head-On,Daylight
+641,Not Head-On,Not Daylight
+642,Not Head-On,Daylight
+643,Not Head-On,Not Daylight
+644,Not Head-On,Daylight
+645,Not Head-On,Not Daylight
+646,Not Head-On,Daylight
+647,Head-on,Not Daylight
+648,Not Head-On,Daylight
+649,Not Head-On,Daylight
+650,Not Head-On,Not Daylight
+651,Not Head-On,Not Daylight
+652,Not Head-On,Not Daylight
+653,Not Head-On,Daylight
+654,Not Head-On,Not Daylight
+655,Not Head-On,Not Daylight
+656,Not Head-On,Daylight
+657,Not Head-On,Daylight
+658,Not Head-On,Daylight
+659,Not Head-On,Daylight
+660,Not Head-On,Daylight
+661,Head-on,Not Daylight
+662,Not Head-On,Daylight
+663,Not Head-On,Daylight
+664,Not Head-On,Daylight
+665,Not Head-On,Not Daylight
+666,Not Head-On,Not Daylight
+667,Not Head-On,Daylight
+668,Not Head-On,Daylight
+669,Not Head-On,Daylight
+670,Not Head-On,Not Daylight
+671,Not Head-On,Not Daylight
+672,Not Head-On,Not Daylight
+673,Not Head-On,Daylight
+674,Not Head-On,Daylight
+675,Not Head-On,Not Daylight
+676,Not Head-On,Daylight
+677,Not Head-On,Daylight
+678,Not Head-On,Daylight
+679,Not Head-On,Not Daylight
+680,Not Head-On,Daylight
+681,Not Head-On,Daylight
+682,Not Head-On,Not Daylight
+683,Not Head-On,Daylight
+684,Not Head-On,Daylight
+685,Not Head-On,Daylight
+686,Not Head-On,Daylight
+687,Head-on,Not Daylight
+688,Not Head-On,Not Daylight
+689,Not Head-On,Not Daylight
+690,Not Head-On,Not Daylight
+691,Not Head-On,Daylight
+692,Not Head-On,Not Daylight
+693,Not Head-On,Not Daylight
+694,Not Head-On,Daylight
+695,Not Head-On,Daylight
+696,Not Head-On,Daylight
+697,Not Head-On,Daylight
+698,Not Head-On,Not Daylight
+699,Not Head-On,Daylight
+700,Not Head-On,Daylight
+701,Head-on,Not Daylight
+702,Not Head-On,Daylight
+703,Not Head-On,Daylight
+704,Not Head-On,Daylight
+705,Not Head-On,Not Daylight
+706,Not Head-On,Not Daylight
+707,Head-on,Not Daylight
+708,Not Head-On,Daylight
+709,Not Head-On,Daylight
+710,Not Head-On,Daylight
+711,Head-on,Not Daylight
+712,Not Head-On,Daylight
+713,Not Head-On,Not Daylight
+714,Not Head-On,Daylight
+715,Not Head-On,Daylight
+716,Not Head-On,Daylight
+717,Not Head-On,Not Daylight
+718,Not Head-On,Daylight
+719,Not Head-On,Not Daylight
+720,Not Head-On,Not Daylight
+721,Not Head-On,Daylight
+722,Not Head-On,Not Daylight
+723,Not Head-On,Daylight
+724,Not Head-On,Daylight
+725,Not Head-On,Daylight
+726,Not Head-On,Daylight
+727,Not Head-On,Daylight
+728,Not Head-On,Not Daylight
+729,Not Head-On,Daylight
+730,Head-on,Daylight
+731,Not Head-On,Daylight
+732,Not Head-On,Daylight
+733,Not Head-On,Daylight
+734,Not Head-On,Daylight
+735,Not Head-On,Daylight
+736,Not Head-On,Daylight
+737,Not Head-On,Not Daylight
+738,Not Head-On,Not Daylight
+739,Not Head-On,Daylight
+740,Not Head-On,Daylight
+741,Not Head-On,Daylight
+742,Not Head-On,Daylight
+743,Not Head-On,Daylight
+744,Not Head-On,Daylight
+745,Not Head-On,Daylight
+746,Head-on,Not Daylight
+747,Not Head-On,Daylight
+748,Not Head-On,Daylight
+749,Not Head-On,Daylight
+750,Not Head-On,Daylight
+751,Not Head-On,Daylight
+752,Not Head-On,Daylight
+753,Not Head-On,Not Daylight
+754,Not Head-On,Daylight
+755,Not Head-On,Daylight
+756,Not Head-On,Daylight
+757,Not Head-On,Daylight
+758,Not Head-On,Not Daylight
+759,Not Head-On,Daylight
+760,Not Head-On,Daylight
+761,Not Head-On,Daylight
+762,Not Head-On,Daylight
+763,Not Head-On,Not Daylight
+764,Not Head-On,Daylight
+765,Not Head-On,Daylight
+766,Not Head-On,Daylight
+767,Not Head-On,Daylight
+768,Not Head-On,Daylight
+769,Not Head-On,Daylight
+770,Not Head-On,Daylight
+771,Not Head-On,Daylight
+772,Not Head-On,Daylight
+773,Not Head-On,Daylight
+774,Not Head-On,Daylight
+775,Not Head-On,Daylight
+776,Not Head-On,Not Daylight
+777,Not Head-On,Daylight
+778,Not Head-On,Not Daylight
+779,Not Head-On,Daylight
+780,Not Head-On,Daylight
+781,Not Head-On,Not Daylight
+782,Not Head-On,Not Daylight
+783,Not Head-On,Daylight
+784,Not Head-On,Daylight
+785,Not Head-On,Not Daylight
+786,Not Head-On,Not Daylight
+787,Not Head-On,Not Daylight
+788,Not Head-On,Daylight
+789,Not Head-On,Daylight
+790,Not Head-On,Daylight
+791,Not Head-On,Not Daylight
+792,Head-on,Daylight
+793,Not Head-On,Daylight
+794,Not Head-On,Daylight
+795,Not Head-On,Daylight
+796,Not Head-On,Daylight
+797,Not Head-On,Daylight
+798,Not Head-On,Daylight
+799,Not Head-On,Not Daylight
+800,Head-on,Not Daylight
+801,Not Head-On,Not Daylight
+802,Not Head-On,Daylight
+803,Not Head-On,Not Daylight
+804,Not Head-On,Daylight
+805,Not Head-On,Daylight
+806,Not Head-On,Daylight
+807,Not Head-On,Daylight
+808,Not Head-On,Daylight
+809,Not Head-On,Not Daylight
+810,Not Head-On,Daylight
+811,Not Head-On,Daylight
+812,Not Head-On,Daylight
+813,Not Head-On,Daylight
+814,Not Head-On,Not Daylight
+815,Not Head-On,Not Daylight
+816,Head-on,Daylight
+817,Not Head-On,Daylight
+818,Not Head-On,Daylight
+819,Not Head-On,Daylight
+820,Not Head-On,Daylight
+821,Not Head-On,Not Daylight
+822,Not Head-On,Daylight
+823,Not Head-On,Not Daylight
+824,Not Head-On,Daylight
+825,Not Head-On,Daylight
+826,Head-on,Not Daylight
+827,Head-on,Not Daylight
+828,Not Head-On,Daylight
+829,Not Head-On,Daylight
+830,Not Head-On,Daylight
+831,Not Head-On,Daylight
+832,Not Head-On,Daylight
+833,Not Head-On,Daylight
+834,Not Head-On,Daylight
+835,Not Head-On,Daylight
+836,Not Head-On,Daylight
+837,Not Head-On,Daylight
+838,Not Head-On,Not Daylight
+839,Not Head-On,Daylight
+840,Not Head-On,Not Daylight
+841,Not Head-On,Daylight
+842,Not Head-On,Daylight
+843,Not Head-On,Daylight
+844,Not Head-On,Daylight
+845,Not Head-On,Daylight
+846,Not Head-On,Daylight
+847,Head-on,Not Daylight
+848,Not Head-On,Daylight
+849,Not Head-On,Daylight
+850,Not Head-On,Daylight
+851,Not Head-On,Daylight
+852,Not Head-On,Not Daylight
+853,Not Head-On,Daylight
+854,Not Head-On,Daylight
+855,Not Head-On,Not Daylight
+856,Not Head-On,Daylight
+857,Not Head-On,Daylight
+858,Not Head-On,Daylight
+859,Not Head-On,Daylight
+860,Not Head-On,Daylight
+861,Not Head-On,Not Daylight
+862,Not Head-On,Daylight
+863,Not Head-On,Daylight
+864,Not Head-On,Daylight
+865,Not Head-On,Daylight
+866,Not Head-On,Not Daylight
+867,Not Head-On,Not Daylight
+868,Not Head-On,Daylight
+869,Not Head-On,Daylight
+870,Not Head-On,Daylight
+871,Not Head-On,Daylight
+872,Not Head-On,Daylight
+873,Not Head-On,Daylight
+874,Not Head-On,Not Daylight
+875,Not Head-On,Not Daylight
+876,Not Head-On,Not Daylight
+877,Not Head-On,Not Daylight
+878,Not Head-On,Daylight
+879,Not Head-On,Daylight
+880,Not Head-On,Daylight
+881,Not Head-On,Daylight
+882,Not Head-On,Daylight
+883,Not Head-On,Daylight
+884,Not Head-On,Not Daylight
+885,Not Head-On,Daylight
+886,Not Head-On,Daylight
+887,Not Head-On,Not Daylight
+888,Not Head-On,Daylight
+889,Not Head-On,Daylight
+890,Not Head-On,Not Daylight
+891,Not Head-On,Daylight
+892,Not Head-On,Not Daylight
+893,Not Head-On,Daylight
+894,Not Head-On,Daylight
+895,Not Head-On,Daylight
+896,Not Head-On,Not Daylight
+897,Not Head-On,Daylight
+898,Not Head-On,Not Daylight
+899,Not Head-On,Daylight
+900,Not Head-On,Daylight
+901,Not Head-On,Daylight
+902,Not Head-On,Not Daylight
+903,Not Head-On,Daylight
+904,Not Head-On,Daylight
+905,Not Head-On,Daylight
+906,Not Head-On,Daylight
+907,Not Head-On,Daylight
+908,Not Head-On,Daylight
+909,Not Head-On,Not Daylight
+910,Not Head-On,Daylight
+911,Not Head-On,Not Daylight
+912,Not Head-On,Daylight
+913,Not Head-On,Daylight
+914,Not Head-On,Daylight
+915,Not Head-On,Daylight
+916,Not Head-On,Not Daylight
+917,Not Head-On,Not Daylight
+918,Not Head-On,Daylight
+919,Not Head-On,Not Daylight
+920,Not Head-On,Daylight
+921,Not Head-On,Daylight
+922,Not Head-On,Not Daylight
+923,Not Head-On,Daylight
+924,Not Head-On,Daylight
+925,Not Head-On,Daylight
+926,Not Head-On,Not Daylight
+927,Not Head-On,Daylight
+928,Not Head-On,Daylight
+929,Not Head-On,Daylight
+930,Not Head-On,Daylight
+931,Not Head-On,Daylight
+932,Not Head-On,Daylight
+933,Not Head-On,Daylight
+934,Not Head-On,Daylight
+935,Not Head-On,Daylight
+936,Head-on,Daylight
+937,Not Head-On,Daylight
+938,Not Head-On,Not Daylight
+939,Not Head-On,Daylight
+940,Not Head-On,Daylight
+941,Not Head-On,Daylight
+942,Not Head-On,Not Daylight
+943,Not Head-On,Not Daylight
+944,Not Head-On,Daylight
+945,Head-on,Daylight
+946,Not Head-On,Daylight
+947,Head-on,Not Daylight
+948,Not Head-On,Daylight
+949,Not Head-On,Daylight
+950,Not Head-On,Not Daylight
+951,Not Head-On,Daylight
+952,Not Head-On,Not Daylight
+953,Not Head-On,Daylight
+954,Not Head-On,Daylight
+955,Not Head-On,Daylight
+956,Not Head-On,Daylight
+957,Not Head-On,Daylight
+958,Not Head-On,Not Daylight
+959,Not Head-On,Not Daylight
+960,Not Head-On,Daylight
+961,Not Head-On,Daylight
+962,Not Head-On,Not Daylight
+963,Not Head-On,Daylight
+964,Not Head-On,Daylight
+965,Not Head-On,Daylight
+966,Not Head-On,Daylight
+967,Not Head-On,Daylight
+968,Head-on,Daylight
+969,Not Head-On,Daylight
+970,Not Head-On,Daylight
+971,Not Head-On,Daylight
+972,Not Head-On,Daylight
+973,Not Head-On,Daylight
+974,Not Head-On,Not Daylight
+975,Not Head-On,Daylight
+976,Head-on,Daylight
+977,Not Head-On,Not Daylight
+978,Not Head-On,Not Daylight
+979,Not Head-On,Daylight
+980,Not Head-On,Daylight
+981,Not Head-On,Daylight
+982,Head-on,Not Daylight
+983,Not Head-On,Daylight
+984,Not Head-On,Daylight
+985,Not Head-On,Not Daylight
+986,Not Head-On,Not Daylight
+987,Not Head-On,Not Daylight
+988,Not Head-On,Daylight
+989,Not Head-On,Not Daylight
+990,Not Head-On,Daylight
+991,Not Head-On,Daylight
+992,Not Head-On,Daylight
+993,Not Head-On,Daylight
+994,Not Head-On,Daylight
+995,Not Head-On,Daylight
+996,Not Head-On,Daylight
+997,Not Head-On,Not Daylight
+998,Not Head-On,Not Daylight
+999,Not Head-On,Daylight
+1000,Not Head-On,Daylight
+1001,Not Head-On,Not Daylight
+1002,Not Head-On,Not Daylight
+1003,Not Head-On,Daylight
+1004,Not Head-On,Daylight
+1005,Not Head-On,Not Daylight
+1006,Not Head-On,Daylight
+1007,Not Head-On,Not Daylight
+1008,Not Head-On,Not Daylight
+1009,Not Head-On,Daylight
+1010,Not Head-On,Not Daylight
+1011,Not Head-On,Daylight
+1012,Not Head-On,Daylight
+1013,Not Head-On,Not Daylight
+1014,Not Head-On,Daylight
+1015,Not Head-On,Not Daylight
+1016,Not Head-On,Daylight
+1017,Not Head-On,Daylight
+1018,Not Head-On,Daylight
+1019,Not Head-On,Daylight
+1020,Not Head-On,Daylight
+1021,Not Head-On,Daylight
+1022,Not Head-On,Daylight
+1023,Not Head-On,Not Daylight
+1024,Head-on,Not Daylight
+1025,Head-on,Daylight
+1026,Not Head-On,Daylight
+1027,Not Head-On,Daylight
+1028,Not Head-On,Daylight
+1029,Not Head-On,Daylight
+1030,Not Head-On,Daylight
+1031,Not Head-On,Daylight
+1032,Not Head-On,Not Daylight
+1033,Not Head-On,Not Daylight
+1034,Not Head-On,Not Daylight
+1035,Not Head-On,Not Daylight
+1036,Not Head-On,Not Daylight
+1037,Not Head-On,Daylight
+1038,Not Head-On,Not Daylight
+1039,Not Head-On,Not Daylight
+1040,Not Head-On,Not Daylight
+1041,Not Head-On,Daylight
+1042,Not Head-On,Daylight
+1043,Not Head-On,Daylight
+1044,Not Head-On,Daylight
+1045,Not Head-On,Daylight
+1046,Not Head-On,Not Daylight
+1047,Not Head-On,Daylight
+1048,Not Head-On,Not Daylight
+1049,Not Head-On,Daylight
+1050,Not Head-On,Not Daylight
+1051,Not Head-On,Daylight
+1052,Not Head-On,Daylight
+1053,Not Head-On,Daylight
+1054,Not Head-On,Not Daylight
+1055,Not Head-On,Daylight
+1056,Not Head-On,Not Daylight
+1057,Not Head-On,Not Daylight
+1058,Not Head-On,Daylight
+1059,Not Head-On,Daylight
+1060,Not Head-On,Daylight
+1061,Not Head-On,Daylight
+1062,Not Head-On,Daylight
+1063,Not Head-On,Daylight
+1064,Not Head-On,Not Daylight
+1065,Not Head-On,Daylight
+1066,Head-on,Daylight
+1067,Not Head-On,Not Daylight
+1068,Not Head-On,Daylight
+1069,Not Head-On,Daylight
+1070,Not Head-On,Daylight
+1071,Not Head-On,Daylight
+1072,Not Head-On,Daylight
+1073,Not Head-On,Not Daylight
+1074,Not Head-On,Daylight
+1075,Not Head-On,Daylight
+1076,Head-on,Daylight
+1077,Not Head-On,Daylight
+1078,Not Head-On,Daylight
+1079,Not Head-On,Daylight
+1080,Not Head-On,Daylight
+1081,Not Head-On,Daylight
+1082,Not Head-On,Daylight
+1083,Not Head-On,Daylight
+1084,Not Head-On,Daylight
+1085,Not Head-On,Not Daylight
+1086,Not Head-On,Daylight
+1087,Not Head-On,Daylight
+1088,Not Head-On,Daylight
+1089,Not Head-On,Daylight
+1090,Not Head-On,Daylight
+1091,Not Head-On,Daylight
+1092,Not Head-On,Not Daylight
+1093,Not Head-On,Daylight
+1094,Not Head-On,Daylight
+1095,Not Head-On,Daylight
+1096,Not Head-On,Not Daylight
+1097,Not Head-On,Daylight
+1098,Not Head-On,Daylight
+1099,Not Head-On,Daylight
+1100,Not Head-On,Daylight
+1101,Not Head-On,Not Daylight
+1102,Not Head-On,Daylight
+1103,Not Head-On,Not Daylight
+1104,Not Head-On,Daylight
+1105,Not Head-On,Daylight
+1106,Not Head-On,Daylight
+1107,Not Head-On,Daylight
+1108,Not Head-On,Daylight
+1109,Not Head-On,Daylight
+1110,Not Head-On,Not Daylight
+1111,Not Head-On,Daylight
+1112,Not Head-On,Daylight
+1113,Not Head-On,Not Daylight
+1114,Head-on,Daylight
+1115,Not Head-On,Daylight
+1116,Not Head-On,Daylight
+1117,Not Head-On,Daylight
+1118,Not Head-On,Daylight
+1119,Not Head-On,Daylight
+1120,Not Head-On,Not Daylight
+1121,Not Head-On,Daylight
+1122,Head-on,Daylight
+1123,Not Head-On,Daylight
+1124,Not Head-On,Not Daylight
+1125,Not Head-On,Daylight
+1126,Not Head-On,Not Daylight
+1127,Not Head-On,Not Daylight
+1128,Not Head-On,Not Daylight
+1129,Not Head-On,Not Daylight
+1130,Not Head-On,Daylight
+1131,Not Head-On,Daylight
+1132,Not Head-On,Not Daylight
+1133,Not Head-On,Daylight
+1134,Not Head-On,Daylight
+1135,Not Head-On,Daylight
+1136,Not Head-On,Daylight
+1137,Not Head-On,Not Daylight
+1138,Not Head-On,Not Daylight
+1139,Not Head-On,Daylight
+1140,Not Head-On,Daylight
+1141,Not Head-On,Daylight
+1142,Not Head-On,Daylight
+1143,Not Head-On,Daylight
+1144,Not Head-On,Not Daylight
+1145,Not Head-On,Daylight
+1146,Not Head-On,Not Daylight
+1147,Head-on,Not Daylight
+1148,Head-on,Daylight
+1149,Not Head-On,Daylight
+1150,Not Head-On,Daylight
+1151,Not Head-On,Daylight
+1152,Not Head-On,Daylight
+1153,Not Head-On,Daylight
+1154,Not Head-On,Daylight
+1155,Not Head-On,Not Daylight
+1156,Not Head-On,Not Daylight
+1157,Not Head-On,Daylight
+1158,Not Head-On,Daylight
+1159,Not Head-On,Daylight
+1160,Not Head-On,Not Daylight
+1161,Not Head-On,Daylight
+1162,Not Head-On,Not Daylight
+1163,Not Head-On,Not Daylight
+1164,Not Head-On,Daylight
+1165,Not Head-On,Not Daylight
+1166,Head-on,Daylight
+1167,Not Head-On,Daylight
+1168,Not Head-On,Daylight
+1169,Not Head-On,Daylight
+1170,Not Head-On,Daylight
+1171,Not Head-On,Daylight
+1172,Not Head-On,Daylight
+1173,Not Head-On,Daylight
+1174,Not Head-On,Daylight
+1175,Not Head-On,Daylight
+1176,Not Head-On,Daylight
+1177,Not Head-On,Not Daylight
+1178,Not Head-On,Daylight
+1179,Not Head-On,Daylight
+1180,Not Head-On,Daylight
+1181,Head-on,Daylight
+1182,Not Head-On,Not Daylight
+1183,Not Head-On,Daylight
+1184,Not Head-On,Not Daylight
+1185,Not Head-On,Not Daylight
+1186,Not Head-On,Daylight
+1187,Not Head-On,Daylight
+1188,Not Head-On,Daylight
+1189,Not Head-On,Not Daylight
+1190,Not Head-On,Daylight
+1191,Not Head-On,Daylight
+1192,Not Head-On,Not Daylight
+1193,Not Head-On,Daylight
+1194,Not Head-On,Not Daylight
+1195,Not Head-On,Not Daylight
+1196,Not Head-On,Not Daylight
+1197,Not Head-On,Daylight
+1198,Not Head-On,Daylight
+1199,Not Head-On,Not Daylight
+1200,Head-on,Daylight
+1201,Not Head-On,Daylight
+1202,Not Head-On,Daylight
+1203,Not Head-On,Daylight
+1204,Not Head-On,Daylight
+1205,Not Head-On,Daylight
+1206,Head-on,Daylight
+1207,Not Head-On,Daylight
+1208,Not Head-On,Not Daylight
+1209,Not Head-On,Daylight
+1210,Not Head-On,Not Daylight
+1211,Not Head-On,Not Daylight
+1212,Not Head-On,Daylight
+1213,Not Head-On,Not Daylight
+1214,Not Head-On,Daylight
+1215,Not Head-On,Daylight
+1216,Not Head-On,Daylight
+1217,Not Head-On,Daylight
+1218,Head-on,Not Daylight
+1219,Not Head-On,Daylight
+1220,Not Head-On,Not Daylight
+1221,Not Head-On,Daylight
+1222,Not Head-On,Not Daylight
+1223,Not Head-On,Daylight
+1224,Not Head-On,Daylight
+1225,Not Head-On,Daylight
+1226,Not Head-On,Daylight
+1227,Not Head-On,Not Daylight
+1228,Not Head-On,Not Daylight
+1229,Not Head-On,Daylight
+1230,Head-on,Daylight
+1231,Not Head-On,Daylight
+1232,Not Head-On,Daylight
+1233,Not Head-On,Not Daylight
+1234,Head-on,Daylight
+1235,Not Head-On,Daylight
+1236,Not Head-On,Daylight
+1237,Not Head-On,Not Daylight
+1238,Not Head-On,Daylight
+1239,Not Head-On,Daylight
+1240,Not Head-On,Daylight
+1241,Not Head-On,Daylight
+1242,Not Head-On,Not Daylight
+1243,Not Head-On,Daylight
+1244,Not Head-On,Daylight
+1245,Not Head-On,Daylight
+1246,Not Head-On,Daylight
+1247,Not Head-On,Daylight
+1248,Not Head-On,Daylight
+1249,Not Head-On,Daylight
+1250,Not Head-On,Daylight
+1251,Head-on,Not Daylight
+1252,Not Head-On,Not Daylight
+1253,Not Head-On,Daylight
+1254,Not Head-On,Not Daylight
+1255,Not Head-On,Daylight
+1256,Not Head-On,Daylight
+1257,Not Head-On,Not Daylight
+1258,Not Head-On,Daylight
+1259,Head-on,Daylight
+1260,Not Head-On,Daylight
+1261,Not Head-On,Daylight
+1262,Not Head-On,Not Daylight
+1263,Head-on,Daylight
+1264,Not Head-On,Daylight
+1265,Not Head-On,Daylight
+1266,Not Head-On,Daylight
+1267,Not Head-On,Not Daylight
+1268,Not Head-On,Daylight
+1269,Not Head-On,Daylight
+1270,Not Head-On,Not Daylight
+1271,Not Head-On,Daylight
+1272,Not Head-On,Daylight
+1273,Not Head-On,Not Daylight
+1274,Not Head-On,Daylight
+1275,Not Head-On,Not Daylight
+1276,Not Head-On,Not Daylight
+1277,Not Head-On,Daylight
+1278,Not Head-On,Daylight
+1279,Not Head-On,Daylight
+1280,Not Head-On,Not Daylight
+1281,Not Head-On,Daylight
+1282,Not Head-On,Daylight
+1283,Not Head-On,Daylight
+1284,Not Head-On,Daylight
+1285,Not Head-On,Daylight
+1286,Not Head-On,Daylight
+1287,Not Head-On,Daylight
+1288,Not Head-On,Daylight
+1289,Not Head-On,Daylight
+1290,Not Head-On,Daylight
+1291,Not Head-On,Daylight
+1292,Not Head-On,Daylight
+1293,Head-on,Daylight
+1294,Not Head-On,Daylight
+1295,Not Head-On,Daylight
+1296,Not Head-On,Not Daylight
+1297,Not Head-On,Daylight
+1298,Not Head-On,Not Daylight
+1299,Not Head-On,Daylight
+1300,Not Head-On,Daylight
+1301,Not Head-On,Daylight
+1302,Not Head-On,Not Daylight
+1303,Not Head-On,Not Daylight
+1304,Not Head-On,Daylight
+1305,Not Head-On,Not Daylight
+1306,Not Head-On,Not Daylight
+1307,Not Head-On,Daylight
+1308,Not Head-On,Not Daylight
+1309,Not Head-On,Daylight
+1310,Not Head-On,Daylight
+1311,Not Head-On,Daylight
+1312,Not Head-On,Not Daylight
+1313,Not Head-On,Daylight
+1314,Not Head-On,Daylight
+1315,Not Head-On,Daylight
+1316,Not Head-On,Daylight
+1317,Not Head-On,Daylight
+1318,Not Head-On,Not Daylight
+1319,Not Head-On,Daylight
+1320,Not Head-On,Daylight
+1321,Not Head-On,Daylight
+1322,Not Head-On,Daylight
+1323,Not Head-On,Daylight
+1324,Not Head-On,Not Daylight
+1325,Not Head-On,Not Daylight
+1326,Not Head-On,Daylight
+1327,Not Head-On,Daylight
+1328,Not Head-On,Daylight
+1329,Not Head-On,Not Daylight
+1330,Not Head-On,Daylight
+1331,Not Head-On,Daylight
+1332,Not Head-On,Daylight
+1333,Not Head-On,Daylight
+1334,Not Head-On,Daylight
+1335,Not Head-On,Not Daylight
+1336,Not Head-On,Not Daylight
+1337,Not Head-On,Daylight
+1338,Not Head-On,Not Daylight
+1339,Not Head-On,Daylight
+1340,Not Head-On,Not Daylight
+1341,Not Head-On,Not Daylight
+1342,Not Head-On,Daylight
+1343,Not Head-On,Daylight
+1344,Not Head-On,Daylight
+1345,Not Head-On,Daylight
+1346,Not Head-On,Daylight
+1347,Not Head-On,Daylight
+1348,Not Head-On,Not Daylight
+1349,Not Head-On,Not Daylight
+1350,Not Head-On,Daylight
+1351,Not Head-On,Daylight
+1352,Not Head-On,Daylight
+1353,Not Head-On,Daylight
+1354,Not Head-On,Daylight
+1355,Not Head-On,Not Daylight
+1356,Not Head-On,Daylight
+1357,Not Head-On,Not Daylight
+1358,Not Head-On,Daylight
+1359,Not Head-On,Daylight
+1360,Not Head-On,Daylight
+1361,Not Head-On,Not Daylight
+1362,Head-on,Daylight
+1363,Not Head-On,Daylight
+1364,Not Head-On,Daylight
+1365,Not Head-On,Daylight
+1366,Not Head-On,Daylight
+1367,Not Head-On,Daylight
+1368,Not Head-On,Daylight
+1369,Not Head-On,Not Daylight
+1370,Head-on,Daylight
+1371,Not Head-On,Daylight
+1372,Not Head-On,Daylight
+1373,Not Head-On,Not Daylight
+1374,Not Head-On,Daylight
+1375,Not Head-On,Daylight
+1376,Not Head-On,Daylight
+1377,Not Head-On,Daylight
+1378,Not Head-On,Daylight
+1379,Not Head-On,Not Daylight
+1380,Not Head-On,Daylight
+1381,Not Head-On,Daylight
+1382,Not Head-On,Daylight
+1383,Not Head-On,Daylight
+1384,Not Head-On,Daylight
+1385,Not Head-On,Daylight
+1386,Not Head-On,Daylight
+1387,Not Head-On,Not Daylight
+1388,Not Head-On,Daylight
+1389,Not Head-On,Daylight
+1390,Not Head-On,Not Daylight
+1391,Not Head-On,Daylight
+1392,Not Head-On,Daylight
+1393,Not Head-On,Daylight
+1394,Not Head-On,Daylight
+1395,Not Head-On,Daylight
+1396,Not Head-On,Not Daylight
+1397,Not Head-On,Daylight
+1398,Not Head-On,Not Daylight
+1399,Not Head-On,Not Daylight
+1400,Not Head-On,Daylight
+1401,Not Head-On,Daylight
+1402,Not Head-On,Not Daylight
+1403,Not Head-On,Not Daylight
+1404,Not Head-On,Daylight
+1405,Not Head-On,Not Daylight
+1406,Not Head-On,Daylight
+1407,Not Head-On,Not Daylight
+1408,Not Head-On,Daylight
+1409,Not Head-On,Not Daylight
+1410,Not Head-On,Not Daylight
+1411,Not Head-On,Daylight
+1412,Not Head-On,Daylight
+1413,Not Head-On,Daylight
+1414,Not Head-On,Daylight
+1415,Not Head-On,Daylight
+1416,Not Head-On,Not Daylight
+1417,Not Head-On,Daylight
+1418,Not Head-On,Daylight
+1419,Not Head-On,Daylight
+1420,Not Head-On,Daylight
+1421,Not Head-On,Daylight
+1422,Not Head-On,Daylight
+1423,Not Head-On,Daylight
+1424,Not Head-On,Daylight
+1425,Not Head-On,Daylight
+1426,Not Head-On,Daylight
+1427,Not Head-On,Daylight
+1428,Not Head-On,Not Daylight
+1429,Not Head-On,Daylight
+1430,Not Head-On,Not Daylight
+1431,Not Head-On,Daylight
+1432,Not Head-On,Not Daylight
+1433,Not Head-On,Not Daylight
+1434,Not Head-On,Daylight
+1435,Not Head-On,Not Daylight
+1436,Head-on,Daylight
+1437,Not Head-On,Daylight
+1438,Not Head-On,Daylight
+1439,Not Head-On,Daylight
+1440,Not Head-On,Daylight
+1441,Not Head-On,Daylight
+1442,Not Head-On,Not Daylight
+1443,Not Head-On,Daylight
+1444,Not Head-On,Daylight
+1445,Head-on,Daylight
+1446,Not Head-On,Not Daylight
+1447,Not Head-On,Daylight
+1448,Not Head-On,Daylight
+1449,Not Head-On,Not Daylight
+1450,Not Head-On,Daylight
+1451,Head-on,Daylight
+1452,Not Head-On,Daylight
+1453,Not Head-On,Not Daylight
+1454,Not Head-On,Daylight
+1455,Head-on,Not Daylight
+1456,Head-on,Not Daylight
+1457,Not Head-On,Not Daylight
+1458,Not Head-On,Daylight
+1459,Head-on,Daylight
+1460,Head-on,Daylight
+1461,Not Head-On,Not Daylight
+1462,Head-on,Not Daylight
+1463,Not Head-On,Daylight
+1464,Not Head-On,Daylight
+1465,Not Head-On,Daylight
+1466,Not Head-On,Daylight
+1467,Not Head-On,Daylight
+1468,Not Head-On,Daylight
+1469,Not Head-On,Daylight
+1470,Not Head-On,Daylight
+1471,Not Head-On,Not Daylight
+1472,Not Head-On,Daylight
+1473,Not Head-On,Daylight
+1474,Not Head-On,Daylight
+1475,Not Head-On,Not Daylight
+1476,Not Head-On,Daylight
+1477,Not Head-On,Daylight
+1478,Not Head-On,Daylight
+1479,Not Head-On,Not Daylight
+1480,Not Head-On,Daylight
+1481,Not Head-On,Daylight
+1482,Not Head-On,Daylight
+1483,Not Head-On,Daylight
+1484,Not Head-On,Not Daylight
+1485,Not Head-On,Daylight
+1486,Not Head-On,Daylight
+1487,Not Head-On,Not Daylight
+1488,Head-on,Not Daylight
+1489,Not Head-On,Not Daylight
+1490,Not Head-On,Daylight
+1491,Not Head-On,Daylight
+1492,Not Head-On,Daylight
+1493,Not Head-On,Not Daylight
+1494,Not Head-On,Daylight
+1495,Not Head-On,Not Daylight
+1496,Not Head-On,Daylight
+1497,Head-on,Not Daylight
+1498,Not Head-On,Daylight
+1499,Not Head-On,Daylight
+1500,Not Head-On,Not Daylight
+1501,Not Head-On,Daylight
+1502,Not Head-On,Not Daylight
+1503,Head-on,Not Daylight
+1504,Not Head-On,Daylight
+1505,Not Head-On,Daylight
+1506,Not Head-On,Daylight
+1507,Not Head-On,Daylight
+1508,Not Head-On,Not Daylight
+1509,Not Head-On,Daylight
+1510,Not Head-On,Not Daylight
+1511,Not Head-On,Daylight
+1512,Not Head-On,Not Daylight
+1513,Not Head-On,Daylight
+1514,Not Head-On,Daylight
+1515,Not Head-On,Daylight
+1516,Not Head-On,Daylight
+1517,Not Head-On,Daylight
+1518,Not Head-On,Not Daylight
+1519,Not Head-On,Not Daylight
+1520,Head-on,Daylight
+1521,Not Head-On,Not Daylight
+1522,Not Head-On,Daylight
+1523,Not Head-On,Not Daylight
+1524,Not Head-On,Daylight
+1525,Not Head-On,Daylight
+1526,Not Head-On,Not Daylight
+1527,Not Head-On,Daylight
+1528,Not Head-On,Daylight
+1529,Not Head-On,Not Daylight
+1530,Not Head-On,Daylight
+1531,Not Head-On,Daylight
+1532,Not Head-On,Daylight
+1533,Not Head-On,Not Daylight
+1534,Not Head-On,Not Daylight
+1535,Not Head-On,Daylight
+1536,Not Head-On,Not Daylight
+1537,Not Head-On,Not Daylight
+1538,Not Head-On,Daylight
+1539,Not Head-On,Daylight
+1540,Not Head-On,Daylight
+1541,Not Head-On,Daylight
+1542,Not Head-On,Daylight
+1543,Not Head-On,Daylight
+1544,Not Head-On,Daylight
+1545,Not Head-On,Daylight
+1546,Not Head-On,Daylight
+1547,Not Head-On,Not Daylight
+1548,Not Head-On,Daylight
+1549,Not Head-On,Daylight
+1550,Not Head-On,Daylight
+1551,Not Head-On,Daylight
+1552,Not Head-On,Daylight
+1553,Not Head-On,Not Daylight
+1554,Not Head-On,Daylight
+1555,Not Head-On,Not Daylight
+1556,Not Head-On,Daylight
+1557,Not Head-On,Daylight
+1558,Not Head-On,Daylight
+1559,Not Head-On,Daylight
+1560,Not Head-On,Daylight
+1561,Not Head-On,Daylight
+1562,Not Head-On,Not Daylight
+1563,Not Head-On,Daylight
+1564,Not Head-On,Not Daylight
+1565,Not Head-On,Daylight
+1566,Not Head-On,Daylight
+1567,Not Head-On,Daylight
+1568,Not Head-On,Daylight
+1569,Not Head-On,Daylight
+1570,Not Head-On,Daylight
+1571,Not Head-On,Not Daylight
+1572,Not Head-On,Daylight
+1573,Not Head-On,Daylight
+1574,Not Head-On,Daylight
+1575,Not Head-On,Not Daylight
+1576,Not Head-On,Daylight
+1577,Not Head-On,Daylight
+1578,Not Head-On,Not Daylight
+1579,Not Head-On,Daylight
+1580,Not Head-On,Daylight
+1581,Not Head-On,Daylight
+1582,Not Head-On,Not Daylight
+1583,Head-on,Daylight
+1584,Head-on,Daylight
+1585,Not Head-On,Not Daylight
+1586,Head-on,Daylight
+1587,Not Head-On,Not Daylight
+1588,Not Head-On,Daylight
+1589,Not Head-On,Daylight
+1590,Not Head-On,Daylight
+1591,Not Head-On,Daylight
+1592,Not Head-On,Daylight
+1593,Head-on,Not Daylight
+1594,Not Head-On,Daylight
+1595,Not Head-On,Daylight
+1596,Not Head-On,Not Daylight
+1597,Head-on,Daylight
+1598,Not Head-On,Daylight
+1599,Not Head-On,Daylight
+1600,Not Head-On,Not Daylight
+1601,Not Head-On,Not Daylight
+1602,Not Head-On,Daylight
+1603,Not Head-On,Daylight
+1604,Not Head-On,Daylight
+1605,Not Head-On,Daylight
+1606,Not Head-On,Daylight
+1607,Not Head-On,Daylight
+1608,Not Head-On,Daylight
+1609,Not Head-On,Not Daylight
+1610,Not Head-On,Daylight
+1611,Not Head-On,Daylight
+1612,Not Head-On,Daylight
+1613,Not Head-On,Not Daylight
+1614,Not Head-On,Daylight
+1615,Not Head-On,Daylight
+1616,Not Head-On,Not Daylight
+1617,Not Head-On,Daylight
+1618,Not Head-On,Daylight
+1619,Not Head-On,Daylight
+1620,Not Head-On,Daylight
+1621,Head-on,Daylight
+1622,Not Head-On,Daylight
+1623,Not Head-On,Daylight
+1624,Not Head-On,Not Daylight
+1625,Not Head-On,Daylight
+1626,Not Head-On,Not Daylight
+1627,Not Head-On,Daylight
+1628,Not Head-On,Daylight
+1629,Not Head-On,Daylight
+1630,Not Head-On,Daylight
+1631,Not Head-On,Not Daylight
+1632,Not Head-On,Not Daylight
+1633,Not Head-On,Not Daylight
+1634,Not Head-On,Daylight
+1635,Not Head-On,Not Daylight
+1636,Not Head-On,Daylight
+1637,Head-on,Daylight
+1638,Not Head-On,Daylight
+1639,Not Head-On,Daylight
+1640,Not Head-On,Not Daylight
+1641,Not Head-On,Daylight
+1642,Not Head-On,Daylight
+1643,Not Head-On,Daylight
+1644,Not Head-On,Not Daylight
+1645,Not Head-On,Daylight
+1646,Not Head-On,Not Daylight
+1647,Not Head-On,Daylight
+1648,Not Head-On,Not Daylight
+1649,Not Head-On,Daylight
+1650,Not Head-On,Daylight
+1651,Not Head-On,Daylight
+1652,Not Head-On,Daylight
+1653,Not Head-On,Daylight
+1654,Not Head-On,Daylight
+1655,Head-on,Daylight
+1656,Not Head-On,Daylight
+1657,Not Head-On,Daylight
+1658,Not Head-On,Daylight
+1659,Not Head-On,Daylight
+1660,Not Head-On,Daylight
+1661,Not Head-On,Daylight
+1662,Not Head-On,Daylight
+1663,Not Head-On,Daylight
+1664,Not Head-On,Not Daylight
+1665,Not Head-On,Daylight
+1666,Not Head-On,Daylight
+1667,Head-on,Daylight
+1668,Not Head-On,Daylight
+1669,Not Head-On,Not Daylight
+1670,Not Head-On,Daylight
+1671,Head-on,Daylight
+1672,Not Head-On,Not Daylight
+1673,Not Head-On,Daylight
+1674,Not Head-On,Daylight
+1675,Not Head-On,Daylight
+1676,Not Head-On,Daylight
+1677,Not Head-On,Not Daylight
+1678,Not Head-On,Daylight
+1679,Not Head-On,Not Daylight
+1680,Not Head-On,Daylight
+1681,Not Head-On,Not Daylight
+1682,Not Head-On,Not Daylight
+1683,Not Head-On,Daylight
+1684,Not Head-On,Not Daylight
+1685,Head-on,Not Daylight
+1686,Not Head-On,Daylight
+1687,Not Head-On,Daylight
+1688,Not Head-On,Daylight
+1689,Not Head-On,Not Daylight
+1690,Not Head-On,Daylight
+1691,Not Head-On,Daylight
+1692,Not Head-On,Daylight
+1693,Not Head-On,Daylight
+1694,Not Head-On,Not Daylight
+1695,Not Head-On,Daylight
+1696,Not Head-On,Daylight
+1697,Not Head-On,Daylight
+1698,Not Head-On,Daylight
+1699,Not Head-On,Daylight
+1700,Head-on,Daylight
+1701,Not Head-On,Daylight
+1702,Not Head-On,Daylight
+1703,Not Head-On,Daylight
+1704,Not Head-On,Not Daylight
+1705,Not Head-On,Daylight
+1706,Not Head-On,Daylight
+1707,Not Head-On,Not Daylight
+1708,Not Head-On,Daylight
+1709,Not Head-On,Daylight
+1710,Not Head-On,Not Daylight
+1711,Not Head-On,Daylight
+1712,Not Head-On,Daylight
+1713,Not Head-On,Not Daylight
+1714,Not Head-On,Daylight
+1715,Not Head-On,Daylight
+1716,Not Head-On,Daylight
+1717,Not Head-On,Not Daylight
+1718,Not Head-On,Daylight
+1719,Head-on,Daylight
+1720,Not Head-On,Daylight
+1721,Not Head-On,Not Daylight
+1722,Not Head-On,Daylight
+1723,Not Head-On,Daylight
+1724,Head-on,Daylight
+1725,Not Head-On,Not Daylight
+1726,Not Head-On,Daylight
+1727,Not Head-On,Daylight
+1728,Not Head-On,Not Daylight
+1729,Not Head-On,Daylight
+1730,Not Head-On,Daylight
+1731,Not Head-On,Not Daylight
+1732,Not Head-On,Not Daylight
+1733,Not Head-On,Daylight
+1734,Not Head-On,Daylight
+1735,Not Head-On,Daylight
+1736,Not Head-On,Daylight
+1737,Not Head-On,Not Daylight
+1738,Not Head-On,Daylight
+1739,Not Head-On,Daylight
+1740,Not Head-On,Daylight
+1741,Not Head-On,Daylight
+1742,Not Head-On,Not Daylight
+1743,Not Head-On,Daylight
+1744,Not Head-On,Daylight
+1745,Not Head-On,Not Daylight
+1746,Not Head-On,Not Daylight
+1747,Not Head-On,Daylight
+1748,Not Head-On,Daylight
+1749,Not Head-On,Daylight
+1750,Not Head-On,Daylight
+1751,Not Head-On,Daylight
+1752,Not Head-On,Not Daylight
+1753,Not Head-On,Daylight
+1754,Not Head-On,Daylight
+1755,Not Head-On,Daylight
+1756,Not Head-On,Daylight
+1757,Not Head-On,Daylight
+1758,Not Head-On,Daylight
+1759,Head-on,Daylight
+1760,Not Head-On,Daylight
+1761,Not Head-On,Not Daylight
+1762,Not Head-On,Daylight
+1763,Not Head-On,Daylight
+1764,Not Head-On,Daylight
+1765,Not Head-On,Not Daylight
+1766,Not Head-On,Daylight
+1767,Not Head-On,Daylight
+1768,Not Head-On,Daylight
+1769,Not Head-On,Not Daylight
+1770,Not Head-On,Daylight
+1771,Not Head-On,Daylight
+1772,Not Head-On,Daylight
+1773,Not Head-On,Daylight
+1774,Not Head-On,Not Daylight
+1775,Not Head-On,Daylight
+1776,Not Head-On,Daylight
+1777,Not Head-On,Daylight
+1778,Not Head-On,Daylight
+1779,Not Head-On,Not Daylight
+1780,Not Head-On,Daylight
+1781,Not Head-On,Not Daylight
+1782,Not Head-On,Daylight
+1783,Not Head-On,Not Daylight
+1784,Not Head-On,Not Daylight
+1785,Not Head-On,Daylight
+1786,Not Head-On,Daylight
+1787,Not Head-On,Daylight
+1788,Not Head-On,Not Daylight
+1789,Not Head-On,Daylight
+1790,Not Head-On,Not Daylight
+1791,Not Head-On,Not Daylight
+1792,Not Head-On,Daylight
+1793,Not Head-On,Daylight
+1794,Not Head-On,Not Daylight
+1795,Not Head-On,Not Daylight
+1796,Not Head-On,Daylight
+1797,Not Head-On,Daylight
+1798,Not Head-On,Daylight
+1799,Not Head-On,Daylight
+1800,Not Head-On,Daylight
+1801,Not Head-On,Daylight
+1802,Not Head-On,Daylight
+1803,Not Head-On,Daylight
+1804,Not Head-On,Daylight
+1805,Not Head-On,Daylight
+1806,Not Head-On,Daylight
+1807,Not Head-On,Daylight
+1808,Not Head-On,Daylight
+1809,Not Head-On,Daylight
+1810,Not Head-On,Not Daylight
+1811,Not Head-On,Daylight
+1812,Not Head-On,Daylight
+1813,Not Head-On,Daylight
+1814,Not Head-On,Daylight
+1815,Not Head-On,Daylight
+1816,Not Head-On,Daylight
+1817,Not Head-On,Daylight
+1818,Not Head-On,Daylight
+1819,Not Head-On,Daylight
+1820,Not Head-On,Daylight
+1821,Not Head-On,Not Daylight
+1822,Not Head-On,Daylight
+1823,Not Head-On,Daylight
+1824,Not Head-On,Daylight
+1825,Not Head-On,Not Daylight
+1826,Not Head-On,Daylight
+1827,Not Head-On,Daylight
+1828,Not Head-On,Not Daylight
+1829,Not Head-On,Daylight
+1830,Not Head-On,Daylight
+1831,Not Head-On,Daylight
+1832,Not Head-On,Daylight
+1833,Not Head-On,Not Daylight
+1834,Not Head-On,Not Daylight
+1835,Not Head-On,Daylight
+1836,Not Head-On,Daylight
+1837,Not Head-On,Daylight
+1838,Not Head-On,Daylight
+1839,Not Head-On,Daylight
+1840,Head-on,Not Daylight
+1841,Not Head-On,Daylight
+1842,Head-on,Not Daylight
+1843,Not Head-On,Not Daylight
+1844,Head-on,Not Daylight
+1845,Not Head-On,Not Daylight
+1846,Head-on,Not Daylight
+1847,Not Head-On,Daylight
+1848,Not Head-On,Daylight
+1849,Not Head-On,Daylight
+1850,Not Head-On,Daylight
+1851,Not Head-On,Daylight
+1852,Head-on,Daylight
+1853,Not Head-On,Daylight
+1854,Not Head-On,Daylight
+1855,Not Head-On,Daylight
+1856,Not Head-On,Daylight
+1857,Not Head-On,Daylight
+1858,Head-on,Daylight
+1859,Not Head-On,Not Daylight
+1860,Not Head-On,Daylight
+1861,Head-on,Not Daylight
+1862,Not Head-On,Not Daylight
+1863,Not Head-On,Daylight
+1864,Not Head-On,Not Daylight
+1865,Not Head-On,Daylight
+1866,Not Head-On,Daylight
+1867,Not Head-On,Daylight
+1868,Not Head-On,Daylight
+1869,Not Head-On,Daylight
+1870,Not Head-On,Not Daylight
+1871,Not Head-On,Not Daylight
+1872,Not Head-On,Not Daylight
+1873,Not Head-On,Daylight
+1874,Not Head-On,Daylight
+1875,Not Head-On,Daylight
+1876,Not Head-On,Daylight
+1877,Not Head-On,Not Daylight
+1878,Not Head-On,Daylight
+1879,Not Head-On,Daylight
+1880,Not Head-On,Daylight
+1881,Not Head-On,Daylight
+1882,Not Head-On,Daylight
+1883,Head-on,Not Daylight
+1884,Not Head-On,Daylight
+1885,Not Head-On,Not Daylight
+1886,Not Head-On,Daylight
+1887,Not Head-On,Not Daylight
+1888,Not Head-On,Daylight
+1889,Not Head-On,Daylight
+1890,Not Head-On,Daylight
+1891,Not Head-On,Daylight
+1892,Head-on,Daylight
+1893,Not Head-On,Daylight
+1894,Not Head-On,Daylight
+1895,Not Head-On,Daylight
+1896,Not Head-On,Daylight
+1897,Not Head-On,Daylight
+1898,Not Head-On,Daylight
+1899,Head-on,Daylight
+1900,Not Head-On,Daylight
+1901,Not Head-On,Daylight
+1902,Not Head-On,Daylight
+1903,Not Head-On,Daylight
+1904,Not Head-On,Daylight
+1905,Not Head-On,Not Daylight
+1906,Not Head-On,Not Daylight
+1907,Not Head-On,Daylight
+1908,Not Head-On,Not Daylight
+1909,Not Head-On,Daylight
+1910,Not Head-On,Daylight
+1911,Not Head-On,Daylight
+1912,Not Head-On,Daylight
+1913,Not Head-On,Daylight
+1914,Not Head-On,Daylight
+1915,Not Head-On,Daylight
+1916,Not Head-On,Daylight
+1917,Not Head-On,Daylight
+1918,Not Head-On,Not Daylight
+1919,Not Head-On,Daylight
+1920,Not Head-On,Daylight
+1921,Not Head-On,Daylight
+1922,Not Head-On,Daylight
+1923,Not Head-On,Daylight
+1924,Not Head-On,Daylight
+1925,Not Head-On,Not Daylight
+1926,Not Head-On,Daylight
+1927,Not Head-On,Daylight
+1928,Not Head-On,Not Daylight
+1929,Head-on,Not Daylight
+1930,Not Head-On,Daylight
+1931,Not Head-On,Daylight
+1932,Not Head-On,Daylight
+1933,Not Head-On,Not Daylight
+1934,Head-on,Daylight
+1935,Not Head-On,Daylight
+1936,Not Head-On,Daylight
+1937,Not Head-On,Daylight
+1938,Not Head-On,Daylight
+1939,Not Head-On,Not Daylight
+1940,Not Head-On,Not Daylight
+1941,Not Head-On,Daylight
+1942,Not Head-On,Daylight
+1943,Not Head-On,Daylight
+1944,Not Head-On,Not Daylight
+1945,Not Head-On,Daylight
+1946,Not Head-On,Daylight
+1947,Not Head-On,Not Daylight
+1948,Not Head-On,Daylight
+1949,Not Head-On,Daylight
+1950,Head-on,Daylight
+1951,Not Head-On,Daylight
+1952,Not Head-On,Daylight
+1953,Not Head-On,Daylight
+1954,Not Head-On,Not Daylight
+1955,Not Head-On,Daylight
+1956,Not Head-On,Daylight
+1957,Not Head-On,Daylight
+1958,Not Head-On,Daylight
+1959,Head-on,Not Daylight
+1960,Not Head-On,Daylight
+1961,Not Head-On,Daylight
+1962,Not Head-On,Daylight
+1963,Not Head-On,Daylight
+1964,Not Head-On,Daylight
+1965,Not Head-On,Daylight
+1966,Not Head-On,Not Daylight
+1967,Not Head-On,Not Daylight
+1968,Not Head-On,Not Daylight
+1969,Not Head-On,Daylight
+1970,Not Head-On,Not Daylight
+1971,Not Head-On,Daylight
+1972,Not Head-On,Not Daylight
+1973,Not Head-On,Daylight
+1974,Not Head-On,Daylight
+1975,Not Head-On,Daylight
+1976,Not Head-On,Not Daylight
+1977,Not Head-On,Not Daylight
+1978,Not Head-On,Daylight
+1979,Not Head-On,Not Daylight
+1980,Not Head-On,Not Daylight
+1981,Not Head-On,Not Daylight
+1982,Not Head-On,Daylight
+1983,Not Head-On,Daylight
+1984,Not Head-On,Not Daylight
+1985,Not Head-On,Not Daylight
+1986,Not Head-On,Daylight
+1987,Not Head-On,Not Daylight
+1988,Not Head-On,Daylight
+1989,Not Head-On,Not Daylight
+1990,Not Head-On,Daylight
+1991,Not Head-On,Daylight
+1992,Not Head-On,Daylight
+1993,Not Head-On,Not Daylight
+1994,Not Head-On,Not Daylight
+1995,Not Head-On,Daylight
+1996,Not Head-On,Not Daylight
+1997,Not Head-On,Not Daylight
+1998,Not Head-On,Daylight
+1999,Not Head-On,Not Daylight
+2000,Not Head-On,Daylight
+2001,Not Head-On,Daylight
+2002,Not Head-On,Daylight
+2003,Not Head-On,Daylight
+2004,Not Head-On,Daylight
+2005,Head-on,Daylight
+2006,Not Head-On,Daylight
+2007,Not Head-On,Not Daylight
+2008,Not Head-On,Not Daylight
+2009,Not Head-On,Daylight
+2010,Not Head-On,Daylight
+2011,Not Head-On,Not Daylight
+2012,Not Head-On,Daylight
+2013,Not Head-On,Daylight
+2014,Not Head-On,Daylight
+2015,Not Head-On,Daylight
+2016,Not Head-On,Daylight
+2017,Not Head-On,Not Daylight
+2018,Not Head-On,Daylight
+2019,Not Head-On,Daylight
+2020,Not Head-On,Daylight
+2021,Not Head-On,Daylight
+2022,Not Head-On,Daylight
+2023,Not Head-On,Daylight
+2024,Not Head-On,Not Daylight
+2025,Not Head-On,Not Daylight
+2026,Not Head-On,Daylight
+2027,Not Head-On,Daylight
+2028,Not Head-On,Not Daylight
+2029,Not Head-On,Daylight
+2030,Not Head-On,Not Daylight
+2031,Not Head-On,Daylight
+2032,Not Head-On,Daylight
+2033,Not Head-On,Daylight
+2034,Not Head-On,Daylight
+2035,Not Head-On,Daylight
+2036,Not Head-On,Daylight
+2037,Not Head-On,Daylight
+2038,Not Head-On,Daylight
+2039,Not Head-On,Not Daylight
+2040,Not Head-On,Daylight
+2041,Not Head-On,Daylight
+2042,Not Head-On,Daylight
+2043,Not Head-On,Not Daylight
+2044,Not Head-On,Daylight
+2045,Not Head-On,Not Daylight
+2046,Not Head-On,Daylight
+2047,Not Head-On,Daylight
+2048,Not Head-On,Daylight
+2049,Not Head-On,Daylight
+2050,Not Head-On,Not Daylight
+2051,Not Head-On,Daylight
+2052,Not Head-On,Daylight
+2053,Not Head-On,Daylight
+2054,Not Head-On,Daylight
+2055,Not Head-On,Daylight
+2056,Not Head-On,Daylight
+2057,Not Head-On,Daylight
+2058,Not Head-On,Daylight
+2059,Not Head-On,Daylight
+2060,Not Head-On,Daylight
+2061,Not Head-On,Daylight
+2062,Not Head-On,Not Daylight
+2063,Not Head-On,Daylight
+2064,Not Head-On,Not Daylight
+2065,Not Head-On,Daylight
+2066,Not Head-On,Daylight
+2067,Not Head-On,Daylight
+2068,Not Head-On,Daylight
+2069,Not Head-On,Not Daylight
+2070,Not Head-On,Not Daylight
+2071,Not Head-On,Daylight
+2072,Not Head-On,Daylight
+2073,Not Head-On,Daylight
+2074,Head-on,Not Daylight
+2075,Not Head-On,Daylight
+2076,Not Head-On,Daylight
+2077,Not Head-On,Daylight
+2078,Not Head-On,Daylight
+2079,Not Head-On,Daylight
+2080,Not Head-On,Daylight
+2081,Not Head-On,Not Daylight
+2082,Not Head-On,Daylight
+2083,Not Head-On,Daylight
+2084,Not Head-On,Not Daylight
+2085,Not Head-On,Daylight
+2086,Not Head-On,Daylight
+2087,Not Head-On,Daylight
+2088,Not Head-On,Daylight
+2089,Not Head-On,Daylight
+2090,Not Head-On,Daylight
+2091,Not Head-On,Daylight
+2092,Not Head-On,Not Daylight
+2093,Not Head-On,Daylight
+2094,Not Head-On,Daylight
+2095,Not Head-On,Not Daylight
+2096,Not Head-On,Daylight
+2097,Not Head-On,Not Daylight
+2098,Not Head-On,Not Daylight
+2099,Not Head-On,Daylight
+2100,Not Head-On,Not Daylight
+2101,Not Head-On,Daylight
+2102,Not Head-On,Daylight
+2103,Not Head-On,Daylight
+2104,Not Head-On,Not Daylight
+2105,Not Head-On,Not Daylight
+2106,Not Head-On,Daylight
+2107,Not Head-On,Daylight
+2108,Not Head-On,Daylight
+2109,Not Head-On,Daylight
+2110,Not Head-On,Daylight
+2111,Not Head-On,Daylight
+2112,Not Head-On,Not Daylight
+2113,Not Head-On,Daylight
+2114,Not Head-On,Daylight
+2115,Not Head-On,Daylight
+2116,Not Head-On,Daylight
+2117,Not Head-On,Daylight
+2118,Not Head-On,Daylight
+2119,Not Head-On,Daylight
+2120,Head-on,Not Daylight
+2121,Not Head-On,Daylight
+2122,Not Head-On,Daylight
+2123,Not Head-On,Daylight
+2124,Not Head-On,Daylight
+2125,Not Head-On,Not Daylight
+2126,Not Head-On,Not Daylight
+2127,Not Head-On,Daylight
+2128,Not Head-On,Not Daylight
+2129,Not Head-On,Not Daylight
+2130,Not Head-On,Daylight
+2131,Not Head-On,Daylight
+2132,Not Head-On,Daylight
+2133,Not Head-On,Daylight
+2134,Not Head-On,Daylight
+2135,Not Head-On,Daylight
+2136,Not Head-On,Daylight
+2137,Not Head-On,Not Daylight
+2138,Not Head-On,Daylight
+2139,Not Head-On,Daylight
+2140,Not Head-On,Not Daylight
+2141,Not Head-On,Daylight
+2142,Not Head-On,Not Daylight
+2143,Not Head-On,Daylight
+2144,Head-on,Daylight
+2145,Not Head-On,Daylight
+2146,Not Head-On,Daylight
+2147,Not Head-On,Daylight
+2148,Not Head-On,Daylight
+2149,Not Head-On,Daylight
+2150,Not Head-On,Daylight
+2151,Not Head-On,Daylight
+2152,Not Head-On,Not Daylight
+2153,Not Head-On,Daylight
+2154,Not Head-On,Not Daylight
+2155,Not Head-On,Daylight
+2156,Not Head-On,Daylight
+2157,Not Head-On,Not Daylight
+2158,Not Head-On,Daylight
+2159,Head-on,Not Daylight
+2160,Not Head-On,Not Daylight
+2161,Not Head-On,Daylight
+2162,Not Head-On,Not Daylight
+2163,Not Head-On,Not Daylight
+2164,Not Head-On,Daylight
+2165,Not Head-On,Daylight
+2166,Not Head-On,Not Daylight
+2167,Not Head-On,Daylight
+2168,Not Head-On,Not Daylight
+2169,Not Head-On,Daylight
+2170,Not Head-On,Daylight
+2171,Not Head-On,Daylight
+2172,Not Head-On,Not Daylight
+2173,Not Head-On,Daylight
+2174,Not Head-On,Daylight
+2175,Not Head-On,Daylight
+2176,Not Head-On,Daylight
+2177,Not Head-On,Daylight
+2178,Not Head-On,Daylight
+2179,Not Head-On,Not Daylight
+2180,Not Head-On,Daylight
+2181,Head-on,Not Daylight
+2182,Not Head-On,Daylight
+2183,Not Head-On,Daylight
+2184,Not Head-On,Daylight
+2185,Not Head-On,Daylight
+2186,Not Head-On,Daylight
+2187,Not Head-On,Not Daylight
+2188,Not Head-On,Daylight
+2189,Not Head-On,Not Daylight
+2190,Not Head-On,Daylight
+2191,Not Head-On,Daylight
+2192,Not Head-On,Daylight
+2193,Not Head-On,Daylight
+2194,Not Head-On,Not Daylight
+2195,Not Head-On,Daylight
+2196,Not Head-On,Daylight
+2197,Not Head-On,Daylight
+2198,Not Head-On,Daylight
+2199,Not Head-On,Daylight
+2200,Not Head-On,Daylight
+2201,Not Head-On,Daylight
+2202,Not Head-On,Not Daylight
+2203,Not Head-On,Daylight
+2204,Head-on,Not Daylight
+2205,Not Head-On,Daylight
+2206,Not Head-On,Daylight
+2207,Not Head-On,Daylight
+2208,Head-on,Daylight
+2209,Not Head-On,Daylight
+2210,Not Head-On,Not Daylight
+2211,Not Head-On,Not Daylight
+2212,Not Head-On,Daylight
+2213,Not Head-On,Daylight
+2214,Not Head-On,Daylight
+2215,Not Head-On,Daylight
+2216,Not Head-On,Not Daylight
+2217,Not Head-On,Daylight
+2218,Not Head-On,Daylight
+2219,Not Head-On,Daylight
+2220,Not Head-On,Daylight
+2221,Not Head-On,Daylight
+2222,Not Head-On,Daylight
+2223,Not Head-On,Daylight
+2224,Not Head-On,Not Daylight
+2225,Not Head-On,Daylight
+2226,Not Head-On,Not Daylight
+2227,Not Head-On,Daylight
+2228,Not Head-On,Daylight
+2229,Not Head-On,Daylight
+2230,Not Head-On,Daylight
+2231,Head-on,Not Daylight
+2232,Not Head-On,Not Daylight
+2233,Head-on,Daylight
+2234,Not Head-On,Not Daylight
+2235,Not Head-On,Daylight
+2236,Not Head-On,Daylight
+2237,Not Head-On,Daylight
+2238,Not Head-On,Daylight
+2239,Not Head-On,Daylight
+2240,Not Head-On,Not Daylight
+2241,Not Head-On,Daylight
+2242,Not Head-On,Daylight
+2243,Not Head-On,Daylight
+2244,Not Head-On,Daylight
+2245,Not Head-On,Daylight
+2246,Not Head-On,Daylight
+2247,Not Head-On,Daylight
+2248,Not Head-On,Daylight
+2249,Not Head-On,Not Daylight
+2250,Not Head-On,Not Daylight
+2251,Head-on,Not Daylight
+2252,Not Head-On,Daylight
+2253,Not Head-On,Not Daylight
+2254,Not Head-On,Daylight
+2255,Not Head-On,Daylight
+2256,Not Head-On,Daylight
+2257,Not Head-On,Not Daylight
+2258,Not Head-On,Not Daylight
+2259,Head-on,Not Daylight
+2260,Not Head-On,Daylight
+2261,Not Head-On,Daylight
+2262,Not Head-On,Daylight
+2263,Not Head-On,Not Daylight
+2264,Not Head-On,Daylight
+2265,Not Head-On,Not Daylight
+2266,Not Head-On,Not Daylight
+2267,Not Head-On,Not Daylight
+2268,Not Head-On,Not Daylight
+2269,Not Head-On,Not Daylight
+2270,Not Head-On,Daylight
+2271,Not Head-On,Not Daylight
+2272,Head-on,Daylight
+2273,Not Head-On,Daylight
+2274,Not Head-On,Daylight
+2275,Not Head-On,Daylight
+2276,Not Head-On,Daylight
+2277,Head-on,Not Daylight
+2278,Not Head-On,Not Daylight
+2279,Not Head-On,Not Daylight
+2280,Not Head-On,Daylight
+2281,Not Head-On,Daylight
+2282,Not Head-On,Daylight
+2283,Not Head-On,Daylight
+2284,Not Head-On,Daylight
+2285,Not Head-On,Daylight
+2286,Not Head-On,Daylight
+2287,Not Head-On,Daylight
+2288,Not Head-On,Daylight
+2289,Not Head-On,Daylight
+2290,Not Head-On,Daylight
+2291,Not Head-On,Daylight
+2292,Not Head-On,Not Daylight
+2293,Not Head-On,Daylight
+2294,Not Head-On,Not Daylight
+2295,Not Head-On,Daylight
+2296,Not Head-On,Not Daylight
+2297,Not Head-On,Daylight
+2298,Not Head-On,Daylight
+2299,Not Head-On,Daylight
+2300,Not Head-On,Daylight
+2301,Not Head-On,Not Daylight
+2302,Not Head-On,Not Daylight
+2303,Not Head-On,Daylight
+2304,Not Head-On,Daylight
+2305,Not Head-On,Not Daylight
+2306,Not Head-On,Not Daylight
+2307,Not Head-On,Not Daylight
+2308,Not Head-On,Not Daylight
+2309,Not Head-On,Daylight
+2310,Not Head-On,Daylight
+2311,Not Head-On,Daylight
+2312,Not Head-On,Daylight
+2313,Not Head-On,Daylight
+2314,Not Head-On,Not Daylight
+2315,Not Head-On,Daylight
+2316,Not Head-On,Not Daylight
+2317,Not Head-On,Daylight
+2318,Not Head-On,Daylight
+2319,Not Head-On,Daylight
+2320,Not Head-On,Not Daylight
+2321,Not Head-On,Daylight
+2322,Not Head-On,Daylight
+2323,Not Head-On,Daylight
+2324,Not Head-On,Daylight
+2325,Not Head-On,Daylight
+2326,Not Head-On,Daylight
+2327,Not Head-On,Not Daylight
+2328,Not Head-On,Daylight
+2329,Not Head-On,Daylight
+2330,Not Head-On,Daylight
+2331,Not Head-On,Daylight
+2332,Not Head-On,Daylight
+2333,Not Head-On,Daylight
+2334,Not Head-On,Daylight
+2335,Not Head-On,Daylight
+2336,Not Head-On,Daylight
+2337,Not Head-On,Not Daylight
+2338,Not Head-On,Not Daylight
+2339,Not Head-On,Daylight
+2340,Not Head-On,Not Daylight
+2341,Not Head-On,Daylight
+2342,Not Head-On,Daylight
+2343,Not Head-On,Not Daylight
+2344,Not Head-On,Not Daylight
+2345,Not Head-On,Daylight
+2346,Not Head-On,Daylight
+2347,Not Head-On,Daylight
+2348,Not Head-On,Daylight
+2349,Not Head-On,Not Daylight
+2350,Not Head-On,Daylight
+2351,Not Head-On,Daylight
+2352,Not Head-On,Daylight
+2353,Not Head-On,Daylight
+2354,Not Head-On,Not Daylight
+2355,Not Head-On,Daylight
+2356,Not Head-On,Daylight
+2357,Not Head-On,Daylight
+2358,Not Head-On,Daylight
+2359,Not Head-On,Daylight
+2360,Not Head-On,Not Daylight
+2361,Not Head-On,Daylight
+2362,Not Head-On,Daylight
+2363,Not Head-On,Daylight
+2364,Not Head-On,Not Daylight
+2365,Not Head-On,Daylight
+2366,Not Head-On,Daylight
+2367,Head-on,Not Daylight
+2368,Not Head-On,Daylight
+2369,Not Head-On,Daylight
+2370,Not Head-On,Daylight
+2371,Not Head-On,Not Daylight
+2372,Not Head-On,Daylight
+2373,Not Head-On,Daylight
+2374,Not Head-On,Daylight
+2375,Not Head-On,Daylight
+2376,Not Head-On,Daylight
+2377,Not Head-On,Daylight
+2378,Not Head-On,Daylight
+2379,Not Head-On,Daylight
+2380,Not Head-On,Daylight
+2381,Head-on,Not Daylight
+2382,Not Head-On,Not Daylight
+2383,Not Head-On,Daylight
+2384,Not Head-On,Daylight
+2385,Not Head-On,Daylight
+2386,Not Head-On,Not Daylight
+2387,Not Head-On,Daylight
+2388,Not Head-On,Daylight
+2389,Not Head-On,Daylight
+2390,Not Head-On,Not Daylight
+2391,Not Head-On,Daylight
+2392,Not Head-On,Daylight
+2393,Head-on,Not Daylight
+2394,Not Head-On,Daylight
+2395,Not Head-On,Daylight
+2396,Not Head-On,Daylight
+2397,Head-on,Daylight
+2398,Not Head-On,Daylight
+2399,Not Head-On,Daylight
+2400,Not Head-On,Not Daylight
+2401,Not Head-On,Daylight
+2402,Not Head-On,Daylight
+2403,Not Head-On,Not Daylight
+2404,Not Head-On,Not Daylight
+2405,Not Head-On,Daylight
+2406,Not Head-On,Daylight
+2407,Not Head-On,Daylight
+2408,Not Head-On,Not Daylight
+2409,Not Head-On,Daylight
+2410,Not Head-On,Daylight
+2411,Not Head-On,Daylight
+2412,Not Head-On,Daylight
+2413,Not Head-On,Not Daylight
+2414,Not Head-On,Daylight
+2415,Not Head-On,Daylight
+2416,Not Head-On,Not Daylight
+2417,Not Head-On,Daylight
+2418,Not Head-On,Daylight
+2419,Not Head-On,Not Daylight
+2420,Not Head-On,Not Daylight
+2421,Not Head-On,Daylight
+2422,Not Head-On,Daylight
+2423,Not Head-On,Daylight
+2424,Not Head-On,Daylight
+2425,Not Head-On,Not Daylight
+2426,Not Head-On,Daylight
+2427,Not Head-On,Not Daylight
+2428,Not Head-On,Daylight
+2429,Not Head-On,Daylight
+2430,Not Head-On,Not Daylight
+2431,Not Head-On,Daylight
+2432,Not Head-On,Daylight
+2433,Not Head-On,Daylight
+2434,Not Head-On,Daylight
+2435,Not Head-On,Not Daylight
+2436,Not Head-On,Not Daylight
+2437,Not Head-On,Daylight
+2438,Not Head-On,Daylight
+2439,Not Head-On,Not Daylight
+2440,Not Head-On,Daylight
+2441,Not Head-On,Daylight
+2442,Not Head-On,Daylight
+2443,Not Head-On,Daylight
+2444,Not Head-On,Not Daylight
+2445,Not Head-On,Daylight
+2446,Not Head-On,Daylight
+2447,Not Head-On,Daylight
+2448,Head-on,Daylight
+2449,Not Head-On,Daylight
+2450,Not Head-On,Daylight
+2451,Not Head-On,Daylight
+2452,Not Head-On,Daylight
+2453,Not Head-On,Daylight
+2454,Not Head-On,Daylight
+2455,Not Head-On,Not Daylight
+2456,Not Head-On,Daylight
+2457,Not Head-On,Not Daylight
+2458,Not Head-On,Daylight
+2459,Not Head-On,Daylight
+2460,Not Head-On,Daylight
+2461,Not Head-On,Daylight
+2462,Not Head-On,Daylight
+2463,Not Head-On,Daylight
+2464,Not Head-On,Not Daylight
+2465,Not Head-On,Not Daylight
+2466,Not Head-On,Not Daylight
+2467,Not Head-On,Not Daylight
+2468,Not Head-On,Not Daylight
+2469,Not Head-On,Daylight
+2470,Not Head-On,Not Daylight
+2471,Not Head-On,Not Daylight
+2472,Not Head-On,Not Daylight
+2473,Head-on,Not Daylight
+2474,Not Head-On,Daylight
+2475,Not Head-On,Daylight
+2476,Not Head-On,Daylight
+2477,Not Head-On,Not Daylight
+2478,Not Head-On,Not Daylight
+2479,Not Head-On,Not Daylight
+2480,Head-on,Daylight
+2481,Not Head-On,Daylight
+2482,Not Head-On,Not Daylight
+2483,Not Head-On,Not Daylight
+2484,Not Head-On,Daylight
+2485,Not Head-On,Not Daylight
+2486,Not Head-On,Daylight
+2487,Not Head-On,Daylight
+2488,Head-on,Daylight
+2489,Not Head-On,Daylight
+2490,Not Head-On,Daylight
+2491,Head-on,Not Daylight
+2492,Not Head-On,Daylight
+2493,Not Head-On,Daylight
+2494,Not Head-On,Daylight
+2495,Not Head-On,Not Daylight
+2496,Not Head-On,Daylight
+2497,Not Head-On,Not Daylight
+2498,Not Head-On,Daylight
+2499,Not Head-On,Not Daylight
+2500,Not Head-On,Not Daylight
+2501,Head-on,Daylight
+2502,Not Head-On,Not Daylight
+2503,Not Head-On,Daylight
+2504,Not Head-On,Not Daylight
+2505,Not Head-On,Daylight
+2506,Not Head-On,Daylight
+2507,Not Head-On,Daylight
+2508,Not Head-On,Not Daylight
+2509,Not Head-On,Daylight
+2510,Not Head-On,Not Daylight
+2511,Not Head-On,Not Daylight
+2512,Not Head-On,Daylight
+2513,Not Head-On,Daylight
+2514,Not Head-On,Daylight
+2515,Not Head-On,Daylight
+2516,Not Head-On,Not Daylight
+2517,Not Head-On,Daylight
+2518,Not Head-On,Not Daylight
+2519,Not Head-On,Not Daylight
+2520,Not Head-On,Not Daylight
+2521,Not Head-On,Not Daylight
+2522,Not Head-On,Daylight
+2523,Head-on,Not Daylight
+2524,Not Head-On,Daylight
+2525,Not Head-On,Not Daylight
+2526,Not Head-On,Not Daylight
+2527,Not Head-On,Daylight
+2528,Not Head-On,Daylight
+2529,Not Head-On,Daylight
+2530,Not Head-On,Not Daylight
+2531,Not Head-On,Daylight
+2532,Not Head-On,Daylight
+2533,Not Head-On,Daylight
+2534,Not Head-On,Daylight
+2535,Head-on,Daylight
+2536,Not Head-On,Daylight
+2537,Not Head-On,Daylight
+2538,Not Head-On,Daylight
+2539,Head-on,Daylight
+2540,Not Head-On,Daylight
+2541,Not Head-On,Daylight
+2542,Not Head-On,Daylight
+2543,Not Head-On,Not Daylight
+2544,Not Head-On,Not Daylight
+2545,Not Head-On,Daylight
+2546,Not Head-On,Daylight
+2547,Head-on,Not Daylight
+2548,Head-on,Not Daylight
+2549,Not Head-On,Not Daylight
+2550,Not Head-On,Daylight
+2551,Not Head-On,Daylight
+2552,Not Head-On,Daylight
+2553,Not Head-On,Daylight
+2554,Not Head-On,Not Daylight
+2555,Not Head-On,Not Daylight
+2556,Not Head-On,Not Daylight
+2557,Not Head-On,Daylight
+2558,Not Head-On,Not Daylight
+2559,Not Head-On,Daylight
+2560,Not Head-On,Daylight
+2561,Not Head-On,Daylight
+2562,Not Head-On,Daylight
+2563,Not Head-On,Daylight
+2564,Not Head-On,Daylight
+2565,Head-on,Not Daylight
+2566,Not Head-On,Not Daylight
+2567,Not Head-On,Daylight
+2568,Not Head-On,Daylight
+2569,Not Head-On,Daylight
+2570,Not Head-On,Daylight
+2571,Not Head-On,Daylight
+2572,Not Head-On,Daylight
+2573,Not Head-On,Daylight
+2574,Not Head-On,Daylight
+2575,Not Head-On,Daylight
+2576,Not Head-On,Daylight
+2577,Not Head-On,Daylight
+2578,Not Head-On,Daylight
+2579,Not Head-On,Daylight
+2580,Head-on,Not Daylight
+2581,Not Head-On,Daylight
+2582,Not Head-On,Daylight
+2583,Not Head-On,Daylight
+2584,Not Head-On,Daylight
+2585,Head-on,Not Daylight
+2586,Not Head-On,Not Daylight
+2587,Not Head-On,Daylight
+2588,Not Head-On,Daylight
+2589,Not Head-On,Not Daylight
+2590,Not Head-On,Not Daylight
+2591,Not Head-On,Daylight
+2592,Not Head-On,Not Daylight
+2593,Not Head-On,Not Daylight
+2594,Not Head-On,Not Daylight
+2595,Not Head-On,Daylight
+2596,Not Head-On,Not Daylight
+2597,Head-on,Not Daylight
+2598,Not Head-On,Daylight
+2599,Not Head-On,Daylight
+2600,Not Head-On,Daylight
+2601,Not Head-On,Daylight
+2602,Not Head-On,Daylight
+2603,Head-on,Not Daylight
+2604,Not Head-On,Not Daylight
+2605,Not Head-On,Daylight
+2606,Not Head-On,Daylight
+2607,Not Head-On,Daylight
+2608,Not Head-On,Daylight
+2609,Not Head-On,Not Daylight
+2610,Not Head-On,Daylight
+2611,Not Head-On,Daylight
+2612,Not Head-On,Daylight
+2613,Not Head-On,Not Daylight
+2614,Not Head-On,Daylight
+2615,Not Head-On,Daylight
+2616,Not Head-On,Daylight
+2617,Not Head-On,Daylight
+2618,Not Head-On,Daylight
+2619,Not Head-On,Daylight
+2620,Not Head-On,Daylight
+2621,Not Head-On,Daylight
+2622,Not Head-On,Daylight
+2623,Not Head-On,Daylight
+2624,Not Head-On,Daylight
+2625,Not Head-On,Not Daylight
+2626,Head-on,Daylight
+2627,Not Head-On,Daylight
+2628,Not Head-On,Daylight
+2629,Not Head-On,Not Daylight
+2630,Not Head-On,Daylight
+2631,Not Head-On,Daylight
+2632,Not Head-On,Daylight
+2633,Not Head-On,Daylight
+2634,Not Head-On,Not Daylight
+2635,Not Head-On,Daylight
+2636,Not Head-On,Daylight
+2637,Not Head-On,Daylight
+2638,Not Head-On,Not Daylight
+2639,Not Head-On,Daylight
+2640,Not Head-On,Daylight
+2641,Not Head-On,Daylight
+2642,Not Head-On,Daylight
+2643,Not Head-On,Not Daylight
+2644,Not Head-On,Daylight
+2645,Not Head-On,Daylight
+2646,Not Head-On,Not Daylight
+2647,Not Head-On,Not Daylight
+2648,Not Head-On,Daylight
+2649,Not Head-On,Daylight
+2650,Head-on,Not Daylight
+2651,Not Head-On,Daylight
+2652,Not Head-On,Daylight
+2653,Not Head-On,Daylight
+2654,Not Head-On,Daylight
+2655,Not Head-On,Daylight
+2656,Not Head-On,Daylight
+2657,Not Head-On,Daylight
+2658,Not Head-On,Not Daylight
+2659,Not Head-On,Daylight
+2660,Not Head-On,Daylight
+2661,Not Head-On,Daylight
+2662,Head-on,Daylight
+2663,Not Head-On,Daylight
+2664,Not Head-On,Daylight
+2665,Not Head-On,Daylight
+2666,Not Head-On,Daylight
+2667,Not Head-On,Daylight
+2668,Not Head-On,Daylight
+2669,Not Head-On,Daylight
+2670,Not Head-On,Not Daylight
+2671,Not Head-On,Daylight
+2672,Not Head-On,Not Daylight
+2673,Not Head-On,Daylight
+2674,Not Head-On,Daylight
+2675,Not Head-On,Daylight
+2676,Not Head-On,Not Daylight
+2677,Not Head-On,Daylight
+2678,Not Head-On,Not Daylight
+2679,Not Head-On,Not Daylight
+2680,Not Head-On,Daylight
+2681,Not Head-On,Daylight
+2682,Not Head-On,Not Daylight
+2683,Not Head-On,Daylight
+2684,Not Head-On,Daylight
+2685,Not Head-On,Daylight
+2686,Not Head-On,Daylight
+2687,Not Head-On,Daylight
+2688,Not Head-On,Daylight
+2689,Not Head-On,Not Daylight
+2690,Not Head-On,Daylight
+2691,Not Head-On,Daylight
+2692,Not Head-On,Daylight
+2693,Not Head-On,Daylight
+2694,Not Head-On,Daylight
+2695,Not Head-On,Daylight
+2696,Not Head-On,Daylight
+2697,Not Head-On,Daylight
+2698,Not Head-On,Daylight
+2699,Not Head-On,Daylight
+2700,Not Head-On,Daylight
+2701,Not Head-On,Daylight
+2702,Not Head-On,Daylight
+2703,Not Head-On,Daylight
+2704,Not Head-On,Daylight
+2705,Not Head-On,Not Daylight
+2706,Not Head-On,Daylight
+2707,Not Head-On,Not Daylight
+2708,Not Head-On,Daylight
+2709,Not Head-On,Not Daylight
+2710,Not Head-On,Not Daylight
+2711,Not Head-On,Daylight
+2712,Not Head-On,Daylight
+2713,Not Head-On,Daylight
+2714,Not Head-On,Not Daylight
+2715,Head-on,Daylight
+2716,Not Head-On,Daylight
+2717,Not Head-On,Not Daylight
+2718,Not Head-On,Daylight
+2719,Not Head-On,Not Daylight
+2720,Not Head-On,Daylight
+2721,Head-on,Not Daylight
+2722,Not Head-On,Daylight
+2723,Not Head-On,Daylight
+2724,Not Head-On,Daylight
+2725,Not Head-On,Not Daylight
+2726,Not Head-On,Not Daylight
+2727,Not Head-On,Not Daylight
+2728,Not Head-On,Daylight
+2729,Not Head-On,Not Daylight
+2730,Not Head-On,Not Daylight
+2731,Not Head-On,Not Daylight
+2732,Not Head-On,Daylight
+2733,Not Head-On,Daylight
+2734,Not Head-On,Daylight
+2735,Not Head-On,Daylight
+2736,Not Head-On,Daylight
+2737,Head-on,Not Daylight
+2738,Not Head-On,Daylight
+2739,Not Head-On,Daylight
+2740,Not Head-On,Daylight
+2741,Not Head-On,Daylight
+2742,Not Head-On,Daylight
+2743,Not Head-On,Daylight
+2744,Not Head-On,Not Daylight
+2745,Not Head-On,Daylight
+2746,Not Head-On,Not Daylight
+2747,Not Head-On,Daylight
+2748,Not Head-On,Not Daylight
+2749,Head-on,Daylight
+2750,Not Head-On,Daylight
+2751,Not Head-On,Daylight
+2752,Not Head-On,Not Daylight
+2753,Not Head-On,Daylight
+2754,Not Head-On,Not Daylight
+2755,Not Head-On,Daylight
+2756,Not Head-On,Not Daylight
+2757,Not Head-On,Daylight
+2758,Not Head-On,Daylight
+2759,Not Head-On,Daylight
+2760,Not Head-On,Daylight
+2761,Not Head-On,Daylight
+2762,Not Head-On,Daylight
+2763,Not Head-On,Daylight
+2764,Not Head-On,Daylight
+2765,Not Head-On,Daylight
+2766,Not Head-On,Daylight
+2767,Not Head-On,Daylight
+2768,Not Head-On,Daylight
+2769,Not Head-On,Daylight
+2770,Not Head-On,Daylight
+2771,Not Head-On,Not Daylight
+2772,Not Head-On,Daylight
+2773,Head-on,Daylight
+2774,Not Head-On,Daylight
+2775,Not Head-On,Daylight
+2776,Not Head-On,Daylight
+2777,Not Head-On,Daylight
+2778,Not Head-On,Daylight
+2779,Not Head-On,Not Daylight
+2780,Not Head-On,Daylight
+2781,Not Head-On,Not Daylight
+2782,Not Head-On,Daylight
+2783,Head-on,Not Daylight
+2784,Not Head-On,Not Daylight
+2785,Not Head-On,Not Daylight
+2786,Not Head-On,Daylight
+2787,Not Head-On,Daylight
+2788,Not Head-On,Daylight
+2789,Not Head-On,Daylight
+2790,Not Head-On,Daylight
+2791,Not Head-On,Daylight
+2792,Not Head-On,Daylight
+2793,Not Head-On,Not Daylight
+2794,Not Head-On,Daylight
+2795,Not Head-On,Not Daylight
+2796,Not Head-On,Daylight
+2797,Not Head-On,Daylight
+2798,Not Head-On,Daylight
+2799,Not Head-On,Not Daylight
+2800,Not Head-On,Daylight
+2801,Not Head-On,Not Daylight
+2802,Not Head-On,Not Daylight
+2803,Not Head-On,Daylight
+2804,Not Head-On,Daylight
+2805,Not Head-On,Daylight
+2806,Not Head-On,Daylight
+2807,Head-on,Daylight
+2808,Not Head-On,Daylight
+2809,Not Head-On,Daylight
+2810,Not Head-On,Daylight
+2811,Not Head-On,Not Daylight
+2812,Not Head-On,Not Daylight
+2813,Not Head-On,Daylight
+2814,Not Head-On,Daylight
+2815,Not Head-On,Daylight
+2816,Not Head-On,Daylight
+2817,Not Head-On,Daylight
+2818,Not Head-On,Daylight
+2819,Not Head-On,Daylight
+2820,Not Head-On,Daylight
+2821,Not Head-On,Daylight
+2822,Not Head-On,Daylight
+2823,Not Head-On,Daylight
+2824,Not Head-On,Daylight
+2825,Not Head-On,Not Daylight
+2826,Not Head-On,Daylight
+2827,Not Head-On,Daylight
+2828,Not Head-On,Not Daylight
+2829,Not Head-On,Not Daylight
+2830,Not Head-On,Daylight
+2831,Not Head-On,Daylight
+2832,Not Head-On,Daylight
+2833,Not Head-On,Daylight
+2834,Not Head-On,Daylight
+2835,Not Head-On,Daylight
+2836,Head-on,Not Daylight
+2837,Not Head-On,Daylight
+2838,Not Head-On,Daylight
+2839,Not Head-On,Daylight
+2840,Not Head-On,Daylight
+2841,Not Head-On,Daylight
+2842,Not Head-On,Not Daylight
+2843,Not Head-On,Daylight
+2844,Not Head-On,Daylight
+2845,Head-on,Daylight
+2846,Not Head-On,Daylight
+2847,Not Head-On,Daylight
+2848,Not Head-On,Not Daylight
+2849,Not Head-On,Not Daylight
+2850,Not Head-On,Not Daylight
+2851,Not Head-On,Not Daylight
+2852,Not Head-On,Not Daylight
+2853,Not Head-On,Daylight
+2854,Not Head-On,Daylight
+2855,Not Head-On,Not Daylight
+2856,Not Head-On,Daylight
+2857,Not Head-On,Daylight
+2858,Not Head-On,Daylight
+2859,Not Head-On,Daylight
+2860,Not Head-On,Daylight
+2861,Not Head-On,Daylight
+2862,Not Head-On,Daylight
+2863,Not Head-On,Daylight
+2864,Not Head-On,Daylight
+2865,Not Head-On,Daylight
+2866,Not Head-On,Daylight
+2867,Head-on,Not Daylight
+2868,Not Head-On,Daylight
+2869,Not Head-On,Daylight
+2870,Head-on,Daylight
+2871,Not Head-On,Daylight
+2872,Not Head-On,Not Daylight
+2873,Not Head-On,Not Daylight
+2874,Not Head-On,Daylight
+2875,Not Head-On,Daylight
+2876,Not Head-On,Daylight
+2877,Not Head-On,Not Daylight
+2878,Not Head-On,Not Daylight
+2879,Not Head-On,Daylight
+2880,Not Head-On,Daylight
+2881,Not Head-On,Not Daylight
+2882,Head-on,Daylight
+2883,Not Head-On,Not Daylight
+2884,Not Head-On,Not Daylight
+2885,Not Head-On,Daylight
+2886,Not Head-On,Daylight
+2887,Not Head-On,Daylight
+2888,Not Head-On,Daylight
+2889,Not Head-On,Daylight
+2890,Not Head-On,Daylight
+2891,Not Head-On,Daylight
+2892,Not Head-On,Daylight
+2893,Not Head-On,Not Daylight
+2894,Not Head-On,Daylight
+2895,Not Head-On,Daylight
+2896,Not Head-On,Daylight
+2897,Not Head-On,Daylight
+2898,Not Head-On,Daylight
+2899,Not Head-On,Not Daylight
+2900,Not Head-On,Daylight
+2901,Not Head-On,Daylight
+2902,Not Head-On,Daylight
+2903,Not Head-On,Not Daylight
+2904,Not Head-On,Not Daylight
+2905,Not Head-On,Not Daylight
+2906,Not Head-On,Daylight
+2907,Not Head-On,Daylight
+2908,Head-on,Not Daylight
+2909,Not Head-On,Daylight
+2910,Not Head-On,Not Daylight
+2911,Not Head-On,Daylight
+2912,Not Head-On,Daylight
+2913,Not Head-On,Daylight
+2914,Not Head-On,Not Daylight
+2915,Not Head-On,Daylight
+2916,Not Head-On,Daylight
+2917,Not Head-On,Not Daylight
+2918,Not Head-On,Daylight
+2919,Head-on,Daylight
+2920,Not Head-On,Not Daylight
+2921,Not Head-On,Not Daylight
+2922,Not Head-On,Not Daylight
+2923,Not Head-On,Daylight
+2924,Not Head-On,Daylight
+2925,Not Head-On,Daylight
+2926,Not Head-On,Daylight
+2927,Not Head-On,Daylight
+2928,Not Head-On,Daylight
+2929,Not Head-On,Daylight
+2930,Not Head-On,Daylight
+2931,Not Head-On,Daylight
+2932,Not Head-On,Daylight
+2933,Not Head-On,Not Daylight
+2934,Not Head-On,Daylight
+2935,Not Head-On,Daylight
+2936,Not Head-On,Daylight
+2937,Not Head-On,Daylight
+2938,Not Head-On,Not Daylight
+2939,Not Head-On,Daylight
+2940,Not Head-On,Daylight
+2941,Not Head-On,Not Daylight
+2942,Not Head-On,Daylight
+2943,Not Head-On,Not Daylight
+2944,Not Head-On,Daylight
+2945,Not Head-On,Daylight
+2946,Not Head-On,Daylight
+2947,Head-on,Daylight
+2948,Not Head-On,Not Daylight
+2949,Not Head-On,Daylight
+2950,Not Head-On,Not Daylight
+2951,Not Head-On,Daylight
+2952,Not Head-On,Not Daylight
+2953,Not Head-On,Not Daylight
+2954,Not Head-On,Daylight
+2955,Not Head-On,Daylight
+2956,Not Head-On,Not Daylight
+2957,Not Head-On,Not Daylight
+2958,Not Head-On,Daylight
+2959,Not Head-On,Not Daylight
+2960,Not Head-On,Not Daylight
+2961,Not Head-On,Daylight
+2962,Not Head-On,Not Daylight
+2963,Not Head-On,Daylight
+2964,Not Head-On,Daylight
+2965,Not Head-On,Daylight
+2966,Not Head-On,Daylight
+2967,Not Head-On,Not Daylight
+2968,Not Head-On,Daylight
+2969,Not Head-On,Not Daylight
+2970,Not Head-On,Daylight
+2971,Not Head-On,Daylight
+2972,Not Head-On,Daylight
+2973,Not Head-On,Daylight
+2974,Not Head-On,Daylight
+2975,Not Head-On,Not Daylight
+2976,Not Head-On,Daylight
+2977,Not Head-On,Daylight
+2978,Not Head-On,Daylight
+2979,Not Head-On,Daylight
+2980,Not Head-On,Daylight
+2981,Not Head-On,Not Daylight
+2982,Not Head-On,Not Daylight
+2983,Not Head-On,Daylight
+2984,Not Head-On,Daylight
+2985,Not Head-On,Daylight
+2986,Not Head-On,Daylight
+2987,Not Head-On,Not Daylight
+2988,Not Head-On,Daylight
+2989,Not Head-On,Not Daylight
+2990,Not Head-On,Daylight
+2991,Not Head-On,Daylight
+2992,Not Head-On,Daylight
+2993,Not Head-On,Daylight
+2994,Not Head-On,Not Daylight
+2995,Not Head-On,Daylight
+2996,Not Head-On,Daylight
+2997,Not Head-On,Not Daylight
+2998,Not Head-On,Not Daylight
+2999,Not Head-On,Not Daylight
+3000,Not Head-On,Daylight
+3001,Not Head-On,Daylight
+3002,Not Head-On,Daylight
+3003,Not Head-On,Daylight
+3004,Not Head-On,Daylight
+3005,Not Head-On,Daylight
+3006,Not Head-On,Not Daylight
+3007,Not Head-On,Not Daylight
+3008,Not Head-On,Daylight
+3009,Head-on,Daylight
+3010,Not Head-On,Daylight
+3011,Not Head-On,Daylight
+3012,Not Head-On,Daylight
+3013,Not Head-On,Daylight
+3014,Head-on,Daylight
+3015,Not Head-On,Not Daylight
+3016,Not Head-On,Daylight
+3017,Not Head-On,Daylight
+3018,Head-on,Not Daylight
+3019,Not Head-On,Not Daylight
+3020,Not Head-On,Not Daylight
+3021,Not Head-On,Daylight
+3022,Not Head-On,Not Daylight
+3023,Not Head-On,Daylight
+3024,Not Head-On,Daylight
+3025,Not Head-On,Daylight
+3026,Not Head-On,Daylight
+3027,Not Head-On,Daylight
+3028,Not Head-On,Daylight
+3029,Not Head-On,Daylight
+3030,Not Head-On,Daylight
+3031,Not Head-On,Not Daylight
+3032,Not Head-On,Not Daylight
+3033,Not Head-On,Daylight
+3034,Not Head-On,Daylight
+3035,Not Head-On,Daylight
+3036,Not Head-On,Daylight
+3037,Not Head-On,Daylight
+3038,Not Head-On,Daylight
+3039,Not Head-On,Daylight
+3040,Not Head-On,Daylight
+3041,Not Head-On,Not Daylight
+3042,Not Head-On,Daylight
+3043,Not Head-On,Not Daylight
+3044,Not Head-On,Not Daylight
+3045,Not Head-On,Not Daylight
+3046,Not Head-On,Not Daylight
+3047,Not Head-On,Daylight
+3048,Not Head-On,Not Daylight
+3049,Not Head-On,Daylight
+3050,Not Head-On,Daylight
+3051,Not Head-On,Not Daylight
+3052,Not Head-On,Daylight
+3053,Not Head-On,Daylight
+3054,Not Head-On,Not Daylight
+3055,Not Head-On,Daylight
+3056,Not Head-On,Daylight
+3057,Not Head-On,Daylight
+3058,Not Head-On,Not Daylight
+3059,Not Head-On,Daylight
+3060,Not Head-On,Daylight
+3061,Not Head-On,Daylight
+3062,Not Head-On,Daylight
+3063,Not Head-On,Daylight
+3064,Not Head-On,Not Daylight
+3065,Not Head-On,Daylight
+3066,Head-on,Daylight
+3067,Not Head-On,Not Daylight
+3068,Not Head-On,Daylight
+3069,Not Head-On,Daylight
+3070,Not Head-On,Not Daylight
+3071,Not Head-On,Daylight
+3072,Not Head-On,Daylight
+3073,Not Head-On,Daylight
+3074,Not Head-On,Not Daylight
+3075,Not Head-On,Not Daylight
+3076,Not Head-On,Daylight
+3077,Not Head-On,Not Daylight
+3078,Not Head-On,Daylight
+3079,Not Head-On,Daylight
+3080,Not Head-On,Not Daylight
+3081,Not Head-On,Daylight
+3082,Not Head-On,Not Daylight
+3083,Not Head-On,Daylight
+3084,Not Head-On,Daylight
+3085,Not Head-On,Not Daylight
+3086,Not Head-On,Daylight
+3087,Not Head-On,Daylight
+3088,Head-on,Daylight
+3089,Not Head-On,Not Daylight
+3090,Not Head-On,Daylight
+3091,Not Head-On,Not Daylight
+3092,Not Head-On,Daylight
+3093,Not Head-On,Daylight
+3094,Not Head-On,Not Daylight
+3095,Not Head-On,Not Daylight
+3096,Not Head-On,Daylight
+3097,Not Head-On,Daylight
+3098,Not Head-On,Daylight
+3099,Not Head-On,Daylight
+3100,Not Head-On,Daylight
+3101,Not Head-On,Daylight
+3102,Not Head-On,Daylight
+3103,Not Head-On,Not Daylight
+3104,Not Head-On,Daylight
+3105,Not Head-On,Daylight
+3106,Not Head-On,Not Daylight
+3107,Not Head-On,Daylight
+3108,Not Head-On,Not Daylight
+3109,Not Head-On,Not Daylight
+3110,Not Head-On,Daylight
+3111,Not Head-On,Daylight
+3112,Not Head-On,Not Daylight
+3113,Not Head-On,Daylight
+3114,Not Head-On,Not Daylight
+3115,Not Head-On,Daylight
+3116,Not Head-On,Daylight
+3117,Not Head-On,Daylight
+3118,Not Head-On,Daylight
+3119,Head-on,Daylight
+3120,Not Head-On,Not Daylight
+3121,Not Head-On,Daylight
+3122,Not Head-On,Daylight
+3123,Not Head-On,Daylight
+3124,Not Head-On,Daylight
+3125,Not Head-On,Not Daylight
+3126,Not Head-On,Daylight
+3127,Not Head-On,Daylight
+3128,Not Head-On,Daylight
+3129,Not Head-On,Daylight
+3130,Head-on,Not Daylight
+3131,Not Head-On,Not Daylight
+3132,Not Head-On,Not Daylight
+3133,Not Head-On,Daylight
+3134,Head-on,Daylight
+3135,Not Head-On,Daylight
+3136,Not Head-On,Not Daylight
+3137,Not Head-On,Not Daylight
+3138,Not Head-On,Daylight
+3139,Not Head-On,Not Daylight
+3140,Not Head-On,Daylight
+3141,Not Head-On,Not Daylight
+3142,Not Head-On,Not Daylight
+3143,Not Head-On,Daylight
+3144,Not Head-On,Daylight
+3145,Head-on,Daylight
+3146,Not Head-On,Daylight
+3147,Not Head-On,Daylight
+3148,Not Head-On,Daylight
+3149,Head-on,Daylight
+3150,Not Head-On,Not Daylight
+3151,Not Head-On,Daylight
+3152,Not Head-On,Not Daylight
+3153,Not Head-On,Daylight
+3154,Not Head-On,Daylight
+3155,Not Head-On,Not Daylight
+3156,Not Head-On,Daylight
+3157,Not Head-On,Daylight
+3158,Not Head-On,Not Daylight
+3159,Not Head-On,Daylight
+3160,Not Head-On,Daylight
+3161,Not Head-On,Not Daylight
+3162,Not Head-On,Daylight
+3163,Not Head-On,Daylight
+3164,Not Head-On,Daylight
+3165,Not Head-On,Daylight
+3166,Not Head-On,Not Daylight
+3167,Not Head-On,Daylight
+3168,Not Head-On,Daylight
+3169,Head-on,Daylight
+3170,Not Head-On,Not Daylight
+3171,Not Head-On,Not Daylight
+3172,Not Head-On,Daylight
+3173,Not Head-On,Daylight
+3174,Head-on,Not Daylight
+3175,Not Head-On,Daylight
+3176,Head-on,Not Daylight
+3177,Not Head-On,Daylight
+3178,Not Head-On,Not Daylight
+3179,Not Head-On,Daylight
+3180,Not Head-On,Daylight
+3181,Not Head-On,Not Daylight
+3182,Not Head-On,Daylight
+3183,Not Head-On,Daylight
+3184,Not Head-On,Daylight
+3185,Not Head-On,Daylight
+3186,Not Head-On,Daylight
+3187,Not Head-On,Daylight
+3188,Not Head-On,Daylight
+3189,Not Head-On,Daylight
+3190,Not Head-On,Daylight
+3191,Not Head-On,Not Daylight
+3192,Not Head-On,Not Daylight
+3193,Not Head-On,Not Daylight
+3194,Not Head-On,Daylight
+3195,Not Head-On,Not Daylight
+3196,Not Head-On,Not Daylight
+3197,Not Head-On,Daylight
+3198,Not Head-On,Daylight
+3199,Not Head-On,Daylight
+3200,Not Head-On,Daylight
+3201,Not Head-On,Not Daylight
+3202,Not Head-On,Daylight
+3203,Not Head-On,Daylight
+3204,Not Head-On,Daylight
+3205,Not Head-On,Daylight
+3206,Not Head-On,Daylight
+3207,Not Head-On,Daylight
+3208,Not Head-On,Daylight
+3209,Not Head-On,Daylight
+3210,Not Head-On,Daylight
+3211,Not Head-On,Daylight
+3212,Not Head-On,Daylight
+3213,Not Head-On,Daylight
+3214,Not Head-On,Daylight
+3215,Not Head-On,Not Daylight
+3216,Not Head-On,Daylight
+3217,Not Head-On,Daylight
+3218,Not Head-On,Daylight
+3219,Head-on,Daylight
+3220,Not Head-On,Not Daylight
+3221,Not Head-On,Not Daylight
+3222,Not Head-On,Daylight
+3223,Not Head-On,Daylight
+3224,Not Head-On,Daylight
+3225,Not Head-On,Daylight
+3226,Not Head-On,Daylight
+3227,Not Head-On,Daylight
+3228,Head-on,Not Daylight
+3229,Not Head-On,Daylight
+3230,Not Head-On,Not Daylight
+3231,Not Head-On,Daylight
+3232,Not Head-On,Daylight
+3233,Not Head-On,Daylight
+3234,Not Head-On,Daylight
+3235,Not Head-On,Daylight
+3236,Not Head-On,Daylight
+3237,Not Head-On,Daylight
+3238,Not Head-On,Daylight
+3239,Not Head-On,Daylight
+3240,Not Head-On,Daylight
+3241,Not Head-On,Daylight
+3242,Not Head-On,Daylight
+3243,Not Head-On,Daylight
+3244,Not Head-On,Daylight
+3245,Head-on,Daylight
+3246,Not Head-On,Daylight
+3247,Not Head-On,Daylight
+3248,Not Head-On,Daylight
+3249,Not Head-On,Daylight
+3250,Not Head-On,Not Daylight
+3251,Not Head-On,Daylight
+3252,Not Head-On,Daylight
+3253,Not Head-On,Not Daylight
+3254,Not Head-On,Daylight
+3255,Not Head-On,Daylight
+3256,Not Head-On,Daylight
+3257,Not Head-On,Daylight
+3258,Not Head-On,Not Daylight
+3259,Not Head-On,Daylight
+3260,Not Head-On,Daylight
+3261,Not Head-On,Daylight
+3262,Not Head-On,Not Daylight
+3263,Not Head-On,Not Daylight
+3264,Not Head-On,Daylight
+3265,Not Head-On,Daylight
+3266,Not Head-On,Daylight
+3267,Not Head-On,Daylight
+3268,Not Head-On,Not Daylight
+3269,Not Head-On,Daylight
+3270,Not Head-On,Not Daylight
+3271,Not Head-On,Not Daylight
+3272,Head-on,Not Daylight
+3273,Not Head-On,Daylight
+3274,Not Head-On,Daylight
+3275,Not Head-On,Daylight
+3276,Not Head-On,Daylight
+3277,Not Head-On,Not Daylight
+3278,Not Head-On,Daylight
+3279,Not Head-On,Daylight
+3280,Not Head-On,Not Daylight
+3281,Not Head-On,Daylight
+3282,Not Head-On,Daylight
+3283,Not Head-On,Daylight
+3284,Not Head-On,Daylight
+3285,Not Head-On,Not Daylight
+3286,Not Head-On,Daylight
+3287,Not Head-On,Not Daylight
+3288,Not Head-On,Daylight
+3289,Not Head-On,Daylight
+3290,Not Head-On,Not Daylight
+3291,Not Head-On,Daylight
+3292,Not Head-On,Not Daylight
+3293,Not Head-On,Daylight
+3294,Not Head-On,Daylight
+3295,Not Head-On,Daylight
+3296,Not Head-On,Daylight
+3297,Not Head-On,Daylight
+3298,Not Head-On,Daylight
+3299,Not Head-On,Daylight
+3300,Not Head-On,Daylight
+3301,Not Head-On,Daylight
+3302,Not Head-On,Daylight
+3303,Not Head-On,Daylight
+3304,Not Head-On,Daylight
+3305,Not Head-On,Daylight
+3306,Not Head-On,Daylight
+3307,Not Head-On,Not Daylight
+3308,Not Head-On,Not Daylight
+3309,Not Head-On,Daylight
+3310,Head-on,Not Daylight
+3311,Not Head-On,Daylight
+3312,Not Head-On,Not Daylight
+3313,Not Head-On,Daylight
+3314,Not Head-On,Daylight
+3315,Not Head-On,Daylight
+3316,Not Head-On,Daylight
+3317,Not Head-On,Not Daylight
+3318,Not Head-On,Not Daylight
+3319,Not Head-On,Daylight
+3320,Head-on,Daylight
+3321,Not Head-On,Daylight
+3322,Not Head-On,Not Daylight
+3323,Not Head-On,Daylight
+3324,Not Head-On,Not Daylight
+3325,Not Head-On,Not Daylight
+3326,Not Head-On,Not Daylight
+3327,Not Head-On,Not Daylight
+3328,Not Head-On,Daylight
+3329,Not Head-On,Not Daylight
+3330,Not Head-On,Daylight
+3331,Not Head-On,Daylight
+3332,Not Head-On,Daylight
+3333,Not Head-On,Daylight
+3334,Not Head-On,Not Daylight
+3335,Not Head-On,Daylight
+3336,Not Head-On,Not Daylight
+3337,Not Head-On,Daylight
+3338,Not Head-On,Daylight
+3339,Not Head-On,Daylight
+3340,Not Head-On,Daylight
+3341,Head-on,Daylight
+3342,Not Head-On,Not Daylight
+3343,Not Head-On,Not Daylight
+3344,Not Head-On,Daylight
+3345,Not Head-On,Daylight
+3346,Head-on,Not Daylight
+3347,Not Head-On,Not Daylight
+3348,Not Head-On,Not Daylight
+3349,Not Head-On,Daylight
+3350,Not Head-On,Daylight
+3351,Not Head-On,Daylight
+3352,Not Head-On,Daylight
+3353,Not Head-On,Daylight
+3354,Not Head-On,Daylight
+3355,Not Head-On,Daylight
+3356,Not Head-On,Daylight
+3357,Not Head-On,Not Daylight
+3358,Not Head-On,Daylight
+3359,Head-on,Daylight
+3360,Not Head-On,Daylight
+3361,Not Head-On,Daylight
+3362,Not Head-On,Daylight
+3363,Not Head-On,Not Daylight
+3364,Not Head-On,Daylight
+3365,Not Head-On,Daylight
+3366,Not Head-On,Daylight
+3367,Not Head-On,Not Daylight
+3368,Not Head-On,Daylight
+3369,Not Head-On,Daylight
+3370,Not Head-On,Daylight
+3371,Not Head-On,Daylight
+3372,Head-on,Daylight
+3373,Not Head-On,Daylight
+3374,Not Head-On,Not Daylight
+3375,Not Head-On,Daylight
+3376,Not Head-On,Not Daylight
+3377,Not Head-On,Not Daylight
+3378,Not Head-On,Daylight
+3379,Not Head-On,Not Daylight
+3380,Not Head-On,Not Daylight
+3381,Not Head-On,Daylight
+3382,Not Head-On,Daylight
+3383,Not Head-On,Daylight
+3384,Not Head-On,Daylight
+3385,Head-on,Daylight
+3386,Not Head-On,Daylight
+3387,Not Head-On,Not Daylight
+3388,Not Head-On,Not Daylight
+3389,Not Head-On,Daylight
+3390,Not Head-On,Daylight
+3391,Not Head-On,Daylight
+3392,Not Head-On,Daylight
+3393,Not Head-On,Daylight
+3394,Not Head-On,Daylight
+3395,Not Head-On,Not Daylight
+3396,Not Head-On,Not Daylight
+3397,Not Head-On,Daylight
+3398,Not Head-On,Not Daylight
+3399,Not Head-On,Not Daylight
+3400,Not Head-On,Not Daylight
+3401,Not Head-On,Daylight
+3402,Not Head-On,Not Daylight
+3403,Not Head-On,Daylight
+3404,Not Head-On,Daylight
+3405,Not Head-On,Daylight
+3406,Not Head-On,Daylight
+3407,Not Head-On,Daylight
+3408,Not Head-On,Daylight
+3409,Head-on,Daylight
+3410,Not Head-On,Not Daylight
+3411,Not Head-On,Not Daylight
+3412,Not Head-On,Not Daylight
+3413,Not Head-On,Daylight
+3414,Not Head-On,Daylight
+3415,Not Head-On,Daylight
+3416,Not Head-On,Daylight
+3417,Not Head-On,Daylight
+3418,Not Head-On,Daylight
+3419,Not Head-On,Not Daylight
+3420,Not Head-On,Daylight
+3421,Not Head-On,Daylight
+3422,Head-on,Daylight
+3423,Not Head-On,Not Daylight
+3424,Not Head-On,Daylight
+3425,Not Head-On,Daylight
+3426,Not Head-On,Not Daylight
+3427,Not Head-On,Daylight
+3428,Not Head-On,Daylight
+3429,Not Head-On,Daylight
+3430,Not Head-On,Not Daylight
+3431,Not Head-On,Daylight
+3432,Not Head-On,Daylight
+3433,Not Head-On,Not Daylight
+3434,Not Head-On,Daylight
+3435,Head-on,Daylight
+3436,Not Head-On,Not Daylight
+3437,Not Head-On,Daylight
+3438,Not Head-On,Daylight
+3439,Not Head-On,Not Daylight
+3440,Not Head-On,Not Daylight
+3441,Not Head-On,Not Daylight
+3442,Not Head-On,Not Daylight
+3443,Not Head-On,Daylight
+3444,Not Head-On,Daylight
+3445,Not Head-On,Daylight
+3446,Not Head-On,Daylight
+3447,Not Head-On,Daylight
+3448,Not Head-On,Daylight
+3449,Not Head-On,Not Daylight
+3450,Not Head-On,Daylight
+3451,Not Head-On,Not Daylight
+3452,Not Head-On,Not Daylight
+3453,Not Head-On,Daylight
+3454,Not Head-On,Daylight
+3455,Not Head-On,Daylight
+3456,Not Head-On,Not Daylight
+3457,Not Head-On,Daylight
+3458,Not Head-On,Daylight
+3459,Not Head-On,Not Daylight
+3460,Not Head-On,Daylight
+3461,Not Head-On,Not Daylight
+3462,Not Head-On,Daylight
+3463,Not Head-On,Daylight
+3464,Not Head-On,Daylight
+3465,Head-on,Daylight
+3466,Not Head-On,Daylight
+3467,Not Head-On,Not Daylight
+3468,Not Head-On,Not Daylight
+3469,Not Head-On,Daylight
+3470,Not Head-On,Daylight
+3471,Not Head-On,Daylight
+3472,Not Head-On,Daylight
+3473,Not Head-On,Daylight
+3474,Not Head-On,Not Daylight
+3475,Not Head-On,Daylight
+3476,Not Head-On,Not Daylight
+3477,Not Head-On,Daylight
+3478,Not Head-On,Daylight
+3479,Not Head-On,Daylight
+3480,Not Head-On,Daylight
+3481,Not Head-On,Daylight
+3482,Not Head-On,Daylight
+3483,Not Head-On,Daylight
+3484,Not Head-On,Daylight
+3485,Not Head-On,Not Daylight
+3486,Not Head-On,Daylight
+3487,Not Head-On,Daylight
+3488,Not Head-On,Daylight
+3489,Not Head-On,Daylight
+3490,Head-on,Daylight
+3491,Not Head-On,Not Daylight
+3492,Not Head-On,Daylight
+3493,Not Head-On,Not Daylight
+3494,Not Head-On,Not Daylight
+3495,Not Head-On,Daylight
+3496,Not Head-On,Not Daylight
+3497,Not Head-On,Daylight
+3498,Not Head-On,Not Daylight
+3499,Not Head-On,Daylight
+3500,Not Head-On,Daylight
+3501,Not Head-On,Daylight
+3502,Not Head-On,Daylight
+3503,Not Head-On,Daylight
+3504,Not Head-On,Daylight
+3505,Not Head-On,Daylight
+3506,Not Head-On,Daylight
+3507,Not Head-On,Not Daylight
+3508,Not Head-On,Not Daylight
+3509,Not Head-On,Daylight
+3510,Not Head-On,Daylight
+3511,Not Head-On,Daylight
+3512,Not Head-On,Daylight
+3513,Not Head-On,Daylight
+3514,Not Head-On,Daylight
+3515,Not Head-On,Daylight
+3516,Not Head-On,Daylight
+3517,Not Head-On,Daylight
+3518,Not Head-On,Daylight
+3519,Not Head-On,Daylight
+3520,Head-on,Not Daylight
+3521,Not Head-On,Daylight
+3522,Not Head-On,Daylight
+3523,Not Head-On,Not Daylight
+3524,Not Head-On,Daylight
+3525,Not Head-On,Daylight
+3526,Not Head-On,Daylight
+3527,Not Head-On,Daylight
+3528,Not Head-On,Not Daylight
+3529,Head-on,Daylight
+3530,Not Head-On,Daylight
+3531,Not Head-On,Daylight
+3532,Not Head-On,Daylight
+3533,Not Head-On,Daylight
+3534,Not Head-On,Daylight
+3535,Not Head-On,Daylight
+3536,Not Head-On,Daylight
+3537,Not Head-On,Daylight
+3538,Not Head-On,Daylight
+3539,Not Head-On,Daylight
+3540,Not Head-On,Daylight
+3541,Not Head-On,Daylight
+3542,Not Head-On,Not Daylight
+3543,Not Head-On,Not Daylight
+3544,Not Head-On,Daylight
+3545,Not Head-On,Daylight
+3546,Not Head-On,Not Daylight
+3547,Not Head-On,Daylight
+3548,Not Head-On,Daylight
+3549,Not Head-On,Not Daylight
+3550,Not Head-On,Not Daylight
+3551,Not Head-On,Daylight
+3552,Not Head-On,Daylight
+3553,Not Head-On,Daylight
+3554,Not Head-On,Not Daylight
+3555,Not Head-On,Not Daylight
+3556,Not Head-On,Daylight
+3557,Not Head-On,Daylight
+3558,Not Head-On,Daylight
+3559,Not Head-On,Not Daylight
+3560,Not Head-On,Daylight
+3561,Not Head-On,Not Daylight
+3562,Not Head-On,Daylight
+3563,Not Head-On,Not Daylight
+3564,Not Head-On,Daylight
+3565,Not Head-On,Daylight
+3566,Not Head-On,Not Daylight
+3567,Not Head-On,Daylight
+3568,Head-on,Not Daylight
+3569,Not Head-On,Daylight
+3570,Not Head-On,Daylight
+3571,Not Head-On,Not Daylight
+3572,Not Head-On,Daylight
+3573,Not Head-On,Not Daylight
+3574,Not Head-On,Daylight
+3575,Not Head-On,Not Daylight
+3576,Not Head-On,Not Daylight
+3577,Not Head-On,Daylight
+3578,Not Head-On,Not Daylight
+3579,Not Head-On,Daylight
+3580,Not Head-On,Daylight
+3581,Not Head-On,Not Daylight
+3582,Not Head-On,Not Daylight
+3583,Not Head-On,Not Daylight
+3584,Not Head-On,Daylight
+3585,Not Head-On,Not Daylight
+3586,Not Head-On,Not Daylight
+3587,Not Head-On,Daylight
+3588,Not Head-On,Not Daylight
+3589,Not Head-On,Daylight
+3590,Not Head-On,Daylight
+3591,Not Head-On,Not Daylight
+3592,Not Head-On,Daylight
+3593,Not Head-On,Daylight
+3594,Head-on,Daylight
+3595,Not Head-On,Daylight
+3596,Not Head-On,Not Daylight
+3597,Not Head-On,Not Daylight
+3598,Not Head-On,Daylight
+3599,Not Head-On,Daylight
+3600,Not Head-On,Daylight
+3601,Not Head-On,Not Daylight
+3602,Not Head-On,Daylight
+3603,Not Head-On,Daylight
+3604,Not Head-On,Not Daylight
+3605,Not Head-On,Daylight
+3606,Not Head-On,Not Daylight
+3607,Not Head-On,Daylight
+3608,Head-on,Daylight
+3609,Not Head-On,Daylight
+3610,Not Head-On,Not Daylight
+3611,Not Head-On,Daylight
+3612,Not Head-On,Not Daylight
+3613,Not Head-On,Not Daylight
+3614,Not Head-On,Daylight
+3615,Not Head-On,Daylight
+3616,Not Head-On,Daylight
+3617,Not Head-On,Daylight
+3618,Head-on,Daylight
+3619,Not Head-On,Daylight
+3620,Not Head-On,Daylight
+3621,Not Head-On,Daylight
+3622,Not Head-On,Daylight
+3623,Not Head-On,Daylight
+3624,Not Head-On,Daylight
+3625,Not Head-On,Daylight
+3626,Not Head-On,Daylight
+3627,Not Head-On,Not Daylight
+3628,Not Head-On,Not Daylight
+3629,Not Head-On,Daylight
+3630,Not Head-On,Daylight
+3631,Not Head-On,Daylight
+3632,Not Head-On,Daylight
+3633,Not Head-On,Daylight
+3634,Not Head-On,Not Daylight
+3635,Not Head-On,Daylight
+3636,Not Head-On,Daylight
+3637,Not Head-On,Daylight
+3638,Not Head-On,Daylight
+3639,Not Head-On,Daylight
+3640,Not Head-On,Not Daylight
+3641,Head-on,Daylight
+3642,Not Head-On,Daylight
+3643,Not Head-On,Daylight
+3644,Not Head-On,Not Daylight
+3645,Not Head-On,Daylight
+3646,Not Head-On,Not Daylight
+3647,Not Head-On,Daylight
+3648,Not Head-On,Daylight
+3649,Not Head-On,Daylight
+3650,Head-on,Daylight
+3651,Not Head-On,Daylight
+3652,Head-on,Not Daylight
+3653,Not Head-On,Daylight
+3654,Not Head-On,Daylight
+3655,Not Head-On,Daylight
+3656,Head-on,Daylight
+3657,Not Head-On,Daylight
+3658,Not Head-On,Daylight
+3659,Not Head-On,Daylight
+3660,Not Head-On,Daylight
+3661,Not Head-On,Not Daylight
+3662,Not Head-On,Not Daylight
+3663,Not Head-On,Not Daylight
+3664,Not Head-On,Daylight
+3665,Not Head-On,Daylight
+3666,Not Head-On,Daylight
+3667,Not Head-On,Daylight
+3668,Not Head-On,Not Daylight
+3669,Not Head-On,Daylight
+3670,Not Head-On,Daylight
+3671,Not Head-On,Daylight
+3672,Not Head-On,Daylight
+3673,Not Head-On,Daylight
+3674,Not Head-On,Daylight
+3675,Not Head-On,Daylight
+3676,Not Head-On,Daylight
+3677,Not Head-On,Daylight
+3678,Not Head-On,Not Daylight
+3679,Not Head-On,Daylight
+3680,Not Head-On,Daylight
+3681,Not Head-On,Daylight
+3682,Not Head-On,Daylight
+3683,Not Head-On,Daylight
+3684,Not Head-On,Daylight
+3685,Not Head-On,Daylight
+3686,Not Head-On,Daylight
+3687,Not Head-On,Daylight
+3688,Not Head-On,Daylight
+3689,Not Head-On,Not Daylight
+3690,Not Head-On,Not Daylight
+3691,Not Head-On,Not Daylight
+3692,Not Head-On,Daylight
+3693,Not Head-On,Not Daylight
+3694,Not Head-On,Daylight
+3695,Not Head-On,Daylight
+3696,Not Head-On,Daylight
+3697,Not Head-On,Daylight
+3698,Not Head-On,Daylight
+3699,Not Head-On,Daylight
+3700,Not Head-On,Daylight
+3701,Not Head-On,Daylight
+3702,Not Head-On,Daylight
+3703,Not Head-On,Daylight
+3704,Not Head-On,Not Daylight
+3705,Not Head-On,Daylight
+3706,Not Head-On,Daylight
+3707,Head-on,Daylight
+3708,Not Head-On,Daylight
+3709,Not Head-On,Not Daylight
+3710,Not Head-On,Daylight
+3711,Not Head-On,Daylight
+3712,Not Head-On,Daylight
+3713,Not Head-On,Daylight
+3714,Not Head-On,Daylight
+3715,Not Head-On,Daylight
+3716,Not Head-On,Daylight
+3717,Not Head-On,Not Daylight
+3718,Not Head-On,Daylight
+3719,Not Head-On,Not Daylight
+3720,Not Head-On,Not Daylight
+3721,Not Head-On,Daylight
+3722,Not Head-On,Not Daylight
+3723,Not Head-On,Not Daylight
+3724,Head-on,Daylight
+3725,Not Head-On,Not Daylight
+3726,Not Head-On,Not Daylight
+3727,Not Head-On,Not Daylight
+3728,Not Head-On,Daylight
+3729,Not Head-On,Daylight
+3730,Not Head-On,Daylight
+3731,Not Head-On,Not Daylight
+3732,Not Head-On,Daylight
+3733,Not Head-On,Daylight
+3734,Not Head-On,Daylight
+3735,Not Head-On,Daylight
+3736,Not Head-On,Not Daylight
+3737,Not Head-On,Daylight
+3738,Not Head-On,Daylight
+3739,Not Head-On,Daylight
+3740,Not Head-On,Daylight
+3741,Not Head-On,Daylight
+3742,Not Head-On,Daylight
+3743,Not Head-On,Not Daylight
+3744,Not Head-On,Not Daylight
+3745,Not Head-On,Daylight
+3746,Not Head-On,Not Daylight
+3747,Not Head-On,Daylight
+3748,Head-on,Not Daylight
+3749,Not Head-On,Daylight
+3750,Not Head-On,Not Daylight
+3751,Not Head-On,Not Daylight
+3752,Not Head-On,Daylight
+3753,Not Head-On,Daylight
+3754,Not Head-On,Daylight
+3755,Not Head-On,Not Daylight
+3756,Not Head-On,Not Daylight
+3757,Not Head-On,Daylight
+3758,Not Head-On,Daylight
+3759,Not Head-On,Daylight
+3760,Not Head-On,Daylight
+3761,Not Head-On,Daylight
+3762,Not Head-On,Daylight
+3763,Not Head-On,Not Daylight
+3764,Not Head-On,Daylight
+3765,Not Head-On,Not Daylight
+3766,Not Head-On,Not Daylight
+3767,Not Head-On,Daylight
+3768,Not Head-On,Daylight
+3769,Not Head-On,Daylight
+3770,Not Head-On,Daylight
+3771,Not Head-On,Not Daylight
+3772,Not Head-On,Daylight
+3773,Not Head-On,Daylight
+3774,Head-on,Not Daylight
+3775,Not Head-On,Not Daylight
+3776,Not Head-On,Daylight
+3777,Not Head-On,Daylight
+3778,Not Head-On,Not Daylight
+3779,Not Head-On,Daylight
+3780,Not Head-On,Daylight
+3781,Not Head-On,Daylight
+3782,Not Head-On,Daylight
+3783,Not Head-On,Not Daylight
+3784,Not Head-On,Not Daylight
+3785,Not Head-On,Daylight
+3786,Not Head-On,Daylight
+3787,Not Head-On,Not Daylight
+3788,Not Head-On,Daylight
+3789,Not Head-On,Not Daylight
+3790,Not Head-On,Daylight
+3791,Not Head-On,Daylight
+3792,Not Head-On,Daylight
+3793,Not Head-On,Not Daylight
+3794,Not Head-On,Daylight
+3795,Not Head-On,Daylight
+3796,Not Head-On,Daylight
+3797,Not Head-On,Daylight
+3798,Not Head-On,Not Daylight
+3799,Not Head-On,Not Daylight
+3800,Not Head-On,Not Daylight
+3801,Not Head-On,Daylight
+3802,Not Head-On,Daylight
+3803,Not Head-On,Daylight
+3804,Head-on,Daylight
+3805,Not Head-On,Daylight
+3806,Not Head-On,Daylight
+3807,Not Head-On,Not Daylight
+3808,Not Head-On,Daylight
+3809,Not Head-On,Daylight
+3810,Not Head-On,Daylight
+3811,Not Head-On,Daylight
+3812,Not Head-On,Daylight
+3813,Head-on,Daylight
+3814,Not Head-On,Not Daylight
+3815,Not Head-On,Daylight
+3816,Not Head-On,Not Daylight
+3817,Not Head-On,Daylight
+3818,Not Head-On,Daylight
+3819,Head-on,Daylight
+3820,Head-on,Daylight
+3821,Not Head-On,Not Daylight
+3822,Not Head-On,Not Daylight
+3823,Not Head-On,Not Daylight
+3824,Not Head-On,Daylight
+3825,Not Head-On,Not Daylight
+3826,Not Head-On,Not Daylight
+3827,Not Head-On,Daylight
+3828,Not Head-On,Not Daylight
+3829,Not Head-On,Daylight
+3830,Not Head-On,Daylight
+3831,Not Head-On,Not Daylight
+3832,Not Head-On,Daylight
+3833,Not Head-On,Daylight
+3834,Not Head-On,Daylight
+3835,Not Head-On,Not Daylight
+3836,Not Head-On,Daylight
+3837,Head-on,Daylight
+3838,Not Head-On,Daylight
+3839,Not Head-On,Daylight
+3840,Not Head-On,Not Daylight
+3841,Not Head-On,Daylight
+3842,Not Head-On,Daylight
+3843,Not Head-On,Daylight
+3844,Not Head-On,Daylight
+3845,Not Head-On,Daylight
+3846,Not Head-On,Daylight
+3847,Not Head-On,Daylight
+3848,Not Head-On,Daylight
+3849,Not Head-On,Daylight
+3850,Not Head-On,Daylight
+3851,Not Head-On,Daylight
+3852,Not Head-On,Daylight
+3853,Not Head-On,Daylight
+3854,Not Head-On,Not Daylight
+3855,Not Head-On,Daylight
+3856,Not Head-On,Daylight
+3857,Not Head-On,Daylight
+3858,Not Head-On,Daylight
+3859,Not Head-On,Daylight
+3860,Not Head-On,Daylight
+3861,Not Head-On,Not Daylight
+3862,Not Head-On,Daylight
+3863,Not Head-On,Daylight
+3864,Head-on,Daylight
+3865,Not Head-On,Daylight
+3866,Not Head-On,Daylight
+3867,Head-on,Daylight
+3868,Not Head-On,Daylight
+3869,Not Head-On,Daylight
+3870,Not Head-On,Daylight
+3871,Not Head-On,Daylight
+3872,Not Head-On,Daylight
+3873,Not Head-On,Daylight
+3874,Not Head-On,Daylight
+3875,Head-on,Daylight
+3876,Not Head-On,Daylight
+3877,Not Head-On,Daylight
+3878,Not Head-On,Daylight
+3879,Not Head-On,Daylight
+3880,Not Head-On,Daylight
+3881,Not Head-On,Daylight
+3882,Not Head-On,Not Daylight
+3883,Head-on,Not Daylight
+3884,Not Head-On,Daylight
+3885,Not Head-On,Daylight
+3886,Not Head-On,Not Daylight
+3887,Not Head-On,Daylight
+3888,Not Head-On,Not Daylight
+3889,Not Head-On,Daylight
+3890,Not Head-On,Not Daylight
+3891,Not Head-On,Daylight
+3892,Not Head-On,Daylight
+3893,Not Head-On,Not Daylight
+3894,Head-on,Daylight
+3895,Not Head-On,Daylight
+3896,Not Head-On,Not Daylight
+3897,Not Head-On,Daylight
+3898,Not Head-On,Not Daylight
+3899,Not Head-On,Daylight
+3900,Not Head-On,Daylight
+3901,Not Head-On,Daylight
+3902,Not Head-On,Not Daylight
+3903,Not Head-On,Not Daylight
+3904,Not Head-On,Daylight
+3905,Not Head-On,Not Daylight
+3906,Not Head-On,Daylight
+3907,Head-on,Not Daylight
+3908,Not Head-On,Not Daylight
+3909,Not Head-On,Not Daylight
+3910,Not Head-On,Daylight
+3911,Not Head-On,Daylight
+3912,Not Head-On,Daylight
+3913,Not Head-On,Daylight
+3914,Not Head-On,Not Daylight
+3915,Not Head-On,Not Daylight
+3916,Not Head-On,Daylight
+3917,Not Head-On,Daylight
+3918,Not Head-On,Not Daylight
+3919,Not Head-On,Not Daylight
+3920,Not Head-On,Daylight
+3921,Not Head-On,Daylight
+3922,Not Head-On,Daylight
+3923,Not Head-On,Daylight
+3924,Not Head-On,Not Daylight
+3925,Not Head-On,Daylight
+3926,Not Head-On,Daylight
+3927,Not Head-On,Daylight
+3928,Not Head-On,Daylight
+3929,Not Head-On,Not Daylight
+3930,Not Head-On,Daylight
+3931,Not Head-On,Daylight
+3932,Not Head-On,Daylight
+3933,Not Head-On,Daylight
+3934,Not Head-On,Not Daylight
+3935,Not Head-On,Not Daylight
+3936,Not Head-On,Daylight
+3937,Not Head-On,Daylight
+3938,Head-on,Daylight
+3939,Not Head-On,Daylight
+3940,Not Head-On,Daylight
+3941,Not Head-On,Daylight
+3942,Not Head-On,Daylight
+3943,Not Head-On,Not Daylight
+3944,Not Head-On,Daylight
+3945,Not Head-On,Daylight
+3946,Not Head-On,Not Daylight
+3947,Not Head-On,Not Daylight
+3948,Not Head-On,Daylight
+3949,Not Head-On,Daylight
+3950,Not Head-On,Not Daylight
+3951,Not Head-On,Daylight
+3952,Not Head-On,Not Daylight
+3953,Not Head-On,Daylight
+3954,Not Head-On,Daylight
+3955,Not Head-On,Not Daylight
+3956,Not Head-On,Daylight
+3957,Not Head-On,Not Daylight
+3958,Not Head-On,Not Daylight
+3959,Not Head-On,Daylight
+3960,Not Head-On,Daylight
+3961,Not Head-On,Daylight
+3962,Not Head-On,Daylight
+3963,Not Head-On,Daylight
+3964,Not Head-On,Daylight
+3965,Not Head-On,Daylight
+3966,Not Head-On,Daylight
+3967,Not Head-On,Daylight
+3968,Not Head-On,Daylight
+3969,Not Head-On,Not Daylight
+3970,Not Head-On,Daylight
+3971,Not Head-On,Daylight
+3972,Not Head-On,Daylight
+3973,Not Head-On,Not Daylight
+3974,Not Head-On,Not Daylight
+3975,Not Head-On,Not Daylight
+3976,Not Head-On,Not Daylight
+3977,Not Head-On,Daylight
+3978,Not Head-On,Not Daylight
+3979,Not Head-On,Daylight
+3980,Not Head-On,Not Daylight
+3981,Not Head-On,Daylight
+3982,Not Head-On,Daylight
+3983,Not Head-On,Daylight
+3984,Not Head-On,Daylight
+3985,Not Head-On,Daylight
+3986,Not Head-On,Daylight
+3987,Not Head-On,Daylight
+3988,Not Head-On,Daylight
+3989,Not Head-On,Daylight
+3990,Not Head-On,Daylight
+3991,Not Head-On,Daylight
+3992,Not Head-On,Daylight
+3993,Not Head-On,Not Daylight
+3994,Not Head-On,Daylight
+3995,Not Head-On,Not Daylight
+3996,Not Head-On,Daylight
+3997,Not Head-On,Not Daylight
+3998,Not Head-On,Daylight
+3999,Not Head-On,Daylight
+4000,Not Head-On,Daylight
+4001,Not Head-On,Daylight
+4002,Not Head-On,Daylight
+4003,Not Head-On,Daylight
+4004,Not Head-On,Daylight
+4005,Not Head-On,Not Daylight
+4006,Head-on,Not Daylight
+4007,Not Head-On,Daylight
+4008,Not Head-On,Not Daylight
+4009,Not Head-On,Daylight
+4010,Not Head-On,Daylight
+4011,Not Head-On,Not Daylight
+4012,Head-on,Not Daylight
+4013,Not Head-On,Daylight
+4014,Not Head-On,Not Daylight
+4015,Not Head-On,Daylight
+4016,Not Head-On,Daylight
+4017,Not Head-On,Not Daylight
+4018,Not Head-On,Daylight
+4019,Not Head-On,Daylight
+4020,Not Head-On,Not Daylight
+4021,Not Head-On,Not Daylight
+4022,Not Head-On,Not Daylight
+4023,Not Head-On,Daylight
+4024,Not Head-On,Daylight
+4025,Not Head-On,Daylight
+4026,Not Head-On,Daylight
+4027,Not Head-On,Daylight
+4028,Not Head-On,Not Daylight
+4029,Not Head-On,Daylight
+4030,Not Head-On,Not Daylight
+4031,Not Head-On,Daylight
+4032,Not Head-On,Daylight
+4033,Not Head-On,Daylight
+4034,Not Head-On,Daylight
+4035,Not Head-On,Not Daylight
+4036,Not Head-On,Daylight
+4037,Not Head-On,Daylight
+4038,Not Head-On,Daylight
+4039,Not Head-On,Daylight
+4040,Not Head-On,Daylight
+4041,Not Head-On,Daylight
+4042,Not Head-On,Not Daylight
+4043,Not Head-On,Daylight
+4044,Not Head-On,Daylight
+4045,Not Head-On,Daylight
+4046,Not Head-On,Daylight
+4047,Not Head-On,Daylight
+4048,Not Head-On,Not Daylight
+4049,Not Head-On,Daylight
+4050,Not Head-On,Not Daylight
+4051,Not Head-On,Daylight
+4052,Not Head-On,Not Daylight
+4053,Not Head-On,Daylight
+4054,Not Head-On,Daylight
+4055,Not Head-On,Daylight
+4056,Not Head-On,Daylight
+4057,Not Head-On,Daylight
+4058,Head-on,Daylight
+4059,Not Head-On,Not Daylight
+4060,Not Head-On,Not Daylight
+4061,Not Head-On,Daylight
+4062,Not Head-On,Not Daylight
+4063,Not Head-On,Daylight
+4064,Not Head-On,Daylight
+4065,Not Head-On,Not Daylight
+4066,Not Head-On,Not Daylight
+4067,Not Head-On,Not Daylight
+4068,Not Head-On,Not Daylight
+4069,Not Head-On,Not Daylight
+4070,Not Head-On,Not Daylight
+4071,Not Head-On,Daylight
+4072,Not Head-On,Not Daylight
+4073,Not Head-On,Daylight
+4074,Not Head-On,Daylight
+4075,Not Head-On,Not Daylight
+4076,Not Head-On,Not Daylight
+4077,Not Head-On,Daylight
+4078,Not Head-On,Daylight
+4079,Not Head-On,Not Daylight
+4080,Head-on,Daylight
+4081,Not Head-On,Daylight
+4082,Not Head-On,Daylight
+4083,Head-on,Not Daylight
+4084,Not Head-On,Not Daylight
+4085,Not Head-On,Daylight
+4086,Head-on,Daylight
+4087,Head-on,Not Daylight
+4088,Not Head-On,Not Daylight
+4089,Head-on,Daylight
+4090,Head-on,Daylight
+4091,Not Head-On,Daylight
+4092,Not Head-On,Daylight
+4093,Not Head-On,Daylight
+4094,Not Head-On,Daylight
+4095,Not Head-On,Not Daylight
+4096,Not Head-On,Daylight
+4097,Not Head-On,Not Daylight
+4098,Not Head-On,Daylight
+4099,Not Head-On,Daylight
+4100,Head-on,Daylight
+4101,Not Head-On,Not Daylight
+4102,Not Head-On,Daylight
+4103,Not Head-On,Daylight
+4104,Not Head-On,Daylight
+4105,Not Head-On,Daylight
+4106,Not Head-On,Daylight
+4107,Not Head-On,Daylight
+4108,Not Head-On,Not Daylight
+4109,Not Head-On,Not Daylight
+4110,Not Head-On,Daylight
+4111,Not Head-On,Daylight
+4112,Not Head-On,Not Daylight
+4113,Not Head-On,Not Daylight
+4114,Not Head-On,Not Daylight
+4115,Not Head-On,Not Daylight
+4116,Not Head-On,Daylight
+4117,Not Head-On,Not Daylight
+4118,Not Head-On,Daylight
+4119,Not Head-On,Daylight
+4120,Not Head-On,Not Daylight
+4121,Not Head-On,Not Daylight
+4122,Not Head-On,Daylight
+4123,Not Head-On,Daylight
+4124,Not Head-On,Daylight
+4125,Not Head-On,Not Daylight
+4126,Not Head-On,Not Daylight
+4127,Not Head-On,Daylight
+4128,Not Head-On,Daylight
+4129,Not Head-On,Daylight
+4130,Not Head-On,Daylight
+4131,Not Head-On,Daylight
+4132,Not Head-On,Daylight
+4133,Not Head-On,Daylight
+4134,Not Head-On,Daylight
+4135,Not Head-On,Daylight
+4136,Not Head-On,Daylight
+4137,Not Head-On,Not Daylight
+4138,Not Head-On,Not Daylight
+4139,Not Head-On,Daylight
+4140,Not Head-On,Daylight
+4141,Not Head-On,Daylight
+4142,Not Head-On,Daylight
+4143,Not Head-On,Daylight
+4144,Not Head-On,Not Daylight
+4145,Not Head-On,Daylight
+4146,Not Head-On,Daylight
+4147,Not Head-On,Daylight
+4148,Not Head-On,Daylight
+4149,Not Head-On,Daylight
+4150,Not Head-On,Daylight
+4151,Not Head-On,Daylight
+4152,Not Head-On,Daylight
+4153,Not Head-On,Daylight
+4154,Not Head-On,Daylight
+4155,Not Head-On,Daylight
+4156,Not Head-On,Not Daylight
+4157,Not Head-On,Not Daylight
+4158,Not Head-On,Daylight
+4159,Not Head-On,Not Daylight
+4160,Not Head-On,Not Daylight
+4161,Not Head-On,Daylight
+4162,Not Head-On,Daylight
+4163,Not Head-On,Daylight
+4164,Not Head-On,Daylight
+4165,Not Head-On,Daylight
+4166,Not Head-On,Daylight
+4167,Not Head-On,Not Daylight
+4168,Not Head-On,Daylight
+4169,Not Head-On,Not Daylight
+4170,Not Head-On,Daylight
+4171,Not Head-On,Daylight
+4172,Not Head-On,Daylight
+4173,Not Head-On,Daylight
+4174,Not Head-On,Daylight
+4175,Not Head-On,Daylight
+4176,Not Head-On,Daylight
+4177,Not Head-On,Not Daylight
+4178,Not Head-On,Not Daylight
+4179,Not Head-On,Not Daylight
+4180,Not Head-On,Daylight
+4181,Not Head-On,Daylight
+4182,Not Head-On,Daylight
+4183,Not Head-On,Not Daylight
+4184,Not Head-On,Not Daylight
+4185,Not Head-On,Not Daylight
+4186,Not Head-On,Daylight
+4187,Not Head-On,Daylight
+4188,Not Head-On,Daylight
+4189,Not Head-On,Daylight
+4190,Not Head-On,Not Daylight
+4191,Not Head-On,Daylight
+4192,Not Head-On,Not Daylight
+4193,Not Head-On,Daylight
+4194,Not Head-On,Daylight
+4195,Head-on,Not Daylight
+4196,Not Head-On,Not Daylight
+4197,Not Head-On,Not Daylight
+4198,Not Head-On,Daylight
+4199,Not Head-On,Daylight
+4200,Not Head-On,Daylight
+4201,Not Head-On,Daylight
+4202,Not Head-On,Daylight
+4203,Head-on,Daylight
+4204,Not Head-On,Daylight
+4205,Not Head-On,Daylight
+4206,Not Head-On,Daylight
+4207,Not Head-On,Not Daylight
+4208,Not Head-On,Daylight
+4209,Not Head-On,Daylight
+4210,Not Head-On,Daylight
+4211,Not Head-On,Daylight
+4212,Not Head-On,Not Daylight
+4213,Not Head-On,Not Daylight
+4214,Not Head-On,Daylight
+4215,Not Head-On,Not Daylight
+4216,Not Head-On,Not Daylight
+4217,Not Head-On,Daylight
+4218,Not Head-On,Daylight
+4219,Head-on,Daylight
+4220,Not Head-On,Daylight
+4221,Not Head-On,Daylight
+4222,Not Head-On,Not Daylight
+4223,Not Head-On,Daylight
+4224,Not Head-On,Daylight
+4225,Not Head-On,Daylight
+4226,Not Head-On,Daylight
+4227,Not Head-On,Not Daylight
+4228,Not Head-On,Daylight
+4229,Not Head-On,Daylight
+4230,Not Head-On,Not Daylight
+4231,Not Head-On,Not Daylight
+4232,Not Head-On,Daylight
+4233,Not Head-On,Daylight
+4234,Not Head-On,Not Daylight
+4235,Not Head-On,Not Daylight
+4236,Not Head-On,Daylight
+4237,Not Head-On,Not Daylight
+4238,Not Head-On,Daylight
+4239,Not Head-On,Not Daylight
+4240,Not Head-On,Daylight
+4241,Not Head-On,Daylight
+4242,Not Head-On,Not Daylight
+4243,Not Head-On,Daylight
+4244,Not Head-On,Daylight
+4245,Head-on,Daylight
+4246,Not Head-On,Not Daylight
+4247,Not Head-On,Not Daylight
+4248,Not Head-On,Daylight
+4249,Not Head-On,Not Daylight
+4250,Not Head-On,Daylight
+4251,Not Head-On,Daylight
+4252,Not Head-On,Daylight
+4253,Not Head-On,Not Daylight
+4254,Not Head-On,Daylight
+4255,Not Head-On,Daylight
+4256,Not Head-On,Daylight
+4257,Head-on,Daylight
+4258,Head-on,Daylight
+4259,Not Head-On,Daylight
+4260,Not Head-On,Daylight
+4261,Not Head-On,Daylight
+4262,Not Head-On,Not Daylight
+4263,Not Head-On,Daylight
+4264,Not Head-On,Daylight
+4265,Not Head-On,Daylight
+4266,Not Head-On,Daylight
+4267,Not Head-On,Daylight
+4268,Not Head-On,Not Daylight
+4269,Not Head-On,Not Daylight
+4270,Head-on,Not Daylight
+4271,Not Head-On,Daylight
+4272,Not Head-On,Not Daylight
+4273,Not Head-On,Not Daylight
+4274,Not Head-On,Daylight
+4275,Not Head-On,Daylight
+4276,Not Head-On,Daylight
+4277,Not Head-On,Daylight
+4278,Not Head-On,Daylight
+4279,Not Head-On,Daylight
+4280,Not Head-On,Daylight
+4281,Not Head-On,Daylight
+4282,Not Head-On,Not Daylight
+4283,Not Head-On,Daylight
+4284,Not Head-On,Daylight
+4285,Head-on,Not Daylight
+4286,Not Head-On,Daylight
+4287,Not Head-On,Daylight
+4288,Not Head-On,Daylight
+4289,Not Head-On,Daylight
+4290,Head-on,Daylight
+4291,Not Head-On,Daylight
+4292,Not Head-On,Daylight
+4293,Not Head-On,Daylight
+4294,Not Head-On,Not Daylight
+4295,Not Head-On,Daylight
+4296,Not Head-On,Daylight
+4297,Not Head-On,Not Daylight
+4298,Not Head-On,Not Daylight
+4299,Not Head-On,Daylight
+4300,Not Head-On,Daylight
+4301,Not Head-On,Daylight
+4302,Not Head-On,Daylight
+4303,Not Head-On,Not Daylight
+4304,Not Head-On,Daylight
+4305,Not Head-On,Daylight
+4306,Not Head-On,Daylight
+4307,Not Head-On,Daylight
+4308,Not Head-On,Daylight
+4309,Not Head-On,Not Daylight
+4310,Not Head-On,Daylight
+4311,Not Head-On,Daylight
+4312,Head-on,Not Daylight
+4313,Not Head-On,Not Daylight
+4314,Not Head-On,Not Daylight
+4315,Not Head-On,Daylight
+4316,Not Head-On,Daylight
+4317,Not Head-On,Daylight
+4318,Not Head-On,Daylight
+4319,Not Head-On,Daylight
+4320,Not Head-On,Daylight
+4321,Not Head-On,Daylight
+4322,Not Head-On,Daylight
+4323,Not Head-On,Daylight
+4324,Not Head-On,Not Daylight
+4325,Not Head-On,Daylight
+4326,Not Head-On,Daylight
+4327,Not Head-On,Daylight
+4328,Not Head-On,Daylight
+4329,Not Head-On,Daylight
+4330,Not Head-On,Daylight
+4331,Not Head-On,Daylight
+4332,Not Head-On,Daylight
+4333,Not Head-On,Daylight
+4334,Not Head-On,Daylight
+4335,Not Head-On,Daylight
+4336,Not Head-On,Daylight
+4337,Not Head-On,Daylight
+4338,Not Head-On,Not Daylight
+4339,Not Head-On,Daylight
+4340,Not Head-On,Daylight
+4341,Not Head-On,Daylight
+4342,Not Head-On,Not Daylight
+4343,Not Head-On,Daylight
+4344,Not Head-On,Daylight
+4345,Not Head-On,Daylight
+4346,Not Head-On,Daylight
+4347,Not Head-On,Daylight
+4348,Not Head-On,Not Daylight
+4349,Not Head-On,Daylight
+4350,Not Head-On,Daylight
+4351,Head-on,Daylight
+4352,Not Head-On,Daylight
+4353,Not Head-On,Daylight
+4354,Not Head-On,Daylight
+4355,Not Head-On,Not Daylight
+4356,Not Head-On,Daylight
+4357,Not Head-On,Daylight
+4358,Head-on,Not Daylight
+4359,Not Head-On,Daylight
+4360,Not Head-On,Daylight
+4361,Not Head-On,Daylight
+4362,Not Head-On,Daylight
+4363,Not Head-On,Daylight
+4364,Not Head-On,Daylight
+4365,Not Head-On,Daylight
+4366,Not Head-On,Daylight
+4367,Not Head-On,Daylight
+4368,Not Head-On,Daylight
+4369,Not Head-On,Daylight
+4370,Not Head-On,Daylight
+4371,Not Head-On,Daylight
+4372,Not Head-On,Daylight
+4373,Not Head-On,Daylight
+4374,Not Head-On,Daylight
+4375,Not Head-On,Daylight
+4376,Not Head-On,Daylight
+4377,Not Head-On,Daylight
+4378,Not Head-On,Not Daylight
+4379,Not Head-On,Daylight
+4380,Not Head-On,Not Daylight
+4381,Not Head-On,Daylight
+4382,Not Head-On,Daylight
+4383,Not Head-On,Daylight
+4384,Not Head-On,Not Daylight
+4385,Not Head-On,Daylight
+4386,Head-on,Daylight
+4387,Not Head-On,Not Daylight
+4388,Not Head-On,Daylight
+4389,Not Head-On,Daylight
+4390,Not Head-On,Daylight
+4391,Not Head-On,Daylight
+4392,Not Head-On,Daylight
+4393,Not Head-On,Daylight
+4394,Head-on,Daylight
+4395,Not Head-On,Daylight
+4396,Head-on,Daylight
+4397,Not Head-On,Daylight
+4398,Not Head-On,Daylight
+4399,Not Head-On,Daylight
+4400,Not Head-On,Not Daylight
+4401,Not Head-On,Daylight
+4402,Not Head-On,Daylight
+4403,Not Head-On,Daylight
+4404,Not Head-On,Not Daylight
+4405,Not Head-On,Daylight
+4406,Not Head-On,Daylight
+4407,Not Head-On,Daylight
+4408,Not Head-On,Not Daylight
+4409,Not Head-On,Daylight
+4410,Not Head-On,Daylight
+4411,Not Head-On,Not Daylight
+4412,Not Head-On,Daylight
+4413,Not Head-On,Daylight
+4414,Not Head-On,Daylight
+4415,Not Head-On,Daylight
+4416,Not Head-On,Not Daylight
+4417,Not Head-On,Daylight
+4418,Not Head-On,Daylight
+4419,Not Head-On,Daylight
+4420,Not Head-On,Not Daylight
+4421,Not Head-On,Not Daylight
+4422,Not Head-On,Daylight
+4423,Not Head-On,Daylight
+4424,Not Head-On,Daylight
+4425,Not Head-On,Daylight
+4426,Not Head-On,Daylight
+4427,Not Head-On,Not Daylight
+4428,Not Head-On,Daylight
+4429,Not Head-On,Daylight
+4430,Not Head-On,Not Daylight
+4431,Not Head-On,Not Daylight
+4432,Not Head-On,Daylight
+4433,Not Head-On,Daylight
+4434,Not Head-On,Daylight
+4435,Not Head-On,Daylight
+4436,Not Head-On,Not Daylight
+4437,Not Head-On,Not Daylight
+4438,Not Head-On,Daylight
+4439,Not Head-On,Daylight
+4440,Not Head-On,Daylight
+4441,Not Head-On,Not Daylight
+4442,Not Head-On,Not Daylight
+4443,Not Head-On,Not Daylight
+4444,Not Head-On,Daylight
+4445,Not Head-On,Not Daylight
+4446,Not Head-On,Daylight
+4447,Not Head-On,Not Daylight
+4448,Not Head-On,Daylight
+4449,Not Head-On,Daylight
+4450,Not Head-On,Daylight
+4451,Not Head-On,Not Daylight
+4452,Not Head-On,Daylight
+4453,Head-on,Daylight
+4454,Not Head-On,Not Daylight
+4455,Not Head-On,Daylight
+4456,Not Head-On,Not Daylight
+4457,Not Head-On,Daylight
+4458,Not Head-On,Not Daylight
+4459,Not Head-On,Daylight
+4460,Not Head-On,Daylight
+4461,Not Head-On,Not Daylight
+4462,Not Head-On,Not Daylight
+4463,Not Head-On,Daylight
+4464,Not Head-On,Not Daylight
+4465,Not Head-On,Daylight
+4466,Not Head-On,Daylight
+4467,Not Head-On,Not Daylight
+4468,Not Head-On,Daylight
+4469,Not Head-On,Not Daylight
+4470,Not Head-On,Daylight
+4471,Not Head-On,Daylight
+4472,Not Head-On,Not Daylight
+4473,Not Head-On,Daylight
+4474,Not Head-On,Daylight
+4475,Not Head-On,Daylight
+4476,Not Head-On,Daylight
+4477,Not Head-On,Daylight
+4478,Not Head-On,Daylight
+4479,Not Head-On,Not Daylight
+4480,Not Head-On,Daylight
+4481,Not Head-On,Not Daylight
+4482,Not Head-On,Not Daylight
+4483,Not Head-On,Daylight
+4484,Not Head-On,Not Daylight
+4485,Not Head-On,Daylight
+4486,Not Head-On,Not Daylight
+4487,Not Head-On,Daylight
+4488,Not Head-On,Daylight
+4489,Not Head-On,Not Daylight
+4490,Not Head-On,Daylight
+4491,Not Head-On,Not Daylight
+4492,Not Head-On,Daylight
+4493,Not Head-On,Daylight
+4494,Not Head-On,Daylight
+4495,Head-on,Daylight
+4496,Not Head-On,Daylight
+4497,Not Head-On,Daylight
+4498,Not Head-On,Daylight
+4499,Not Head-On,Daylight
+4500,Not Head-On,Not Daylight
+4501,Not Head-On,Not Daylight
+4502,Not Head-On,Daylight
+4503,Not Head-On,Not Daylight
+4504,Not Head-On,Daylight
+4505,Not Head-On,Daylight
+4506,Head-on,Daylight
+4507,Not Head-On,Daylight
+4508,Not Head-On,Daylight
+4509,Not Head-On,Daylight
+4510,Not Head-On,Daylight
+4511,Not Head-On,Not Daylight
+4512,Not Head-On,Daylight
+4513,Not Head-On,Daylight
+4514,Not Head-On,Daylight
+4515,Head-on,Not Daylight
+4516,Not Head-On,Daylight
+4517,Not Head-On,Not Daylight
+4518,Not Head-On,Not Daylight
+4519,Not Head-On,Daylight
+4520,Not Head-On,Daylight
+4521,Not Head-On,Daylight
+4522,Not Head-On,Daylight
+4523,Not Head-On,Daylight
+4524,Not Head-On,Daylight
+4525,Not Head-On,Not Daylight
+4526,Not Head-On,Daylight
+4527,Not Head-On,Daylight
+4528,Not Head-On,Daylight
+4529,Not Head-On,Daylight
+4530,Not Head-On,Not Daylight
+4531,Not Head-On,Daylight
+4532,Not Head-On,Not Daylight
+4533,Not Head-On,Daylight
+4534,Not Head-On,Daylight
+4535,Not Head-On,Daylight
+4536,Not Head-On,Not Daylight
+4537,Not Head-On,Not Daylight
+4538,Not Head-On,Daylight
+4539,Not Head-On,Daylight
+4540,Not Head-On,Daylight
+4541,Not Head-On,Not Daylight
+4542,Not Head-On,Not Daylight
+4543,Not Head-On,Daylight
+4544,Not Head-On,Daylight
+4545,Not Head-On,Daylight
+4546,Not Head-On,Daylight
+4547,Not Head-On,Daylight
+4548,Not Head-On,Daylight
+4549,Not Head-On,Not Daylight
+4550,Not Head-On,Daylight
+4551,Head-on,Not Daylight
+4552,Not Head-On,Daylight
+4553,Not Head-On,Daylight
+4554,Not Head-On,Not Daylight
+4555,Not Head-On,Not Daylight
+4556,Not Head-On,Daylight
+4557,Not Head-On,Daylight
+4558,Not Head-On,Daylight
+4559,Not Head-On,Daylight
+4560,Not Head-On,Daylight
+4561,Not Head-On,Daylight
+4562,Not Head-On,Not Daylight
+4563,Not Head-On,Daylight
+4564,Not Head-On,Daylight
+4565,Not Head-On,Daylight
+4566,Not Head-On,Daylight
+4567,Not Head-On,Daylight
+4568,Not Head-On,Daylight
+4569,Not Head-On,Not Daylight
+4570,Not Head-On,Daylight
+4571,Not Head-On,Not Daylight
+4572,Not Head-On,Daylight
+4573,Not Head-On,Not Daylight
+4574,Not Head-On,Daylight
+4575,Not Head-On,Daylight
+4576,Not Head-On,Daylight
+4577,Not Head-On,Not Daylight
+4578,Not Head-On,Daylight
+4579,Not Head-On,Daylight
+4580,Not Head-On,Daylight
+4581,Not Head-On,Daylight
+4582,Not Head-On,Daylight
+4583,Not Head-On,Daylight
+4584,Not Head-On,Daylight
+4585,Not Head-On,Daylight
+4586,Not Head-On,Daylight
+4587,Not Head-On,Not Daylight
+4588,Not Head-On,Daylight
+4589,Not Head-On,Not Daylight
+4590,Not Head-On,Daylight
+4591,Not Head-On,Not Daylight
+4592,Not Head-On,Daylight
+4593,Not Head-On,Daylight
+4594,Not Head-On,Daylight
+4595,Not Head-On,Daylight
+4596,Not Head-On,Daylight
+4597,Not Head-On,Daylight
+4598,Not Head-On,Daylight
+4599,Not Head-On,Daylight
+4600,Not Head-On,Daylight
+4601,Not Head-On,Daylight
+4602,Not Head-On,Not Daylight
+4603,Not Head-On,Not Daylight
+4604,Not Head-On,Not Daylight
+4605,Not Head-On,Not Daylight
+4606,Not Head-On,Daylight
+4607,Not Head-On,Daylight
+4608,Not Head-On,Daylight
+4609,Not Head-On,Not Daylight
+4610,Not Head-On,Daylight
+4611,Not Head-On,Daylight
+4612,Not Head-On,Daylight
+4613,Not Head-On,Daylight
+4614,Not Head-On,Daylight
+4615,Not Head-On,Not Daylight
+4616,Not Head-On,Daylight
+4617,Not Head-On,Not Daylight
+4618,Not Head-On,Daylight
+4619,Not Head-On,Daylight
+4620,Not Head-On,Daylight
+4621,Not Head-On,Not Daylight
+4622,Not Head-On,Daylight
+4623,Not Head-On,Daylight
+4624,Not Head-On,Daylight
+4625,Not Head-On,Not Daylight
+4626,Not Head-On,Not Daylight
+4627,Not Head-On,Daylight
+4628,Not Head-On,Daylight
+4629,Not Head-On,Daylight
+4630,Not Head-On,Not Daylight
+4631,Not Head-On,Daylight
+4632,Head-on,Not Daylight
+4633,Not Head-On,Not Daylight
+4634,Not Head-On,Not Daylight
+4635,Not Head-On,Not Daylight
+4636,Not Head-On,Not Daylight
+4637,Not Head-On,Daylight
+4638,Not Head-On,Not Daylight
+4639,Not Head-On,Not Daylight
+4640,Not Head-On,Daylight
+4641,Not Head-On,Daylight
+4642,Not Head-On,Daylight
+4643,Not Head-On,Not Daylight
+4644,Not Head-On,Not Daylight
+4645,Not Head-On,Daylight
+4646,Not Head-On,Daylight
+4647,Not Head-On,Daylight
+4648,Not Head-On,Not Daylight
+4649,Head-on,Daylight
+4650,Not Head-On,Not Daylight
+4651,Not Head-On,Daylight
+4652,Not Head-On,Daylight
+4653,Not Head-On,Daylight
+4654,Head-on,Not Daylight
+4655,Not Head-On,Daylight
+4656,Not Head-On,Not Daylight
+4657,Not Head-On,Not Daylight
+4658,Not Head-On,Daylight
+4659,Not Head-On,Daylight
+4660,Not Head-On,Daylight
+4661,Not Head-On,Not Daylight
+4662,Not Head-On,Daylight
+4663,Not Head-On,Daylight
+4664,Not Head-On,Not Daylight
+4665,Not Head-On,Daylight
+4666,Not Head-On,Not Daylight
+4667,Not Head-On,Daylight
+4668,Not Head-On,Daylight
+4669,Not Head-On,Not Daylight
+4670,Not Head-On,Not Daylight
+4671,Not Head-On,Daylight
+4672,Not Head-On,Daylight
+4673,Not Head-On,Daylight
+4674,Not Head-On,Daylight
+4675,Not Head-On,Not Daylight
+4676,Not Head-On,Daylight
+4677,Not Head-On,Not Daylight
+4678,Not Head-On,Daylight
+4679,Not Head-On,Not Daylight
+4680,Not Head-On,Daylight
+4681,Not Head-On,Not Daylight
+4682,Not Head-On,Daylight
+4683,Not Head-On,Daylight
+4684,Not Head-On,Daylight
+4685,Head-on,Daylight
+4686,Not Head-On,Not Daylight
+4687,Not Head-On,Daylight
+4688,Not Head-On,Not Daylight
+4689,Not Head-On,Daylight
+4690,Not Head-On,Daylight
+4691,Not Head-On,Daylight
+4692,Not Head-On,Daylight
+4693,Not Head-On,Not Daylight
+4694,Not Head-On,Not Daylight
+4695,Not Head-On,Daylight
+4696,Not Head-On,Daylight
+4697,Not Head-On,Daylight
+4698,Not Head-On,Daylight
+4699,Not Head-On,Not Daylight
+4700,Not Head-On,Daylight
+4701,Not Head-On,Daylight
+4702,Not Head-On,Daylight
+4703,Not Head-On,Not Daylight
+4704,Not Head-On,Not Daylight
+4705,Not Head-On,Daylight
+4706,Not Head-On,Daylight
+4707,Not Head-On,Daylight
+4708,Not Head-On,Not Daylight
+4709,Not Head-On,Daylight
+4710,Not Head-On,Daylight
+4711,Not Head-On,Daylight
+4712,Not Head-On,Daylight
+4713,Not Head-On,Daylight
+4714,Not Head-On,Not Daylight
+4715,Not Head-On,Daylight
+4716,Not Head-On,Not Daylight
+4717,Head-on,Daylight
+4718,Not Head-On,Daylight
+4719,Not Head-On,Daylight
+4720,Not Head-On,Daylight
+4721,Not Head-On,Not Daylight
+4722,Not Head-On,Daylight
+4723,Not Head-On,Not Daylight
+4724,Not Head-On,Daylight
+4725,Head-on,Daylight
+4726,Not Head-On,Daylight
+4727,Not Head-On,Daylight
+4728,Not Head-On,Daylight
+4729,Not Head-On,Daylight
+4730,Not Head-On,Daylight
+4731,Head-on,Daylight
+4732,Not Head-On,Not Daylight
+4733,Not Head-On,Daylight
+4734,Not Head-On,Daylight
+4735,Not Head-On,Not Daylight
+4736,Not Head-On,Not Daylight
+4737,Not Head-On,Daylight
+4738,Not Head-On,Not Daylight
+4739,Not Head-On,Not Daylight
+4740,Not Head-On,Not Daylight
+4741,Not Head-On,Daylight
+4742,Not Head-On,Daylight
+4743,Not Head-On,Daylight
+4744,Not Head-On,Not Daylight
+4745,Not Head-On,Not Daylight
+4746,Head-on,Daylight
+4747,Not Head-On,Not Daylight
+4748,Not Head-On,Daylight
+4749,Not Head-On,Not Daylight
+4750,Not Head-On,Not Daylight
+4751,Not Head-On,Not Daylight
+4752,Not Head-On,Daylight
+4753,Not Head-On,Daylight
+4754,Not Head-On,Daylight
+4755,Not Head-On,Not Daylight
+4756,Not Head-On,Daylight
+4757,Not Head-On,Daylight
+4758,Not Head-On,Not Daylight
+4759,Not Head-On,Daylight
+4760,Not Head-On,Daylight
+4761,Not Head-On,Not Daylight
+4762,Not Head-On,Daylight
+4763,Not Head-On,Not Daylight
+4764,Not Head-On,Daylight
+4765,Not Head-On,Daylight
+4766,Not Head-On,Not Daylight
+4767,Not Head-On,Daylight
+4768,Not Head-On,Not Daylight
+4769,Not Head-On,Daylight
+4770,Not Head-On,Daylight
+4771,Head-on,Not Daylight
+4772,Not Head-On,Daylight
+4773,Not Head-On,Daylight
+4774,Not Head-On,Not Daylight
+4775,Not Head-On,Daylight
+4776,Not Head-On,Daylight
+4777,Not Head-On,Daylight
+4778,Not Head-On,Daylight
+4779,Not Head-On,Not Daylight
+4780,Not Head-On,Not Daylight
+4781,Not Head-On,Not Daylight
+4782,Not Head-On,Daylight
+4783,Not Head-On,Daylight
+4784,Not Head-On,Daylight
+4785,Not Head-On,Daylight
+4786,Not Head-On,Not Daylight
+4787,Not Head-On,Daylight
+4788,Not Head-On,Daylight
+4789,Not Head-On,Not Daylight
+4790,Not Head-On,Daylight
+4791,Not Head-On,Daylight
+4792,Not Head-On,Daylight
+4793,Not Head-On,Daylight
+4794,Not Head-On,Daylight
+4795,Not Head-On,Daylight
+4796,Not Head-On,Daylight
+4797,Not Head-On,Not Daylight
+4798,Not Head-On,Not Daylight
+4799,Head-on,Not Daylight
+4800,Not Head-On,Not Daylight
+4801,Head-on,Not Daylight
+4802,Not Head-On,Daylight
+4803,Not Head-On,Daylight
+4804,Not Head-On,Daylight
+4805,Not Head-On,Daylight
+4806,Head-on,Daylight
+4807,Not Head-On,Daylight
+4808,Head-on,Daylight
+4809,Not Head-On,Daylight
+4810,Not Head-On,Daylight
+4811,Not Head-On,Daylight
+4812,Not Head-On,Not Daylight
+4813,Not Head-On,Daylight
+4814,Not Head-On,Daylight
+4815,Not Head-On,Not Daylight
+4816,Not Head-On,Daylight
+4817,Not Head-On,Daylight
+4818,Not Head-On,Daylight
+4819,Not Head-On,Daylight
+4820,Not Head-On,Daylight
+4821,Not Head-On,Daylight
+4822,Not Head-On,Not Daylight
+4823,Not Head-On,Daylight
+4824,Not Head-On,Daylight
+4825,Not Head-On,Daylight
+4826,Not Head-On,Daylight
+4827,Not Head-On,Not Daylight
+4828,Not Head-On,Daylight
+4829,Not Head-On,Daylight
+4830,Not Head-On,Daylight
+4831,Not Head-On,Daylight
+4832,Not Head-On,Daylight
+4833,Not Head-On,Not Daylight
+4834,Not Head-On,Daylight
+4835,Not Head-On,Daylight
+4836,Not Head-On,Daylight
+4837,Not Head-On,Not Daylight
+4838,Not Head-On,Not Daylight
+4839,Not Head-On,Daylight
+4840,Not Head-On,Daylight
+4841,Not Head-On,Not Daylight
+4842,Not Head-On,Daylight
+4843,Not Head-On,Daylight
+4844,Not Head-On,Not Daylight
+4845,Not Head-On,Daylight
+4846,Not Head-On,Daylight
+4847,Not Head-On,Not Daylight
+4848,Not Head-On,Not Daylight
+4849,Not Head-On,Daylight
+4850,Not Head-On,Not Daylight
+4851,Not Head-On,Daylight
+4852,Not Head-On,Daylight
+4853,Not Head-On,Daylight
+4854,Not Head-On,Daylight
+4855,Not Head-On,Daylight
+4856,Not Head-On,Daylight
+4857,Not Head-On,Daylight
+4858,Not Head-On,Not Daylight

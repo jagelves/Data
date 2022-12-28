@@ -1,0 +1,91 @@
+﻿Name,Number,Position,Status,Height,Weight,Experience,College
+Jaire Alexander,23,CB,ACT,70,196,5,Louisville
+Adrian Amos,31,S,ACT,72,214,8,Penn State
+David Bakhtiari,69,OT,ACT,76,310,10,Colorado
+Corey Ballentine,35,DB,ACT,72,196,4,Washburn
+Krys Barnes,51,LB,ACT,74,229,3,UCLA
+De'Vondre Campbell,59,ILB,ACT,75,232,7,Minnesota
+Tariq Carpenter,24,SAF,ACT,75,230,R,Georgia Tech
+Kenny Clark,97,NT,ACT,75,314,7,UCLA
+Randall Cobb,18,WR,ACT,70,195,12,Kentucky
+Jack Coco,56,LS,ACT,74,248,R,Georgia Tech
+Mason Crosby,2,K,ACT,73,207,16,Colorado
+Tyler Davis,84,TE,ACT,76,252,3,Georgia Tech
+Josiah Deguara,81,TE,ACT,74,238,3,Cincinnati
+AJ Dillon,28,RB,ACT,72,247,3,Boston College
+Romeo Doubs,87,WR,ACT,74,204,R,Nevada
+Rasul Douglas,29,CB,ACT,74,209,6,West Virginia
+Kingsley Enagbare,55,OLB,ACT,76,258,R,South Carolina
+Jonathan Ford,99,DT,ACT,77,338,R,Miami
+Rudy Ford,20,SAF,ACT,72,200,6,Auburn
+Innis Gaines,38,SAF,ACT,73,202,1,TCU
+Jonathan Garvin,53,LB,ACT,76,257,3,Miami
+Justin Hollins,47,OLB,ACT,77,248,4,Oregon
+Shemar Jean-Charles,22,CB,ACT,70,184,2,Appalachian State
+Elgton Jenkins,74,OT,ACT,77,311,4,Mississippi State
+Aaron Jones,33,RB,ACT,69,208,6,Texas-El Paso
+Caleb Jones,72,OT,ACT,81,370,R,Indiana
+Allen Lazard,13,WR,ACT,77,227,4,Iowa State
+Dallin Leavitt,6,SAF,ACT,70,195,4,Utah State
+Marcedes Lewis,89,TE,ACT,78,267,17,UCLA
+Jordan Love,10,QB,ACT,76,219,3,Utah State
+Dean Lowry,94,DE,ACT,78,296,7,Northwestern
+Isaiah McDuffie,58,ILB,ACT,73,227,2,Boston College
+Josh Myers,71,C,ACT,77,310,2,Ohio State
+Royce Newman,70,G,ACT,77,310,2,Mississippi
+Yosh Nijman,73,OT,ACT,79,314,3,Virginia Tech
+Keisean Nixon,25,DB,ACT,70,200,4,South Carolina
+Pat O'Donnell,16,P,ACT,76,220,9,Miami
+Jarran Reed,90,DE,ACT,75,306,7,Alabama
+Aaron Rodgers,12,QB,ACT,74,225,18,California
+Jon Runyan,76,G,ACT,76,307,3,Michigan
+Darnell Savage,26,FS,ACT,71,198,4,Maryland
+Tedarrell Slaton,93,DT,ACT,76,330,2,Florida
+Preston Smith,91,OLB,ACT,77,265,8,Mississippi State
+Patrick Taylor,27,RB,ACT,74,217,2,Memphis
+Luke Tenuta,78,OT,ACT,80,314,R,Virginia Tech
+Zach Tom,50,G,ACT,76,304,R,Wake Forest
+Robert Tonyan,85,TE,ACT,77,240,5,Indiana State
+Samori Toure,83,WR,ACT,73,191,R,Nebraska
+Quay Walker,7,ILB,ACT,76,240,R,Georgia
+Rasheed Walker,63,OT,ACT,78,325,R,Penn State
+Christian Watson,9,WR,ACT,77,208,R,North Dakota State
+Eric Wilson,45,LB,ACT,73,230,6,Cincinnati
+Devonte Wyatt,95,DT,ACT,75,304,R,Georgia
+Josh Babicz,,TE,CUT,78,255,R,North Dakota State
+Shaun Beyer,80,TE,CUT,77,248,1,Iowa
+Gabe Brkic,45,K,CUT,74,198,R,Oklahoma
+Benjie Franklin,,DB,CUT,72,185,R,Tarleton State
+Kylin Hill,32,RB,CUT,70,214,2,Mississippi State
+Osirus Mitchell,82,WR,CUT,77,206,1,Mississippi State
+Malik Taylor,86,WR,CUT,73,220,3,Ferris State
+Dede Westbrook,12,WR,CUT,72,178,6,Oklahoma
+Micah Abernathy,46,DB,DEV,72,196,1,Tennessee
+Ramiz Ahmed,45,K,DEV,72,190,1,Nevada
+Jeff Cotton,,WR,DEV,74,204,1,Idaho
+Jean Delance,,OT,DEV,77,307,R,Florida
+Danny Etling,19,QB,DEV,75,220,1,LSU
+Travis Fulgham,86,WR,DEV,74,215,3,Old Dominion
+Tyler Goodson,39,RB,DEV,69,197,R,Iowa
+Nick Guggemos,89,TE,DEV,77,231,1,University of St. Thomas
+La'Darius Hamilton,54,LB,DEV,74,261,2,North Texas
+Michal Menet,65,C,DEV,76,301,1,Penn State
+Chris Slayton,60,DT,DEV,76,307,1,Syracuse
+DQ Thomas,48,LB,DEV,74,216,R,Middle Tennessee State
+Kiondre Thomas,43,CB,DEV,72,186,1,Kansas State
+Tim Ward,51,DE,DEV,78,255,3,Old Dominion
+Juwann Winfree,88,WR,DEV,73,210,3,Colorado
+Rashan Gary,52,OLB,RES,77,277,4,Michigan
+Jake Hanson,67,G,RES,76,296,2,Oregon
+Vernon Scott,36,DB,RES,74,202,3,TCU
+Eric Stokes,21,CB,RES,72,194,2,Georgia
+Tipa Galeai,40,LB,RSR,77,229,2,Utah State
+Sean Rhyan,75,OT,SUS,77,320,R,UCLA
+Mike Brown,,DB,TRC,73,222,R,Miami (Ohio)
+Amari Rodgers,8,WR,TRC,69,212,2,Clemson
+Sammy Watkins,11,WR,TRC,73,211,9,Clemson
+Ray Wilborn,57,LB,TRC,75,230,1,Ball State
+Johnathan Abram,44,S,TRD,72,205,4,Mississippi State
+Kawaan Baker,,WR,TRD,73,215,1,South Alabama
+Jack Heflin,96,DT,TRD,75,304,2,Iowa
+Kobe Jones,49,LB,TRD,76,260,1,Mississippi State

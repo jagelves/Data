@@ -26,5 +26,6 @@ description: A collection of data to practice data analytics
 |:--------:|:----------:|:-----------------:|:-----------------:|:-----------:|
 |[College](College.csv)|[Education](Education.csv)|[FoodSpend](FoodSpend.csv)|[Dogs](dog_intelligence.csv)|[Crash](Crash.csv)|
 
-|6. More|7. More|8. More|9. More|10. More|
+|6. Packers Roster|7. More|8. More|9. More|10. More|
 |:--------:|:----------:|:-----------------:|:-----------------:|:-----------:|
+|[Packers](Packers.csv)|

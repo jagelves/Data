@@ -16,9 +16,9 @@ description: A collection of data to practice data analytics
 |:--------:|:------:|:--------:|:--------|
 |[Avocado](avocado2020.csv)|[Kiva Loans](KivaLoans.csv)|[Peloton Workout](peloton.csv)|[TSLA, VTI, GBTC](Stocks.csv)|
 
-|5. Population|6. Cali|7. More|8. More|
-|:-----------:|:------:|:--------:|:--------|
-|[Population](Population.csv)|[Cali Avocado](CaliforniaAvocado.csv)|
+|5. Population|6. Cali|7. TSLA|8. More|
+|:-----------:|:------:|:--------:|:-------:|
+|[Population](Population.csv)|[Cali Avocado](CaliforniaAvocado.csv)|[Deliveries](tsla_deliveries.csv)|
 
 # Cross Section
 

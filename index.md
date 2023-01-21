@@ -12,9 +12,9 @@ description: A collection of data to practice data analytics
 
 # Times Series
 
-|1. Avocado|2. Loans|3. Peloton|4. Stocks|
+|1. Avocado|2. Electricity|3. Peloton|4. Stocks|
 |:--------:|:------:|:--------:|:--------|
-|[Avocado](avocado2020.csv)|[Kiva Loans](KivaLoans.csv)|[Peloton Workout](peloton.csv)|[TSLA, VTI, GBTC](Stocks.csv)|
+|[Avocado](avocado2020.csv)|[Electricity](ElectricityBill.csv)|[Peloton Workout](peloton.csv)|[TSLA, VTI, GBTC](Stocks.csv)|
 
 |5. Population|6. Cali|7. TSLA|8. Personal Income|
 |:-----------:|:------:|:--------:|:-------:|

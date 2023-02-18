@@ -1,1666 +1,186 @@
-Model,Range_km,TopSpeed_kmh,Price_pounds,Charge_kmh,Acceleration_0.100sec,Available
-Model Y Long Range Dual Motor,435,217,52990,670,5,Available since February 2022
-Model Y ,345,217,44990,580,6.9,Available since February 2022
-Model 3 ,380,225,42990,630,6.1,Available since February 2022
-Model 3 Long Range Dual Motor,485,233,50990,750,4.4,Available since February 2022
-Model Y Performance,415,250,59990,640,3.7,Available since February 2022
-MG4 Electric 64 kWh,365,160,28495,450,7.9,Available since February 2022
-Model S Plaid,550,282,125000,770,2.1,Available since February 2022
-i4 eDrive40,470,190,56185,730,5.7,Available since February 2022
-EQS 450+,640,210,105610,960,6.2,Available since February 2022
-iX xDrive40,360,200,69905,480,6.1,Available since February 2022
-Niro EV ,380,167,36795,380,7.8,Available since February 2022
-iX1 xDrive30,355,180,52255,510,5.6,Available since February 2022
-i7 xDrive60,510,240,110545,760,4.7,Available since February 2022
-EV6 GT,370,260,62645,970,3.5,Available since February 2022
-IONIQ 6 Long Range AWD,440,185,50245,1150,5.1,Available since February 2022
-Ariya 87kWh,445,160,51895,530,7.6,Available since February 2022
-Model 3 Performance,460,261,57990,710,3.3,Available since February 2022
-Model S Dual Motor,570,250,100000,790,3.2,Available since February 2022
-Enyaq iV 80,420,160,42925,530,8.6,Available since February 2022
-iX xDrive50,505,200,99785,680,4.6,Available since February 2022
-Q8 e-tron 55 quattro,495,200,77800,670,5.6,Available since February 2022
-Kona Electric 64 kWh,395,167,37750,370,7.9,Available since February 2022
-ID. Buzz Pro,330,145,57115,460,10.2,Available since February 2022
-RZ 450e,310,160,66500,460,5.6,Available since February 2022
-Q4 e-tron 40,405,160,49930,510,8.5,Available since February 2022
-i4 M50,435,225,69040,670,3.9,Available since February 2022
-Megane E-Tech EV60 220hp,360,160,36995,500,7.4,Available since February 2022
-e-tron GT RS,405,250,115000,1000,3.3,Available since February 2022
-iX3 ,385,180,64165,520,6.8,Available since February 2022
-Avenger Electric 1st Edition,295,150,36500,470,9,Available since February 2022
-#1 ,350,180,35000,520,6.7,Available since February 2022
-ZS EV Long Range,365,175,31995,410,8.4,Available since February 2022
-IONIQ 6 Long Range 2WD,475,185,46745,1240,7.4,Available since February 2022
-EQC 400 4MATIC,370,180,72335,440,5.1,Available since February 2022
-MG5 Electric Long Range,335,185,30995,330,7.7,Available since February 2022
-Ocean One,510,200,59900,730,3.9,Available since February 2022
-MG4 Electric 51 kWh,300,160,25995,340,7.7,Available since February 2022
-EV6 Long Range 2WD,410,185,45245,1070,7.3,Available since February 2022
-IONIQ 5 Long Range 2WD,390,185,46650,1020,7.3,Available since February 2022
-500e Hatchback 42 kWh,235,150,30645,390,9,Available since February 2022
-e-208 ,285,150,31345,460,8.1,Available since February 2022
-bZ4X FWD,335,160,45710,500,7.5,Available since February 2022
-iX M60,485,250,119225,650,3.8,Available since February 2022
-ID.4 GTX,400,180,52865,560,6.2,Available since February 2022
-ID.4 Pro Performance,410,160,46035,520,8.5,Available since February 2022
-Leaf ,235,144,28995,230,7.9,Available since February 2022
-Cooper SE ,180,150,29000,260,7.3,Available since February 2022
-Spectre ,455,250,350000,540,4.5,Available since February 2022
-Born 150 kW - 58 kWh,350,160,36475,470,7.3,Available since February 2022
-Model X Plaid,455,262,128000,630,2.6,Available since February 2022
-Q8 e-tron Sportback 55 quattro,525,200,80300,710,5.6,Available since February 2022
-EV6 Long Range AWD,400,185,51745,1050,5.2,Available since February 2022
-ID.4 Pro,410,160,44605,520,10.4,Available since February 2022
-Enyaq iV 60,330,160,38970,440,8.7,Available since February 2022
-EQB 350 4MATIC,335,160,55310,480,6.2,Available since February 2022
-2 Long Range Single Motor,440,205,48950,680,6.2,Available since February 2022
-ID.4 Pure,285,160,38845,360,10.9,Available since February 2022
-Solterra AWD,320,160,49995,480,6.9,Available since February 2022
-Taycan Turbo S,400,260,142400,980,2.8,Available since February 2022
-Astra Electric,310,170,36000,500,8.5,Available since February 2022
-e-C4 ,265,150,30995,420,9.7,Available since February 2022
-EQE 300,515,210,74345,650,7.6,Available since February 2022
-Born 170 kW - 77 kWh,450,160,41975,570,7,Available since February 2022
-Model X Dual Motor,470,250,108000,650,3.9,Available since February 2022
-ID.3 Pro Performance,350,160,39425,470,7.3,Available since February 2022
-IONIQ 5 Standard Range 2WD,295,185,43150,720,8.5,Available since February 2022
-e-2008 SUV ,255,150,35150,410,8.5,Available since February 2022
-Eletre ,520,250,89500,1090,4.5,Available since February 2022
-ID.5 Pro,430,160,50710,540,10.4,Available since February 2022
-XC40 Recharge Single Motor,335,180,46505,500,7.4,Available since February 2022
-IONIQ 5 Long Range AWD,385,185,50150,1010,5.1,Available since February 2022
-MX-30 ,170,140,30050,210,9.7,Available since February 2022
-EQE SUV 350+,470,210,80000,700,7,Available since February 2022
-e-308 ,310,150,37000,460,9,Available since February 2022
-3 Long Range Dual motor,490,210,79900,640,5,Available since February 2022
-Q8 e-tron 50 quattro,415,200,67800,580,6,Available since February 2022
-XC40 Recharge Twin Motor,380,180,51755,590,4.9,Available since February 2022
-Mokka-e ,255,150,34910,410,9.2,Available since February 2022
-Enyaq Coupe iV RS,405,180,54370,560,6.5,Available since February 2022
-EQS SUV 580 4MATIC,485,210,139170,630,4.6,Available since February 2022
-SQ8 e-tron ,445,210,98295,600,4.5,Available since February 2022
-e-tron GT quattro,420,245,84000,1030,4.1,Available since February 2022
-Zoe ZE50 R135,310,140,29995,230,9.5,Available since February 2022
-2 Long Range Dual Motor,420,205,52950,650,4.5,Available since February 2022
-Leaf e+,340,157,34945,240,6.9,Available since February 2022
-Ocean Sport,380,160,34990,480,7.4,Available since February 2022
-Corsa-e ,285,150,31130,460,8.1,Available since February 2022
-Taycan ,410,230,75500,1010,5.4,Available since February 2022
-EQV 300 Long,305,160,83530,310,12.1,Available since February 2022
-Q4 e-tron 50 quattro,385,180,56310,490,6.2,Available since February 2022
-EX90 Twin Motor Performance,440,180,100555,570,4.9,Available since February 2022
-2 Standard Range Single Motor,385,205,44950,620,6.4,Available since February 2022
-Ocean Ultra,505,200,48900,730,4.2,Available since February 2022
-#1 Brabus,335,180,42000,500,3.9,Available since February 2022
-ID.5 GTX,405,180,56545,560,6.3,Available since February 2022
-Kona Electric 39 kWh,250,155,32450,220,9.9,Available since February 2022
-EQB 300 4MATIC,335,160,56810,480,8,Available since February 2022
-EQS AMG 53 4MATIC+,565,250,161860,840,3.4,Available since February 2022
-Ariya e-4ORCE 87kWh,420,200,54595,500,5.7,Available since February 2022
-I-Pace EV400,380,200,69995,360,4.8,Available since February 2022
-500e Scorpionissima,225,155,36000,370,7,Available since February 2022
-EQA 250+,375,160,52010,520,8.6,Available since February 2022
-ID.5 Pro Performance,430,160,52185,540,8.4,Available since February 2022
-Ariya 63kWh,320,160,46145,430,7.5,Available since February 2022
-GranTurismo Folgore,425,320,200000,990,2.7,Available since February 2022
-EQA 350 4MATIC,350,160,54510,500,6,Available since February 2022
-Enyaq iV 80x,400,160,51765,500,6.9,Available since February 2022
-Mustang Mach-E ER RWD,455,180,59380,400,7,Available since February 2022
-ID.3 Pro S - 4 Seats,450,160,47470,570,7.9,Available since February 2022
-Ocean Extreme,510,200,59900,730,3.9,Available since February 2022
-bZ4X AWD,330,160,52110,490,6.9,Available since February 2022
-e Advance,170,145,36920,180,8.3,Available since February 2022
-Funky Cat 48 kWh,260,160,31995,240,8.3,Available since February 2022
-e-308 SW ,300,150,38000,450,9,Available since February 2022
-Taycan 4S,395,250,86500,970,4,Available since February 2022
-ZS EV Standard Range,270,175,29495,260,8.6,Available since February 2022
-EX90 Twin Motor,455,180,96255,590,5.9,Available since February 2022
-Enyaq Coupe iV 80,445,160,45000,560,8.7,Available since February 2022
-ID.4 Pure Performance,285,160,40275,360,9,Available since February 2022
-C40 Recharge Twin Motor,390,180,53605,600,4.7,Available since February 2022
-EQE SUV 500 4MATIC,455,210,115000,680,5,Available since February 2022
-3 Long Range Performance,470,210,85500,610,4.7,Available since February 2022
-Astra Sports Tourer Electric,300,170,37000,480,8.5,Available since February 2022
-Q4 Sportback e-tron 40,425,160,51430,540,8.5,Available since February 2022
-Taycan 4 Cross Turismo,425,220,84500,1050,5.1,Available since February 2022
-Taycan Plus,475,230,79549,1170,5.4,Available since February 2022
-C40 Recharge Single Motor,345,180,48355,510,7.4,Available since February 2022
-GV60 Premium,390,185,53905,1020,7.8,Available since February 2022
-Mustang Mach-E SR RWD,355,180,50830,370,6.9,Available since February 2022
-EQE AMG 53 4MATIC+,480,240,114750,720,3.5,Available since February 2022
-EQA 300 4MATIC,350,160,53010,500,7.7,Available since February 2022
-Eletre R,450,260,120000,940,2.9,Available since February 2022
-Taycan GTS,450,250,106000,1110,3.7,Available since February 2022
-2 Long Range Performance,410,205,57950,630,4.2,Available since February 2022
-Mustang Mach-E ER AWD,440,180,65405,390,5.8,Available since February 2022
-3 E-Tense,300,150,37200,480,9,Available since February 2022
-Q8 e-tron Sportback 50 quattro,440,200,70300,610,6,Available since February 2022
-EQE SUV 350 4MATIC,455,210,85000,680,6.5,Available since February 2022
-e-Berlingo M 50 kWh,200,135,31495,320,11.7,Available since February 2022
-G80 Electrified Luxury,440,225,69805,880,4.9,Available since February 2022
-e-Soul 64 kWh,370,167,39045,350,7.9,Available since February 2022
-SQ8 e-tron Sportback ,470,210,100795,630,4.5,Available since February 2022
-Mustang Mach-E GT,425,200,74540,380,4.4,Available since February 2022
-GV70 Electrified Sport,350,235,64405,860,4.2,Available since February 2022
-Q4 Sportback e-tron 50 quattro,400,180,57810,500,6.2,Available since February 2022
-Taycan Turbo,415,260,119900,1020,3.2,Available since February 2022
-EQE SUV AMG 53 4MATIC+,425,240,120000,630,3.5,Available since February 2022
-Taycan 4S Plus,460,250,90406,1130,4,Available since February 2022
-GV60 Sport,380,200,58365,990,5.5,Available since February 2022
-Born 170 kW - 58 kWh,345,160,39205,460,6.6,Available since February 2022
-EQS SUV 450 4MATIC,485,210,129170,630,6,Available since February 2022
-EQE 350,515,210,77345,650,6.4,Available since February 2022
-Enyaq Coupe iV 80x,430,160,52000,540,7,Available since February 2022
-e-Rifter Long 50 kWh,195,135,34300,310,11.7,Available since February 2022
-Enyaq Coupe iV 60,335,160,40000,450,8.8,Available since February 2022
-e-Soul 39.2 kWh,230,157,32845,200,9.9,Available since February 2022
-Taycan Turbo S Sport Turismo,395,260,143400,970,2.8,Available since February 2022
-Cooper SE Convertible,170,150,52500,240,8.2,Available since February 2022
-500e Cabrio 42 kWh,230,150,33645,380,9,Available since February 2022
-eVito Tourer Long 90 kWh,310,160,68352,310,12,Available since February 2022
-Taycan 4S Cross Turismo,425,240,91000,1050,4.1,Available since February 2022
-e-Traveller Standard 50 kWh,180,130,49100,290,13.1,Available since February 2022
-GV60 Sport Plus,365,235,67505,950,4,Available since February 2022
-Combo-e Life 50 kWh,200,135,34035,320,11.7,Available since February 2022
-Taycan Turbo S Cross Turismo,385,250,143400,950,2.9,Available since February 2022
-eVito Tourer Extra-Long 90 kWh,305,160,75846,310,12,Available since February 2022
-Taycan GTS Sport Turismo,425,250,107000,1050,3.7,Available since February 2022
-e-SpaceTourer M 50 kWh,180,130,47495,290,12.1,Available since February 2022
-e-Rifter Standard 50 kWh,200,135,32300,320,11.7,Available since February 2022
-Taycan Sport Turismo,380,230,76500,930,5.4,Available since February 2022
-Combo-e Life XL 50 kWh,195,135,34635,310,11.7,Available since February 2022
-Taycan 4S Sport Turismo,370,250,87500,910,4,Available since February 2022
-e-Berlingo XL 50 kWh,195,135,32495,310,11.7,Available since February 2022
-Taycan Plus Sport Turismo,445,230,80549,1090,5.4,Available since February 2022
-Vivaro-e Combi M 50 kWh,180,130,37320,290,12.1,Available since February 2022
-Taycan Turbo Cross Turismo,400,250,120900,980,3.3,Available since February 2022
-Vivaro-e Combi L 50 kWh,175,130,37520,280,12.1,Available since February 2022
-e-Jumpy Combi M 50 kWh,180,130,35795,290,12.1,Available since February 2022
-Taycan Turbo Sport Turismo,405,260,120900,1000,3.2,Available since February 2022
-Zafira-e Life M 50 kWh,180,130,50630,290,12.1,Available since February 2022
-e-Traveller Long 50 kWh,175,130,54275,280,13.1,Available since February 2022
-e-Jumpy Combi XL 50 kWh,175,130,35995,280,12.1,Available since February 2022
-e-SpaceTourer XL 50 kWh,175,130,48335,280,12.1,Available since February 2022
-Taycan 4S Plus Sport Turismo,430,250,91406,1060,4,Available since February 2022
-Zafira-e Life L 50 kWh,175,130,50990,280,12.1,Available since February 2022
-Model Y Long Range Dual Motor,435,217,52990,670,5,Towing:  - 
-Model Y ,345,217,44990,580,6.9,Towing:  - 
-Model 3 ,380,225,42990,630,6.1,Towing:  - 
-Model 3 Long Range Dual Motor,485,233,50990,750,4.4,Towing:  - 
-Model Y Performance,415,250,59990,640,3.7,Towing:  - 
-MG4 Electric 64 kWh,365,160,28495,450,7.9,Towing:  - 
-Model S Plaid,550,282,125000,770,2.1,Towing:  - 
-i4 eDrive40,470,190,56185,730,5.7,Towing:  - 
-EQS 450+,640,210,105610,960,6.2,Towing:  - 
-iX xDrive40,360,200,69905,480,6.1,Towing:  - 
-Niro EV ,380,167,36795,380,7.8,Towing:  - 
-iX1 xDrive30,355,180,52255,510,5.6,Towing:  - 
-i7 xDrive60,510,240,110545,760,4.7,Towing:  - 
-EV6 GT,370,260,62645,970,3.5,Towing:  - 
-IONIQ 6 Long Range AWD,440,185,50245,1150,5.1,Towing:  - 
-Ariya 87kWh,445,160,51895,530,7.6,Towing:  - 
-Model 3 Performance,460,261,57990,710,3.3,Towing:  - 
-Model S Dual Motor,570,250,100000,790,3.2,Towing:  - 
-Enyaq iV 80,420,160,42925,530,8.6,Towing:  - 
-iX xDrive50,505,200,99785,680,4.6,Towing:  - 
-Q8 e-tron 55 quattro,495,200,77800,670,5.6,Towing:  - 
-Kona Electric 64 kWh,395,167,37750,370,7.9,Towing:  - 
-ID. Buzz Pro,330,145,57115,460,10.2,Towing:  - 
-RZ 450e,310,160,66500,460,5.6,Towing:  - 
-Q4 e-tron 40,405,160,49930,510,8.5,Towing:  - 
-i4 M50,435,225,69040,670,3.9,Towing:  - 
-Megane E-Tech EV60 220hp,360,160,36995,500,7.4,Towing:  - 
-e-tron GT RS,405,250,115000,1000,3.3,Towing:  - 
-iX3 ,385,180,64165,520,6.8,Towing:  - 
-Avenger Electric 1st Edition,295,150,36500,470,9,Towing:  - 
-#1 ,350,180,35000,520,6.7,Towing:  - 
-ZS EV Long Range,365,175,31995,410,8.4,Towing:  - 
-IONIQ 6 Long Range 2WD,475,185,46745,1240,7.4,Towing:  - 
-EQC 400 4MATIC,370,180,72335,440,5.1,Towing:  - 
-MG5 Electric Long Range,335,185,30995,330,7.7,Towing:  - 
-Ocean One,510,200,59900,730,3.9,Towing:  - 
-MG4 Electric 51 kWh,300,160,25995,340,7.7,Towing:  - 
-EV6 Long Range 2WD,410,185,45245,1070,7.3,Towing:  - 
-IONIQ 5 Long Range 2WD,390,185,46650,1020,7.3,Towing:  - 
-500e Hatchback 42 kWh,235,150,30645,390,9,Towing:  - 
-e-208 ,285,150,31345,460,8.1,Towing:  - 
-bZ4X FWD,335,160,45710,500,7.5,Towing:  - 
-iX M60,485,250,119225,650,3.8,Towing:  - 
-ID.4 GTX,400,180,52865,560,6.2,Towing:  - 
-ID.4 Pro Performance,410,160,46035,520,8.5,Towing:  - 
-Leaf ,235,144,28995,230,7.9,Towing:  - 
-Cooper SE ,180,150,29000,260,7.3,Towing:  - 
-Spectre ,455,250,350000,540,4.5,Towing:  - 
-Born 150 kW - 58 kWh,350,160,36475,470,7.3,Towing:  - 
-Model X Plaid,455,262,128000,630,2.6,Towing:  - 
-Q8 e-tron Sportback 55 quattro,525,200,80300,710,5.6,Towing:  - 
-EV6 Long Range AWD,400,185,51745,1050,5.2,Towing:  - 
-ID.4 Pro,410,160,44605,520,10.4,Towing:  - 
-Enyaq iV 60,330,160,38970,440,8.7,Towing:  - 
-EQB 350 4MATIC,335,160,55310,480,6.2,Towing:  - 
-2 Long Range Single Motor,440,205,48950,680,6.2,Towing:  - 
-ID.4 Pure,285,160,38845,360,10.9,Towing:  - 
-Solterra AWD,320,160,49995,480,6.9,Towing:  - 
-Taycan Turbo S,400,260,142400,980,2.8,Towing:  - 
-Astra Electric,310,170,36000,500,8.5,Towing:  - 
-e-C4 ,265,150,30995,420,9.7,Towing:  - 
-EQE 300,515,210,74345,650,7.6,Towing:  - 
-Born 170 kW - 77 kWh,450,160,41975,570,7,Towing:  - 
-Model X Dual Motor,470,250,108000,650,3.9,Towing:  - 
-ID.3 Pro Performance,350,160,39425,470,7.3,Towing:  - 
-IONIQ 5 Standard Range 2WD,295,185,43150,720,8.5,Towing:  - 
-e-2008 SUV ,255,150,35150,410,8.5,Towing:  - 
-Eletre ,520,250,89500,1090,4.5,Towing:  - 
-ID.5 Pro,430,160,50710,540,10.4,Towing:  - 
-XC40 Recharge Single Motor,335,180,46505,500,7.4,Towing:  - 
-IONIQ 5 Long Range AWD,385,185,50150,1010,5.1,Towing:  - 
-MX-30 ,170,140,30050,210,9.7,Towing:  - 
-EQE SUV 350+,470,210,80000,700,7,Towing:  - 
-e-308 ,310,150,37000,460,9,Towing:  - 
-3 Long Range Dual motor,490,210,79900,640,5,Towing:  - 
-Q8 e-tron 50 quattro,415,200,67800,580,6,Towing:  - 
-XC40 Recharge Twin Motor,380,180,51755,590,4.9,Towing:  - 
-Mokka-e ,255,150,34910,410,9.2,Towing:  - 
-Enyaq Coupe iV RS,405,180,54370,560,6.5,Towing:  - 
-EQS SUV 580 4MATIC,485,210,139170,630,4.6,Towing:  - 
-SQ8 e-tron ,445,210,98295,600,4.5,Towing:  - 
-e-tron GT quattro,420,245,84000,1030,4.1,Towing:  - 
-Zoe ZE50 R135,310,140,29995,230,9.5,Towing:  - 
-2 Long Range Dual Motor,420,205,52950,650,4.5,Towing:  - 
-Leaf e+,340,157,34945,240,6.9,Towing:  - 
-Ocean Sport,380,160,34990,480,7.4,Towing:  - 
-Corsa-e ,285,150,31130,460,8.1,Towing:  - 
-Taycan ,410,230,75500,1010,5.4,Towing:  - 
-EQV 300 Long,305,160,83530,310,12.1,Towing:  - 
-Q4 e-tron 50 quattro,385,180,56310,490,6.2,Towing:  - 
-EX90 Twin Motor Performance,440,180,100555,570,4.9,Towing:  - 
-2 Standard Range Single Motor,385,205,44950,620,6.4,Towing:  - 
-Ocean Ultra,505,200,48900,730,4.2,Towing:  - 
-#1 Brabus,335,180,42000,500,3.9,Towing:  - 
-ID.5 GTX,405,180,56545,560,6.3,Towing:  - 
-Kona Electric 39 kWh,250,155,32450,220,9.9,Towing:  - 
-EQB 300 4MATIC,335,160,56810,480,8,Towing:  - 
-EQS AMG 53 4MATIC+,565,250,161860,840,3.4,Towing:  - 
-Ariya e-4ORCE 87kWh,420,200,54595,500,5.7,Towing:  - 
-I-Pace EV400,380,200,69995,360,4.8,Towing:  - 
-500e Scorpionissima,225,155,36000,370,7,Towing:  - 
-EQA 250+,375,160,52010,520,8.6,Towing:  - 
-ID.5 Pro Performance,430,160,52185,540,8.4,Towing:  - 
-Ariya 63kWh,320,160,46145,430,7.5,Towing:  - 
-GranTurismo Folgore,425,320,200000,990,2.7,Towing:  - 
-EQA 350 4MATIC,350,160,54510,500,6,Towing:  - 
-Enyaq iV 80x,400,160,51765,500,6.9,Towing:  - 
-Mustang Mach-E ER RWD,455,180,59380,400,7,Towing:  - 
-ID.3 Pro S - 4 Seats,450,160,47470,570,7.9,Towing:  - 
-Ocean Extreme,510,200,59900,730,3.9,Towing:  - 
-bZ4X AWD,330,160,52110,490,6.9,Towing:  - 
-e Advance,170,145,36920,180,8.3,Towing:  - 
-Funky Cat 48 kWh,260,160,31995,240,8.3,Towing:  - 
-e-308 SW ,300,150,38000,450,9,Towing:  - 
-Taycan 4S,395,250,86500,970,4,Towing:  - 
-ZS EV Standard Range,270,175,29495,260,8.6,Towing:  - 
-EX90 Twin Motor,455,180,96255,590,5.9,Towing:  - 
-Enyaq Coupe iV 80,445,160,45000,560,8.7,Towing:  - 
-ID.4 Pure Performance,285,160,40275,360,9,Towing:  - 
-C40 Recharge Twin Motor,390,180,53605,600,4.7,Towing:  - 
-EQE SUV 500 4MATIC,455,210,115000,680,5,Towing:  - 
-3 Long Range Performance,470,210,85500,610,4.7,Towing:  - 
-Astra Sports Tourer Electric,300,170,37000,480,8.5,Towing:  - 
-Q4 Sportback e-tron 40,425,160,51430,540,8.5,Towing:  - 
-Taycan 4 Cross Turismo,425,220,84500,1050,5.1,Towing:  - 
-Taycan Plus,475,230,79549,1170,5.4,Towing:  - 
-C40 Recharge Single Motor,345,180,48355,510,7.4,Towing:  - 
-GV60 Premium,390,185,53905,1020,7.8,Towing:  - 
-Mustang Mach-E SR RWD,355,180,50830,370,6.9,Towing:  - 
-EQE AMG 53 4MATIC+,480,240,114750,720,3.5,Towing:  - 
-EQA 300 4MATIC,350,160,53010,500,7.7,Towing:  - 
-Eletre R,450,260,120000,940,2.9,Towing:  - 
-Taycan GTS,450,250,106000,1110,3.7,Towing:  - 
-2 Long Range Performance,410,205,57950,630,4.2,Towing:  - 
-Mustang Mach-E ER AWD,440,180,65405,390,5.8,Towing:  - 
-3 E-Tense,300,150,37200,480,9,Towing:  - 
-Q8 e-tron Sportback 50 quattro,440,200,70300,610,6,Towing:  - 
-EQE SUV 350 4MATIC,455,210,85000,680,6.5,Towing:  - 
-e-Berlingo M 50 kWh,200,135,31495,320,11.7,Towing:  - 
-G80 Electrified Luxury,440,225,69805,880,4.9,Towing:  - 
-e-Soul 64 kWh,370,167,39045,350,7.9,Towing:  - 
-SQ8 e-tron Sportback ,470,210,100795,630,4.5,Towing:  - 
-Mustang Mach-E GT,425,200,74540,380,4.4,Towing:  - 
-GV70 Electrified Sport,350,235,64405,860,4.2,Towing:  - 
-Q4 Sportback e-tron 50 quattro,400,180,57810,500,6.2,Towing:  - 
-Taycan Turbo,415,260,119900,1020,3.2,Towing:  - 
-EQE SUV AMG 53 4MATIC+,425,240,120000,630,3.5,Towing:  - 
-Taycan 4S Plus,460,250,90406,1130,4,Towing:  - 
-GV60 Sport,380,200,58365,990,5.5,Towing:  - 
-Born 170 kW - 58 kWh,345,160,39205,460,6.6,Towing:  - 
-EQS SUV 450 4MATIC,485,210,129170,630,6,Towing:  - 
-EQE 350,515,210,77345,650,6.4,Towing:  - 
-Enyaq Coupe iV 80x,430,160,52000,540,7,Towing:  - 
-e-Rifter Long 50 kWh,195,135,34300,310,11.7,Towing:  - 
-Enyaq Coupe iV 60,335,160,40000,450,8.8,Towing:  - 
-e-Soul 39.2 kWh,230,157,32845,200,9.9,Towing:  - 
-Taycan Turbo S Sport Turismo,395,260,143400,970,2.8,Towing:  - 
-Cooper SE Convertible,170,150,52500,240,8.2,Towing:  - 
-500e Cabrio 42 kWh,230,150,33645,380,9,Towing:  - 
-eVito Tourer Long 90 kWh,310,160,68352,310,12,Towing:  - 
-Taycan 4S Cross Turismo,425,240,91000,1050,4.1,Towing:  - 
-e-Traveller Standard 50 kWh,180,130,49100,290,13.1,Towing:  - 
-GV60 Sport Plus,365,235,67505,950,4,Towing:  - 
-Combo-e Life 50 kWh,200,135,34035,320,11.7,Towing:  - 
-Taycan Turbo S Cross Turismo,385,250,143400,950,2.9,Towing:  - 
-eVito Tourer Extra-Long 90 kWh,305,160,75846,310,12,Towing:  - 
-Taycan GTS Sport Turismo,425,250,107000,1050,3.7,Towing:  - 
-e-SpaceTourer M 50 kWh,180,130,47495,290,12.1,Towing:  - 
-e-Rifter Standard 50 kWh,200,135,32300,320,11.7,Towing:  - 
-Taycan Sport Turismo,380,230,76500,930,5.4,Towing:  - 
-Combo-e Life XL 50 kWh,195,135,34635,310,11.7,Towing:  - 
-Taycan 4S Sport Turismo,370,250,87500,910,4,Towing:  - 
-e-Berlingo XL 50 kWh,195,135,32495,310,11.7,Towing:  - 
-Taycan Plus Sport Turismo,445,230,80549,1090,5.4,Towing:  - 
-Vivaro-e Combi M 50 kWh,180,130,37320,290,12.1,Towing:  - 
-Taycan Turbo Cross Turismo,400,250,120900,980,3.3,Towing:  - 
-Vivaro-e Combi L 50 kWh,175,130,37520,280,12.1,Towing:  - 
-e-Jumpy Combi M 50 kWh,180,130,35795,290,12.1,Towing:  - 
-Taycan Turbo Sport Turismo,405,260,120900,1000,3.2,Towing:  - 
-Zafira-e Life M 50 kWh,180,130,50630,290,12.1,Towing:  - 
-e-Traveller Long 50 kWh,175,130,54275,280,13.1,Towing:  - 
-e-Jumpy Combi XL 50 kWh,175,130,35995,280,12.1,Towing:  - 
-e-SpaceTourer XL 50 kWh,175,130,48335,280,12.1,Towing:  - 
-Taycan 4S Plus Sport Turismo,430,250,91406,1060,4,Towing:  - 
-Zafira-e Life L 50 kWh,175,130,50990,280,12.1,Towing:  - 
-Model Y Long Range Dual Motor,435,217,52990,670,5,Towing:  - 
-Model Y ,345,217,44990,580,6.9,Towing:  - 
-Model 3 ,380,225,42990,630,6.1,Towing:  - 
-Model 3 Long Range Dual Motor,485,233,50990,750,4.4,Towing:  - 
-Model Y Performance,415,250,59990,640,3.7,Towing:  - 
-MG4 Electric 64 kWh,365,160,28495,450,7.9,Towing:  - 
-Model S Plaid,550,282,125000,770,2.1,Towing:  - 
-i4 eDrive40,470,190,56185,730,5.7,Towing:  - 
-EQS 450+,640,210,105610,960,6.2,Towing:  - 
-iX xDrive40,360,200,69905,480,6.1,Towing:  - 
-Niro EV ,380,167,36795,380,7.8,Towing:  - 
-iX1 xDrive30,355,180,52255,510,5.6,Towing:  - 
-i7 xDrive60,510,240,110545,760,4.7,Towing:  - 
-EV6 GT,370,260,62645,970,3.5,Towing:  - 
-IONIQ 6 Long Range AWD,440,185,50245,1150,5.1,Towing:  - 
-Ariya 87kWh,445,160,51895,530,7.6,Towing:  - 
-Model 3 Performance,460,261,57990,710,3.3,Towing:  - 
-Model S Dual Motor,570,250,100000,790,3.2,Towing:  - 
-Enyaq iV 80,420,160,42925,530,8.6,Towing:  - 
-iX xDrive50,505,200,99785,680,4.6,Towing:  - 
-Q8 e-tron 55 quattro,495,200,77800,670,5.6,Towing:  - 
-Kona Electric 64 kWh,395,167,37750,370,7.9,Towing:  - 
-ID. Buzz Pro,330,145,57115,460,10.2,Towing:  - 
-RZ 450e,310,160,66500,460,5.6,Towing:  - 
-Q4 e-tron 40,405,160,49930,510,8.5,Towing:  - 
-i4 M50,435,225,69040,670,3.9,Towing:  - 
-Megane E-Tech EV60 220hp,360,160,36995,500,7.4,Towing:  - 
-e-tron GT RS,405,250,115000,1000,3.3,Towing:  - 
-iX3 ,385,180,64165,520,6.8,Towing:  - 
-Avenger Electric 1st Edition,295,150,36500,470,9,Towing:  - 
-#1 ,350,180,35000,520,6.7,Towing:  - 
-ZS EV Long Range,365,175,31995,410,8.4,Towing:  - 
-IONIQ 6 Long Range 2WD,475,185,46745,1240,7.4,Towing:  - 
-EQC 400 4MATIC,370,180,72335,440,5.1,Towing:  - 
-MG5 Electric Long Range,335,185,30995,330,7.7,Towing:  - 
-Ocean One,510,200,59900,730,3.9,Towing:  - 
-MG4 Electric 51 kWh,300,160,25995,340,7.7,Towing:  - 
-EV6 Long Range 2WD,410,185,45245,1070,7.3,Towing:  - 
-IONIQ 5 Long Range 2WD,390,185,46650,1020,7.3,Towing:  - 
-500e Hatchback 42 kWh,235,150,30645,390,9,Towing:  - 
-e-208 ,285,150,31345,460,8.1,Towing:  - 
-bZ4X FWD,335,160,45710,500,7.5,Towing:  - 
-iX M60,485,250,119225,650,3.8,Towing:  - 
-ID.4 GTX,400,180,52865,560,6.2,Towing:  - 
-ID.4 Pro Performance,410,160,46035,520,8.5,Towing:  - 
-Leaf ,235,144,28995,230,7.9,Towing:  - 
-Cooper SE ,180,150,29000,260,7.3,Towing:  - 
-Spectre ,455,250,350000,540,4.5,Towing:  - 
-Born 150 kW - 58 kWh,350,160,36475,470,7.3,Towing:  - 
-Model X Plaid,455,262,128000,630,2.6,Towing:  - 
-Q8 e-tron Sportback 55 quattro,525,200,80300,710,5.6,Towing:  - 
-EV6 Long Range AWD,400,185,51745,1050,5.2,Towing:  - 
-ID.4 Pro,410,160,44605,520,10.4,Towing:  - 
-Enyaq iV 60,330,160,38970,440,8.7,Towing:  - 
-EQB 350 4MATIC,335,160,55310,480,6.2,Towing:  - 
-2 Long Range Single Motor,440,205,48950,680,6.2,Towing:  - 
-ID.4 Pure,285,160,38845,360,10.9,Towing:  - 
-Solterra AWD,320,160,49995,480,6.9,Towing:  - 
-Taycan Turbo S,400,260,142400,980,2.8,Towing:  - 
-Astra Electric,310,170,36000,500,8.5,Towing:  - 
-e-C4 ,265,150,30995,420,9.7,Towing:  - 
-EQE 300,515,210,74345,650,7.6,Towing:  - 
-Born 170 kW - 77 kWh,450,160,41975,570,7,Towing:  - 
-Model X Dual Motor,470,250,108000,650,3.9,Towing:  - 
-ID.3 Pro Performance,350,160,39425,470,7.3,Towing:  - 
-IONIQ 5 Standard Range 2WD,295,185,43150,720,8.5,Towing:  - 
-e-2008 SUV ,255,150,35150,410,8.5,Towing:  - 
-Eletre ,520,250,89500,1090,4.5,Towing:  - 
-ID.5 Pro,430,160,50710,540,10.4,Towing:  - 
-XC40 Recharge Single Motor,335,180,46505,500,7.4,Towing:  - 
-IONIQ 5 Long Range AWD,385,185,50150,1010,5.1,Towing:  - 
-MX-30 ,170,140,30050,210,9.7,Towing:  - 
-EQE SUV 350+,470,210,80000,700,7,Towing:  - 
-e-308 ,310,150,37000,460,9,Towing:  - 
-3 Long Range Dual motor,490,210,79900,640,5,Towing:  - 
-Q8 e-tron 50 quattro,415,200,67800,580,6,Towing:  - 
-XC40 Recharge Twin Motor,380,180,51755,590,4.9,Towing:  - 
-Mokka-e ,255,150,34910,410,9.2,Towing:  - 
-Enyaq Coupe iV RS,405,180,54370,560,6.5,Towing:  - 
-EQS SUV 580 4MATIC,485,210,139170,630,4.6,Towing:  - 
-SQ8 e-tron ,445,210,98295,600,4.5,Towing:  - 
-e-tron GT quattro,420,245,84000,1030,4.1,Towing:  - 
-Zoe ZE50 R135,310,140,29995,230,9.5,Towing:  - 
-2 Long Range Dual Motor,420,205,52950,650,4.5,Towing:  - 
-Leaf e+,340,157,34945,240,6.9,Towing:  - 
-Ocean Sport,380,160,34990,480,7.4,Towing:  - 
-Corsa-e ,285,150,31130,460,8.1,Towing:  - 
-Taycan ,410,230,75500,1010,5.4,Towing:  - 
-EQV 300 Long,305,160,83530,310,12.1,Towing:  - 
-Q4 e-tron 50 quattro,385,180,56310,490,6.2,Towing:  - 
-EX90 Twin Motor Performance,440,180,100555,570,4.9,Towing:  - 
-2 Standard Range Single Motor,385,205,44950,620,6.4,Towing:  - 
-Ocean Ultra,505,200,48900,730,4.2,Towing:  - 
-#1 Brabus,335,180,42000,500,3.9,Towing:  - 
-ID.5 GTX,405,180,56545,560,6.3,Towing:  - 
-Kona Electric 39 kWh,250,155,32450,220,9.9,Towing:  - 
-EQB 300 4MATIC,335,160,56810,480,8,Towing:  - 
-EQS AMG 53 4MATIC+,565,250,161860,840,3.4,Towing:  - 
-Ariya e-4ORCE 87kWh,420,200,54595,500,5.7,Towing:  - 
-I-Pace EV400,380,200,69995,360,4.8,Towing:  - 
-500e Scorpionissima,225,155,36000,370,7,Towing:  - 
-EQA 250+,375,160,52010,520,8.6,Towing:  - 
-ID.5 Pro Performance,430,160,52185,540,8.4,Towing:  - 
-Ariya 63kWh,320,160,46145,430,7.5,Towing:  - 
-GranTurismo Folgore,425,320,200000,990,2.7,Towing:  - 
-EQA 350 4MATIC,350,160,54510,500,6,Towing:  - 
-Enyaq iV 80x,400,160,51765,500,6.9,Towing:  - 
-Mustang Mach-E ER RWD,455,180,59380,400,7,Towing:  - 
-ID.3 Pro S - 4 Seats,450,160,47470,570,7.9,Towing:  - 
-Ocean Extreme,510,200,59900,730,3.9,Towing:  - 
-bZ4X AWD,330,160,52110,490,6.9,Towing:  - 
-e Advance,170,145,36920,180,8.3,Towing:  - 
-Funky Cat 48 kWh,260,160,31995,240,8.3,Towing:  - 
-e-308 SW ,300,150,38000,450,9,Towing:  - 
-Taycan 4S,395,250,86500,970,4,Towing:  - 
-ZS EV Standard Range,270,175,29495,260,8.6,Towing:  - 
-EX90 Twin Motor,455,180,96255,590,5.9,Towing:  - 
-Enyaq Coupe iV 80,445,160,45000,560,8.7,Towing:  - 
-ID.4 Pure Performance,285,160,40275,360,9,Towing:  - 
-C40 Recharge Twin Motor,390,180,53605,600,4.7,Towing:  - 
-EQE SUV 500 4MATIC,455,210,115000,680,5,Towing:  - 
-3 Long Range Performance,470,210,85500,610,4.7,Towing:  - 
-Astra Sports Tourer Electric,300,170,37000,480,8.5,Towing:  - 
-Q4 Sportback e-tron 40,425,160,51430,540,8.5,Towing:  - 
-Taycan 4 Cross Turismo,425,220,84500,1050,5.1,Towing:  - 
-Taycan Plus,475,230,79549,1170,5.4,Towing:  - 
-C40 Recharge Single Motor,345,180,48355,510,7.4,Towing:  - 
-GV60 Premium,390,185,53905,1020,7.8,Towing:  - 
-Mustang Mach-E SR RWD,355,180,50830,370,6.9,Towing:  - 
-EQE AMG 53 4MATIC+,480,240,114750,720,3.5,Towing:  - 
-EQA 300 4MATIC,350,160,53010,500,7.7,Towing:  - 
-Eletre R,450,260,120000,940,2.9,Towing:  - 
-Taycan GTS,450,250,106000,1110,3.7,Towing:  - 
-2 Long Range Performance,410,205,57950,630,4.2,Towing:  - 
-Mustang Mach-E ER AWD,440,180,65405,390,5.8,Towing:  - 
-3 E-Tense,300,150,37200,480,9,Towing:  - 
-Q8 e-tron Sportback 50 quattro,440,200,70300,610,6,Towing:  - 
-EQE SUV 350 4MATIC,455,210,85000,680,6.5,Towing:  - 
-e-Berlingo M 50 kWh,200,135,31495,320,11.7,Towing:  - 
-G80 Electrified Luxury,440,225,69805,880,4.9,Towing:  - 
-e-Soul 64 kWh,370,167,39045,350,7.9,Towing:  - 
-SQ8 e-tron Sportback ,470,210,100795,630,4.5,Towing:  - 
-Mustang Mach-E GT,425,200,74540,380,4.4,Towing:  - 
-GV70 Electrified Sport,350,235,64405,860,4.2,Towing:  - 
-Q4 Sportback e-tron 50 quattro,400,180,57810,500,6.2,Towing:  - 
-Taycan Turbo,415,260,119900,1020,3.2,Towing:  - 
-EQE SUV AMG 53 4MATIC+,425,240,120000,630,3.5,Towing:  - 
-Taycan 4S Plus,460,250,90406,1130,4,Towing:  - 
-GV60 Sport,380,200,58365,990,5.5,Towing:  - 
-Born 170 kW - 58 kWh,345,160,39205,460,6.6,Towing:  - 
-EQS SUV 450 4MATIC,485,210,129170,630,6,Towing:  - 
-EQE 350,515,210,77345,650,6.4,Towing:  - 
-Enyaq Coupe iV 80x,430,160,52000,540,7,Towing:  - 
-e-Rifter Long 50 kWh,195,135,34300,310,11.7,Towing:  - 
-Enyaq Coupe iV 60,335,160,40000,450,8.8,Towing:  - 
-e-Soul 39.2 kWh,230,157,32845,200,9.9,Towing:  - 
-Taycan Turbo S Sport Turismo,395,260,143400,970,2.8,Towing:  - 
-Cooper SE Convertible,170,150,52500,240,8.2,Towing:  - 
-500e Cabrio 42 kWh,230,150,33645,380,9,Towing:  - 
-eVito Tourer Long 90 kWh,310,160,68352,310,12,Towing:  - 
-Taycan 4S Cross Turismo,425,240,91000,1050,4.1,Towing:  - 
-e-Traveller Standard 50 kWh,180,130,49100,290,13.1,Towing:  - 
-GV60 Sport Plus,365,235,67505,950,4,Towing:  - 
-Combo-e Life 50 kWh,200,135,34035,320,11.7,Towing:  - 
-Taycan Turbo S Cross Turismo,385,250,143400,950,2.9,Towing:  - 
-eVito Tourer Extra-Long 90 kWh,305,160,75846,310,12,Towing:  - 
-Taycan GTS Sport Turismo,425,250,107000,1050,3.7,Towing:  - 
-e-SpaceTourer M 50 kWh,180,130,47495,290,12.1,Towing:  - 
-e-Rifter Standard 50 kWh,200,135,32300,320,11.7,Towing:  - 
-Taycan Sport Turismo,380,230,76500,930,5.4,Towing:  - 
-Combo-e Life XL 50 kWh,195,135,34635,310,11.7,Towing:  - 
-Taycan 4S Sport Turismo,370,250,87500,910,4,Towing:  - 
-e-Berlingo XL 50 kWh,195,135,32495,310,11.7,Towing:  - 
-Taycan Plus Sport Turismo,445,230,80549,1090,5.4,Towing:  - 
-Vivaro-e Combi M 50 kWh,180,130,37320,290,12.1,Towing:  - 
-Taycan Turbo Cross Turismo,400,250,120900,980,3.3,Towing:  - 
-Vivaro-e Combi L 50 kWh,175,130,37520,280,12.1,Towing:  - 
-e-Jumpy Combi M 50 kWh,180,130,35795,290,12.1,Towing:  - 
-Taycan Turbo Sport Turismo,405,260,120900,1000,3.2,Towing:  - 
-Zafira-e Life M 50 kWh,180,130,50630,290,12.1,Towing:  - 
-e-Traveller Long 50 kWh,175,130,54275,280,13.1,Towing:  - 
-e-Jumpy Combi XL 50 kWh,175,130,35995,280,12.1,Towing:  - 
-e-SpaceTourer XL 50 kWh,175,130,48335,280,12.1,Towing:  - 
-Taycan 4S Plus Sport Turismo,430,250,91406,1060,4,Towing:  - 
-Zafira-e Life L 50 kWh,175,130,50990,280,12.1,Towing:  - 
-Model Y Long Range Dual Motor,435,217,52990,670,5,Towing:  - 
-Model Y ,345,217,44990,580,6.9,Towing:  - 
-Model 3 ,380,225,42990,630,6.1,Towing:  - 
-Model 3 Long Range Dual Motor,485,233,50990,750,4.4,Towing:  - 
-Model Y Performance,415,250,59990,640,3.7,Towing:  - 
-MG4 Electric 64 kWh,365,160,28495,450,7.9,Towing:  - 
-Model S Plaid,550,282,125000,770,2.1,Towing:  - 
-i4 eDrive40,470,190,56185,730,5.7,Towing:  - 
-EQS 450+,640,210,105610,960,6.2,Towing:  - 
-iX xDrive40,360,200,69905,480,6.1,Towing:  - 
-Niro EV ,380,167,36795,380,7.8,Towing:  - 
-iX1 xDrive30,355,180,52255,510,5.6,Towing:  - 
-i7 xDrive60,510,240,110545,760,4.7,Towing:  - 
-EV6 GT,370,260,62645,970,3.5,Towing:  - 
-IONIQ 6 Long Range AWD,440,185,50245,1150,5.1,Towing:  - 
-Ariya 87kWh,445,160,51895,530,7.6,Towing:  - 
-Model 3 Performance,460,261,57990,710,3.3,Towing:  - 
-Model S Dual Motor,570,250,100000,790,3.2,Towing:  - 
-Enyaq iV 80,420,160,42925,530,8.6,Towing:  - 
-iX xDrive50,505,200,99785,680,4.6,Towing:  - 
-Q8 e-tron 55 quattro,495,200,77800,670,5.6,Towing:  - 
-Kona Electric 64 kWh,395,167,37750,370,7.9,Towing:  - 
-ID. Buzz Pro,330,145,57115,460,10.2,Towing:  - 
-RZ 450e,310,160,66500,460,5.6,Towing:  - 
-Q4 e-tron 40,405,160,49930,510,8.5,Towing:  - 
-i4 M50,435,225,69040,670,3.9,Towing:  - 
-Megane E-Tech EV60 220hp,360,160,36995,500,7.4,Towing:  - 
-e-tron GT RS,405,250,115000,1000,3.3,Towing:  - 
-iX3 ,385,180,64165,520,6.8,Towing:  - 
-Avenger Electric 1st Edition,295,150,36500,470,9,Towing:  - 
-#1 ,350,180,35000,520,6.7,Towing:  - 
-ZS EV Long Range,365,175,31995,410,8.4,Towing:  - 
-IONIQ 6 Long Range 2WD,475,185,46745,1240,7.4,Towing:  - 
-EQC 400 4MATIC,370,180,72335,440,5.1,Towing:  - 
-MG5 Electric Long Range,335,185,30995,330,7.7,Towing:  - 
-Ocean One,510,200,59900,730,3.9,Towing:  - 
-MG4 Electric 51 kWh,300,160,25995,340,7.7,Towing:  - 
-EV6 Long Range 2WD,410,185,45245,1070,7.3,Towing:  - 
-IONIQ 5 Long Range 2WD,390,185,46650,1020,7.3,Towing:  - 
-500e Hatchback 42 kWh,235,150,30645,390,9,Towing:  - 
-e-208 ,285,150,31345,460,8.1,Towing:  - 
-bZ4X FWD,335,160,45710,500,7.5,Towing:  - 
-iX M60,485,250,119225,650,3.8,Towing:  - 
-ID.4 GTX,400,180,52865,560,6.2,Towing:  - 
-ID.4 Pro Performance,410,160,46035,520,8.5,Towing:  - 
-Leaf ,235,144,28995,230,7.9,Towing:  - 
-Cooper SE ,180,150,29000,260,7.3,Towing:  - 
-Spectre ,455,250,350000,540,4.5,Towing:  - 
-Born 150 kW - 58 kWh,350,160,36475,470,7.3,Towing:  - 
-Model X Plaid,455,262,128000,630,2.6,Towing:  - 
-Q8 e-tron Sportback 55 quattro,525,200,80300,710,5.6,Towing:  - 
-EV6 Long Range AWD,400,185,51745,1050,5.2,Towing:  - 
-ID.4 Pro,410,160,44605,520,10.4,Towing:  - 
-Enyaq iV 60,330,160,38970,440,8.7,Towing:  - 
-EQB 350 4MATIC,335,160,55310,480,6.2,Towing:  - 
-2 Long Range Single Motor,440,205,48950,680,6.2,Towing:  - 
-ID.4 Pure,285,160,38845,360,10.9,Towing:  - 
-Solterra AWD,320,160,49995,480,6.9,Towing:  - 
-Taycan Turbo S,400,260,142400,980,2.8,Towing:  - 
-Astra Electric,310,170,36000,500,8.5,Towing:  - 
-e-C4 ,265,150,30995,420,9.7,Towing:  - 
-EQE 300,515,210,74345,650,7.6,Towing:  - 
-Born 170 kW - 77 kWh,450,160,41975,570,7,Towing:  - 
-Model X Dual Motor,470,250,108000,650,3.9,Towing:  - 
-ID.3 Pro Performance,350,160,39425,470,7.3,Towing:  - 
-IONIQ 5 Standard Range 2WD,295,185,43150,720,8.5,Towing:  - 
-e-2008 SUV ,255,150,35150,410,8.5,Towing:  - 
-Eletre ,520,250,89500,1090,4.5,Towing:  - 
-ID.5 Pro,430,160,50710,540,10.4,Towing:  - 
-XC40 Recharge Single Motor,335,180,46505,500,7.4,Towing:  - 
-IONIQ 5 Long Range AWD,385,185,50150,1010,5.1,Towing:  - 
-MX-30 ,170,140,30050,210,9.7,Towing:  - 
-EQE SUV 350+,470,210,80000,700,7,Towing:  - 
-e-308 ,310,150,37000,460,9,Towing:  - 
-3 Long Range Dual motor,490,210,79900,640,5,Towing:  - 
-Q8 e-tron 50 quattro,415,200,67800,580,6,Towing:  - 
-XC40 Recharge Twin Motor,380,180,51755,590,4.9,Towing:  - 
-Mokka-e ,255,150,34910,410,9.2,Towing:  - 
-Enyaq Coupe iV RS,405,180,54370,560,6.5,Towing:  - 
-EQS SUV 580 4MATIC,485,210,139170,630,4.6,Towing:  - 
-SQ8 e-tron ,445,210,98295,600,4.5,Towing:  - 
-e-tron GT quattro,420,245,84000,1030,4.1,Towing:  - 
-Zoe ZE50 R135,310,140,29995,230,9.5,Towing:  - 
-2 Long Range Dual Motor,420,205,52950,650,4.5,Towing:  - 
-Leaf e+,340,157,34945,240,6.9,Towing:  - 
-Ocean Sport,380,160,34990,480,7.4,Towing:  - 
-Corsa-e ,285,150,31130,460,8.1,Towing:  - 
-Taycan ,410,230,75500,1010,5.4,Towing:  - 
-EQV 300 Long,305,160,83530,310,12.1,Towing:  - 
-Q4 e-tron 50 quattro,385,180,56310,490,6.2,Towing:  - 
-EX90 Twin Motor Performance,440,180,100555,570,4.9,Towing:  - 
-2 Standard Range Single Motor,385,205,44950,620,6.4,Towing:  - 
-Ocean Ultra,505,200,48900,730,4.2,Towing:  - 
-#1 Brabus,335,180,42000,500,3.9,Towing:  - 
-ID.5 GTX,405,180,56545,560,6.3,Towing:  - 
-Kona Electric 39 kWh,250,155,32450,220,9.9,Towing:  - 
-EQB 300 4MATIC,335,160,56810,480,8,Towing:  - 
-EQS AMG 53 4MATIC+,565,250,161860,840,3.4,Towing:  - 
-Ariya e-4ORCE 87kWh,420,200,54595,500,5.7,Towing:  - 
-I-Pace EV400,380,200,69995,360,4.8,Towing:  - 
-500e Scorpionissima,225,155,36000,370,7,Towing:  - 
-EQA 250+,375,160,52010,520,8.6,Towing:  - 
-ID.5 Pro Performance,430,160,52185,540,8.4,Towing:  - 
-Ariya 63kWh,320,160,46145,430,7.5,Towing:  - 
-GranTurismo Folgore,425,320,200000,990,2.7,Towing:  - 
-EQA 350 4MATIC,350,160,54510,500,6,Towing:  - 
-Enyaq iV 80x,400,160,51765,500,6.9,Towing:  - 
-Mustang Mach-E ER RWD,455,180,59380,400,7,Towing:  - 
-ID.3 Pro S - 4 Seats,450,160,47470,570,7.9,Towing:  - 
-Ocean Extreme,510,200,59900,730,3.9,Towing:  - 
-bZ4X AWD,330,160,52110,490,6.9,Towing:  - 
-e Advance,170,145,36920,180,8.3,Towing:  - 
-Funky Cat 48 kWh,260,160,31995,240,8.3,Towing:  - 
-e-308 SW ,300,150,38000,450,9,Towing:  - 
-Taycan 4S,395,250,86500,970,4,Towing:  - 
-ZS EV Standard Range,270,175,29495,260,8.6,Towing:  - 
-EX90 Twin Motor,455,180,96255,590,5.9,Towing:  - 
-Enyaq Coupe iV 80,445,160,45000,560,8.7,Towing:  - 
-ID.4 Pure Performance,285,160,40275,360,9,Towing:  - 
-C40 Recharge Twin Motor,390,180,53605,600,4.7,Towing:  - 
-EQE SUV 500 4MATIC,455,210,115000,680,5,Towing:  - 
-3 Long Range Performance,470,210,85500,610,4.7,Towing:  - 
-Astra Sports Tourer Electric,300,170,37000,480,8.5,Towing:  - 
-Q4 Sportback e-tron 40,425,160,51430,540,8.5,Towing:  - 
-Taycan 4 Cross Turismo,425,220,84500,1050,5.1,Towing:  - 
-Taycan Plus,475,230,79549,1170,5.4,Towing:  - 
-C40 Recharge Single Motor,345,180,48355,510,7.4,Towing:  - 
-GV60 Premium,390,185,53905,1020,7.8,Towing:  - 
-Mustang Mach-E SR RWD,355,180,50830,370,6.9,Towing:  - 
-EQE AMG 53 4MATIC+,480,240,114750,720,3.5,Towing:  - 
-EQA 300 4MATIC,350,160,53010,500,7.7,Towing:  - 
-Eletre R,450,260,120000,940,2.9,Towing:  - 
-Taycan GTS,450,250,106000,1110,3.7,Towing:  - 
-2 Long Range Performance,410,205,57950,630,4.2,Towing:  - 
-Mustang Mach-E ER AWD,440,180,65405,390,5.8,Towing:  - 
-3 E-Tense,300,150,37200,480,9,Towing:  - 
-Q8 e-tron Sportback 50 quattro,440,200,70300,610,6,Towing:  - 
-EQE SUV 350 4MATIC,455,210,85000,680,6.5,Towing:  - 
-e-Berlingo M 50 kWh,200,135,31495,320,11.7,Towing:  - 
-G80 Electrified Luxury,440,225,69805,880,4.9,Towing:  - 
-e-Soul 64 kWh,370,167,39045,350,7.9,Towing:  - 
-SQ8 e-tron Sportback ,470,210,100795,630,4.5,Towing:  - 
-Mustang Mach-E GT,425,200,74540,380,4.4,Towing:  - 
-GV70 Electrified Sport,350,235,64405,860,4.2,Towing:  - 
-Q4 Sportback e-tron 50 quattro,400,180,57810,500,6.2,Towing:  - 
-Taycan Turbo,415,260,119900,1020,3.2,Towing:  - 
-EQE SUV AMG 53 4MATIC+,425,240,120000,630,3.5,Towing:  - 
-Taycan 4S Plus,460,250,90406,1130,4,Towing:  - 
-GV60 Sport,380,200,58365,990,5.5,Towing:  - 
-Born 170 kW - 58 kWh,345,160,39205,460,6.6,Towing:  - 
-EQS SUV 450 4MATIC,485,210,129170,630,6,Towing:  - 
-EQE 350,515,210,77345,650,6.4,Towing:  - 
-Enyaq Coupe iV 80x,430,160,52000,540,7,Towing:  - 
-e-Rifter Long 50 kWh,195,135,34300,310,11.7,Towing:  - 
-Enyaq Coupe iV 60,335,160,40000,450,8.8,Towing:  - 
-e-Soul 39.2 kWh,230,157,32845,200,9.9,Towing:  - 
-Taycan Turbo S Sport Turismo,395,260,143400,970,2.8,Towing:  - 
-Cooper SE Convertible,170,150,52500,240,8.2,Towing:  - 
-500e Cabrio 42 kWh,230,150,33645,380,9,Towing:  - 
-eVito Tourer Long 90 kWh,310,160,68352,310,12,Towing:  - 
-Taycan 4S Cross Turismo,425,240,91000,1050,4.1,Towing:  - 
-e-Traveller Standard 50 kWh,180,130,49100,290,13.1,Towing:  - 
-GV60 Sport Plus,365,235,67505,950,4,Towing:  - 
-Combo-e Life 50 kWh,200,135,34035,320,11.7,Towing:  - 
-Taycan Turbo S Cross Turismo,385,250,143400,950,2.9,Towing:  - 
-eVito Tourer Extra-Long 90 kWh,305,160,75846,310,12,Towing:  - 
-Taycan GTS Sport Turismo,425,250,107000,1050,3.7,Towing:  - 
-e-SpaceTourer M 50 kWh,180,130,47495,290,12.1,Towing:  - 
-e-Rifter Standard 50 kWh,200,135,32300,320,11.7,Towing:  - 
-Taycan Sport Turismo,380,230,76500,930,5.4,Towing:  - 
-Combo-e Life XL 50 kWh,195,135,34635,310,11.7,Towing:  - 
-Taycan 4S Sport Turismo,370,250,87500,910,4,Towing:  - 
-e-Berlingo XL 50 kWh,195,135,32495,310,11.7,Towing:  - 
-Taycan Plus Sport Turismo,445,230,80549,1090,5.4,Towing:  - 
-Vivaro-e Combi M 50 kWh,180,130,37320,290,12.1,Towing:  - 
-Taycan Turbo Cross Turismo,400,250,120900,980,3.3,Towing:  - 
-Vivaro-e Combi L 50 kWh,175,130,37520,280,12.1,Towing:  - 
-e-Jumpy Combi M 50 kWh,180,130,35795,290,12.1,Towing:  - 
-Taycan Turbo Sport Turismo,405,260,120900,1000,3.2,Towing:  - 
-Zafira-e Life M 50 kWh,180,130,50630,290,12.1,Towing:  - 
-e-Traveller Long 50 kWh,175,130,54275,280,13.1,Towing:  - 
-e-Jumpy Combi XL 50 kWh,175,130,35995,280,12.1,Towing:  - 
-e-SpaceTourer XL 50 kWh,175,130,48335,280,12.1,Towing:  - 
-Taycan 4S Plus Sport Turismo,430,250,91406,1060,4,Towing:  - 
-Zafira-e Life L 50 kWh,175,130,50990,280,12.1,Towing:  - 
-Model Y Long Range Dual Motor,435,217,52990,670,5,Towing:  - 
-Model Y ,345,217,44990,580,6.9,Towing:  - 
-Model 3 ,380,225,42990,630,6.1,Towing:  - 
-Model 3 Long Range Dual Motor,485,233,50990,750,4.4,Towing:  - 
-Model Y Performance,415,250,59990,640,3.7,Towing:  - 
-MG4 Electric 64 kWh,365,160,28495,450,7.9,Towing:  - 
-Model S Plaid,550,282,125000,770,2.1,Towing:  - 
-i4 eDrive40,470,190,56185,730,5.7,Towing:  - 
-EQS 450+,640,210,105610,960,6.2,Towing:  - 
-iX xDrive40,360,200,69905,480,6.1,Towing:  - 
-Niro EV ,380,167,36795,380,7.8,Towing:  - 
-iX1 xDrive30,355,180,52255,510,5.6,Towing:  - 
-i7 xDrive60,510,240,110545,760,4.7,Towing:  - 
-EV6 GT,370,260,62645,970,3.5,Towing:  - 
-IONIQ 6 Long Range AWD,440,185,50245,1150,5.1,Towing:  - 
-Ariya 87kWh,445,160,51895,530,7.6,Towing:  - 
-Model 3 Performance,460,261,57990,710,3.3,Towing:  - 
-Model S Dual Motor,570,250,100000,790,3.2,Towing:  - 
-Enyaq iV 80,420,160,42925,530,8.6,Towing:  - 
-iX xDrive50,505,200,99785,680,4.6,Towing:  - 
-Q8 e-tron 55 quattro,495,200,77800,670,5.6,Towing:  - 
-Kona Electric 64 kWh,395,167,37750,370,7.9,Towing:  - 
-ID. Buzz Pro,330,145,57115,460,10.2,Towing:  - 
-RZ 450e,310,160,66500,460,5.6,Towing:  - 
-Q4 e-tron 40,405,160,49930,510,8.5,Towing:  - 
-i4 M50,435,225,69040,670,3.9,Towing:  - 
-Megane E-Tech EV60 220hp,360,160,36995,500,7.4,Towing:  - 
-e-tron GT RS,405,250,115000,1000,3.3,Towing:  - 
-iX3 ,385,180,64165,520,6.8,Towing:  - 
-Avenger Electric 1st Edition,295,150,36500,470,9,Towing:  - 
-#1 ,350,180,35000,520,6.7,Towing:  - 
-ZS EV Long Range,365,175,31995,410,8.4,Towing:  - 
-IONIQ 6 Long Range 2WD,475,185,46745,1240,7.4,Towing:  - 
-EQC 400 4MATIC,370,180,72335,440,5.1,Towing:  - 
-MG5 Electric Long Range,335,185,30995,330,7.7,Towing:  - 
-Ocean One,510,200,59900,730,3.9,Towing:  - 
-MG4 Electric 51 kWh,300,160,25995,340,7.7,Towing:  - 
-EV6 Long Range 2WD,410,185,45245,1070,7.3,Towing:  - 
-IONIQ 5 Long Range 2WD,390,185,46650,1020,7.3,Towing:  - 
-500e Hatchback 42 kWh,235,150,30645,390,9,Towing:  - 
-e-208 ,285,150,31345,460,8.1,Towing:  - 
-bZ4X FWD,335,160,45710,500,7.5,Towing:  - 
-iX M60,485,250,119225,650,3.8,Towing:  - 
-ID.4 GTX,400,180,52865,560,6.2,Towing:  - 
-ID.4 Pro Performance,410,160,46035,520,8.5,Towing:  - 
-Leaf ,235,144,28995,230,7.9,Towing:  - 
-Cooper SE ,180,150,29000,260,7.3,Towing:  - 
-Spectre ,455,250,350000,540,4.5,Towing:  - 
-Born 150 kW - 58 kWh,350,160,36475,470,7.3,Towing:  - 
-Model X Plaid,455,262,128000,630,2.6,Towing:  - 
-Q8 e-tron Sportback 55 quattro,525,200,80300,710,5.6,Towing:  - 
-EV6 Long Range AWD,400,185,51745,1050,5.2,Towing:  - 
-ID.4 Pro,410,160,44605,520,10.4,Towing:  - 
-Enyaq iV 60,330,160,38970,440,8.7,Towing:  - 
-EQB 350 4MATIC,335,160,55310,480,6.2,Towing:  - 
-2 Long Range Single Motor,440,205,48950,680,6.2,Towing:  - 
-ID.4 Pure,285,160,38845,360,10.9,Towing:  - 
-Solterra AWD,320,160,49995,480,6.9,Towing:  - 
-Taycan Turbo S,400,260,142400,980,2.8,Towing:  - 
-Astra Electric,310,170,36000,500,8.5,Towing:  - 
-e-C4 ,265,150,30995,420,9.7,Towing:  - 
-EQE 300,515,210,74345,650,7.6,Towing:  - 
-Born 170 kW - 77 kWh,450,160,41975,570,7,Towing:  - 
-Model X Dual Motor,470,250,108000,650,3.9,Towing:  - 
-ID.3 Pro Performance,350,160,39425,470,7.3,Towing:  - 
-IONIQ 5 Standard Range 2WD,295,185,43150,720,8.5,Towing:  - 
-e-2008 SUV ,255,150,35150,410,8.5,Towing:  - 
-Eletre ,520,250,89500,1090,4.5,Towing:  - 
-ID.5 Pro,430,160,50710,540,10.4,Towing:  - 
-XC40 Recharge Single Motor,335,180,46505,500,7.4,Towing:  - 
-IONIQ 5 Long Range AWD,385,185,50150,1010,5.1,Towing:  - 
-MX-30 ,170,140,30050,210,9.7,Towing:  - 
-EQE SUV 350+,470,210,80000,700,7,Towing:  - 
-e-308 ,310,150,37000,460,9,Towing:  - 
-3 Long Range Dual motor,490,210,79900,640,5,Towing:  - 
-Q8 e-tron 50 quattro,415,200,67800,580,6,Towing:  - 
-XC40 Recharge Twin Motor,380,180,51755,590,4.9,Towing:  - 
-Mokka-e ,255,150,34910,410,9.2,Towing:  - 
-Enyaq Coupe iV RS,405,180,54370,560,6.5,Towing:  - 
-EQS SUV 580 4MATIC,485,210,139170,630,4.6,Towing:  - 
-SQ8 e-tron ,445,210,98295,600,4.5,Towing:  - 
-e-tron GT quattro,420,245,84000,1030,4.1,Towing:  - 
-Zoe ZE50 R135,310,140,29995,230,9.5,Towing:  - 
-2 Long Range Dual Motor,420,205,52950,650,4.5,Towing:  - 
-Leaf e+,340,157,34945,240,6.9,Towing:  - 
-Ocean Sport,380,160,34990,480,7.4,Towing:  - 
-Corsa-e ,285,150,31130,460,8.1,Towing:  - 
-Taycan ,410,230,75500,1010,5.4,Towing:  - 
-EQV 300 Long,305,160,83530,310,12.1,Towing:  - 
-Q4 e-tron 50 quattro,385,180,56310,490,6.2,Towing:  - 
-EX90 Twin Motor Performance,440,180,100555,570,4.9,Towing:  - 
-2 Standard Range Single Motor,385,205,44950,620,6.4,Towing:  - 
-Ocean Ultra,505,200,48900,730,4.2,Towing:  - 
-#1 Brabus,335,180,42000,500,3.9,Towing:  - 
-ID.5 GTX,405,180,56545,560,6.3,Towing:  - 
-Kona Electric 39 kWh,250,155,32450,220,9.9,Towing:  - 
-EQB 300 4MATIC,335,160,56810,480,8,Towing:  - 
-EQS AMG 53 4MATIC+,565,250,161860,840,3.4,Towing:  - 
-Ariya e-4ORCE 87kWh,420,200,54595,500,5.7,Towing:  - 
-I-Pace EV400,380,200,69995,360,4.8,Towing:  - 
-500e Scorpionissima,225,155,36000,370,7,Towing:  - 
-EQA 250+,375,160,52010,520,8.6,Towing:  - 
-ID.5 Pro Performance,430,160,52185,540,8.4,Towing:  - 
-Ariya 63kWh,320,160,46145,430,7.5,Towing:  - 
-GranTurismo Folgore,425,320,200000,990,2.7,Towing:  - 
-EQA 350 4MATIC,350,160,54510,500,6,Towing:  - 
-Enyaq iV 80x,400,160,51765,500,6.9,Towing:  - 
-Mustang Mach-E ER RWD,455,180,59380,400,7,Towing:  - 
-ID.3 Pro S - 4 Seats,450,160,47470,570,7.9,Towing:  - 
-Ocean Extreme,510,200,59900,730,3.9,Towing:  - 
-bZ4X AWD,330,160,52110,490,6.9,Towing:  - 
-e Advance,170,145,36920,180,8.3,Towing:  - 
-Funky Cat 48 kWh,260,160,31995,240,8.3,Towing:  - 
-e-308 SW ,300,150,38000,450,9,Towing:  - 
-Taycan 4S,395,250,86500,970,4,Towing:  - 
-ZS EV Standard Range,270,175,29495,260,8.6,Towing:  - 
-EX90 Twin Motor,455,180,96255,590,5.9,Towing:  - 
-Enyaq Coupe iV 80,445,160,45000,560,8.7,Towing:  - 
-ID.4 Pure Performance,285,160,40275,360,9,Towing:  - 
-C40 Recharge Twin Motor,390,180,53605,600,4.7,Towing:  - 
-EQE SUV 500 4MATIC,455,210,115000,680,5,Towing:  - 
-3 Long Range Performance,470,210,85500,610,4.7,Towing:  - 
-Astra Sports Tourer Electric,300,170,37000,480,8.5,Towing:  - 
-Q4 Sportback e-tron 40,425,160,51430,540,8.5,Towing:  - 
-Taycan 4 Cross Turismo,425,220,84500,1050,5.1,Towing:  - 
-Taycan Plus,475,230,79549,1170,5.4,Towing:  - 
-C40 Recharge Single Motor,345,180,48355,510,7.4,Towing:  - 
-GV60 Premium,390,185,53905,1020,7.8,Towing:  - 
-Mustang Mach-E SR RWD,355,180,50830,370,6.9,Towing:  - 
-EQE AMG 53 4MATIC+,480,240,114750,720,3.5,Towing:  - 
-EQA 300 4MATIC,350,160,53010,500,7.7,Towing:  - 
-Eletre R,450,260,120000,940,2.9,Towing:  - 
-Taycan GTS,450,250,106000,1110,3.7,Towing:  - 
-2 Long Range Performance,410,205,57950,630,4.2,Towing:  - 
-Mustang Mach-E ER AWD,440,180,65405,390,5.8,Towing:  - 
-3 E-Tense,300,150,37200,480,9,Towing:  - 
-Q8 e-tron Sportback 50 quattro,440,200,70300,610,6,Towing:  - 
-EQE SUV 350 4MATIC,455,210,85000,680,6.5,Towing:  - 
-e-Berlingo M 50 kWh,200,135,31495,320,11.7,Towing:  - 
-G80 Electrified Luxury,440,225,69805,880,4.9,Towing:  - 
-e-Soul 64 kWh,370,167,39045,350,7.9,Towing:  - 
-SQ8 e-tron Sportback ,470,210,100795,630,4.5,Towing:  - 
-Mustang Mach-E GT,425,200,74540,380,4.4,Towing:  - 
-GV70 Electrified Sport,350,235,64405,860,4.2,Towing:  - 
-Q4 Sportback e-tron 50 quattro,400,180,57810,500,6.2,Towing:  - 
-Taycan Turbo,415,260,119900,1020,3.2,Towing:  - 
-EQE SUV AMG 53 4MATIC+,425,240,120000,630,3.5,Towing:  - 
-Taycan 4S Plus,460,250,90406,1130,4,Towing:  - 
-GV60 Sport,380,200,58365,990,5.5,Towing:  - 
-Born 170 kW - 58 kWh,345,160,39205,460,6.6,Towing:  - 
-EQS SUV 450 4MATIC,485,210,129170,630,6,Towing:  - 
-EQE 350,515,210,77345,650,6.4,Towing:  - 
-Enyaq Coupe iV 80x,430,160,52000,540,7,Towing:  - 
-e-Rifter Long 50 kWh,195,135,34300,310,11.7,Towing:  - 
-Enyaq Coupe iV 60,335,160,40000,450,8.8,Towing:  - 
-e-Soul 39.2 kWh,230,157,32845,200,9.9,Towing:  - 
-Taycan Turbo S Sport Turismo,395,260,143400,970,2.8,Towing:  - 
-Cooper SE Convertible,170,150,52500,240,8.2,Towing:  - 
-500e Cabrio 42 kWh,230,150,33645,380,9,Towing:  - 
-eVito Tourer Long 90 kWh,310,160,68352,310,12,Towing:  - 
-Taycan 4S Cross Turismo,425,240,91000,1050,4.1,Towing:  - 
-e-Traveller Standard 50 kWh,180,130,49100,290,13.1,Towing:  - 
-GV60 Sport Plus,365,235,67505,950,4,Towing:  - 
-Combo-e Life 50 kWh,200,135,34035,320,11.7,Towing:  - 
-Taycan Turbo S Cross Turismo,385,250,143400,950,2.9,Towing:  - 
-eVito Tourer Extra-Long 90 kWh,305,160,75846,310,12,Towing:  - 
-Taycan GTS Sport Turismo,425,250,107000,1050,3.7,Towing:  - 
-e-SpaceTourer M 50 kWh,180,130,47495,290,12.1,Towing:  - 
-e-Rifter Standard 50 kWh,200,135,32300,320,11.7,Towing:  - 
-Taycan Sport Turismo,380,230,76500,930,5.4,Towing:  - 
-Combo-e Life XL 50 kWh,195,135,34635,310,11.7,Towing:  - 
-Taycan 4S Sport Turismo,370,250,87500,910,4,Towing:  - 
-e-Berlingo XL 50 kWh,195,135,32495,310,11.7,Towing:  - 
-Taycan Plus Sport Turismo,445,230,80549,1090,5.4,Towing:  - 
-Vivaro-e Combi M 50 kWh,180,130,37320,290,12.1,Towing:  - 
-Taycan Turbo Cross Turismo,400,250,120900,980,3.3,Towing:  - 
-Vivaro-e Combi L 50 kWh,175,130,37520,280,12.1,Towing:  - 
-e-Jumpy Combi M 50 kWh,180,130,35795,290,12.1,Towing:  - 
-Taycan Turbo Sport Turismo,405,260,120900,1000,3.2,Towing:  - 
-Zafira-e Life M 50 kWh,180,130,50630,290,12.1,Towing:  - 
-e-Traveller Long 50 kWh,175,130,54275,280,13.1,Towing:  - 
-e-Jumpy Combi XL 50 kWh,175,130,35995,280,12.1,Towing:  - 
-e-SpaceTourer XL 50 kWh,175,130,48335,280,12.1,Towing:  - 
-Taycan 4S Plus Sport Turismo,430,250,91406,1060,4,Towing:  - 
-Zafira-e Life L 50 kWh,175,130,50990,280,12.1,Towing:  - 
-Model Y Long Range Dual Motor,435,217,52990,670,5,Towing:  - 
-Model Y ,345,217,44990,580,6.9,Towing:  - 
-Model 3 ,380,225,42990,630,6.1,Towing:  - 
-Model 3 Long Range Dual Motor,485,233,50990,750,4.4,Towing:  - 
-Model Y Performance,415,250,59990,640,3.7,Towing:  - 
-MG4 Electric 64 kWh,365,160,28495,450,7.9,Towing:  - 
-Model S Plaid,550,282,125000,770,2.1,Towing:  - 
-i4 eDrive40,470,190,56185,730,5.7,Towing:  - 
-EQS 450+,640,210,105610,960,6.2,Towing:  - 
-iX xDrive40,360,200,69905,480,6.1,Towing:  - 
-Niro EV ,380,167,36795,380,7.8,Towing:  - 
-iX1 xDrive30,355,180,52255,510,5.6,Towing:  - 
-i7 xDrive60,510,240,110545,760,4.7,Towing:  - 
-EV6 GT,370,260,62645,970,3.5,Towing:  - 
-IONIQ 6 Long Range AWD,440,185,50245,1150,5.1,Towing:  - 
-Ariya 87kWh,445,160,51895,530,7.6,Towing:  - 
-Model 3 Performance,460,261,57990,710,3.3,Towing:  - 
-Model S Dual Motor,570,250,100000,790,3.2,Towing:  - 
-Enyaq iV 80,420,160,42925,530,8.6,Towing:  - 
-iX xDrive50,505,200,99785,680,4.6,Towing:  - 
-Q8 e-tron 55 quattro,495,200,77800,670,5.6,Towing:  - 
-Kona Electric 64 kWh,395,167,37750,370,7.9,Towing:  - 
-ID. Buzz Pro,330,145,57115,460,10.2,Towing:  - 
-RZ 450e,310,160,66500,460,5.6,Towing:  - 
-Q4 e-tron 40,405,160,49930,510,8.5,Towing:  - 
-i4 M50,435,225,69040,670,3.9,Towing:  - 
-Megane E-Tech EV60 220hp,360,160,36995,500,7.4,Towing:  - 
-e-tron GT RS,405,250,115000,1000,3.3,Towing:  - 
-iX3 ,385,180,64165,520,6.8,Towing:  - 
-Avenger Electric 1st Edition,295,150,36500,470,9,Towing:  - 
-#1 ,350,180,35000,520,6.7,Towing:  - 
-ZS EV Long Range,365,175,31995,410,8.4,Towing:  - 
-IONIQ 6 Long Range 2WD,475,185,46745,1240,7.4,Towing:  - 
-EQC 400 4MATIC,370,180,72335,440,5.1,Towing:  - 
-MG5 Electric Long Range,335,185,30995,330,7.7,Towing:  - 
-Ocean One,510,200,59900,730,3.9,Towing:  - 
-MG4 Electric 51 kWh,300,160,25995,340,7.7,Towing:  - 
-EV6 Long Range 2WD,410,185,45245,1070,7.3,Towing:  - 
-IONIQ 5 Long Range 2WD,390,185,46650,1020,7.3,Towing:  - 
-500e Hatchback 42 kWh,235,150,30645,390,9,Towing:  - 
-e-208 ,285,150,31345,460,8.1,Towing:  - 
-bZ4X FWD,335,160,45710,500,7.5,Towing:  - 
-iX M60,485,250,119225,650,3.8,Towing:  - 
-ID.4 GTX,400,180,52865,560,6.2,Towing:  - 
-ID.4 Pro Performance,410,160,46035,520,8.5,Towing:  - 
-Leaf ,235,144,28995,230,7.9,Towing:  - 
-Cooper SE ,180,150,29000,260,7.3,Towing:  - 
-Spectre ,455,250,350000,540,4.5,Towing:  - 
-Born 150 kW - 58 kWh,350,160,36475,470,7.3,Towing:  - 
-Model X Plaid,455,262,128000,630,2.6,Towing:  - 
-Q8 e-tron Sportback 55 quattro,525,200,80300,710,5.6,Towing:  - 
-EV6 Long Range AWD,400,185,51745,1050,5.2,Towing:  - 
-ID.4 Pro,410,160,44605,520,10.4,Towing:  - 
-Enyaq iV 60,330,160,38970,440,8.7,Towing:  - 
-EQB 350 4MATIC,335,160,55310,480,6.2,Towing:  - 
-2 Long Range Single Motor,440,205,48950,680,6.2,Towing:  - 
-ID.4 Pure,285,160,38845,360,10.9,Towing:  - 
-Solterra AWD,320,160,49995,480,6.9,Towing:  - 
-Taycan Turbo S,400,260,142400,980,2.8,Towing:  - 
-Astra Electric,310,170,36000,500,8.5,Towing:  - 
-e-C4 ,265,150,30995,420,9.7,Towing:  - 
-EQE 300,515,210,74345,650,7.6,Towing:  - 
-Born 170 kW - 77 kWh,450,160,41975,570,7,Towing:  - 
-Model X Dual Motor,470,250,108000,650,3.9,Towing:  - 
-ID.3 Pro Performance,350,160,39425,470,7.3,Towing:  - 
-IONIQ 5 Standard Range 2WD,295,185,43150,720,8.5,Towing:  - 
-e-2008 SUV ,255,150,35150,410,8.5,Towing:  - 
-Eletre ,520,250,89500,1090,4.5,Towing:  - 
-ID.5 Pro,430,160,50710,540,10.4,Towing:  - 
-XC40 Recharge Single Motor,335,180,46505,500,7.4,Towing:  - 
-IONIQ 5 Long Range AWD,385,185,50150,1010,5.1,Towing:  - 
-MX-30 ,170,140,30050,210,9.7,Towing:  - 
-EQE SUV 350+,470,210,80000,700,7,Towing:  - 
-e-308 ,310,150,37000,460,9,Towing:  - 
-3 Long Range Dual motor,490,210,79900,640,5,Towing:  - 
-Q8 e-tron 50 quattro,415,200,67800,580,6,Towing:  - 
-XC40 Recharge Twin Motor,380,180,51755,590,4.9,Towing:  - 
-Mokka-e ,255,150,34910,410,9.2,Towing:  - 
-Enyaq Coupe iV RS,405,180,54370,560,6.5,Towing:  - 
-EQS SUV 580 4MATIC,485,210,139170,630,4.6,Towing:  - 
-SQ8 e-tron ,445,210,98295,600,4.5,Towing:  - 
-e-tron GT quattro,420,245,84000,1030,4.1,Towing:  - 
-Zoe ZE50 R135,310,140,29995,230,9.5,Towing:  - 
-2 Long Range Dual Motor,420,205,52950,650,4.5,Towing:  - 
-Leaf e+,340,157,34945,240,6.9,Towing:  - 
-Ocean Sport,380,160,34990,480,7.4,Towing:  - 
-Corsa-e ,285,150,31130,460,8.1,Towing:  - 
-Taycan ,410,230,75500,1010,5.4,Towing:  - 
-EQV 300 Long,305,160,83530,310,12.1,Towing:  - 
-Q4 e-tron 50 quattro,385,180,56310,490,6.2,Towing:  - 
-EX90 Twin Motor Performance,440,180,100555,570,4.9,Towing:  - 
-2 Standard Range Single Motor,385,205,44950,620,6.4,Towing:  - 
-Ocean Ultra,505,200,48900,730,4.2,Towing:  - 
-#1 Brabus,335,180,42000,500,3.9,Towing:  - 
-ID.5 GTX,405,180,56545,560,6.3,Towing:  - 
-Kona Electric 39 kWh,250,155,32450,220,9.9,Towing:  - 
-EQB 300 4MATIC,335,160,56810,480,8,Towing:  - 
-EQS AMG 53 4MATIC+,565,250,161860,840,3.4,Towing:  - 
-Ariya e-4ORCE 87kWh,420,200,54595,500,5.7,Towing:  - 
-I-Pace EV400,380,200,69995,360,4.8,Towing:  - 
-500e Scorpionissima,225,155,36000,370,7,Towing:  - 
-EQA 250+,375,160,52010,520,8.6,Towing:  - 
-ID.5 Pro Performance,430,160,52185,540,8.4,Towing:  - 
-Ariya 63kWh,320,160,46145,430,7.5,Towing:  - 
-GranTurismo Folgore,425,320,200000,990,2.7,Towing:  - 
-EQA 350 4MATIC,350,160,54510,500,6,Towing:  - 
-Enyaq iV 80x,400,160,51765,500,6.9,Towing:  - 
-Mustang Mach-E ER RWD,455,180,59380,400,7,Towing:  - 
-ID.3 Pro S - 4 Seats,450,160,47470,570,7.9,Towing:  - 
-Ocean Extreme,510,200,59900,730,3.9,Towing:  - 
-bZ4X AWD,330,160,52110,490,6.9,Towing:  - 
-e Advance,170,145,36920,180,8.3,Towing:  - 
-Funky Cat 48 kWh,260,160,31995,240,8.3,Towing:  - 
-e-308 SW ,300,150,38000,450,9,Towing:  - 
-Taycan 4S,395,250,86500,970,4,Towing:  - 
-ZS EV Standard Range,270,175,29495,260,8.6,Towing:  - 
-EX90 Twin Motor,455,180,96255,590,5.9,Towing:  - 
-Enyaq Coupe iV 80,445,160,45000,560,8.7,Towing:  - 
-ID.4 Pure Performance,285,160,40275,360,9,Towing:  - 
-C40 Recharge Twin Motor,390,180,53605,600,4.7,Towing:  - 
-EQE SUV 500 4MATIC,455,210,115000,680,5,Towing:  - 
-3 Long Range Performance,470,210,85500,610,4.7,Towing:  - 
-Astra Sports Tourer Electric,300,170,37000,480,8.5,Towing:  - 
-Q4 Sportback e-tron 40,425,160,51430,540,8.5,Towing:  - 
-Taycan 4 Cross Turismo,425,220,84500,1050,5.1,Towing:  - 
-Taycan Plus,475,230,79549,1170,5.4,Towing:  - 
-C40 Recharge Single Motor,345,180,48355,510,7.4,Towing:  - 
-GV60 Premium,390,185,53905,1020,7.8,Towing:  - 
-Mustang Mach-E SR RWD,355,180,50830,370,6.9,Towing:  - 
-EQE AMG 53 4MATIC+,480,240,114750,720,3.5,Towing:  - 
-EQA 300 4MATIC,350,160,53010,500,7.7,Towing:  - 
-Eletre R,450,260,120000,940,2.9,Towing:  - 
-Taycan GTS,450,250,106000,1110,3.7,Towing:  - 
-2 Long Range Performance,410,205,57950,630,4.2,Towing:  - 
-Mustang Mach-E ER AWD,440,180,65405,390,5.8,Towing:  - 
-3 E-Tense,300,150,37200,480,9,Towing:  - 
-Q8 e-tron Sportback 50 quattro,440,200,70300,610,6,Towing:  - 
-EQE SUV 350 4MATIC,455,210,85000,680,6.5,Towing:  - 
-e-Berlingo M 50 kWh,200,135,31495,320,11.7,Towing:  - 
-G80 Electrified Luxury,440,225,69805,880,4.9,Towing:  - 
-e-Soul 64 kWh,370,167,39045,350,7.9,Towing:  - 
-SQ8 e-tron Sportback ,470,210,100795,630,4.5,Towing:  - 
-Mustang Mach-E GT,425,200,74540,380,4.4,Towing:  - 
-GV70 Electrified Sport,350,235,64405,860,4.2,Towing:  - 
-Q4 Sportback e-tron 50 quattro,400,180,57810,500,6.2,Towing:  - 
-Taycan Turbo,415,260,119900,1020,3.2,Towing:  - 
-EQE SUV AMG 53 4MATIC+,425,240,120000,630,3.5,Towing:  - 
-Taycan 4S Plus,460,250,90406,1130,4,Towing:  - 
-GV60 Sport,380,200,58365,990,5.5,Towing:  - 
-Born 170 kW - 58 kWh,345,160,39205,460,6.6,Towing:  - 
-EQS SUV 450 4MATIC,485,210,129170,630,6,Towing:  - 
-EQE 350,515,210,77345,650,6.4,Towing:  - 
-Enyaq Coupe iV 80x,430,160,52000,540,7,Towing:  - 
-e-Rifter Long 50 kWh,195,135,34300,310,11.7,Towing:  - 
-Enyaq Coupe iV 60,335,160,40000,450,8.8,Towing:  - 
-e-Soul 39.2 kWh,230,157,32845,200,9.9,Towing:  - 
-Taycan Turbo S Sport Turismo,395,260,143400,970,2.8,Towing:  - 
-Cooper SE Convertible,170,150,52500,240,8.2,Towing:  - 
-500e Cabrio 42 kWh,230,150,33645,380,9,Towing:  - 
-eVito Tourer Long 90 kWh,310,160,68352,310,12,Towing:  - 
-Taycan 4S Cross Turismo,425,240,91000,1050,4.1,Towing:  - 
-e-Traveller Standard 50 kWh,180,130,49100,290,13.1,Towing:  - 
-GV60 Sport Plus,365,235,67505,950,4,Towing:  - 
-Combo-e Life 50 kWh,200,135,34035,320,11.7,Towing:  - 
-Taycan Turbo S Cross Turismo,385,250,143400,950,2.9,Towing:  - 
-eVito Tourer Extra-Long 90 kWh,305,160,75846,310,12,Towing:  - 
-Taycan GTS Sport Turismo,425,250,107000,1050,3.7,Towing:  - 
-e-SpaceTourer M 50 kWh,180,130,47495,290,12.1,Towing:  - 
-e-Rifter Standard 50 kWh,200,135,32300,320,11.7,Towing:  - 
-Taycan Sport Turismo,380,230,76500,930,5.4,Towing:  - 
-Combo-e Life XL 50 kWh,195,135,34635,310,11.7,Towing:  - 
-Taycan 4S Sport Turismo,370,250,87500,910,4,Towing:  - 
-e-Berlingo XL 50 kWh,195,135,32495,310,11.7,Towing:  - 
-Taycan Plus Sport Turismo,445,230,80549,1090,5.4,Towing:  - 
-Vivaro-e Combi M 50 kWh,180,130,37320,290,12.1,Towing:  - 
-Taycan Turbo Cross Turismo,400,250,120900,980,3.3,Towing:  - 
-Vivaro-e Combi L 50 kWh,175,130,37520,280,12.1,Towing:  - 
-e-Jumpy Combi M 50 kWh,180,130,35795,290,12.1,Towing:  - 
-Taycan Turbo Sport Turismo,405,260,120900,1000,3.2,Towing:  - 
-Zafira-e Life M 50 kWh,180,130,50630,290,12.1,Towing:  - 
-e-Traveller Long 50 kWh,175,130,54275,280,13.1,Towing:  - 
-e-Jumpy Combi XL 50 kWh,175,130,35995,280,12.1,Towing:  - 
-e-SpaceTourer XL 50 kWh,175,130,48335,280,12.1,Towing:  - 
-Taycan 4S Plus Sport Turismo,430,250,91406,1060,4,Towing:  - 
-Zafira-e Life L 50 kWh,175,130,50990,280,12.1,Towing:  - 
-Model Y Long Range Dual Motor,435,217,52990,670,5,Towing:  - 
-Model Y ,345,217,44990,580,6.9,Towing:  - 
-Model 3 ,380,225,42990,630,6.1,Towing:  - 
-Model 3 Long Range Dual Motor,485,233,50990,750,4.4,Towing:  - 
-Model Y Performance,415,250,59990,640,3.7,Towing:  - 
-MG4 Electric 64 kWh,365,160,28495,450,7.9,Towing:  - 
-Model S Plaid,550,282,125000,770,2.1,Towing:  - 
-i4 eDrive40,470,190,56185,730,5.7,Towing:  - 
-EQS 450+,640,210,105610,960,6.2,Towing:  - 
-iX xDrive40,360,200,69905,480,6.1,Towing:  - 
-Niro EV ,380,167,36795,380,7.8,Towing:  - 
-iX1 xDrive30,355,180,52255,510,5.6,Towing:  - 
-i7 xDrive60,510,240,110545,760,4.7,Towing:  - 
-EV6 GT,370,260,62645,970,3.5,Towing:  - 
-IONIQ 6 Long Range AWD,440,185,50245,1150,5.1,Towing:  - 
-Ariya 87kWh,445,160,51895,530,7.6,Towing:  - 
-Model 3 Performance,460,261,57990,710,3.3,Towing:  - 
-Model S Dual Motor,570,250,100000,790,3.2,Towing:  - 
-Enyaq iV 80,420,160,42925,530,8.6,Towing:  - 
-iX xDrive50,505,200,99785,680,4.6,Towing:  - 
-Q8 e-tron 55 quattro,495,200,77800,670,5.6,Towing:  - 
-Kona Electric 64 kWh,395,167,37750,370,7.9,Towing:  - 
-ID. Buzz Pro,330,145,57115,460,10.2,Towing:  - 
-RZ 450e,310,160,66500,460,5.6,Towing:  - 
-Q4 e-tron 40,405,160,49930,510,8.5,Towing:  - 
-i4 M50,435,225,69040,670,3.9,Towing:  - 
-Megane E-Tech EV60 220hp,360,160,36995,500,7.4,Towing:  - 
-e-tron GT RS,405,250,115000,1000,3.3,Towing:  - 
-iX3 ,385,180,64165,520,6.8,Towing:  - 
-Avenger Electric 1st Edition,295,150,36500,470,9,Towing:  - 
-#1 ,350,180,35000,520,6.7,Towing:  - 
-ZS EV Long Range,365,175,31995,410,8.4,Towing:  - 
-IONIQ 6 Long Range 2WD,475,185,46745,1240,7.4,Towing:  - 
-EQC 400 4MATIC,370,180,72335,440,5.1,Towing:  - 
-MG5 Electric Long Range,335,185,30995,330,7.7,Towing:  - 
-Ocean One,510,200,59900,730,3.9,Towing:  - 
-MG4 Electric 51 kWh,300,160,25995,340,7.7,Towing:  - 
-EV6 Long Range 2WD,410,185,45245,1070,7.3,Towing:  - 
-IONIQ 5 Long Range 2WD,390,185,46650,1020,7.3,Towing:  - 
-500e Hatchback 42 kWh,235,150,30645,390,9,Towing:  - 
-e-208 ,285,150,31345,460,8.1,Towing:  - 
-bZ4X FWD,335,160,45710,500,7.5,Towing:  - 
-iX M60,485,250,119225,650,3.8,Towing:  - 
-ID.4 GTX,400,180,52865,560,6.2,Towing:  - 
-ID.4 Pro Performance,410,160,46035,520,8.5,Towing:  - 
-Leaf ,235,144,28995,230,7.9,Towing:  - 
-Cooper SE ,180,150,29000,260,7.3,Towing:  - 
-Spectre ,455,250,350000,540,4.5,Towing:  - 
-Born 150 kW - 58 kWh,350,160,36475,470,7.3,Towing:  - 
-Model X Plaid,455,262,128000,630,2.6,Towing:  - 
-Q8 e-tron Sportback 55 quattro,525,200,80300,710,5.6,Towing:  - 
-EV6 Long Range AWD,400,185,51745,1050,5.2,Towing:  - 
-ID.4 Pro,410,160,44605,520,10.4,Towing:  - 
-Enyaq iV 60,330,160,38970,440,8.7,Towing:  - 
-EQB 350 4MATIC,335,160,55310,480,6.2,Towing:  - 
-2 Long Range Single Motor,440,205,48950,680,6.2,Towing:  - 
-ID.4 Pure,285,160,38845,360,10.9,Towing:  - 
-Solterra AWD,320,160,49995,480,6.9,Towing:  - 
-Taycan Turbo S,400,260,142400,980,2.8,Towing:  - 
-Astra Electric,310,170,36000,500,8.5,Towing:  - 
-e-C4 ,265,150,30995,420,9.7,Towing:  - 
-EQE 300,515,210,74345,650,7.6,Towing:  - 
-Born 170 kW - 77 kWh,450,160,41975,570,7,Towing:  - 
-Model X Dual Motor,470,250,108000,650,3.9,Towing:  - 
-ID.3 Pro Performance,350,160,39425,470,7.3,Towing:  - 
-IONIQ 5 Standard Range 2WD,295,185,43150,720,8.5,Towing:  - 
-e-2008 SUV ,255,150,35150,410,8.5,Towing:  - 
-Eletre ,520,250,89500,1090,4.5,Towing:  - 
-ID.5 Pro,430,160,50710,540,10.4,Towing:  - 
-XC40 Recharge Single Motor,335,180,46505,500,7.4,Towing:  - 
-IONIQ 5 Long Range AWD,385,185,50150,1010,5.1,Towing:  - 
-MX-30 ,170,140,30050,210,9.7,Towing:  - 
-EQE SUV 350+,470,210,80000,700,7,Towing:  - 
-e-308 ,310,150,37000,460,9,Towing:  - 
-3 Long Range Dual motor,490,210,79900,640,5,Towing:  - 
-Q8 e-tron 50 quattro,415,200,67800,580,6,Towing:  - 
-XC40 Recharge Twin Motor,380,180,51755,590,4.9,Towing:  - 
-Mokka-e ,255,150,34910,410,9.2,Towing:  - 
-Enyaq Coupe iV RS,405,180,54370,560,6.5,Towing:  - 
-EQS SUV 580 4MATIC,485,210,139170,630,4.6,Towing:  - 
-SQ8 e-tron ,445,210,98295,600,4.5,Towing:  - 
-e-tron GT quattro,420,245,84000,1030,4.1,Towing:  - 
-Zoe ZE50 R135,310,140,29995,230,9.5,Towing:  - 
-2 Long Range Dual Motor,420,205,52950,650,4.5,Towing:  - 
-Leaf e+,340,157,34945,240,6.9,Towing:  - 
-Ocean Sport,380,160,34990,480,7.4,Towing:  - 
-Corsa-e ,285,150,31130,460,8.1,Towing:  - 
-Taycan ,410,230,75500,1010,5.4,Towing:  - 
-EQV 300 Long,305,160,83530,310,12.1,Towing:  - 
-Q4 e-tron 50 quattro,385,180,56310,490,6.2,Towing:  - 
-EX90 Twin Motor Performance,440,180,100555,570,4.9,Towing:  - 
-2 Standard Range Single Motor,385,205,44950,620,6.4,Towing:  - 
-Ocean Ultra,505,200,48900,730,4.2,Towing:  - 
-#1 Brabus,335,180,42000,500,3.9,Towing:  - 
-ID.5 GTX,405,180,56545,560,6.3,Towing:  - 
-Kona Electric 39 kWh,250,155,32450,220,9.9,Towing:  - 
-EQB 300 4MATIC,335,160,56810,480,8,Towing:  - 
-EQS AMG 53 4MATIC+,565,250,161860,840,3.4,Towing:  - 
-Ariya e-4ORCE 87kWh,420,200,54595,500,5.7,Towing:  - 
-I-Pace EV400,380,200,69995,360,4.8,Towing:  - 
-500e Scorpionissima,225,155,36000,370,7,Towing:  - 
-EQA 250+,375,160,52010,520,8.6,Towing:  - 
-ID.5 Pro Performance,430,160,52185,540,8.4,Towing:  - 
-Ariya 63kWh,320,160,46145,430,7.5,Towing:  - 
-GranTurismo Folgore,425,320,200000,990,2.7,Towing:  - 
-EQA 350 4MATIC,350,160,54510,500,6,Towing:  - 
-Enyaq iV 80x,400,160,51765,500,6.9,Towing:  - 
-Mustang Mach-E ER RWD,455,180,59380,400,7,Towing:  - 
-ID.3 Pro S - 4 Seats,450,160,47470,570,7.9,Towing:  - 
-Ocean Extreme,510,200,59900,730,3.9,Towing:  - 
-bZ4X AWD,330,160,52110,490,6.9,Towing:  - 
-e Advance,170,145,36920,180,8.3,Towing:  - 
-Funky Cat 48 kWh,260,160,31995,240,8.3,Towing:  - 
-e-308 SW ,300,150,38000,450,9,Towing:  - 
-Taycan 4S,395,250,86500,970,4,Towing:  - 
-ZS EV Standard Range,270,175,29495,260,8.6,Towing:  - 
-EX90 Twin Motor,455,180,96255,590,5.9,Towing:  - 
-Enyaq Coupe iV 80,445,160,45000,560,8.7,Towing:  - 
-ID.4 Pure Performance,285,160,40275,360,9,Towing:  - 
-C40 Recharge Twin Motor,390,180,53605,600,4.7,Towing:  - 
-EQE SUV 500 4MATIC,455,210,115000,680,5,Towing:  - 
-3 Long Range Performance,470,210,85500,610,4.7,Towing:  - 
-Astra Sports Tourer Electric,300,170,37000,480,8.5,Towing:  - 
-Q4 Sportback e-tron 40,425,160,51430,540,8.5,Towing:  - 
-Taycan 4 Cross Turismo,425,220,84500,1050,5.1,Towing:  - 
-Taycan Plus,475,230,79549,1170,5.4,Towing:  - 
-C40 Recharge Single Motor,345,180,48355,510,7.4,Towing:  - 
-GV60 Premium,390,185,53905,1020,7.8,Towing:  - 
-Mustang Mach-E SR RWD,355,180,50830,370,6.9,Towing:  - 
-EQE AMG 53 4MATIC+,480,240,114750,720,3.5,Towing:  - 
-EQA 300 4MATIC,350,160,53010,500,7.7,Towing:  - 
-Eletre R,450,260,120000,940,2.9,Towing:  - 
-Taycan GTS,450,250,106000,1110,3.7,Towing:  - 
-2 Long Range Performance,410,205,57950,630,4.2,Towing:  - 
-Mustang Mach-E ER AWD,440,180,65405,390,5.8,Towing:  - 
-3 E-Tense,300,150,37200,480,9,Towing:  - 
-Q8 e-tron Sportback 50 quattro,440,200,70300,610,6,Towing:  - 
-EQE SUV 350 4MATIC,455,210,85000,680,6.5,Towing:  - 
-e-Berlingo M 50 kWh,200,135,31495,320,11.7,Towing:  - 
-G80 Electrified Luxury,440,225,69805,880,4.9,Towing:  - 
-e-Soul 64 kWh,370,167,39045,350,7.9,Towing:  - 
-SQ8 e-tron Sportback ,470,210,100795,630,4.5,Towing:  - 
-Mustang Mach-E GT,425,200,74540,380,4.4,Towing:  - 
-GV70 Electrified Sport,350,235,64405,860,4.2,Towing:  - 
-Q4 Sportback e-tron 50 quattro,400,180,57810,500,6.2,Towing:  - 
-Taycan Turbo,415,260,119900,1020,3.2,Towing:  - 
-EQE SUV AMG 53 4MATIC+,425,240,120000,630,3.5,Towing:  - 
-Taycan 4S Plus,460,250,90406,1130,4,Towing:  - 
-GV60 Sport,380,200,58365,990,5.5,Towing:  - 
-Born 170 kW - 58 kWh,345,160,39205,460,6.6,Towing:  - 
-EQS SUV 450 4MATIC,485,210,129170,630,6,Towing:  - 
-EQE 350,515,210,77345,650,6.4,Towing:  - 
-Enyaq Coupe iV 80x,430,160,52000,540,7,Towing:  - 
-e-Rifter Long 50 kWh,195,135,34300,310,11.7,Towing:  - 
-Enyaq Coupe iV 60,335,160,40000,450,8.8,Towing:  - 
-e-Soul 39.2 kWh,230,157,32845,200,9.9,Towing:  - 
-Taycan Turbo S Sport Turismo,395,260,143400,970,2.8,Towing:  - 
-Cooper SE Convertible,170,150,52500,240,8.2,Towing:  - 
-500e Cabrio 42 kWh,230,150,33645,380,9,Towing:  - 
-eVito Tourer Long 90 kWh,310,160,68352,310,12,Towing:  - 
-Taycan 4S Cross Turismo,425,240,91000,1050,4.1,Towing:  - 
-e-Traveller Standard 50 kWh,180,130,49100,290,13.1,Towing:  - 
-GV60 Sport Plus,365,235,67505,950,4,Towing:  - 
-Combo-e Life 50 kWh,200,135,34035,320,11.7,Towing:  - 
-Taycan Turbo S Cross Turismo,385,250,143400,950,2.9,Towing:  - 
-eVito Tourer Extra-Long 90 kWh,305,160,75846,310,12,Towing:  - 
-Taycan GTS Sport Turismo,425,250,107000,1050,3.7,Towing:  - 
-e-SpaceTourer M 50 kWh,180,130,47495,290,12.1,Towing:  - 
-e-Rifter Standard 50 kWh,200,135,32300,320,11.7,Towing:  - 
-Taycan Sport Turismo,380,230,76500,930,5.4,Towing:  - 
-Combo-e Life XL 50 kWh,195,135,34635,310,11.7,Towing:  - 
-Taycan 4S Sport Turismo,370,250,87500,910,4,Towing:  - 
-e-Berlingo XL 50 kWh,195,135,32495,310,11.7,Towing:  - 
-Taycan Plus Sport Turismo,445,230,80549,1090,5.4,Towing:  - 
-Vivaro-e Combi M 50 kWh,180,130,37320,290,12.1,Towing:  - 
-Taycan Turbo Cross Turismo,400,250,120900,980,3.3,Towing:  - 
-Vivaro-e Combi L 50 kWh,175,130,37520,280,12.1,Towing:  - 
-e-Jumpy Combi M 50 kWh,180,130,35795,290,12.1,Towing:  - 
-Taycan Turbo Sport Turismo,405,260,120900,1000,3.2,Towing:  - 
-Zafira-e Life M 50 kWh,180,130,50630,290,12.1,Towing:  - 
-e-Traveller Long 50 kWh,175,130,54275,280,13.1,Towing:  - 
-e-Jumpy Combi XL 50 kWh,175,130,35995,280,12.1,Towing:  - 
-e-SpaceTourer XL 50 kWh,175,130,48335,280,12.1,Towing:  - 
-Taycan 4S Plus Sport Turismo,430,250,91406,1060,4,Towing:  - 
-Zafira-e Life L 50 kWh,175,130,50990,280,12.1,Towing:  - 
-Model Y Long Range Dual Motor,435,217,52990,670,5,Towing:  - 
-Model Y ,345,217,44990,580,6.9,Towing:  - 
-Model 3 ,380,225,42990,630,6.1,Towing:  - 
-Model 3 Long Range Dual Motor,485,233,50990,750,4.4,Towing:  - 
-Model Y Performance,415,250,59990,640,3.7,Towing:  - 
-MG4 Electric 64 kWh,365,160,28495,450,7.9,Towing:  - 
-Model S Plaid,550,282,125000,770,2.1,Towing:  - 
-i4 eDrive40,470,190,56185,730,5.7,Towing:  - 
-EQS 450+,640,210,105610,960,6.2,Towing:  - 
-iX xDrive40,360,200,69905,480,6.1,Towing:  - 
-Niro EV ,380,167,36795,380,7.8,Towing:  - 
-iX1 xDrive30,355,180,52255,510,5.6,Towing:  - 
-i7 xDrive60,510,240,110545,760,4.7,Towing:  - 
-EV6 GT,370,260,62645,970,3.5,Towing:  - 
-IONIQ 6 Long Range AWD,440,185,50245,1150,5.1,Towing:  - 
-Ariya 87kWh,445,160,51895,530,7.6,Towing:  - 
-Model 3 Performance,460,261,57990,710,3.3,Towing:  - 
-Model S Dual Motor,570,250,100000,790,3.2,Towing:  - 
-Enyaq iV 80,420,160,42925,530,8.6,Towing:  - 
-iX xDrive50,505,200,99785,680,4.6,Towing:  - 
-Q8 e-tron 55 quattro,495,200,77800,670,5.6,Towing:  - 
-Kona Electric 64 kWh,395,167,37750,370,7.9,Towing:  - 
-ID. Buzz Pro,330,145,57115,460,10.2,Towing:  - 
-RZ 450e,310,160,66500,460,5.6,Towing:  - 
-Q4 e-tron 40,405,160,49930,510,8.5,Towing:  - 
-i4 M50,435,225,69040,670,3.9,Towing:  - 
-Megane E-Tech EV60 220hp,360,160,36995,500,7.4,Towing:  - 
-e-tron GT RS,405,250,115000,1000,3.3,Towing:  - 
-iX3 ,385,180,64165,520,6.8,Towing:  - 
-Avenger Electric 1st Edition,295,150,36500,470,9,Towing:  - 
-#1 ,350,180,35000,520,6.7,Towing:  - 
-ZS EV Long Range,365,175,31995,410,8.4,Towing:  - 
-IONIQ 6 Long Range 2WD,475,185,46745,1240,7.4,Towing:  - 
-EQC 400 4MATIC,370,180,72335,440,5.1,Towing:  - 
-MG5 Electric Long Range,335,185,30995,330,7.7,Towing:  - 
-Ocean One,510,200,59900,730,3.9,Towing:  - 
-MG4 Electric 51 kWh,300,160,25995,340,7.7,Towing:  - 
-EV6 Long Range 2WD,410,185,45245,1070,7.3,Towing:  - 
-IONIQ 5 Long Range 2WD,390,185,46650,1020,7.3,Towing:  - 
-500e Hatchback 42 kWh,235,150,30645,390,9,Towing:  - 
-e-208 ,285,150,31345,460,8.1,Towing:  - 
-bZ4X FWD,335,160,45710,500,7.5,Towing:  - 
-iX M60,485,250,119225,650,3.8,Towing:  - 
-ID.4 GTX,400,180,52865,560,6.2,Towing:  - 
-ID.4 Pro Performance,410,160,46035,520,8.5,Towing:  - 
-Leaf ,235,144,28995,230,7.9,Towing:  - 
-Cooper SE ,180,150,29000,260,7.3,Towing:  - 
-Spectre ,455,250,350000,540,4.5,Towing:  - 
-Born 150 kW - 58 kWh,350,160,36475,470,7.3,Towing:  - 
-Model X Plaid,455,262,128000,630,2.6,Towing:  - 
-Q8 e-tron Sportback 55 quattro,525,200,80300,710,5.6,Towing:  - 
-EV6 Long Range AWD,400,185,51745,1050,5.2,Towing:  - 
-ID.4 Pro,410,160,44605,520,10.4,Towing:  - 
-Enyaq iV 60,330,160,38970,440,8.7,Towing:  - 
-EQB 350 4MATIC,335,160,55310,480,6.2,Towing:  - 
-2 Long Range Single Motor,440,205,48950,680,6.2,Towing:  - 
-ID.4 Pure,285,160,38845,360,10.9,Towing:  - 
-Solterra AWD,320,160,49995,480,6.9,Towing:  - 
-Taycan Turbo S,400,260,142400,980,2.8,Towing:  - 
-Astra Electric,310,170,36000,500,8.5,Towing:  - 
-e-C4 ,265,150,30995,420,9.7,Towing:  - 
-EQE 300,515,210,74345,650,7.6,Towing:  - 
-Born 170 kW - 77 kWh,450,160,41975,570,7,Towing:  - 
-Model X Dual Motor,470,250,108000,650,3.9,Towing:  - 
-ID.3 Pro Performance,350,160,39425,470,7.3,Towing:  - 
-IONIQ 5 Standard Range 2WD,295,185,43150,720,8.5,Towing:  - 
-e-2008 SUV ,255,150,35150,410,8.5,Towing:  - 
-Eletre ,520,250,89500,1090,4.5,Towing:  - 
-ID.5 Pro,430,160,50710,540,10.4,Towing:  - 
-XC40 Recharge Single Motor,335,180,46505,500,7.4,Towing:  - 
-IONIQ 5 Long Range AWD,385,185,50150,1010,5.1,Towing:  - 
-MX-30 ,170,140,30050,210,9.7,Towing:  - 
-EQE SUV 350+,470,210,80000,700,7,Towing:  - 
-e-308 ,310,150,37000,460,9,Towing:  - 
-3 Long Range Dual motor,490,210,79900,640,5,Towing:  - 
-Q8 e-tron 50 quattro,415,200,67800,580,6,Towing:  - 
-XC40 Recharge Twin Motor,380,180,51755,590,4.9,Towing:  - 
-Mokka-e ,255,150,34910,410,9.2,Towing:  - 
-Enyaq Coupe iV RS,405,180,54370,560,6.5,Towing:  - 
-EQS SUV 580 4MATIC,485,210,139170,630,4.6,Towing:  - 
-SQ8 e-tron ,445,210,98295,600,4.5,Towing:  - 
-e-tron GT quattro,420,245,84000,1030,4.1,Towing:  - 
-Zoe ZE50 R135,310,140,29995,230,9.5,Towing:  - 
-2 Long Range Dual Motor,420,205,52950,650,4.5,Towing:  - 
-Leaf e+,340,157,34945,240,6.9,Towing:  - 
-Ocean Sport,380,160,34990,480,7.4,Towing:  - 
-Corsa-e ,285,150,31130,460,8.1,Towing:  - 
-Taycan ,410,230,75500,1010,5.4,Towing:  - 
-EQV 300 Long,305,160,83530,310,12.1,Towing:  - 
-Q4 e-tron 50 quattro,385,180,56310,490,6.2,Towing:  - 
-EX90 Twin Motor Performance,440,180,100555,570,4.9,Towing:  - 
-2 Standard Range Single Motor,385,205,44950,620,6.4,Towing:  - 
-Ocean Ultra,505,200,48900,730,4.2,Towing:  - 
-#1 Brabus,335,180,42000,500,3.9,Towing:  - 
-ID.5 GTX,405,180,56545,560,6.3,Towing:  - 
-Kona Electric 39 kWh,250,155,32450,220,9.9,Towing:  - 
-EQB 300 4MATIC,335,160,56810,480,8,Towing:  - 
-EQS AMG 53 4MATIC+,565,250,161860,840,3.4,Towing:  - 
-Ariya e-4ORCE 87kWh,420,200,54595,500,5.7,Towing:  - 
-I-Pace EV400,380,200,69995,360,4.8,Towing:  - 
-500e Scorpionissima,225,155,36000,370,7,Towing:  - 
-EQA 250+,375,160,52010,520,8.6,Towing:  - 
-ID.5 Pro Performance,430,160,52185,540,8.4,Towing:  - 
-Ariya 63kWh,320,160,46145,430,7.5,Towing:  - 
-GranTurismo Folgore,425,320,200000,990,2.7,Towing:  - 
-EQA 350 4MATIC,350,160,54510,500,6,Towing:  - 
-Enyaq iV 80x,400,160,51765,500,6.9,Towing:  - 
-Mustang Mach-E ER RWD,455,180,59380,400,7,Towing:  - 
-ID.3 Pro S - 4 Seats,450,160,47470,570,7.9,Towing:  - 
-Ocean Extreme,510,200,59900,730,3.9,Towing:  - 
-bZ4X AWD,330,160,52110,490,6.9,Towing:  - 
-e Advance,170,145,36920,180,8.3,Towing:  - 
-Funky Cat 48 kWh,260,160,31995,240,8.3,Towing:  - 
-e-308 SW ,300,150,38000,450,9,Towing:  - 
-Taycan 4S,395,250,86500,970,4,Towing:  - 
-ZS EV Standard Range,270,175,29495,260,8.6,Towing:  - 
-EX90 Twin Motor,455,180,96255,590,5.9,Towing:  - 
-Enyaq Coupe iV 80,445,160,45000,560,8.7,Towing:  - 
-ID.4 Pure Performance,285,160,40275,360,9,Towing:  - 
-C40 Recharge Twin Motor,390,180,53605,600,4.7,Towing:  - 
-EQE SUV 500 4MATIC,455,210,115000,680,5,Towing:  - 
-3 Long Range Performance,470,210,85500,610,4.7,Towing:  - 
-Astra Sports Tourer Electric,300,170,37000,480,8.5,Towing:  - 
-Q4 Sportback e-tron 40,425,160,51430,540,8.5,Towing:  - 
-Taycan 4 Cross Turismo,425,220,84500,1050,5.1,Towing:  - 
-Taycan Plus,475,230,79549,1170,5.4,Towing:  - 
-C40 Recharge Single Motor,345,180,48355,510,7.4,Towing:  - 
-GV60 Premium,390,185,53905,1020,7.8,Towing:  - 
-Mustang Mach-E SR RWD,355,180,50830,370,6.9,Towing:  - 
-EQE AMG 53 4MATIC+,480,240,114750,720,3.5,Towing:  - 
-EQA 300 4MATIC,350,160,53010,500,7.7,Towing:  - 
-Eletre R,450,260,120000,940,2.9,Towing:  - 
-Taycan GTS,450,250,106000,1110,3.7,Towing:  - 
-2 Long Range Performance,410,205,57950,630,4.2,Towing:  - 
-Mustang Mach-E ER AWD,440,180,65405,390,5.8,Towing:  - 
-3 E-Tense,300,150,37200,480,9,Towing:  - 
-Q8 e-tron Sportback 50 quattro,440,200,70300,610,6,Towing:  - 
-EQE SUV 350 4MATIC,455,210,85000,680,6.5,Towing:  - 
-e-Berlingo M 50 kWh,200,135,31495,320,11.7,Towing:  - 
-G80 Electrified Luxury,440,225,69805,880,4.9,Towing:  - 
-e-Soul 64 kWh,370,167,39045,350,7.9,Towing:  - 
-SQ8 e-tron Sportback ,470,210,100795,630,4.5,Towing:  - 
-Mustang Mach-E GT,425,200,74540,380,4.4,Towing:  - 
-GV70 Electrified Sport,350,235,64405,860,4.2,Towing:  - 
-Q4 Sportback e-tron 50 quattro,400,180,57810,500,6.2,Towing:  - 
-Taycan Turbo,415,260,119900,1020,3.2,Towing:  - 
-EQE SUV AMG 53 4MATIC+,425,240,120000,630,3.5,Towing:  - 
-Taycan 4S Plus,460,250,90406,1130,4,Towing:  - 
-GV60 Sport,380,200,58365,990,5.5,Towing:  - 
-Born 170 kW - 58 kWh,345,160,39205,460,6.6,Towing:  - 
-EQS SUV 450 4MATIC,485,210,129170,630,6,Towing:  - 
-EQE 350,515,210,77345,650,6.4,Towing:  - 
-Enyaq Coupe iV 80x,430,160,52000,540,7,Towing:  - 
-e-Rifter Long 50 kWh,195,135,34300,310,11.7,Towing:  - 
-Enyaq Coupe iV 60,335,160,40000,450,8.8,Towing:  - 
-e-Soul 39.2 kWh,230,157,32845,200,9.9,Towing:  - 
-Taycan Turbo S Sport Turismo,395,260,143400,970,2.8,Towing:  - 
-Cooper SE Convertible,170,150,52500,240,8.2,Towing:  - 
-500e Cabrio 42 kWh,230,150,33645,380,9,Towing:  - 
-eVito Tourer Long 90 kWh,310,160,68352,310,12,Towing:  - 
-Taycan 4S Cross Turismo,425,240,91000,1050,4.1,Towing:  - 
-e-Traveller Standard 50 kWh,180,130,49100,290,13.1,Towing:  - 
-GV60 Sport Plus,365,235,67505,950,4,Towing:  - 
-Combo-e Life 50 kWh,200,135,34035,320,11.7,Towing:  - 
-Taycan Turbo S Cross Turismo,385,250,143400,950,2.9,Towing:  - 
-eVito Tourer Extra-Long 90 kWh,305,160,75846,310,12,Towing:  - 
-Taycan GTS Sport Turismo,425,250,107000,1050,3.7,Towing:  - 
-e-SpaceTourer M 50 kWh,180,130,47495,290,12.1,Towing:  - 
-e-Rifter Standard 50 kWh,200,135,32300,320,11.7,Towing:  - 
-Taycan Sport Turismo,380,230,76500,930,5.4,Towing:  - 
-Combo-e Life XL 50 kWh,195,135,34635,310,11.7,Towing:  - 
-Taycan 4S Sport Turismo,370,250,87500,910,4,Towing:  - 
-e-Berlingo XL 50 kWh,195,135,32495,310,11.7,Towing:  - 
-Taycan Plus Sport Turismo,445,230,80549,1090,5.4,Towing:  - 
-Vivaro-e Combi M 50 kWh,180,130,37320,290,12.1,Towing:  - 
-Taycan Turbo Cross Turismo,400,250,120900,980,3.3,Towing:  - 
-Vivaro-e Combi L 50 kWh,175,130,37520,280,12.1,Towing:  - 
-e-Jumpy Combi M 50 kWh,180,130,35795,290,12.1,Towing:  - 
-Taycan Turbo Sport Turismo,405,260,120900,1000,3.2,Towing:  - 
-Zafira-e Life M 50 kWh,180,130,50630,290,12.1,Towing:  - 
-e-Traveller Long 50 kWh,175,130,54275,280,13.1,Towing:  - 
-e-Jumpy Combi XL 50 kWh,175,130,35995,280,12.1,Towing:  - 
-e-SpaceTourer XL 50 kWh,175,130,48335,280,12.1,Towing:  - 
-Taycan 4S Plus Sport Turismo,430,250,91406,1060,4,Towing:  - 
-Zafira-e Life L 50 kWh,175,130,50990,280,12.1,Towing:  - 
-Model Y Long Range Dual Motor,435,217,52990,670,5,Towing:  - 
-Model Y ,345,217,44990,580,6.9,Towing:  - 
-Model 3 ,380,225,42990,630,6.1,Towing:  - 
-Model 3 Long Range Dual Motor,485,233,50990,750,4.4,Towing:  - 
-Model Y Performance,415,250,59990,640,3.7,Towing:  - 
-MG4 Electric 64 kWh,365,160,28495,450,7.9,Towing:  - 
-Model S Plaid,550,282,125000,770,2.1,Towing:  - 
-i4 eDrive40,470,190,56185,730,5.7,Towing:  - 
-EQS 450+,640,210,105610,960,6.2,Towing:  - 
-iX xDrive40,360,200,69905,480,6.1,Towing:  - 
-Niro EV ,380,167,36795,380,7.8,Towing:  - 
-iX1 xDrive30,355,180,52255,510,5.6,Towing:  - 
-i7 xDrive60,510,240,110545,760,4.7,Towing:  - 
-EV6 GT,370,260,62645,970,3.5,Towing:  - 
-IONIQ 6 Long Range AWD,440,185,50245,1150,5.1,Towing:  - 
-Ariya 87kWh,445,160,51895,530,7.6,Towing:  - 
-Model 3 Performance,460,261,57990,710,3.3,Towing:  - 
-Model S Dual Motor,570,250,100000,790,3.2,Towing:  - 
-Enyaq iV 80,420,160,42925,530,8.6,Towing:  - 
-iX xDrive50,505,200,99785,680,4.6,Towing:  - 
-Q8 e-tron 55 quattro,495,200,77800,670,5.6,Towing:  - 
-Kona Electric 64 kWh,395,167,37750,370,7.9,Towing:  - 
-ID. Buzz Pro,330,145,57115,460,10.2,Towing:  - 
-RZ 450e,310,160,66500,460,5.6,Towing:  - 
-Q4 e-tron 40,405,160,49930,510,8.5,Towing:  - 
-i4 M50,435,225,69040,670,3.9,Towing:  - 
-Megane E-Tech EV60 220hp,360,160,36995,500,7.4,Towing:  - 
-e-tron GT RS,405,250,115000,1000,3.3,Towing:  - 
-iX3 ,385,180,64165,520,6.8,Towing:  - 
-Avenger Electric 1st Edition,295,150,36500,470,9,Towing:  - 
-#1 ,350,180,35000,520,6.7,Towing:  - 
-ZS EV Long Range,365,175,31995,410,8.4,Towing:  - 
-IONIQ 6 Long Range 2WD,475,185,46745,1240,7.4,Towing:  - 
-EQC 400 4MATIC,370,180,72335,440,5.1,Towing:  - 
-MG5 Electric Long Range,335,185,30995,330,7.7,Towing:  - 
-Ocean One,510,200,59900,730,3.9,Towing:  - 
-MG4 Electric 51 kWh,300,160,25995,340,7.7,Towing:  - 
-EV6 Long Range 2WD,410,185,45245,1070,7.3,Towing:  - 
-IONIQ 5 Long Range 2WD,390,185,46650,1020,7.3,Towing:  - 
-500e Hatchback 42 kWh,235,150,30645,390,9,Towing:  - 
-e-208 ,285,150,31345,460,8.1,Towing:  - 
-bZ4X FWD,335,160,45710,500,7.5,Towing:  - 
-iX M60,485,250,119225,650,3.8,Towing:  - 
-ID.4 GTX,400,180,52865,560,6.2,Towing:  - 
-ID.4 Pro Performance,410,160,46035,520,8.5,Towing:  - 
-Leaf ,235,144,28995,230,7.9,Towing:  - 
-Cooper SE ,180,150,29000,260,7.3,Towing:  - 
-Spectre ,455,250,350000,540,4.5,Towing:  - 
-Born 150 kW - 58 kWh,350,160,36475,470,7.3,Towing:  - 
-Model X Plaid,455,262,128000,630,2.6,Towing:  - 
-Q8 e-tron Sportback 55 quattro,525,200,80300,710,5.6,Towing:  - 
-EV6 Long Range AWD,400,185,51745,1050,5.2,Towing:  - 
-ID.4 Pro,410,160,44605,520,10.4,Towing:  - 
-Enyaq iV 60,330,160,38970,440,8.7,Towing:  - 
-EQB 350 4MATIC,335,160,55310,480,6.2,Towing:  - 
-2 Long Range Single Motor,440,205,48950,680,6.2,Towing:  - 
-ID.4 Pure,285,160,38845,360,10.9,Towing:  - 
-Solterra AWD,320,160,49995,480,6.9,Towing:  - 
-Taycan Turbo S,400,260,142400,980,2.8,Towing:  - 
-Astra Electric,310,170,36000,500,8.5,Towing:  - 
-e-C4 ,265,150,30995,420,9.7,Towing:  - 
-EQE 300,515,210,74345,650,7.6,Towing:  - 
-Born 170 kW - 77 kWh,450,160,41975,570,7,Towing:  - 
-Model X Dual Motor,470,250,108000,650,3.9,Towing:  - 
-ID.3 Pro Performance,350,160,39425,470,7.3,Towing:  - 
-IONIQ 5 Standard Range 2WD,295,185,43150,720,8.5,Towing:  - 
-e-2008 SUV ,255,150,35150,410,8.5,Towing:  - 
-Eletre ,520,250,89500,1090,4.5,Towing:  - 
-ID.5 Pro,430,160,50710,540,10.4,Towing:  - 
-XC40 Recharge Single Motor,335,180,46505,500,7.4,Towing:  - 
-IONIQ 5 Long Range AWD,385,185,50150,1010,5.1,Towing:  - 
-MX-30 ,170,140,30050,210,9.7,Towing:  - 
-EQE SUV 350+,470,210,80000,700,7,Towing:  - 
-e-308 ,310,150,37000,460,9,Towing:  - 
-3 Long Range Dual motor,490,210,79900,640,5,Towing:  - 
-Q8 e-tron 50 quattro,415,200,67800,580,6,Towing:  - 
-XC40 Recharge Twin Motor,380,180,51755,590,4.9,Towing:  - 
-Mokka-e ,255,150,34910,410,9.2,Towing:  - 
-Enyaq Coupe iV RS,405,180,54370,560,6.5,Towing:  - 
-EQS SUV 580 4MATIC,485,210,139170,630,4.6,Towing:  - 
-SQ8 e-tron ,445,210,98295,600,4.5,Towing:  - 
-e-tron GT quattro,420,245,84000,1030,4.1,Towing:  - 
-Zoe ZE50 R135,310,140,29995,230,9.5,Towing:  - 
-2 Long Range Dual Motor,420,205,52950,650,4.5,Towing:  - 
-Leaf e+,340,157,34945,240,6.9,Towing:  - 
-Ocean Sport,380,160,34990,480,7.4,Towing:  - 
-Corsa-e ,285,150,31130,460,8.1,Towing:  - 
-Taycan ,410,230,75500,1010,5.4,Towing:  - 
-EQV 300 Long,305,160,83530,310,12.1,Towing:  - 
-Q4 e-tron 50 quattro,385,180,56310,490,6.2,Towing:  - 
-EX90 Twin Motor Performance,440,180,100555,570,4.9,Towing:  - 
-2 Standard Range Single Motor,385,205,44950,620,6.4,Towing:  - 
-Ocean Ultra,505,200,48900,730,4.2,Towing:  - 
-#1 Brabus,335,180,42000,500,3.9,Towing:  - 
-ID.5 GTX,405,180,56545,560,6.3,Towing:  - 
-Kona Electric 39 kWh,250,155,32450,220,9.9,Towing:  - 
-EQB 300 4MATIC,335,160,56810,480,8,Towing:  - 
-EQS AMG 53 4MATIC+,565,250,161860,840,3.4,Towing:  - 
-Ariya e-4ORCE 87kWh,420,200,54595,500,5.7,Towing:  - 
-I-Pace EV400,380,200,69995,360,4.8,Towing:  - 
-500e Scorpionissima,225,155,36000,370,7,Towing:  - 
-EQA 250+,375,160,52010,520,8.6,Towing:  - 
-ID.5 Pro Performance,430,160,52185,540,8.4,Towing:  - 
-Ariya 63kWh,320,160,46145,430,7.5,Towing:  - 
-GranTurismo Folgore,425,320,200000,990,2.7,Towing:  - 
-EQA 350 4MATIC,350,160,54510,500,6,Towing:  - 
-Enyaq iV 80x,400,160,51765,500,6.9,Towing:  - 
-Mustang Mach-E ER RWD,455,180,59380,400,7,Towing:  - 
-ID.3 Pro S - 4 Seats,450,160,47470,570,7.9,Towing:  - 
-Ocean Extreme,510,200,59900,730,3.9,Towing:  - 
-bZ4X AWD,330,160,52110,490,6.9,Towing:  - 
-e Advance,170,145,36920,180,8.3,Towing:  - 
-Funky Cat 48 kWh,260,160,31995,240,8.3,Towing:  - 
-e-308 SW ,300,150,38000,450,9,Towing:  - 
-Taycan 4S,395,250,86500,970,4,Towing:  - 
-ZS EV Standard Range,270,175,29495,260,8.6,Towing:  - 
-EX90 Twin Motor,455,180,96255,590,5.9,Towing:  - 
-Enyaq Coupe iV 80,445,160,45000,560,8.7,Towing:  - 
-ID.4 Pure Performance,285,160,40275,360,9,Towing:  - 
-C40 Recharge Twin Motor,390,180,53605,600,4.7,Towing:  - 
-EQE SUV 500 4MATIC,455,210,115000,680,5,Towing:  - 
-3 Long Range Performance,470,210,85500,610,4.7,Towing:  - 
-Astra Sports Tourer Electric,300,170,37000,480,8.5,Towing:  - 
-Q4 Sportback e-tron 40,425,160,51430,540,8.5,Towing:  - 
-Taycan 4 Cross Turismo,425,220,84500,1050,5.1,Towing:  - 
-Taycan Plus,475,230,79549,1170,5.4,Towing:  - 
-C40 Recharge Single Motor,345,180,48355,510,7.4,Towing:  - 
-GV60 Premium,390,185,53905,1020,7.8,Towing:  - 
-Mustang Mach-E SR RWD,355,180,50830,370,6.9,Towing:  - 
-EQE AMG 53 4MATIC+,480,240,114750,720,3.5,Towing:  - 
-EQA 300 4MATIC,350,160,53010,500,7.7,Towing:  - 
-Eletre R,450,260,120000,940,2.9,Towing:  - 
-Taycan GTS,450,250,106000,1110,3.7,Towing:  - 
-2 Long Range Performance,410,205,57950,630,4.2,Towing:  - 
-Mustang Mach-E ER AWD,440,180,65405,390,5.8,Towing:  - 
-3 E-Tense,300,150,37200,480,9,Towing:  - 
-Q8 e-tron Sportback 50 quattro,440,200,70300,610,6,Towing:  - 
-EQE SUV 350 4MATIC,455,210,85000,680,6.5,Towing:  - 
-e-Berlingo M 50 kWh,200,135,31495,320,11.7,Towing:  - 
-G80 Electrified Luxury,440,225,69805,880,4.9,Towing:  - 
-e-Soul 64 kWh,370,167,39045,350,7.9,Towing:  - 
-SQ8 e-tron Sportback ,470,210,100795,630,4.5,Towing:  - 
-Mustang Mach-E GT,425,200,74540,380,4.4,Towing:  - 
-GV70 Electrified Sport,350,235,64405,860,4.2,Towing:  - 
-Q4 Sportback e-tron 50 quattro,400,180,57810,500,6.2,Towing:  - 
-Taycan Turbo,415,260,119900,1020,3.2,Towing:  - 
-EQE SUV AMG 53 4MATIC+,425,240,120000,630,3.5,Towing:  - 
-Taycan 4S Plus,460,250,90406,1130,4,Towing:  - 
-GV60 Sport,380,200,58365,990,5.5,Towing:  - 
-Born 170 kW - 58 kWh,345,160,39205,460,6.6,Towing:  - 
-EQS SUV 450 4MATIC,485,210,129170,630,6,Towing:  - 
-EQE 350,515,210,77345,650,6.4,Towing:  - 
-Enyaq Coupe iV 80x,430,160,52000,540,7,Towing:  - 
-e-Rifter Long 50 kWh,195,135,34300,310,11.7,Towing:  - 
-Enyaq Coupe iV 60,335,160,40000,450,8.8,Towing:  - 
-e-Soul 39.2 kWh,230,157,32845,200,9.9,Towing:  - 
-Taycan Turbo S Sport Turismo,395,260,143400,970,2.8,Towing:  - 
-Cooper SE Convertible,170,150,52500,240,8.2,Towing:  - 
-500e Cabrio 42 kWh,230,150,33645,380,9,Towing:  - 
-eVito Tourer Long 90 kWh,310,160,68352,310,12,Towing:  - 
-Taycan 4S Cross Turismo,425,240,91000,1050,4.1,Towing:  - 
-e-Traveller Standard 50 kWh,180,130,49100,290,13.1,Towing:  - 
-GV60 Sport Plus,365,235,67505,950,4,Towing:  - 
-Combo-e Life 50 kWh,200,135,34035,320,11.7,Towing:  - 
-Taycan Turbo S Cross Turismo,385,250,143400,950,2.9,Towing:  - 
-eVito Tourer Extra-Long 90 kWh,305,160,75846,310,12,Towing:  - 
-Taycan GTS Sport Turismo,425,250,107000,1050,3.7,Towing:  - 
-e-SpaceTourer M 50 kWh,180,130,47495,290,12.1,Towing:  - 
-e-Rifter Standard 50 kWh,200,135,32300,320,11.7,Towing:  - 
-Taycan Sport Turismo,380,230,76500,930,5.4,Towing:  - 
-Combo-e Life XL 50 kWh,195,135,34635,310,11.7,Towing:  - 
-Taycan 4S Sport Turismo,370,250,87500,910,4,Towing:  - 
-e-Berlingo XL 50 kWh,195,135,32495,310,11.7,Towing:  - 
-Taycan Plus Sport Turismo,445,230,80549,1090,5.4,Towing:  - 
-Vivaro-e Combi M 50 kWh,180,130,37320,290,12.1,Towing:  - 
-Taycan Turbo Cross Turismo,400,250,120900,980,3.3,Towing:  - 
-Vivaro-e Combi L 50 kWh,175,130,37520,280,12.1,Towing:  - 
-e-Jumpy Combi M 50 kWh,180,130,35795,290,12.1,Towing:  - 
-Taycan Turbo Sport Turismo,405,260,120900,1000,3.2,Towing:  - 
-Zafira-e Life M 50 kWh,180,130,50630,290,12.1,Towing:  - 
-e-Traveller Long 50 kWh,175,130,54275,280,13.1,Towing:  - 
-e-Jumpy Combi XL 50 kWh,175,130,35995,280,12.1,Towing:  - 
-e-SpaceTourer XL 50 kWh,175,130,48335,280,12.1,Towing:  - 
-Taycan 4S Plus Sport Turismo,430,250,91406,1060,4,Towing:  - 
-Zafira-e Life L 50 kWh,175,130,50990,280,12.1,Towing:  - 
+Model,Range_km,TopSpeed_kmh,Price_pounds,Charge_kmh,Acceleration_0.100sec,Available,Make
+Model Y Long Range Dual Motor,435,217,52990,670,5,Available since February 2022,Tesla
+Model Y ,345,217,44990,580,6.9,Available since November 2022,Tesla
+Model 3 ,380,225,42990,630,6.1,Available since December 2021,Tesla
+Model 3 Long Range Dual Motor,485,233,50990,750,4.4,Available since November 2021,Tesla
+Model Y Performance,415,250,59990,640,3.7,Available since March 2022,Tesla
+MG4 Electric 64 kWh,365,160,28495,450,7.9,Available since October 2022,MG
+Model S Plaid,550,282,125000,770,2.1,Available since November 2022,Tesla
+i4 eDrive40,470,190,56185,730,5.7,Available since November 2021,BMW
+iX1 xDrive30,355,180,52255,510,5.6,Available since November 2022,BMW
+EQS 450+,640,210,105610,960,6.2,Available since October 2021,Mercedes
+Niro EV ,380,167,36795,380,7.8,Available since June 2022,Kia
+iX xDrive40,360,200,69905,480,6.1,Available since October 2021,BMW
+i7 xDrive60,510,240,110545,760,4.7,Available since November 2022,BMW
+EV6 GT,370,260,62645,970,3.5,Available since April 2022,Kia
+IONIQ 6 Long Range AWD,440,185,50245,1150,5.1,Available since November 2022,Hyundai
+Model 3 Performance,460,261,57990,710,3.3,Available since February 2022,Tesla
+Model S Dual Motor,570,250,100000,790,3.2,Available since January 2023,Tesla
+Ariya 87kWh,445,160,51895,530,7.6,Available since July 2022,Nissan
+Enyaq iV 80,420,160,42925,530,8.6,Available since April 2021,Skoda
+Q8 e-tron 55 quattro,495,200,77800,670,5.6,Available since December 2022,Audi
+ID. Buzz Pro,330,145,57115,460,10.2,Available since September 2022,Volkswagen
+Kona Electric 64 kWh,395,167,37750,370,7.9,Available since June 2021,Hyundai
+iX xDrive50,505,200,99785,680,4.6,Available since November 2021,BMW
+iX3 ,385,180,64165,520,6.8,Available since September 2021,BMW
+Megane E-Tech EV60 220hp,360,160,36995,500,7.4,Available since April 2022,Renault
+RZ 450e,310,160,66500,460,5.6,Available since February 2023,Lexus
+i4 M50,435,225,69040,670,3.9,Available since November 2021,BMW
+Q4 e-tron 40,405,160,49930,510,8.5,Available since June 2021,Audi
+e-tron GT RS,405,250,115000,1000,3.3,Available since March 2021,Audi
+#1 ,350,180,35000,520,6.7,Expected from March 2023,Smart
+Avenger Electric 1st Edition,295,150,36500,470,9,Available since January 2023,Jeep
+ZS EV Long Range,365,175,31995,410,8.4,Available since November 2021,MG
+EQC 400 4MATIC,370,180,72335,440,5.1,Available since November 2020,Mercedes
+IONIQ 6 Long Range 2WD,475,185,46745,1240,7.4,Available since December 2022,Hyundai
+MG5 Electric Long Range,335,185,30995,330,7.7,Available since March 2022,MG
+Ocean One,510,200,59900,730,3.9,Available since February 2023,Fisker
+MG4 Electric 51 kWh,300,160,25995,340,7.7,Available since October 2022,MG
+EV6 Long Range 2WD,410,185,45245,1070,7.3,Available since October 2021,Kia
+e-208 ,285,150,31345,460,8.1,Available since November 2021,Peugeot
+ID.4 Pro Performance,410,160,46035,520,8.5,Available since January 2021,Volkswagen
+Cooper SE ,180,150,29000,260,7.3,Available since March 2021,Mini
+IONIQ 5 Long Range 2WD,390,185,46650,1020,7.3,Available since April 2022,Hyundai
+500e Hatchback 42 kWh,235,150,30645,390,9,Available since November 2020,Fiat
+bZ4X FWD,335,160,45710,500,7.5,Available since June 2022,Toyota
+Spectre ,455,250,350000,540,4.5,Expected from November 2023,Rolls-Royce
+Leaf ,235,144,28995,230,7.9,Available since March 2022,Nissan
+ID.4 GTX,400,180,52865,560,6.2,Available since July 2021,Volkswagen
+iX M60,485,250,119225,650,3.8,Available since April 2022,BMW
+Model X Plaid,455,262,128000,630,2.6,Available since November 2022,Tesla
+Born 150 kW - 58 kWh,350,160,36475,470,7.3,Available since October 2021,CUPRA
+ID.4 Pro,410,160,44605,520,10.4,Available since February 2022,Volkswagen
+Q8 e-tron Sportback 55 quattro,525,200,80300,710,5.6,Available since December 2022,Audi
+Enyaq iV 60,330,160,38970,440,8.7,Available since April 2021,Skoda
+EQB 350 4MATIC,335,160,55310,480,6.2,Available since February 2022,Mercedes
+EV6 Long Range AWD,400,185,51745,1050,5.2,Available since October 2021,Kia
+2 Long Range Single Motor,440,205,48950,680,6.2,Available since January 2023,Polestar
+Solterra AWD,320,160,49995,480,6.9,Available since June 2022,Subaru
+ID.4 Pure,285,160,38845,360,10.9,Available since February 2021,Volkswagen
+Taycan Turbo S,400,260,142400,980,2.8,Available since January 2020,Porsche
+Born 170 kW - 77 kWh,450,160,41975,570,7,Available since March 2022,CUPRA
+Astra Electric,310,170,36000,500,8.5,Expected from March 2023,Opel
+e-C4 ,265,150,30995,420,9.7,Available since November 2021,Citroen
+ID.3 Pro Performance,350,160,39425,470,7.3,Available since August 2021,Volkswagen
+EQE 300,515,210,74345,650,7.6,Available since July 2022,Mercedes
+Model X Dual Motor,470,250,108000,650,3.9,Available since January 2023,Tesla
+ID.5 Pro,430,160,50710,540,10.4,Available since March 2022,Volkswagen
+Eletre ,520,250,89500,1090,4.5,Expected from March 2023,Lotus
+XC40 Recharge Single Motor,335,180,46505,500,7.4,Available since December 2022,Volvo
+IONIQ 5 Long Range AWD,385,185,50150,1010,5.1,Available since April 2022,Hyundai
+EQE SUV 350+,470,210,80000,700,7,Available since December 2022,Mercedes
+MX-30 ,170,140,30050,210,9.7,Available since May 2022,Mazda
+e-308 ,310,150,37000,460,9,Expected from April 2023,Peugeot
+3 Long Range Dual motor,490,210,79900,640,5,Available since November 2022,Polestar
+IONIQ 5 Standard Range 2WD,295,185,43150,720,8.5,Available since July 2021,Hyundai
+e-2008 SUV ,255,150,35150,410,8.5,Available since November 2021,Peugeot
+Q8 e-tron 50 quattro,415,200,67800,580,6,Available since December 2022,Audi
+e-tron GT quattro,420,245,84000,1030,4.1,Available since March 2021,Audi
+Enyaq Coupe iV RS,405,180,54370,560,6.5,Available since March 2022,Skoda
+XC40 Recharge Twin Motor,380,180,51755,590,4.9,Available since December 2022,Volvo
+2 Long Range Dual Motor,420,205,52950,650,4.5,Available since January 2023,Polestar
+Mokka-e ,255,150,34910,410,9.2,Available since November 2021,Opel
+SQ8 e-tron ,445,210,98295,600,4.5,Expected from March 2023,Audi
+Zoe ZE50 R135,310,140,29995,230,9.5,Available since November 2019,Renault
+Ocean Sport,380,160,34990,480,7.4,Available since February 2023,Fisker
+EQS SUV 580 4MATIC,485,210,139170,630,4.6,Available since December 2022,Mercedes
+Taycan ,410,230,75500,1010,5.4,Available since February 2021,Porsche
+Corsa-e ,285,150,31130,460,8.1,Available since November 2021,Opel
+Q4 e-tron 50 quattro,385,180,56310,490,6.2,Available since July 2021,Audi
+Leaf e+,340,157,34945,240,6.9,Available since March 2022,Nissan
+Ocean Ultra,505,200,48900,730,4.2,Available since February 2023,Fisker
+EQV 300 Long,305,160,83530,310,12.1,Available since September 2020,Mercedes
+2 Standard Range Single Motor,385,205,44950,620,6.4,Available since January 2023,Polestar
+EX90 Twin Motor Performance,440,180,100555,570,4.9,Available since December 2022,Volvo
+ID.5 GTX,405,180,56545,560,6.3,Available since March 2022,Volkswagen
+Kona Electric 39 kWh,250,155,32450,220,9.9,Available since June 2021,Hyundai
+Ariya 63kWh,320,160,46145,430,7.5,Available since July 2022,Nissan
+#1 Brabus,335,180,42000,500,3.9,Expected from March 2023,Smart
+EQA 250+,375,160,52010,520,8.6,Available since June 2022,Mercedes
+EQS AMG 53 4MATIC+,565,250,161860,840,3.4,Available since February 2022,Mercedes
+EQB 300 4MATIC,335,160,56810,480,8,Available since February 2022,Mercedes
+500e Scorpionissima,225,155,36000,370,7,Expected from March 2023,Abarth
+I-Pace EV400,380,200,69995,360,4.8,Available since January 2023,Jaguar
+Enyaq iV 80x,400,160,51765,500,6.9,Available since June 2021,Skoda
+Ariya e-4ORCE 87kWh,420,200,54595,500,5.7,Available since July 2022,Nissan
+EQA 350 4MATIC,350,160,54510,500,6,Available since May 2021,Mercedes
+GranTurismo Folgore,425,320,200000,990,2.7,Expected from June 2023,Maserati
+ID.5 Pro Performance,430,160,52185,540,8.4,Available since March 2022,Volkswagen
+Mustang Mach-E ER RWD,455,180,59380,400,7,Available since November 2022,Ford
+ID.3 Pro S - 4 Seats,450,160,47470,570,7.9,Available since August 2021,Volkswagen
+Ocean Extreme,510,200,59900,730,3.9,Available since February 2023,Fisker
+bZ4X AWD,330,160,52110,490,6.9,Available since June 2022,Toyota
+e Advance,170,145,36920,180,8.3,Available since August 2020,Honda
+Funky Cat 48 kWh,260,160,31995,240,8.3,Available since November 2022,ORA
+ZS EV Standard Range,270,175,29495,260,8.6,Available since November 2021,MG
+Enyaq Coupe iV 80,445,160,45000,560,8.7,Available since July 2022,Skoda
+Taycan 4S,395,250,86500,970,4,Available since May 2020,Porsche
+e-308 SW ,300,150,38000,450,9,Expected from April 2023,Peugeot
+EX90 Twin Motor,455,180,96255,590,5.9,Available since December 2022,Volvo
+ID.4 Pure Performance,285,160,40275,360,9,Available since January 2021,Volkswagen
+C40 Recharge Twin Motor,390,180,53605,600,4.7,Available since December 2022,Volvo
+EQE SUV 500 4MATIC,455,210,115000,680,5,Available since December 2022,Mercedes
+3 Long Range Performance,470,210,85500,610,4.7,Available since November 2022,Polestar
+Astra Sports Tourer Electric,300,170,37000,480,8.5,Expected from March 2023,Opel
+GV60 Premium,390,185,53905,1020,7.8,Available since June 2022,Genesis
+Taycan 4 Cross Turismo,425,220,84500,1050,5.1,Available since July 2021,Porsche
+Taycan Plus,475,230,79549,1170,5.4,Available since February 2021,Porsche
+C40 Recharge Single Motor,345,180,48355,510,7.4,Available since December 2022,Volvo
+EQE AMG 53 4MATIC+,480,240,114750,720,3.5,Available since July 2022,Mercedes
+Q4 Sportback e-tron 40,425,160,51430,540,8.5,Available since August 2021,Audi
+Eletre R,450,260,120000,940,2.9,Expected from March 2023,Lotus
+Taycan GTS,450,250,106000,1110,3.7,Available since February 2022,Porsche
+Mustang Mach-E ER AWD,440,180,65405,390,5.8,Available since November 2022,Ford
+EQA 300 4MATIC,350,160,53010,500,7.7,Available since May 2021,Mercedes
+2 Long Range Performance,410,205,57950,630,4.2,Available since January 2023,Polestar
+3 E-Tense,300,150,37200,480,9,Available since November 2022,DS
+Q8 e-tron Sportback 50 quattro,440,200,70300,610,6,Available since December 2022,Audi
+Mustang Mach-E SR RWD,355,180,50830,370,6.9,Available since November 2022,Ford
+GV70 Electrified Sport,350,235,64405,860,4.2,Available since October 2022,Genesis
+e-Berlingo M 50 kWh,200,135,31495,320,11.7,Available since September 2021,Citroen
+G80 Electrified Luxury,440,225,69805,880,4.9,Available since June 2022,Genesis
+EQE SUV 350 4MATIC,455,210,85000,680,6.5,Available since December 2022,Mercedes
+Mustang Mach-E GT,425,200,74540,380,4.4,Available since November 2022,Ford
+e-Soul 64 kWh,370,167,39045,350,7.9,Available since September 2022,Kia
+SQ8 e-tron Sportback ,470,210,100795,630,4.5,Expected from March 2023,Audi
+Q4 Sportback e-tron 50 quattro,400,180,57810,500,6.2,Available since August 2021,Audi
+EQE SUV AMG 53 4MATIC+,425,240,120000,630,3.5,Expected from March 2023,Mercedes
+Taycan 4S Plus,460,250,90406,1130,4,Available since April 2020,Porsche
+Cooper SE Convertible,170,150,52500,240,8.2,Expected from April 2023,Mini
+Taycan Turbo,415,260,119900,1020,3.2,Available since January 2020,Porsche
+GV60 Sport,380,200,58365,990,5.5,Available since June 2022,Genesis
+EQS SUV 450 4MATIC,485,210,129170,630,6,Available since December 2022,Mercedes
+Born 170 kW - 58 kWh,345,160,39205,460,6.6,Available since March 2022,CUPRA
+EQE 350,515,210,77345,650,6.4,Available since July 2022,Mercedes
+Enyaq Coupe iV 80x,430,160,52000,540,7,Expected from December 2022,Skoda
+Enyaq Coupe iV 60,335,160,40000,450,8.8,Available since July 2022,Skoda
+500e Cabrio 42 kWh,230,150,33645,380,9,Available since November 2020,Fiat
+e-Rifter Long 50 kWh,195,135,34300,310,11.7,Available since July 2021,Peugeot
+Taycan Turbo S Sport Turismo,395,260,143400,970,2.8,Available since March 2022,Porsche
+e-Soul 39.2 kWh,230,157,32845,200,9.9,Available since September 2022,Kia
+eVito Tourer Long 90 kWh,310,160,68352,310,12,Available since October 2020,Mercedes
+Taycan 4S Cross Turismo,425,240,91000,1050,4.1,Available since July 2021,Porsche
+GV60 Sport Plus,365,235,67505,950,4,Available since June 2022,Genesis
+Combo-e Life 50 kWh,200,135,34035,320,11.7,Available since October 2021,Opel
+e-SpaceTourer M 50 kWh,180,130,47495,290,12.1,Available since November 2020,Citroen
+e-Traveller Standard 50 kWh,180,130,49100,290,13.1,Available since November 2020,Peugeot
+eVito Tourer Extra-Long 90 kWh,305,160,75846,310,12,Available since October 2020,Mercedes
+Taycan Turbo S Cross Turismo,385,250,143400,950,2.9,Available since July 2021,Porsche
+Taycan GTS Sport Turismo,425,250,107000,1050,3.7,Available since February 2022,Porsche
+Taycan Sport Turismo,380,230,76500,930,5.4,Available since March 2022,Porsche
+e-Rifter Standard 50 kWh,200,135,32300,320,11.7,Available since July 2021,Peugeot
+Combo-e Life XL 50 kWh,195,135,34635,310,11.7,Available since October 2021,Opel
+Taycan 4S Sport Turismo,370,250,87500,910,4,Available since March 2022,Porsche
+Taycan Plus Sport Turismo,445,230,80549,1090,5.4,Available since March 2022,Porsche
+Taycan 4S Plus Sport Turismo,430,250,91406,1060,4,Available since March 2022,Porsche
+Zafira-e Life L 50 kWh,175,130,50990,280,12.1,Available since November 2020,Opel
+e-Berlingo XL 50 kWh,195,135,32495,310,11.7,Available since September 2021,Citroen
+e-Jumpy Combi XL 50 kWh,175,130,35995,280,12.1,Available since November 2020,Citroen
+Vivaro-e Combi M 50 kWh,180,130,37320,290,12.1,Available since October 2020,Opel
+Taycan Turbo Cross Turismo,400,250,120900,980,3.3,Available since July 2021,Porsche
+Vivaro-e Combi L 50 kWh,175,130,37520,280,12.1,Available since October 2020,Opel
+e-SpaceTourer XL 50 kWh,175,130,48335,280,12.1,Available since November 2020,Citroen
+e-Jumpy Combi M 50 kWh,180,130,35795,290,12.1,Available since November 2020,Citroen
+Taycan Turbo Sport Turismo,405,260,120900,1000,3.2,Available since March 2022,Porsche
+Zafira-e Life M 50 kWh,180,130,50630,290,12.1,Available since November 2020,Opel
+e-Traveller Long 50 kWh,175,130,54275,280,13.1,Available since November 2020,Peugeot

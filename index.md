@@ -20,6 +20,10 @@ description: A collection of data to practice data analytics
 |:-----------:|:------:|:--------:|:-------:|
 |[Population](Population.csv)|[Cali Avocado](CaliforniaAvocado.csv)|[Deliveries](tsla_deliveries.csv)|[Income](PersonalIncome.csv)|
 
+|5. Returns|6. |7. |8. |
+|:-----------:|:------:|:--------:|:-------:|
+|[Returns](returns.csv)|
+
 # Cross Section
 
 |1. College|2. Education|3. Food Expenditure|4. Dog Intelligence|5. Crash Data|

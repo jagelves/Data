@@ -20,9 +20,9 @@ description: A collection of data to practice data analytics
 |:-----------:|:------:|:--------:|:-------:|
 |[Population](Population.csv)|[Cali Avocado](CaliforniaAvocado.csv)|[Deliveries](tsla_deliveries.csv)|[Income](PersonalIncome.csv)|
 
-|5. Returns|6. STAR|7. |8. |
+|5. Returns|6.|7. |8. |
 |:-----------:|:------:|:--------:|:-------:|
-|[Returns](returns.csv)|[STAR](STAR.csv)|
+|[Returns](returns.csv)||
 
 # Cross Section
 
@@ -33,3 +33,8 @@ description: A collection of data to practice data analytics
 |6. Packers Roster|7. Survey|8. Kobe|9. Wage|10. Electric Cars|
 |:--------:|:----------:|:-----------------:|:-----------------:|:-----------:|
 |[Packers](Packers.csv)|[Survey](Survey_Raw.csv)|[Kobe](Kobe.csv)|[Wage](Wage.csv)|[ECars](Electric.csv)|
+
+|11. STAR|12. |13.|14. |15. |
+|:--------:|:----------:|:-----------------:|:-----------------:|:-----------:|
+|[STAR](STAR.csv)|
+

@@ -34,7 +34,7 @@ description: A collection of data to practice data analytics
 |:--------:|:----------:|:-----------------:|:-----------------:|:-----------:|
 |[Packers](Packers.csv)|[Survey](Survey_Raw.csv)|[Kobe](Kobe.csv)|[Wage](Wage.csv)|[ECars](Electric.csv)|
 
-|11. STAR|12. Drivers|13.|14. |15. |
+|11. STAR|12. Drivers|13. Study|14. |15. |
 |:--------:|:----------:|:-----------------:|:-----------------:|:-----------:|
-|[STAR](STAR.csv)|[Drivers](Drivers.csv)|
+|[STAR](STAR.csv)|[Drivers](Drivers.csv)|[Study](study.csv)|
 

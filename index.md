@@ -34,7 +34,12 @@ description: A collection of data to practice data analytics
 |:--------:|:----------:|:-----------------:|:-----------------:|:-----------:|
 |[Packers](Packers.csv)|[Survey](Survey_Raw.csv)|[Kobe](Kobe.csv)|[Wage](Wage.csv)|[ECars](Electric.csv)|
 
-|11. STAR|12. Drivers|13. Study|14. SAT|15. |
+|11. STAR|12. Drivers|13. Study|14. SAT|15. Net Worth |
 |:--------:|:----------:|:-----------------:|:-----------------:|:-----------:|
-|[STAR](STAR.csv)|[Drivers](Drivers.csv)|[Study](study.csv)|[SAT](SAT.csv)|
+|[STAR](STAR.csv)|[Drivers](Drivers.csv)|[Study](study.csv)|[SAT](SAT.csv)|[Net Worth](NetWorth.csv)|
+
+|16. Study Hours|17. Prime |18. Oil and Gold|19. Drink Calories|20. Food Calories|
+|:--------:|:----------:|:-----------------:|:-----------------:|:-----------:|
+|[Study Hours](StudyHours.csv)|[Prime](Prime.csv)|[Oil and Gold](OilGold.csv)|[Drink](DrinkCalories.csv)|[Food](FoodCalories.csv)|
+
 

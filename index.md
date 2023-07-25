@@ -20,9 +20,9 @@ description: A collection of data to practice data analytics
 |:-----------:|:------:|:--------:|:-------:|
 |[Population](Population.csv)|[Cali Avocado](CaliforniaAvocado.csv)|[Deliveries](tsla_deliveries.csv)|[Income](PersonalIncome.csv)|
 
-|5. Returns|6. Pitching|7. Treasury|8. |
+|9. Returns|10. Pitching|11. Treasury|12. Homes|
 |:-----------:|:------:|:--------:|:-------:|
-|[Returns](returns.csv)|[fastballs](fastballs.csv)|[TCM5Y](treasury.csv)|
+|[Returns](returns.csv)|[fastballs](fastballs.csv)|[TCM5Y](treasury.csv)|[HomePrices](HomePrices.csv)
 
 # Cross Section
 

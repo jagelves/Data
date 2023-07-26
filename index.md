@@ -12,15 +12,15 @@ description: A collection of data to practice data analytics
 
 # Times Series
 
-|1. Avocado|2. Electricity|3. Peloton|4. Stocks|
-|:--------:|:------:|:--------:|:--------|
-|[Avocado](avocado2020.csv)|[Electricity](ElectricityBill.csv)|[Peloton Workout](peloton.csv)|[TSLA, VTI, GBTC](Stocks.csv)|
+|1. Avocado|2. Electricity|3. Peloton|4. Stocks|5. Netflix|
+|:--------:|:------:|:--------:|:--------:|:--------:|
+|[Avocado](avocado2020.csv)|[Electricity](ElectricityBill.csv)|[Peloton Workout](peloton.csv)|[TSLA, VTI, GBTC](Stocks.csv)|[Subscriptions](Netflix.csv)
 
-|5. Population|6. Cali|7. TSLA|8. Personal Income|
+|6. Population|7. California|8. TSLA|9. Personal Income|
 |:-----------:|:------:|:--------:|:-------:|
 |[Population](Population.csv)|[Cali Avocado](CaliforniaAvocado.csv)|[Deliveries](tsla_deliveries.csv)|[Income](PersonalIncome.csv)|
 
-|9. Returns|10. Pitching|11. Treasury|12. Homes|
+|11. Returns|12. Pitching|13. Treasury|14. Homes|
 |:-----------:|:------:|:--------:|:-------:|
 |[Returns](returns.csv)|[fastballs](fastballs.csv)|[TCM5Y](treasury.csv)|[HomePrices](HomePrices.csv)
 

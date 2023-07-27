@@ -16,9 +16,9 @@ description: A collection of data to practice data analytics
 |:--------:|:------:|:--------:|:--------:|:--------:|
 |[Avocado](avocado2020.csv)|[Electricity](ElectricityBill.csv)|[Peloton Workout](peloton.csv)|[TSLA, VTI, GBTC](Stocks.csv)|[Subscriptions](Netflix.csv)
 
-|6. Population|7. California|8. TSLA|9. Personal Income|
-|:-----------:|:------:|:--------:|:-------:|
-|[Population](Population.csv)|[Cali Avocado](CaliforniaAvocado.csv)|[Deliveries](tsla_deliveries.csv)|[Income](PersonalIncome.csv)|
+|6. Population|7. California|8. TSLA|9. Personal Income| 10. US Inflation|
+|:-----------:|:------:|:--------:|:-------:|:-------:|
+|[Population](Population.csv)|[Cali Avocado](CaliforniaAvocado.csv)|[Deliveries](tsla_deliveries.csv)|[Income](PersonalIncome.csv)|[Inflation](Inflation.csv)
 
 |11. Returns|12. Pitching|13. Treasury|14. Homes|
 |:-----------:|:------:|:--------:|:-------:|

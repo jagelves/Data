@@ -12,9 +12,9 @@ description: A collection of data to practice data analytics
 
 # Times Series
 
-|1. Avocado|2. Electricity|3. Peloton|4. Stocks|5. Netflix|
+|1. Avocado 15-20|2. Electricity|3. Avocado 20-23|4. Stocks|5. Netflix|
 |:--------:|:------:|:--------:|:--------:|:--------:|
-|[Avocado](avocado2020.csv)|[Electricity](ElectricityBill.csv)|[Peloton Workout](peloton.csv)|[TSLA, VTI, GBTC](Stocks.csv)|[Subscriptions](Netflix.csv)
+|[Avocado](avocado2020.csv)|[Electricity](ElectricityBill.csv)|[Avocado2](avocado2020-2023)|[TSLA, VTI, GBTC](Stocks.csv)|[Subscriptions](Netflix.csv)
 
 |6. Population|7. California|8. TSLA|9. Personal Income| 10. US Inflation|
 |:-----------:|:------:|:--------:|:-------:|:-------:|

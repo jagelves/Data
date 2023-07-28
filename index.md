@@ -20,7 +20,7 @@ description: A collection of data to practice data analytics
 |:-----------:|:------:|:--------:|:-------:|:-------:|
 |[Population](Population.csv)|[Cali Avocado](CaliforniaAvocado.csv)|[Deliveries](tsla_deliveries.csv)|[Income](PersonalIncome.csv)|[Inflation](Inflation.csv)
 
-|11. Returns|12. Pitching|13. Treasury|14. Homes|
+|11. Stock Returns|12. Pitching|13. Treasury Yield|14. Homes|
 |:-----------:|:------:|:--------:|:-------:|
 |[Returns](returns.csv)|[fastballs](fastballs.csv)|[TCM5Y](treasury.csv)|[HomePrices](HomePrices.csv)
 

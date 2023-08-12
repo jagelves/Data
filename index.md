@@ -12,13 +12,13 @@ description: A collection of data to practice data analytics
 
 # Times Series
 
-|1. Avocado 15-20|2. Avocado 20-23|3. Electricity Usage|4. Stock Prices|5. Netflix|
+|1. Avocado 15-20|2. Avocado 20-23|3. Electricity Usage|4. TSLA Deliveries|5. Netflix|
 |:--------:|:------:|:--------:|:--------:|:--------:|
-|[Avocado](avocado2020.csv)|[Avocado2](avocado2020-2023.csv)|[Electricity](ElectricityBill.csv)|[TSLA, VTI, GBTC](Stocks.csv)|[Subscriptions](Netflix.csv)
+|[Avocado](avocado2020.csv)|[Avocado2](avocado2020-2023.csv)|[Electricity](ElectricityBill.csv)|[Deliveries](tsla_deliveries.csv)|[Subscriptions](Netflix.csv)
 
-|6. Population|7. California|8. TSLA Deliveries|9. Personal Income| 10. US Inflation|
+|6. US Inflation|7. Population|8. California|9. Stock Prices|10. Personal Income|
 |:-----------:|:------:|:--------:|:-------:|:-------:|
-|[Population](Population.csv)|[Cali Avocado](CaliforniaAvocado.csv)|[Deliveries](tsla_deliveries.csv)|[Income](PersonalIncome.csv)|[Inflation](Inflation.csv)
+|[Inflation](Inflation.csv)|[Population](Population.csv)|[Cali Avocado](CaliforniaAvocado.csv)|[Prices](Stocks.csv)|[Income](PersonalIncome.csv)|
 
 |11. Stock Returns|12. Pitching|13. Treasury Yield|14. Homes|
 |:-----------:|:------:|:--------:|:-------:|

@@ -1,216 +1,237 @@
 Model,Range_km,TopSpeed_kmh,Price_pounds,Charge_kmh,Acceleration_0.100sec,Available,Tow_kg,Efficiency_wh.km,Battery_kWh,Make,Availability,Year
-Model Y Long Range Dual Motor,435,217,52990,670,5,Available since February 2022,1600,172,75,Tesla,Available,2022
 Model 3 ,405,225,42990,680,6.1,Available since December 2021,1000,142,57.5,Tesla,Available,2021
+Model Y Long Range Dual Motor,435,217,52990,670,5,Available since February 2022,1600,172,75,Tesla,Available,2022
+ATTO 3 ,330,160,37195,370,7.3,Available since August 2022,,183,60.5,BYD,Available,2022
 Model Y ,350,217,44990,580,6.9,Available since November 2022,1600,164,57.5,Tesla,Available,2022
-ATTO 3 ,330,160,36490,370,7.3,Available since August 2022,,183,60.5,BYD,Available,2022
-MG4 Electric 64 kWh,360,160,29495,420,7.9,Available since October 2022,500,171,61.7,MG,Available,2022
 Model 3 Long Range Dual Motor,485,233,50990,750,4.4,Available since November 2021,1000,155,75,Tesla,Available,2021
-iX xDrive40,360,200,69905,480,6.1,Available since October 2021,2500,197,71,BMW,Available,2021
+MG4 Electric 64 kWh,360,160,29495,560,7.9,Available since October 2022,500,171,61.7,MG,Available,2022
+Model 3 ,420,201,44000,700,6.1,Available since September 2023,1000,137,57.5,Tesla,Available,2023
 i4 eDrive40,515,190,57890,800,5.7,Available since November 2021,1600,157,80.7,BMW,Available,2021
-iX3 ,385,180,64165,520,6.8,Available since September 2021,750,192,74,BMW,Available,2021
+iX1 xDrive30,370,180,53295,530,5.6,Available since November 2022,1200,175,64.7,BMW,Available,2022
 Model Y Performance,415,250,59990,640,3.7,Available since March 2022,1600,181,75,Tesla,Available,2022
-i4 M50,450,225,71085,700,3.9,Available since November 2021,1600,179,80.7,BMW,Available,2021
-500e Hatchback 42 kWh,235,150,31195,390,9,Available since November 2020,,159,37.3,Fiat,Available,2020
-Model S Plaid,560,282,115000,780,2.1,Available since November 2022,1600,170,95,Tesla,Available,2022
-iX1 xDrive30,370,180,53245,530,5.6,Available since November 2022,1200,175,64.7,BMW,Available,2022
-Model 3 Performance,460,261,57990,710,3.3,Available since February 2022,,163,75,Tesla,Available,2022
+Model S Plaid,560,282,100000,780,2.1,Available since November 2022,1600,170,95,Tesla,Available,2022
+iX xDrive40,360,200,69905,480,6.1,Available since October 2021,2500,197,71,BMW,Available,2021
+EX30 Single Motor ER,370,180,38545,550,5.3,Available since June 2023,1400,173,64,Volvo,Available,2023
+Model 3 Long Range Dual Motor,505,201,52000,780,4.4,Available since September 2023,1000,149,75,Tesla,Available,2023
 Niro EV ,385,167,37295,390,7.8,Available since June 2022,750,168,64.8,Kia,Available,2022
 Enyaq iV 80,440,160,42925,680,8.6,Available since April 2021,1000,175,77,Skoda,Available,2021
-e-tron GT RS,405,250,119000,1000,3.3,Available since March 2021,,210,85,Audi,Available,2021
-ID.4 Pro,410,160,44605,630,10.4,Available since February 2022,1000,188,77,Volkswagen,Available,2022
-EX30 Single Motor ER,370,180,38545,550,5.3,Available since June 2023,1400,173,64,Volvo,Available,2023
-EQS 450+,635,210,105610,950,6.2,Available since October 2021,750,170,107.8,Mercedes,Available,2021
-ID.4 Pro Performance,410,160,46035,630,8.5,Available since January 2021,1000,188,77,Volkswagen,Available,2021
-Model S Dual Motor,575,250,96000,800,3.2,Available since January 2023,1600,165,95,Tesla,Available,2023
-ZS EV Long Range,370,175,32995,420,8.4,Available since November 2021,500,185,68.3,MG,Available,2021
-e-tron GT quattro,420,245,87800,1030,4.1,Available since March 2021,,202,85,Audi,Available,2021
+SEAL 82.5 kWh AWD Excellence,485,180,48695,530,3.8,Available since September 2023,,170,82.5,BYD,Available,2023
+Model S Dual Motor,575,250,85000,800,3.2,Available since January 2023,1600,165,95,Tesla,Available,2023
 Q4 e-tron 40,405,160,50630,630,8.5,Available since June 2021,1000,189,76.6,Audi,Available,2021
-iX xDrive50,505,200,102755,680,4.6,Available since November 2021,2500,208,105.2,BMW,Available,2021
-i4 eDrive35,430,190,49995,580,6,Available since November 2022,1600,156,67,BMW,Available,2022
-MG4 Electric 51 kWh,300,160,26995,340,7.7,Available since October 2022,500,169,50.8,MG,Available,2022
-e-208 ,285,150,31595,460,8.1,Available since November 2021,,162,46.3,Peugeot,Available,2021
-ID. Buzz Pro,345,145,58915,480,10.2,Available since September 2022,1000,223,77,Volkswagen,Available,2022
-#1 ,335,180,35950,520,6.7,Available since March 2023,1600,185,62,Smart,Available,2023
-EV6 GT,360,260,62645,940,3.5,Available since April 2022,1800,206,74,Kia,Available,2022
 Megane E-Tech EV60 220hp,380,160,36995,530,7.4,Available since April 2022,900,158,60,Renault,Available,2022
-Q8 e-tron 55 quattro,495,200,77800,630,5.6,Available since December 2022,1800,214,106,Audi,Available,2022
-IONIQ 6 Long Range AWD,440,185,50540,1150,5.1,Available since November 2022,1500,168,74,Hyundai,Available,2022
-i7 xDrive60,510,240,113970,760,4.7,Available since November 2022,2000,199,101.7,BMW,Available,2022
-ID.3 Pro,350,160,37115,450,7.3,Available since March 2023,0,166,58,Volkswagen,Available,2023
-Funky Cat 48 kWh,260,160,31995,240,8.3,Available since November 2022,,175,45.4,ORA,Available,2022
-Ocean One,530,205,60880,630,3.9,Available since March 2023,1820,201,106.5,Fisker,Available,2023
-bZ4X FWD,340,160,46110,510,7.5,Available since June 2022,750,188,64,Toyota,Available,2022
-EV6 Long Range 2WD,410,185,45245,1070,7.3,Available since October 2021,1600,180,74,Kia,Available,2021
-Cooper SE ,180,150,32550,260,7.3,Available since March 2021,,161,28.9,Mini,Available,2021
-Leaf ,235,144,28995,230,7.9,Available since March 2022,,166,39,Nissan,Available,2022
-IONIQ 6 Long Range 2WD,495,185,47040,1290,7.4,Available since December 2022,1500,149,74,Hyundai,Available,2022
-EX30 Single Motor,280,180,33795,430,5.7,Available since June 2023,1000,175,49,Volvo,Available,2023
-MG5 Electric Long Range,335,185,30995,330,7.7,Available since March 2022,500,171,57.4,MG,Available,2022
-Ariya 87kWh,450,160,51895,540,7.6,Available since July 2022,750,193,87,Nissan,Available,2022
-IONIQ 5 Long Range 2WD,390,185,46945,1020,7.3,Available since April 2022,1600,190,74,Hyundai,Available,2022
-Enyaq iV 60,340,160,38970,460,8.7,Available since April 2021,1000,171,58,Skoda,Available,2021
-Astra Electric ,310,170,39995,500,8.5,Available since June 2023,,164,50.8,Opel,Available,2023
-Born 150 kW - 58 kWh,350,160,36475,470,7.3,Available since October 2021,,166,58,CUPRA,Available,2021
-Ocean Sport,380,160,35970,480,7.4,Available since March 2023,1090,197,75,Fisker,Available,2023
-Avenger Electric ,300,150,35700,480,9,Available since January 2023,,169,50.8,Jeep,Available,2023
-ID.4 Pure,285,160,38845,360,10.9,Available since February 2021,1000,182,52,Volkswagen,Available,2021
-i5 eDrive40 Sedan,475,193,74105,710,6,Available since May 2023,1500,171,81.2,BMW,Available,2023
-Mokka-e ,260,150,38835,420,9.2,Available since November 2021,,178,46.3,Opel,Available,2021
-Spectre ,455,250,350000,540,4.5,Expected from November 2023,,220,100,Rolls-Royce,Expected ,2023
-DOLPHIN 60.4 kWh,340,160,31000,340,7,Available since July 2023,0,178,60.5,BYD,Available,2023
-Eletre ,495,250,89500,1040,4.5,Available since March 2023,2250,220,109,Lotus,Available,2023
-EV9 99.8 kWh AWD,430,200,65000,780,5.3,Available since June 2023,2500,232,99.8,Kia,Available,2023
-GV60 Premium,390,185,53905,1020,7.8,Available since June 2022,1600,190,74,Genesis,Available,2022
-Ocean Ultra,535,200,49880,640,4.2,Available since March 2023,1820,199,106.5,Fisker,Available,2023
+DOLPHIN 60.4 kWh,340,160,30195,340,7,Available since July 2023,0,178,60.5,BYD,Available,2023
+Model 3 Performance,460,261,57990,710,3.3,Available since February 2022,,163,75,Tesla,Available,2022
+ID.4 Pro Performance,410,160,46035,630,8.5,Available since January 2021,1000,188,77,Volkswagen,Available,2021
 e-C4 ,290,150,31995,460,9.7,Available since November 2021,,160,46.3,Citroen,Available,2021
-EQA 250+,420,160,52010,580,8.6,Available since June 2022,750,168,70.5,Mercedes,Available,2022
-EQB 350 4MATIC,340,160,56810,490,6.2,Available since February 2022,,196,66.5,Mercedes,Available,2022
-MG4 Electric XPOWER,325,200,36495,370,3.8,Expected from August 2023,,190,61.7,MG,Expected ,2023
-EX30 Twin Motor Performance,360,180,40995,540,3.6,Available since June 2023,1600,178,64,Volvo,Available,2023
-ID.7 Pro,470,180,53000,700,8,Expected from October 2023,,164,77,Volkswagen,Expected ,2023
-Model X Dual Motor,475,250,100000,660,3.9,Available since January 2023,2250,200,95,Tesla,Available,2023
-DOLPHIN 44.9 kWh Active,255,150,26000,260,10,Available since July 2023,,176,44.9,BYD,Available,2023
-RZ 450e,320,160,64500,480,5.6,Available since February 2023,750,200,64,Lexus,Available,2023
-EV6 Long Range AWD,400,185,51745,1050,5.2,Available since October 2021,1600,185,74,Kia,Available,2021
-MX-30 ,170,140,31250,210,9.7,Available since May 2022,,176,30,Mazda,Available,2022
-IONIQ 5 Long Range AWD,385,185,50445,1010,5.1,Available since April 2022,1600,192,74,Hyundai,Available,2022
-ID.7 Pro S,520,180,56000,800,7,Expected from October 2023,,165,86,Volkswagen,Expected ,2023
-Born 170 kW - 77 kWh,450,160,41975,630,7,Available since March 2022,,171,77,CUPRA,Available,2022
-XC40 Recharge Single Motor,345,180,46505,420,7.3,Available since December 2022,1500,191,66,Volvo,Available,2022
-2 Long Range Single Motor,445,205,48950,660,6.2,Available since January 2023,1500,178,79,Polestar,Available,2023
-Zoe ZE50 R135,310,140,29995,230,9.5,Available since November 2019,,168,52,Renault,Available,2019
+MG4 Electric 51 kWh,300,160,26995,340,7.7,Available since October 2022,500,169,50.8,MG,Available,2022
+#1 ,335,180,35950,520,6.7,Available since March 2023,1600,185,62,Smart,Available,2023
+IONIQ 6 Long Range AWD,440,185,50540,1150,5.1,Available since November 2022,1500,168,74,Hyundai,Available,2022
+e-3008 98 kWh Long Range,520,180,48000,680,7,Expected from February 2024,,188,98,Peugeot,Expected ,2024
+iX xDrive50,505,200,102755,680,4.6,Available since November 2021,2500,208,105.2,BMW,Available,2021
+SEAL 82.5 kWh RWD Design,500,180,45695,550,5.9,Available since September 2023,,165,82.5,BYD,Available,2023
+iX3 ,385,180,64165,520,6.8,Available since September 2021,750,192,74,BMW,Available,2021
+ZS EV Long Range,370,175,32995,420,8.4,Available since November 2021,500,185,68.3,MG,Available,2021
+EX30 Single Motor,280,180,33795,430,5.7,Available since June 2023,1000,175,49,Volvo,Available,2023
+i7 xDrive60,510,240,113970,760,4.7,Available since November 2022,2000,199,101.7,BMW,Available,2022
+i5 eDrive40 Sedan,475,193,74105,710,6,Available since May 2023,1500,171,81.2,BMW,Available,2023
+bZ4X FWD,340,160,46110,510,7.5,Available since June 2022,750,188,64,Toyota,Available,2022
+ID.3 Pro,350,160,37115,450,7.3,Available since March 2023,0,166,58,Volkswagen,Available,2023
+Model 3 Long Range RWD,495,233,46990,770,5.9,Available since April 2023,1000,152,75,Tesla,Available,2023
+e-208 ,285,150,31595,460,8.1,Available since November 2021,,162,46.3,Peugeot,Available,2021
+i4 M50,450,225,71085,700,3.9,Available since November 2021,1600,179,80.7,BMW,Available,2021
+Q8 e-tron 55 quattro,495,200,77800,630,5.6,Available since December 2022,1800,214,106,Audi,Available,2022
+ID.4 Pro,410,160,44605,630,10.4,Available since February 2022,1000,188,77,Volkswagen,Available,2022
+EV6 Long Range 2WD,410,185,45245,1070,7.3,Available since October 2021,1600,180,74,Kia,Available,2021
+IONIQ 6 Long Range 2WD,495,185,47040,1290,7.4,Available since December 2022,1500,149,74,Hyundai,Available,2022
+ID. Buzz Pro,345,145,58915,480,10.2,Available since September 2022,1000,223,77,Volkswagen,Available,2022
+Avenger Electric ,300,150,35700,480,9,Available since January 2023,,169,50.8,Jeep,Available,2023
+i4 eDrive35,430,190,49995,580,6,Available since November 2022,1600,156,67,BMW,Available,2022
+Leaf ,235,144,28995,230,7.9,Available since March 2022,,166,39,Nissan,Available,2022
+500e Hatchback 42 kWh,235,150,31195,390,9,Available since November 2020,,159,37.3,Fiat,Available,2020
+ID.4 Pure,285,160,38845,360,10.9,Available since February 2021,1000,182,52,Volkswagen,Available,2021
+Ocean One,530,205,60880,630,3.9,Available since March 2023,1820,201,106.5,Fisker,Available,2023
 600e ,305,150,31000,490,9,Available since July 2023,,167,50.8,Fiat,Available,2023
+Ariya 87kWh,450,160,44645,540,7.6,Available since July 2022,750,193,87,Nissan,Available,2022
+Cooper SE ,180,150,32550,260,7.3,Available since March 2021,,161,28.9,Mini,Available,2021
+e-tron GT RS,405,250,119000,1000,3.3,Available since March 2021,,210,85,Audi,Available,2021
 Kona Electric 65 kWh,390,170,38595,400,8.8,Available since July 2023,750,168,65.4,Hyundai,Available,2023
-EQE 300,515,210,74345,650,7.3,Available since July 2022,750,173,89,Mercedes,Available,2022
-IONIQ 5 Standard Range 2WD,295,185,43445,720,8.5,Available since July 2021,750,183,54,Hyundai,Available,2021
-Model X Plaid,455,262,125000,630,2.6,Available since November 2022,2250,209,95,Tesla,Available,2022
+IONIQ 5 Long Range 2WD,390,185,46945,1020,7.3,Available since April 2022,1600,190,74,Hyundai,Available,2022
+EV6 GT,360,260,62645,940,3.5,Available since April 2022,1800,206,74,Kia,Available,2022
+e-3008 73 kWh,400,180,42000,460,7,Expected from February 2024,,183,73,Peugeot,Expected ,2024
+MG4 Electric 77 kWh,425,180,36495,430,6.5,Available since August 2023,500,175,74.4,MG,Available,2023
+EQA 250+,420,160,49750,580,8.6,Available since June 2022,750,168,70.5,Mercedes,Available,2022
+Enyaq iV 60,340,160,38970,460,8.7,Available since April 2021,1000,171,58,Skoda,Available,2021
+Born 150 kW - 58 kWh,350,160,36475,470,7.3,Available since October 2021,,166,58,CUPRA,Available,2021
+MG5 Electric Long Range,335,185,30995,330,7.7,Available since March 2022,500,171,57.4,MG,Available,2022
+ID.7 Pro,475,180,53000,710,6.5,Available since August 2023,1200,162,77,Volkswagen,Available,2023
+DOLPHIN 44.9 kWh Active,255,150,26000,260,10,Available since July 2023,,176,44.9,BYD,Available,2023
+MX-30 ,170,140,31250,210,9.7,Available since May 2022,,176,30,Mazda,Available,2022
+ID.7 Pro S,520,180,56000,800,7,Expected from October 2023,,165,86,Volkswagen,Expected ,2023
+Ocean Ultra,535,200,49880,640,4.2,Available since March 2023,1820,199,106.5,Fisker,Available,2023
+iX1 eDrive20,385,170,44560,550,8.3,Available since September 2023,,168,64.7,BMW,Available,2023
+Astra Electric ,310,170,39995,500,8.5,Available since June 2023,,164,50.8,Opel,Available,2023
+MG4 Electric XPOWER,320,200,36495,490,3.8,Available since August 2023,500,193,61.7,MG,Available,2023
+Spectre ,455,250,350000,540,4.5,Expected from November 2023,,220,100,Rolls-Royce,Expected ,2023
+2 Long Range Single Motor,455,205,48950,680,6.2,Available since January 2023,1500,174,79,Polestar,Available,2023
+EX30 Twin Motor Performance,360,180,40995,540,3.6,Available since June 2023,1600,178,64,Volvo,Available,2023
+Model X Dual Motor,475,250,105000,660,3.9,Available since January 2023,2250,200,95,Tesla,Available,2023
+Born 170 kW - 77 kWh,450,160,41975,630,7,Available since March 2022,,171,77,CUPRA,Available,2022
+Mokka-e ,260,150,38835,420,9.2,Available since November 2021,,178,46.3,Opel,Available,2021
+EV6 Long Range AWD,400,185,51745,1050,5.2,Available since October 2021,1600,185,74,Kia,Available,2021
+Model X Plaid,455,262,120000,630,2.6,Available since November 2022,2250,209,95,Tesla,Available,2022
+Zoe ZE50 R135,310,140,29995,230,9.5,Available since November 2019,,168,52,Renault,Available,2019
 Corsa-e ,295,150,33930,470,8.1,Available since November 2021,,157,46.3,Opel,Available,2021
-Q8 e-tron Sportback 55 quattro,525,200,80300,660,5.6,Available since December 2022,1800,202,106,Audi,Available,2022
-EQS SUV 580 4MATIC,485,210,139470,630,4.6,Available since December 2022,1800,224,108.4,Mercedes,Available,2022
-ID.3 Pro S - 4 Seats,455,160,42870,680,7.9,Available since March 2023,0,169,77,Volkswagen,Available,2023
-Leaf e+,340,157,34945,240,6.9,Available since March 2022,,174,59,Nissan,Available,2022
+IONIQ 5 Long Range AWD,385,185,50445,1010,5.1,Available since April 2022,1600,192,74,Hyundai,Available,2022
+MIFA 9 ,345,180,65290,290,9.2,Available since February 2023,1000,261,90,Maxus,Available,2023
+IONIQ 5 Standard Range 2WD,295,185,43445,720,8.5,Available since July 2021,750,183,54,Hyundai,Available,2021
 XC40 Recharge Twin Motor,390,180,51755,580,4.8,Available since December 2022,1800,203,79,Volvo,Available,2022
+Solterra AWD,320,160,49995,480,6.9,Available since June 2022,750,200,64,Subaru,Available,2022
+Q8 e-tron Sportback 55 quattro,525,200,80300,660,5.6,Available since December 2022,1800,202,106,Audi,Available,2022
+RZ 450e,320,160,64500,480,5.6,Available since February 2023,750,200,64,Lexus,Available,2023
 4 Long Range Single Motor,510,180,55000,760,7.4,Expected from February 2024,1500,184,94,Polestar,Expected ,2024
-iX M60,485,250,122775,650,3.8,Available since April 2022,2500,217,105.2,BMW,Available,2022
-Tavascan VZ,410,180,55000,610,5.6,Expected from November 2023,,188,77,CUPRA,Expected ,2023
-Enyaq Coupe iV RS,435,180,54370,600,6.5,Available since March 2022,1200,177,77,Skoda,Available,2022
-EQB 300 4MATIC,340,160,55310,490,8,Available since February 2022,,196,66.5,Mercedes,Available,2022
-4 Long Range Dual Motor,475,200,60000,710,3.8,Expected from February 2024,2000,198,94,Polestar,Expected ,2024
+Model Y ,350,217,44990,580,6.9,Available since May 2023,1600,164,57.5,Tesla,Available,2023
+Eletre ,495,250,89500,1040,4.5,Available since March 2023,2250,220,109,Lotus,Available,2023
+EQB 350 4MATIC,340,160,56810,490,6.2,Available since February 2022,,196,66.5,Mercedes,Available,2022
+e-tron GT quattro,420,245,87800,1030,4.1,Available since March 2021,,202,85,Audi,Available,2021
 ZS EV Standard Range,265,175,30495,250,8.6,Available since November 2021,500,185,49,MG,Available,2021
 Q4 e-tron 50 quattro,385,180,57010,550,6.2,Available since July 2021,1200,199,76.6,Audi,Available,2021
-MIFA 9 ,345,180,65290,290,9.2,Available since February 2023,1000,261,90,Maxus,Available,2023
-Ocean Extreme,530,205,60880,630,3.9,Available since March 2023,1820,201,106.5,Fisker,Available,2023
-Solterra AWD,320,160,49995,480,6.9,Available since June 2022,750,200,64,Subaru,Available,2022
-e-C4 X ,275,150,31995,440,9.7,Available since November 2022,,168,46.3,Citroen,Available,2022
-2 Long Range Dual Motor,425,205,52950,630,4.5,Available since January 2023,1500,186,79,Polestar,Available,2023
 Q8 e-tron 50 quattro,420,200,67800,650,6,Available since December 2022,1800,212,89,Audi,Available,2022
-EV9 99.8 kWh RWD,470,185,60000,850,9.4,Available since June 2023,900,212,99.8,Kia,Available,2023
-SQ8 e-tron ,455,210,97500,570,4.5,Available since May 2023,1800,233,106,Audi,Available,2023
-bZ4X AWD,315,160,52510,470,6.9,Available since June 2022,750,203,64,Toyota,Available,2022
-e-308 ,300,170,37000,450,9.8,Available since April 2023,,169,50.8,Peugeot,Available,2023
-Enyaq Coupe iV 80,465,160,44825,720,8.7,Available since July 2022,1000,166,77,Skoda,Available,2022
-Enyaq iV 80x,425,160,50805,590,6.9,Available since June 2021,1200,181,77,Skoda,Available,2021
-EQV 300 Long,310,160,87995,310,12.1,Available since September 2020,,290,90,Mercedes,Available,2020
-Taycan Plus Sport Turismo,445,230,84654,1090,5.4,Available since March 2022,,188,83.7,Porsche,Available,2022
+EQB 300 4MATIC,340,160,55310,490,8,Available since February 2022,,196,66.5,Mercedes,Available,2022
+Enyaq Coupe iV RS,435,180,54370,600,6.5,Available since March 2022,1200,177,77,Skoda,Available,2022
+e-308 ,300,170,42025,450,9.8,Available since April 2023,,169,50.8,Peugeot,Available,2023
+Leaf e+,340,157,34945,240,6.9,Available since March 2022,,174,59,Nissan,Available,2022
 #1 Brabus,315,180,43450,490,3.9,Available since March 2023,1600,197,62,Smart,Available,2023
-Mustang Mach-E ER RWD,480,180,59380,420,7,Available since November 2022,1500,190,91,Ford,Available,2022
-e Advance,170,145,37395,180,8.3,Available since August 2020,,168,28.5,Honda,Available,2020
-2 Standard Range Single Motor,385,205,44950,460,6.4,Available since January 2023,1500,174,67,Polestar,Available,2023
-DOLPHIN 44.9 kWh Boost,255,160,28500,260,8,Available since July 2023,,176,44.9,BYD,Available,2023
-EQS AMG 53 4MATIC+,540,250,161860,810,3.4,Available since February 2022,750,200,107.8,Mercedes,Available,2022
-3 Long Range Dual motor,490,210,79900,640,5,Available since November 2022,2200,218,107,Polestar,Available,2022
-Tavascan Endurance,425,180,50000,630,6.8,Expected from November 2023,,181,77,CUPRA,Expected ,2023
-ID.4 GTX,400,180,52865,560,6.3,Available since July 2022,1200,193,77,Volkswagen,Available,2022
+500e Hatchback,225,155,34195,370,7,Available since May 2023,,168,37.8,Abarth,Available,2023
+iX M60,485,250,122775,650,3.8,Available since April 2022,2500,217,105.2,BMW,Available,2022
+EQS 450+,635,210,105610,950,6.2,Available since June 2023,750,171,108.4,Mercedes,Available,2023
+Ocean Sport,380,160,35970,480,7.4,Available since March 2023,1090,197,75,Fisker,Available,2023
 i5 M60 xDrive Sedan,425,230,97745,630,3.8,Available since May 2023,2000,191,81.2,BMW,Available,2023
-Corsa Electric 51 kWh,315,150,35475,490,8.1,Available since July 2023,,153,48.1,Opel,Available,2023
-EQE SUV 500 4MATIC,435,210,108760,650,4.9,Available since December 2022,1800,208,90.6,Mercedes,Available,2022
-C40 Recharge Twin Motor,400,180,53605,600,4.7,Available since December 2022,1800,198,79,Volvo,Available,2022
-I-Pace EV400,380,200,69995,360,4.8,Available since January 2023,750,223,84.7,Jaguar,Available,2023
+ID.3 Pro S - 4 Seats,455,160,42870,680,7.9,Available since March 2023,0,169,77,Volkswagen,Available,2023
+bZ4X AWD,315,160,52510,470,6.9,Available since June 2022,750,203,64,Toyota,Available,2022
+#3 ,355,180,37000,550,6.7,Expected from November 2023,1600,175,62,Smart,Expected ,2023
+EQV 300 Long,310,160,87995,310,12.1,Available since September 2020,,290,90,Mercedes,Available,2020
+2 Standard Range Single Motor,390,205,44950,460,6.4,Available since January 2023,1500,172,67,Polestar,Available,2023
+EQS SUV 580 4MATIC,485,210,139470,720,4.6,Available since December 2022,1800,224,108.4,Mercedes,Available,2022
+Enyaq iV 80x,425,160,50805,590,6.9,Available since June 2021,1200,181,77,Skoda,Available,2021
+4 Long Range Dual Motor,475,200,60000,710,3.8,Expected from February 2024,2000,198,94,Polestar,Expected ,2024
+2 Long Range Dual Motor,440,205,52950,660,4.5,Available since January 2023,1500,180,79,Polestar,Available,2023
 e-2008 54 kWh,300,150,36350,480,9.1,Available since July 2023,,169,50.8,Peugeot,Available,2023
+XC40 Recharge Single Motor,345,180,46505,420,7.3,Available since December 2022,1500,191,66,Volvo,Available,2022
+ID.4 GTX,400,180,52865,560,6.3,Available since July 2022,1200,193,77,Volkswagen,Available,2022
+3 Long Range Dual motor,490,210,79900,640,5,Available since November 2022,2200,218,107,Polestar,Available,2022
+e-C4 X ,275,150,31995,440,9.7,Available since November 2022,,168,46.3,Citroen,Available,2022
+Mustang Mach-E ER RWD,480,180,59380,420,7,Available since November 2022,1500,190,91,Ford,Available,2022
+ID.4 Pure Performance,285,160,40275,360,9,Available since January 2021,1000,182,52,Volkswagen,Available,2021
+ID.5 Pro,430,160,50710,660,10.4,Available since July 2022,1000,179,77,Volkswagen,Available,2022
+I-Pace EV400,380,200,69995,360,4.8,Available since January 2023,750,223,84.7,Jaguar,Available,2023
+e-308 SW ,300,150,38000,450,9,Available since August 2023,,169,50.8,Peugeot,Available,2023
+Ariya 63kWh,335,160,39645,450,7.5,Available since July 2022,750,188,63,Nissan,Available,2022
+DOLPHIN 44.9 kWh Boost,255,160,28500,260,8,Available since July 2023,,176,44.9,BYD,Available,2023
+EV9 99.8 kWh RWD,445,185,64995,810,9.4,Available since June 2023,900,213,95,Kia,Available,2023
+Enyaq Coupe iV 80,465,160,44825,720,8.7,Available since July 2022,1000,166,77,Skoda,Available,2022
+C40 Recharge Twin Motor,400,180,53605,600,4.7,Available since December 2022,1800,198,79,Volvo,Available,2022
+Funky Cat 48 kWh,260,160,31995,240,8.3,Available since November 2022,,175,45.4,ORA,Available,2022
+e Advance,170,145,37395,180,8.3,Available since August 2020,,168,28.5,Honda,Available,2020
+Tavascan VZ,430,180,55000,640,5.6,Expected from November 2023,,179,77,CUPRA,Expected ,2023
+Ocean Extreme,530,205,60880,630,3.9,Available since March 2023,1820,201,106.5,Fisker,Available,2023
+Q4 Sportback e-tron 40,425,160,52130,660,8.5,Available since August 2021,1000,180,76.6,Audi,Available,2021
+EV9 99.8 kWh AWD GT-Line,415,200,73245,750,5.3,Available since June 2023,2500,229,95,Kia,Available,2023
 EX90 Twin Motor,465,180,96255,610,5.9,Available since December 2022,2200,230,107,Volvo,Available,2022
-Ariya 63kWh,335,160,46145,450,7.5,Available since July 2022,750,188,63,Nissan,Available,2022
-ID.4 Pure Performance,285,160,40275,360,9,Available since March 2021,1000,182,52,Volkswagen,Available,2021
-e-308 SW ,300,150,38000,450,9,Expected from August 2023,,169,50.8,Peugeot,Expected ,2023
+i7 M70 xDrive,490,250,163315,730,3.7,Available since May 2023,,208,101.7,BMW,Available,2023
+EQE 300,515,210,68810,650,7.3,Available since June 2023,750,173,89,Mercedes,Available,2023
+SQ8 e-tron ,455,210,97500,570,4.5,Available since May 2023,1800,233,106,Audi,Available,2023
+Cooper SE,310,170,34500,440,6.7,Expected from October 2023,,158,49,Mini,Expected ,2023
+EQE SUV 500 4MATIC,435,210,108760,650,4.9,Available since December 2022,1800,208,90.6,Mercedes,Available,2022
+Corsa Electric 51 kWh,315,150,35475,490,8.1,Available since July 2023,,153,48.1,Opel,Available,2023
+Kona Electric 48 kWh,295,160,34995,280,7.8,Available since July 2023,300,164,48.4,Hyundai,Available,2023
+EQE SUV 350 4MATIC,425,210,90560,540,6.6,Available since December 2022,1800,209,89,Mercedes,Available,2022
+500e Hatchback 24 kWh,135,135,28195,230,9,Available since November 2020,,158,21.3,Fiat,Available,2020
+e-208 51 kWh,310,150,35000,480,8.2,Available since August 2023,,155,48.1,Peugeot,Available,2023
+i7 eDrive50,520,205,100205,780,5.5,Available since May 2023,,196,101.7,BMW,Available,2023
 EQA 350 4MATIC,350,160,54510,500,6,Available since May 2021,1800,190,66.5,Mercedes,Available,2021
 Eletre R,455,260,120000,950,2.9,Available since March 2023,2250,240,109,Lotus,Available,2023
-EQE SUV 350 4MATIC,435,210,90560,650,6.6,Available since December 2022,1800,208,90.6,Mercedes,Available,2022
-MG4 Electric 77 kWh,425,180,36495,430,6.5,Available since August 2023,,175,74.4,MG,Available,2023
-e-208 51 kWh,310,150,35000,480,8.2,Available since August 2023,,155,48.1,Peugeot,Available,2023
-GranTurismo Folgore,425,320,200000,990,2.7,Available since August 2023,,195,83,Maserati,Available,2023
-Mustang Mach-E SR RWD,375,180,50830,390,6.9,Available since November 2022,750,187,70,Ford,Available,2022
-Mustang Mach-E ER AWD,440,180,65405,390,5.8,Available since November 2022,1500,207,91,Ford,Available,2022
-C40 Recharge Single Motor,355,180,48355,430,7.3,Available since December 2022,1500,186,66,Volvo,Available,2022
-Q4 Sportback e-tron 40,425,160,52130,660,8.5,Available since August 2021,1000,180,76.6,Audi,Available,2021
-Kona Electric 48 kWh,295,160,34995,280,7.8,Available since July 2023,300,164,48.4,Hyundai,Available,2023
-Astra Sports Tourer Electric ,300,170,42000,480,8.5,Expected from August 2023,,169,50.8,Opel,Expected ,2023
-ID.5 Pro,430,160,50710,660,10.4,Available since July 2022,1000,179,77,Volkswagen,Available,2022
-Taycan Plus,485,230,83654,1190,5.4,Available since January 2023,,173,83.7,Porsche,Available,2023
-ID.5 Pro Performance,430,160,52185,660,8.4,Available since July 2022,1000,179,77,Volkswagen,Available,2022
-UX 300e,340,160,47495,170,7.5,Available since April 2023,,188,64,Lexus,Available,2023
+#3 Brabus,330,180,45000,510,3.7,Expected from November 2023,1600,188,62,Smart,Expected ,2023
+Tavascan Endurance,450,180,50000,670,6.8,Expected from November 2023,,171,77,CUPRA,Expected ,2023
 EQA 300 4MATIC,350,160,53010,500,7.7,Available since May 2021,1800,190,66.5,Mercedes,Available,2021
-EQS SUV 450 4MATIC,490,210,129470,640,6,Available since December 2022,1800,221,108.4,Mercedes,Available,2022
-Corsa Electric 50 kWh,295,150,32445,470,8.7,Available since July 2023,,157,46.3,Opel,Available,2023
-e-Berlingo M 50 kWh,205,135,32315,330,11.7,Available since September 2021,750,226,46.3,Citroen,Available,2021
-Taycan GTS,450,250,110200,1110,3.7,Available since February 2022,,186,83.7,Porsche,Available,2022
-500e Hatchback 24 kWh,135,135,28195,230,9,Available since November 2020,,158,21.3,Fiat,Available,2020
-e-Soul 64 kWh,370,167,39045,350,7.9,Available since September 2022,0,173,64,Kia,Available,2022
-Q8 e-tron Sportback 50 quattro,445,200,70300,690,6,Available since December 2022,1800,200,89,Audi,Available,2022
-EQE AMG 53 4MATIC+,465,220,114750,690,3.5,Available since July 2022,750,195,90.6,Mercedes,Available,2022
-EX90 Twin Motor Performance,450,180,100555,590,4.9,Available since December 2022,2200,238,107,Volvo,Available,2022
-i7 M70 xDrive,490,250,163315,730,3.7,Available since May 2023,,208,101.7,BMW,Available,2023
-i7 eDrive50,520,205,100205,780,5.5,Available since May 2023,,196,101.7,BMW,Available,2023
-Taycan ,420,230,79200,1030,5.4,Available since January 2023,,169,71,Porsche,Available,2023
+Mustang Mach-E ER AWD,440,180,65405,390,5.8,Available since November 2022,1500,207,91,Ford,Available,2022
 3 Long Range Performance,470,210,85500,610,4.7,Available since November 2022,2200,228,107,Polestar,Available,2022
-Ariya e-4ORCE 87kWh - 225 kW,405,200,54595,480,5.7,Available since July 2022,1500,215,87,Nissan,Available,2022
+C40 Recharge Single Motor,355,180,48355,430,7.3,Available since December 2022,1500,186,66,Volvo,Available,2022
+ID.5 Pro Performance,430,160,52185,660,8.4,Available since July 2022,1000,179,77,Volkswagen,Available,2022
+GranTurismo Folgore,425,320,200000,990,2.7,Expected from December 2023,,195,83,Maserati,Expected ,2023
+Ariya e-4ORCE 87kWh - 225 kW,405,200,50845,480,5.7,Available since July 2022,1500,215,87,Nissan,Available,2022
+Corsa Electric 50 kWh,295,150,32445,470,8.7,Available since July 2023,,157,46.3,Opel,Available,2023
+Taycan GTS,450,250,110200,1110,3.7,Available since February 2022,,186,83.7,Porsche,Available,2022
+UX 300e,340,160,47495,170,7.5,Available since April 2023,,188,64,Lexus,Available,2023
+Astra Sports Tourer Electric ,300,170,42000,480,8.5,Expected from November 2023,,169,50.8,Opel,Expected ,2023
+Taycan Plus,485,230,83654,1190,5.4,Available since January 2023,,173,83.7,Porsche,Available,2023
+e-Soul 64 kWh,370,167,39045,350,7.9,Available since September 2022,0,173,64,Kia,Available,2022
+e-3008 73 kWh Dual Motor,385,180,44000,440,6,Expected from February 2024,,190,73,Peugeot,Expected ,2024
 Mustang Mach-E GT,425,200,74540,380,4.4,Available since November 2022,750,214,91,Ford,Available,2022
-3 E-Tense,300,150,37200,480,9,Available since November 2022,,169,50.8,DS,Available,2022
-Taycan Turbo S,430,260,148300,1060,2.8,Available since January 2023,,195,83.7,Porsche,Available,2023
-2 Long Range Performance,415,205,57950,620,4.2,Available since January 2023,1500,190,79,Polestar,Available,2023
-EQE SUV AMG 53 4MATIC+,410,240,133860,610,3.5,Available since May 2023,1800,221,90.6,Mercedes,Available,2023
-Enyaq iV RS,420,180,52670,580,6.2,Available since February 2023,1200,183,77,Skoda,Available,2023
-Enyaq Coupe iV 80x,450,160,52505,630,7,Available since December 2022,1200,171,77,Skoda,Available,2022
-Q4 Sportback e-tron 50 quattro,400,180,58510,570,6.2,Available since August 2021,1200,192,76.6,Audi,Available,2021
-e-208 50 kWh,290,150,32000,460,9,Available since August 2023,,160,46.3,Peugeot,Available,2023
+EX90 Twin Motor Performance,450,180,100555,590,4.9,Available since December 2022,2200,238,107,Volvo,Available,2022
+EQA 250+,425,160,50000,590,8.6,Expected from November 2023,750,166,70.5,Mercedes,Expected ,2023
+Mustang Mach-E SR RWD,375,180,50830,390,6.9,Available since November 2022,750,187,70,Ford,Available,2022
+Cooper E,235,160,30000,360,7.3,Expected from October 2023,,157,37,Mini,Expected ,2023
+e-Berlingo M 50 kWh,205,135,32315,330,11.7,Available since September 2021,750,226,46.3,Citroen,Available,2021
 GV70 Electrified Sport,350,235,65105,860,4.2,Available since October 2022,1800,211,74,Genesis,Available,2022
+GV60 Premium,390,185,53905,1020,7.8,Available since June 2022,1600,190,74,Genesis,Available,2022
+3 E-Tense,300,150,37200,480,9,Available since November 2022,,169,50.8,DS,Available,2022
+Taycan ,420,230,79200,1030,5.4,Available since January 2023,,169,71,Porsche,Available,2023
+Countryman SE ALL4,370,180,47180,530,5.6,Expected from October 2023,1200,175,64.7,Mini,Expected ,2023
+EQS AMG 53 4MATIC+,540,250,161860,810,3.4,Available since June 2023,750,201,108.4,Mercedes,Available,2023
 ID.5 GTX,405,180,56545,560,6.3,Available since July 2022,1200,190,77,Volkswagen,Available,2022
-Model Y ,350,217,44990,580,6.9,Available since May 2023,1600,164,57.5,Tesla,Available,2023
+2 Long Range Performance,420,205,57950,630,4.2,Available since January 2023,1500,188,79,Polestar,Available,2023
+Q8 e-tron Sportback 50 quattro,445,200,70300,690,6,Available since December 2022,1800,200,89,Audi,Available,2022
+Enyaq iV RS,420,180,52670,580,6.2,Available since February 2023,1200,183,77,Skoda,Available,2023
+e-208 50 kWh,290,150,32000,460,9,Available since August 2023,,160,46.3,Peugeot,Available,2023
+EQA 250,405,160,48000,580,8.6,Expected from November 2023,750,164,66.5,Mercedes,Expected ,2023
+Countryman E,380,170,42080,550,8.6,Expected from October 2023,,170,64.7,Mini,Expected ,2023
+500e Convertible,225,155,37195,370,7,Available since May 2023,,168,37.8,Abarth,Available,2023
+Grecale Folgore,405,220,135000,440,4.1,Expected from December 2023,,235,95,Maserati,Expected ,2023
+Taycan Turbo S,430,260,148300,1060,2.8,Available since January 2023,,195,83.7,Porsche,Available,2023
+Born 170 kW - 58 kWh,345,160,39205,460,6.6,Available since March 2022,,168,58,CUPRA,Available,2022
 G80 Electrified Luxury,440,225,69805,880,4.9,Available since June 2022,,188,82.5,Genesis,Available,2022
-Taycan 4S Plus,480,250,94996,1180,4,Available since January 2023,,174,83.7,Porsche,Available,2023
-500e Cabrio 42 kWh,230,150,34195,380,9,Available since November 2020,,162,37.3,Fiat,Available,2020
-Grecale Folgore,405,220,135000,440,4.1,Expected from September 2023,,235,95,Maserati,Expected ,2023
+EQE 350,510,210,77345,640,6.4,Available since June 2023,750,175,89,Mercedes,Available,2023
+Q4 Sportback e-tron 50 quattro,400,180,58510,570,6.2,Available since August 2021,1200,192,76.6,Audi,Available,2021
 eVito Tourer Long 90 kWh,310,160,76368,310,12,Available since October 2020,,290,90,Mercedes,Available,2020
 SQ8 e-tron Sportback ,480,210,100000,610,4.5,Available since May 2023,1800,221,106,Audi,Available,2023
-Cooper SE Convertible,165,150,52500,230,8.2,Available since February 2023,,175,28.9,Mini,Available,2023
-Born 170 kW - 58 kWh,345,160,39205,460,6.6,Available since March 2022,,168,58,CUPRA,Available,2022
-GV60 Sport,380,200,58365,990,5.5,Available since June 2022,1600,195,74,Genesis,Available,2022
-Taycan 4 Cross Turismo,440,220,88200,1080,5.1,Available since January 2023,,190,83.7,Porsche,Available,2023
+EQB 300 4MATIC,345,160,55000,500,8,Expected from November 2023,1700,193,66.5,Mercedes,Expected ,2023
+EQE SUV AMG 53 4MATIC+,410,240,133860,610,3.5,Available since May 2023,1800,221,90.6,Mercedes,Available,2023
+Taycan 4S Plus,480,250,94996,1180,4,Available since January 2023,,174,83.7,Porsche,Available,2023
+Enyaq Coupe iV 80x,450,160,52505,630,7,Available since January 2023,1200,171,77,Skoda,Available,2023
+EQS SUV 450 4MATIC,490,210,129470,730,6,Available since December 2022,1800,221,108.4,Mercedes,Available,2022
+EQB 350 4MATIC,345,160,57000,500,6.2,Expected from November 2023,1700,193,66.5,Mercedes,Expected ,2023
+500e Cabrio 42 kWh,230,150,34195,380,9,Available since November 2020,,162,37.3,Fiat,Available,2020
 e-Rifter Long 50 kWh,200,135,35120,320,11.7,Available since July 2021,750,232,46.3,Peugeot,Available,2021
-EQE 350,510,210,77345,640,6.4,Available since July 2022,750,175,89,Mercedes,Available,2022
-500e Hatchback,225,155,34195,370,7,Available since May 2023,,168,37.8,Abarth,Available,2023
-e-Soul 39.2 kWh,230,157,32845,200,9.9,Available since September 2022,,170,39.2,Kia,Available,2022
+Taycan 4 Cross Turismo,440,220,88200,1080,5.1,Available since January 2023,,190,83.7,Porsche,Available,2023
 e-Rifter Standard 50 kWh,205,135,33120,330,11.7,Available since July 2021,750,226,46.3,Peugeot,Available,2021
-Taycan Turbo,445,260,125800,1090,3.2,Available since January 2023,,188,83.7,Porsche,Available,2023
-Taycan 4S Cross Turismo,440,240,95200,1080,4.1,Available since January 2023,,190,83.7,Porsche,Available,2023
-eVito Tourer Extra-Long 90 kWh,305,160,83850,310,12,Available since October 2020,,295,90,Mercedes,Available,2020
-e-Traveller Standard 50 kWh,185,130,42785,290,13.1,Available since November 2020,1000,250,46.3,Peugeot,Available,2020
 Combo-e Life 50 kWh,205,135,34085,330,11.7,Available since October 2021,750,226,46.3,Opel,Available,2021
-500e Convertible,225,155,37195,370,7,Available since May 2023,,168,37.8,Abarth,Available,2023
-Taycan Turbo S Cross Turismo,410,250,149300,1010,2.9,Available since January 2023,,204,83.7,Porsche,Available,2023
-e-SpaceTourer M 50 kWh,185,130,37045,290,12.1,Available since November 2020,1000,250,46.3,Citroen,Available,2020
+e-Soul 39.2 kWh,230,157,32845,200,9.9,Available since September 2022,,170,39.2,Kia,Available,2022
+GV60 Sport,380,200,58365,990,5.5,Available since June 2022,1600,195,74,Genesis,Available,2022
+Cooper SE Convertible,165,150,52500,230,8.2,Available since February 2023,,175,28.9,Mini,Available,2023
 Taycan Sport Turismo,380,230,80200,930,5.4,Available since March 2022,,187,71,Porsche,Available,2022
-Taycan 4S,415,250,90700,1020,4,Available since January 2023,,171,71,Porsche,Available,2023
 e-Berlingo XL 50 kWh,205,135,33315,330,11.7,Available since September 2021,750,226,46.3,Citroen,Available,2021
+EQA 300 4MATIC,355,160,53000,510,7.7,Expected from November 2023,750,187,66.5,Mercedes,Expected ,2023
 Taycan Turbo S Sport Turismo,395,260,149300,970,2.8,Available since March 2022,,212,83.7,Porsche,Available,2022
-Combo-e Life XL 50 kWh,200,135,34685,320,11.7,Available since October 2021,750,232,46.3,Opel,Available,2021
-Vivaro-e Combi M 50 kWh,185,130,36995,290,12.1,Available since October 2020,1000,250,46.3,Opel,Available,2020
-Zafira-e Life M 50 kWh,185,130,42735,290,12.1,Available since November 2020,1000,250,46.3,Opel,Available,2020
-Taycan GTS Sport Turismo,425,250,111200,1050,3.7,Available since February 2022,,197,83.7,Porsche,Available,2022
-Vivaro-e Combi L 50 kWh,180,130,37835,290,12.1,Available since October 2020,1000,257,46.3,Opel,Available,2020
-Taycan 4S Sport Turismo,370,250,91700,910,4,Available since March 2022,,192,71,Porsche,Available,2022
-e-SpaceTourer XL 50 kWh,180,130,37885,290,12.1,Available since November 2020,1000,257,46.3,Citroen,Available,2020
-Taycan Turbo Sport Turismo,405,260,126800,1000,3.2,Available since March 2022,,207,83.7,Porsche,Available,2022
+e-SpaceTourer M 50 kWh,185,130,37045,290,12.1,Available since November 2020,1000,250,46.3,Citroen,Available,2020
+eVito Tourer Extra-Long 90 kWh,305,160,83850,310,12,Available since October 2020,,295,90,Mercedes,Available,2020
+EQA 350 4MATIC,355,160,55000,510,6,Expected from November 2023,1800,187,66.5,Mercedes,Expected ,2023
+Taycan 4S,415,250,90700,1020,4,Available since January 2023,,171,71,Porsche,Available,2023
 GV60 Sport Plus,365,235,67505,950,4,Available since June 2022,1600,203,74,Genesis,Available,2022
-Taycan 4S Plus Sport Turismo,430,250,95996,1060,4,Available since March 2022,,195,83.7,Porsche,Available,2022
+Taycan Turbo,445,260,125800,1090,3.2,Available since January 2023,,188,83.7,Porsche,Available,2023
+Zafira-e Life M 50 kWh,185,130,42735,290,12.1,Available since November 2020,1000,250,46.3,Opel,Available,2020
+Taycan 4S Cross Turismo,440,240,95200,1080,4.1,Available since January 2023,,190,83.7,Porsche,Available,2023
+Combo-e Life XL 50 kWh,200,135,34685,320,11.7,Available since October 2021,750,232,46.3,Opel,Available,2021
+e-Traveller Standard 50 kWh,185,130,42785,290,13.1,Available since November 2020,1000,250,46.3,Peugeot,Available,2020
+EQE AMG 53 4MATIC+,465,220,114750,690,3.5,Available since June 2023,750,195,90.6,Mercedes,Available,2023
+Vivaro-e Combi M 50 kWh,185,130,36995,290,12.1,Available since October 2020,1000,250,46.3,Opel,Available,2020
+Taycan GTS Sport Turismo,425,250,111200,1050,3.7,Available since February 2022,,197,83.7,Porsche,Available,2022
+Taycan Turbo Sport Turismo,405,260,126800,1000,3.2,Available since March 2022,,207,83.7,Porsche,Available,2022
+e-Traveller Long 50 kWh,185,130,43625,290,13.1,Available since November 2020,1000,250,46.3,Peugeot,Available,2020
+e-SpaceTourer XL 50 kWh,180,130,37885,290,12.1,Available since November 2020,1000,257,46.3,Citroen,Available,2020
+Taycan Plus Sport Turismo,445,230,84654,1090,5.4,Available since March 2022,,188,83.7,Porsche,Available,2022
+Vivaro-e Combi L 50 kWh,180,130,37835,290,12.1,Available since October 2020,1000,257,46.3,Opel,Available,2020
+Taycan Turbo S Cross Turismo,410,250,149300,1010,2.9,Available since January 2023,,204,83.7,Porsche,Available,2023
+Taycan 4S Sport Turismo,370,250,91700,910,4,Available since March 2022,,192,71,Porsche,Available,2022
 Taycan Turbo Cross Turismo,425,250,126800,1050,3.3,Available since January 2023,,197,83.7,Porsche,Available,2023
 Zafira-e Life L 50 kWh,180,130,43575,290,12.1,Available since November 2020,1000,257,46.3,Opel,Available,2020
-e-Traveller Long 50 kWh,185,130,43625,290,13.1,Available since November 2020,1000,250,46.3,Peugeot,Available,2020
+Taycan 4S Plus Sport Turismo,430,250,95996,1060,4,Available since March 2022,,195,83.7,Porsche,Available,2022

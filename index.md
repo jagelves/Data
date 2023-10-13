@@ -24,6 +24,10 @@ description: A collection of data to practice data analytics
 |:-----------:|:------:|:--------:|:-------:|:-------:|
 |[Returns](returns.csv)|[fastballs](fastballs.csv)|[TCM5Y](treasury.csv)|[HomePrices](HomePrices.csv)|[Electricity](ElectricityBill2.csv)|
 
+|16. Ferry|17.|18. |19. |20.|
+|:-----------:|:------:|:--------:|:-------:|:-------:|
+|[Ferry](Ferry.csv)|
+
 # Cross Section
 
 |1. College|2. Education|3. Food Expenditure|4. Dog Intelligence|5. Crash Data|

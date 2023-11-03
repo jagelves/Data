@@ -24,9 +24,9 @@ description: A collection of data to practice data analytics
 |:-----------:|:------:|:--------:|:-------:|:-------:|
 |[Returns](returns.csv)|[fastballs](fastballs.csv)|[TCM5Y](treasury.csv)|[HomePrices](HomePrices.csv)|[Electricity](ElectricityBill2.csv)|
 
-|16. Ferry|17. Call Center|18. Airlines|19. |20.|
+|16. Ferry|17. Call Center|18. Airlines I|19. Airlines II |20.|
 |:-----------:|:------:|:--------:|:-------:|:-------:|
-|[Ferry](Ferry.csv)|[Calls](CallCenter.csv)|[Delta](Delta.csv)|
+|[Ferry](Ferry.csv)|[Calls](CallCenter.csv)|[Delta](Delta.csv)|[American](American.csv)|
 
 # Cross Section
 

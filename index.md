@@ -28,6 +28,10 @@ description: A collection of data to practice data analytics
 |:-----------:|:------:|:--------:|:-------:|:-------:|
 |[Ferry](Ferry.csv)|[Calls](CallCenter.csv)|[Delta](Delta.csv)|[American](American.csv)|[Rwanda](RwandaCo2.csv)
 
+|21. BTC|22. |23. |24.  |25. |
+|:-----------:|:------:|:--------:|:-------:|:-------:|
+|[Bitcoin](BTC-USD.csv)|
+
 # Cross Section
 
 |1. College|2. Education|3. Food Expenditure|4. Dog Intelligence|5. Crash Data|

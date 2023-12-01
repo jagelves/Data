@@ -28,9 +28,9 @@ description: A collection of data to practice data analytics
 |:-----------:|:------:|:--------:|:-------:|:-------:|
 |[Ferry](Ferry.csv)|[Calls](CallCenter.csv)|[Delta](Delta.csv)|[American](American.csv)|[Rwanda](RwandaCo2.csv)
 
-|21. BTC|22. Pokemon|23. |24.  |25. |
+|21. BTC|22. Pokemon|23. Clothing Sales|24.  |25. |
 |:-----------:|:------:|:--------:|:-------:|:-------:|
-|[Bitcoin](BTC-USD.csv)|[Pokemon](pokemon.csv)
+|[Bitcoin](BTC-USD.csv)|[Pokemon](pokemon.csv)|[Sales](sales.csv)|
 
 # Cross Section
 

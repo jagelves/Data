@@ -28,9 +28,13 @@ description: A collection of data to practice data analytics
 |:-----------:|:------:|:--------:|:-------:|:-------:|
 |[Ferry](Ferry.csv)|[Calls](CallCenter.csv)|[Delta](Delta.csv)|[American](American.csv)|[Rwanda](RwandaCo2.csv)
 
-|21. BTC|22. Pokemon|23. Clothing Sales|24. Covid|25. |
+|21. BTC|22. Pokemon|23. Clothing Sales|24. Covid|25. Energy Storage|
 |:-----------:|:------:|:--------:|:-------:|:-------:|
-|[Bitcoin](BTC-USD.csv)|[Pokemon](pokemon.csv)|[Sales](sales.csv)|[Covid](Covid.csv)|
+|[Bitcoin](BTC-USD.csv)|[Pokemon](pokemon.csv)|[Sales](sales.csv)|[Covid](Covid.csv)|[Tesla Energy](teslaE.csv)
+
+|21. Fertility US|22. |23. |24. |25. |
+|:-----------:|:------:|:--------:|:-------:|:-------:|
+|[Fertility](USFertility.csv)|
 
 # Cross Section
 
@@ -50,8 +54,8 @@ description: A collection of data to practice data analytics
 |:--------:|:----------:|:-----------------:|:-----------------:|:-----------:|
 |[Study Hours](StudyHours.csv)|[Prime](Prime.csv)|[Oil and Gold](GoldOil.csv)|[Drink](DrinkCalories.csv)|[Food](FoodCalories.csv)|
 
-|21. Taxes|22. Quarterbacks |23. Crime |24. Energy Storage|25. |
+|21. Taxes|22. Quarterbacks |23. Crime |24.|25. |
 |:--------:|:----------:|:-----------------:|:-----------------:|:-----------:|
-|[Taxes](Taxes.csv)|[Quarterbacks](Quarterbacks.csv)|[Crime](Crime.csv)||[Tesla Energy](teslaE.csv)|
+|[Taxes](Taxes.csv)|[Quarterbacks](Quarterbacks.csv)|[Crime](Crime.csv)|||
 
 

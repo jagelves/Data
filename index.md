@@ -32,9 +32,9 @@ description: A collection of data to practice data analytics
 |:-----------:|:------:|:--------:|:-------:|:-------:|
 |[Bitcoin](BTC-USD.csv)|[Pokemon](pokemon.csv)|[Sales](sales.csv)|[Covid](Covid.csv)|[Tesla Energy](teslaE.csv)
 
-|21. Fertility US|22. |23. |24. |25. |
+|26. Fertility US|27. Credit Card Debt US|28. |29. |30. |
 |:-----------:|:------:|:--------:|:-------:|:-------:|
-|[Fertility](USFertility.csv)|
+|[Fertility](USFertility.csv)|[Debt](CreditCard.csv)
 
 # Cross Section
 

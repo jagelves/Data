@@ -33,9 +33,10 @@ description: A collection of data to practice data analytics
 |:-----------:|:------:|:--------:|:-------:|:-------:|
 |[Bitcoin](BTC-USD.csv)|[Pokemon](pokemon.csv)|[Sales](sales.csv)|[Covid](Covid.csv)|[Tesla Energy](teslaE.csv)
 
-|26. Fertility US|27. Credit Card Debt US|28. |29. |30. |
+|26. Fertility US|27. US Debt US|28. |29. |30. |
 |:-----------:|:------:|:--------:|:-------:|:-------:|
-|[Fertility](USFertility.csv)|[Debt](CreditCard.csv)
+|[Fertility](USFertility.csv)|[Debt](USDebt.csv)|
+|Source: <https://www.census.gov>| Source:<https://fred.stlouisfed.org>|
 
 # Cross Section
 

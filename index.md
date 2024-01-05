@@ -15,7 +15,7 @@ description: A collection of data to practice data analytics
 |1. Avocado 15-20|2. Avocado 20-23|3. Electricity Usage|4. TSLA Deliveries|5. Netflix Subscriptions|
 |:--------:|:------:|:--------:|:--------:|:--------:|
 |[Avocado](avocado2020.csv)|[Avocado2](avocado2020-2023.csv)|[Electricity](ElectricityBill.csv)|[Deliveries](tsla_deliveries.csv)|[Subscriptions](Netflix.csv)
-|Source:(https://hassavocadoboard.com)|Source:(https://hassavocadoboard.com)|Source:(https://www.dominionenergy.com/)|Source:(https://ir.tesla.com/#quarterly-disclosure)|Source:(https://ir.netflix.net/)
+|Source:[](https://hassavocadoboard.com)|Source:[](https://hassavocadoboard.com)|Source:[](https://www.dominionenergy.com/)|Source:[](https://ir.tesla.com/#quarterly-disclosure)|Source:[](https://ir.netflix.net/)
 
 |6. US Inflation|7. Population|8. California|9. Stock Prices|10. Personal Income|
 |:-----------:|:------:|:--------:|:-------:|:-------:|

@@ -1,25 +1,24 @@
 ---
 title: Data Repository
-description: A collection of data to practice data analytics
+description: A collection of data for practice
 ---
 
-# Data 352
-
-|352 Practice|352 Assignment|
-|:-:|:-:|
-|[Data 1](Data1.html)|[Data 2](Data2.html)|
-|[Data 4](Data4.html)|[Data 3](Data3.html)|
 
 # Times Series
 
-|1. Avocado 15-20|2. Avocado 20-23|3. Electricity Usage|4. TSLA Deliveries|5. Netflix Subscriptions|
+|1. Avocado 15-20|2. Avocado 20-23|3. Electricity Usage|
 |:--------:|:------:|:--------:|:--------:|:--------:|
-|[Avocado](avocado2020.csv)|[Avocado2](avocado2020-2023.csv)|[Electricity](ElectricityBill.csv)|[Deliveries](tsla_deliveries.csv)|[Subscriptions](Netflix.csv)
-|Source:<https://hassavocadoboard.com>|Source:<https://hassavocadoboard.com>|Source:<https://www.dominionenergy.com/>|Source:<https://ir.tesla.com/>|Source:<https://ir.netflix.net>
+|[Avocado](avocado2020.csv)|[Avocado2](avocado2020-2023.csv)|[Electricity](ElectricityBill.csv)|
+|Source:<https://hassavocadoboard.com>|Source:<https://hassavocadoboard.com>|Source:<https://www.dominionenergy.com/>|
 
-|6. US Inflation|7. Population|8. California|9. Stock Prices|10. Personal Income|
+|4. TSLA Deliveries|5. Netflix Subscriptions|6. US Inflation|
+[Deliveries](tsla_deliveries.csv)|[Subscriptions](Netflix.csv)|[Inflation](Inflation.csv)|
+|Source:<https://ir.tesla.com/>|Source:<https://ir.netflix.net>|
+
+
+|7. Population|8. California|9. Stock Prices|10. Personal Income|
 |:-----------:|:------:|:--------:|:-------:|:-------:|
-|[Inflation](Inflation.csv)|[Population](Population.csv)|[Cali Avocado](CaliforniaAvocado.csv)|[Prices](Stocks.csv)|[Income](PersonalIncome.csv)|
+|[Population](Population.csv)|[Cali Avocado](CaliforniaAvocado.csv)|[Prices](Stocks.csv)|[Income](PersonalIncome.csv)|
 
 |11. Stock Returns|12. Pitching|13. Treasury Yield|14. Homes|15. Electric 2|
 |:-----------:|:------:|:--------:|:-------:|:-------:|

@@ -39,31 +39,31 @@ description: A collection of data for practice
 
 <br>
 
-|11. Emissions|
+|4.3 Emissions|
 |:-----------:|
 |[Rwanda](RwandaCo2.csv)|
 
 
-## Finance
+## 5. Finance
 
-|11. Stock Returns|12. Pitching|14. Homes|
+|5.1 Stock Returns|5.2 Pitching|5.3 Homes|
 |:-----------:|:------:|:--------:|
 |[Returns](returns.csv)|[fastballs](fastballs.csv)|[HomePrices](HomePrices.csv)|
 
-## US
-|26. Fertility US|27. Consumer Debt|28. Inflation |
+## 6. US
+|6.1 Fertility US|6.2 Consumer Debt|6.3 Inflation |
 |:-----------:|:------:|:--------:|
 |[Fertility](USFertility.csv)|[Debt](USDebt.csv)|[Inflation](Inflation.csv)|
 |Source: <https://www.census.gov>| Source:<https://fred.stlouisfed.org>| Source: <https://www.statista.com>|
 
 <br>
 
-|29. Treasury Yield |30. Personal Income|
+|6.4 Treasury Yield |6.5 Personal Income|
 |:-----------:|:------:|
 |[TCM5Y](treasury.csv)|[Income](PersonalIncome.csv)|
 
-## Simulated
-|16. Ferry|17. Call Center|23. Clothing Sales|
+## 7. Simulated
+|7.1 Ferry|7.2 Call Center|7.3 Clothing Sales|
 |:-----------:|:------:|:------:|
 |[Ferry](Ferry.csv)|[Calls](CallCenter.csv)|[Sales](sales.csv)|
 

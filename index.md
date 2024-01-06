@@ -58,9 +58,9 @@ description: A collection of data for practice
 
 <br>
 
-|29. Treasury Yield |30. Personal Income|
-|:-----------:|:------:|
-|[TCM5Y](treasury.csv)|[Income](PersonalIncome.csv)|
+|29. Treasury Yield |30. Personal Income| State Facts|
+|:-----------:|:------:|:-------:|
+|[TCM5Y](treasury.csv)|[Income](PersonalIncome.csv)|[Facts](USFacts.csv)|
 
 ## Simulated
 |16. Ferry|17. Call Center|23. Clothing Sales|

@@ -7,7 +7,7 @@ description: A collection of data for practice
 # Times Series
 
 |1. Avocado 15-20|2. Avocado 20-23|3. Electricity Usage|
-|:--------:|:------:|:--------:|:--------:|:--------:|
+|:--------:|:------:|:--------:|
 |[Avocado](avocado2020.csv)|[Avocado2](avocado2020-2023.csv)|[Electricity](ElectricityBill.csv)|
 |Source:<https://hassavocadoboard.com>|Source:<https://hassavocadoboard.com>|Source:<https://www.dominionenergy.com/>|
 

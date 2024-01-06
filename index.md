@@ -6,40 +6,68 @@ description: A collection of data for practice
 
 # Times Series
 
-|1. Avocado 15-20|2. Avocado 20-23|3. Electricity Usage|
+## Commodities
+|1. Avocado 15-20|2. Avocado 20-23|3. Avocado California|
 |:--------:|:------:|:--------:|
-|[Avocado](avocado2020.csv)|[Avocado2](avocado2020-2023.csv)|[Electricity](ElectricityBill.csv)|
-|Source: <https://hassavocadoboard.com>|Source: <https://hassavocadoboard.com>|Source: <https://www.dominionenergy.com/>|
+|[Avocado](avocado2020.csv)|[Avocado2](avocado2020-2023.csv)|[Cali Avocado](CaliforniaAvocado.csv)|
+|Source: <https://hassavocadoboard.com>|Source: <https://hassavocadoboard.com>|Source: <https://hassavocadoboard.com>|
 
-
-
-|4. TSLA Deliveries|5. Netflix Subscriptions|6. US Inflation|
+## US Companies
+|4. TSLA Deliveries|5. TSLA Energy Storage|6. Netflix Subscriptions|
 |:--------:|:------:|:--------:|
-[Deliveries](tsla_deliveries.csv)|[Subscriptions](Netflix.csv)|[Inflation](Inflation.csv)|
-|Source: <https://ir.tesla.com/>|Source: <https://ir.netflix.net>|Source: <https://www.statista.com>|
+[Deliveries](tsla_deliveries.csv)|[Tesla Energy](teslaE.csv)|[Subscriptions](Netflix.csv)|
+|Source: <https://ir.tesla.com/>|Source: <https://ir.tesla.com/>|Source: <https://ir.netflix.net>|
+
+<br>
+
+|7. Delta Flights|8. American Flights|
+|:-----------:|:------:|
+|[Delta](Delta.csv)|[American](American.csv)|
+
+<br>
+
+## Personal
+|9. Electricity Usage|10. Electricity Usage2|
+|:-----------:|:------:|
+|[Electricity](ElectricityBill.csv)|[Electricity](ElectricityBill2.csv)|
+
+## World
+
+|11. Population|12. Stock Prices|10. Personal Income|
+|:------------:|:------:|:--------:|:-------:|
+|[Population](Population.csv)|[Prices](Stocks.csv)|
+
+<br>
+
+|11. Emissions|
+|:-----------:|
+|[Rwanda](RwandaCo2.csv)|
 
 
+## Finance
 
-|7. Population|8. California|9. Stock Prices|10. Personal Income|
-|:-----------:|:------:|:--------:|:-------:|
-|[Population](Population.csv)|[Cali Avocado](CaliforniaAvocado.csv)|[Prices](Stocks.csv)|[Income](PersonalIncome.csv)|
-
-|11. Stock Returns|12. Pitching|13. Treasury Yield|14. Homes|15. Electric 2|
+|11. Stock Returns|12. Pitching|13. Treasury Yield|14. Homes|
 |:-----------:|:------:|:--------:|:-------:|:-------:|
-|[Returns](returns.csv)|[fastballs](fastballs.csv)|[TCM5Y](treasury.csv)|[HomePrices](HomePrices.csv)|[Electricity](ElectricityBill2.csv)|
+|[Returns](returns.csv)|[fastballs](fastballs.csv)|[HomePrices](HomePrices.csv)|
 
-|16. Ferry|17. Call Center|18. Airlines I|19. Airlines II |20. Emissions|
+## US
+|26. Fertility US|27. Consumer Debt|28. Inflation |
 |:-----------:|:------:|:--------:|:-------:|:-------:|
-|[Ferry](Ferry.csv)|[Calls](CallCenter.csv)|[Delta](Delta.csv)|[American](American.csv)|[Rwanda](RwandaCo2.csv)
+|[Fertility](USFertility.csv)|[Debt](USDebt.csv)|[Inflation](Inflation.csv)|
+|Source: <https://www.census.gov>| Source:<https://fred.stlouisfed.org>| Source: <https://www.statista.com>|
 
-|21. BTC|22. Pokemon|23. Clothing Sales|24. Covid|25. Energy Storage|
-|:-----------:|:------:|:--------:|:-------:|:-------:|
-|[Bitcoin](BTC-USD.csv)|[Pokemon](pokemon.csv)|[Sales](sales.csv)|[Covid](Covid.csv)|[Tesla Energy](teslaE.csv)
+<br>
 
-|26. Fertility US|27. US Debt US|28. |29. |30. |
-|:-----------:|:------:|:--------:|:-------:|:-------:|
-|[Fertility](USFertility.csv)|[Debt](USDebt.csv)|
-|Source: <https://www.census.gov>| Source:<https://fred.stlouisfed.org>|
+|29. Treasury Yield |30. Personal Income|
+|:-----------:|:------:|
+|[TCM5Y](treasury.csv)|[Income](PersonalIncome.csv)|
+
+## Simulated
+|16. Ferry|17. Call Center|23. Clothing Sales|
+|:-----------:|:------:|
+|[Ferry](Ferry.csv)|[Calls](CallCenter.csv)|[Sales](sales.csv)|
+
+
 
 # Cross Section
 

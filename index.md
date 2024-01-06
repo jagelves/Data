@@ -6,35 +6,35 @@ description: A collection of data for practice
 
 # Times Series
 
-## Commodities
-|1. Avocado 15-20|2. Avocado 20-23|3. Avocado California|
+## 1. Commodities
+|1.1 Avocado 15-20|1.2 Avocado 20-23|1.3 Avocado California|
 |:--------:|:------:|:--------:|
 |[Avocado](avocado2020.csv)|[Avocado2](avocado2020-2023.csv)|[Cali Avocado](CaliforniaAvocado.csv)|
 |Source: <https://hassavocadoboard.com>|Source: <https://hassavocadoboard.com>|Source: <https://hassavocadoboard.com>|
 
-## US Companies
-|4. TSLA Deliveries|5. TSLA Energy Storage|6. Netflix Subscriptions|
+## 2. US Companies
+|2.1 TSLA Deliveries|2.2 TSLA Energy Storage|2.3 Netflix Subscriptions|
 |:--------:|:------:|:--------:|
 [Deliveries](tsla_deliveries.csv)|[Tesla Energy](teslaE.csv)|[Subscriptions](Netflix.csv)|
 |Source: <https://ir.tesla.com/>|Source: <https://ir.tesla.com/>|Source: <https://ir.netflix.net>|
 
 <br>
 
-|7. Delta Flights|8. American Flights|
+|2.4 Delta Flights|2.5 American Flights|
 |:-----------:|:------:|
 |[Delta](Delta.csv)|[American](American.csv)|
 
 <br>
 
-## Personal
-|9. Electricity Usage|10. Electricity Usage2|
+## 3. Personal
+|3.1 Electricity Usage|3.2 Electricity Usage2|
 |:-----------:|:------:|
 |[Electricity](ElectricityBill.csv)|[Electricity](ElectricityBill2.csv)|
 
-## World
+## 4. World
 
-|11. Population|12. Stock Prices|10. Personal Income|
-|:------------:|:------:|:--------:|:-------:|
+|4.1 Population|4.2 Stock Prices|
+|:------------:|:------:|
 |[Population](Population.csv)|[Prices](Stocks.csv)|
 
 <br>

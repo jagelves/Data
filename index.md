@@ -56,8 +56,8 @@ description: A collection of data to practice data analytics
 |:--------:|:----------:|:-----------------:|:-----------------:|:-----------:|
 |[Study Hours](StudyHours.csv)|[Prime](Prime.csv)|[Oil and Gold](GoldOil.csv)|[Drink](DrinkCalories.csv)|[Food](FoodCalories.csv)|
 
-|21. Taxes|22. Quarterbacks |23. Crime |24. City|25. |
+|21. Taxes|22. Quarterbacks |23. Crime |24. City|25. US State Facts|
 |:--------:|:----------:|:-----------------:|:-----------------:|:-----------:|
-|[Taxes](Taxes.csv)|[Quarterbacks](Quarterbacks.csv)|[Crime](Crime.csv)|[City Stats](CityData.csv)||
+|[Taxes](Taxes.csv)|[Quarterbacks](Quarterbacks.csv)|[Crime](Crime.csv)|[City Stats](CityData.csv)|[States](USFacts.csv)|
 
 

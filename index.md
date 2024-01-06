@@ -7,12 +7,14 @@ description: A collection of data for practice
 # Times Series
 
 ## 1. Commodities
+
 |1.1 Avocado 15-20|1.2 Avocado 20-23|1.3 Avocado California|
 |:--------:|:------:|:--------:|
 |[Avocado](avocado2020.csv)|[Avocado2](avocado2020-2023.csv)|[Cali Avocado](CaliforniaAvocado.csv)|
 |Source: <https://hassavocadoboard.com>|Source: <https://hassavocadoboard.com>|Source: <https://hassavocadoboard.com>|
 
 ## 2. US Companies
+
 |2.1 TSLA Deliveries|2.2 TSLA Energy Storage|2.3 Netflix Subscriptions|
 |:--------:|:------:|:--------:|
 [Deliveries](tsla_deliveries.csv)|[Tesla Energy](teslaE.csv)|[Subscriptions](Netflix.csv)|
@@ -27,6 +29,7 @@ description: A collection of data for practice
 <br>
 
 ## 3. Personal
+
 |3.1 Electricity Usage|3.2 Electricity Usage2|
 |:-----------:|:------:|
 |[Electricity](ElectricityBill.csv)|[Electricity](ElectricityBill2.csv)|
@@ -51,6 +54,7 @@ description: A collection of data for practice
 |[Returns](returns.csv)|[fastballs](fastballs.csv)|[HomePrices](HomePrices.csv)|
 
 ## 6. US
+
 |6.1 Fertility US|6.2 Consumer Debt|6.3 Inflation |
 |:-----------:|:------:|:--------:|
 |[Fertility](USFertility.csv)|[Debt](USDebt.csv)|[Inflation](Inflation.csv)|
@@ -63,6 +67,7 @@ description: A collection of data for practice
 |[TCM5Y](treasury.csv)|[Income](PersonalIncome.csv)|
 
 ## 7. Simulated
+
 |7.1 Ferry|7.2 Call Center|7.3 Clothing Sales|
 |:-----------:|:------:|:------:|
 |[Ferry](Ferry.csv)|[Calls](CallCenter.csv)|[Sales](sales.csv)|

@@ -12,6 +12,7 @@ description: A collection of data for practice
 |Source:<https://hassavocadoboard.com>|Source:<https://hassavocadoboard.com>|Source:<https://www.dominionenergy.com/>|
 
 |4. TSLA Deliveries|5. Netflix Subscriptions|6. US Inflation|
+|:--------:|:------:|:--------:|
 [Deliveries](tsla_deliveries.csv)|[Subscriptions](Netflix.csv)|[Inflation](Inflation.csv)|
 |Source:<https://ir.tesla.com/>|Source:<https://ir.netflix.net>|
 

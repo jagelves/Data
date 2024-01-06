@@ -47,7 +47,7 @@ description: A collection of data for practice
 ## Finance
 
 |11. Stock Returns|12. Pitching|14. Homes|
-|:-----------:|:------:|:--------:|:-------:|
+|:-----------:|:------:|:--------:|
 |[Returns](returns.csv)|[fastballs](fastballs.csv)|[HomePrices](HomePrices.csv)|
 
 ## US
@@ -64,7 +64,7 @@ description: A collection of data for practice
 
 ## Simulated
 |16. Ferry|17. Call Center|23. Clothing Sales|
-|:-----------:|:------:|
+|:-----------:|:------:|:------:|
 |[Ferry](Ferry.csv)|[Calls](CallCenter.csv)|[Sales](sales.csv)|
 
 

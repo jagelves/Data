@@ -20,9 +20,9 @@ description: A collection of data for practice
 
 <br>
 
-|2.4 Delta Flights|2.5 American Flights|
-|:-----------:|:------:|
-|[Delta](Delta.csv)|[American](American.csv)|
+|2.4 Delta Flights|2.5 American Flights|2.6 United Flights|
+|:-----------:|:------:|:------:|
+|[Delta](Delta.csv)|[American](American.csv)|[United]|
 
 <br>
 
@@ -46,21 +46,21 @@ description: A collection of data for practice
 
 ## Finance
 
-|11. Stock Returns|12. Pitching|13. Treasury Yield|14. Homes|
-|:-----------:|:------:|:--------:|:-------:|:-------:|
+|11. Stock Returns|12. Pitching|14. Homes|
+|:-----------:|:------:|:--------:|:-------:|
 |[Returns](returns.csv)|[fastballs](fastballs.csv)|[HomePrices](HomePrices.csv)|
 
 ## US
 |26. Fertility US|27. Consumer Debt|28. Inflation |
-|:-----------:|:------:|:--------:|:-------:|:-------:|
+|:-----------:|:------:|:--------:|
 |[Fertility](USFertility.csv)|[Debt](USDebt.csv)|[Inflation](Inflation.csv)|
 |Source: <https://www.census.gov>| Source:<https://fred.stlouisfed.org>| Source: <https://www.statista.com>|
 
 <br>
 
-|29. Treasury Yield |30. Personal Income| State Facts|
-|:-----------:|:------:|:-------:|
-|[TCM5Y](treasury.csv)|[Income](PersonalIncome.csv)|[Facts](USFacts.csv)|
+|29. Treasury Yield |30. Personal Income|
+|:-----------:|:------:|
+|[TCM5Y](treasury.csv)|[Income](PersonalIncome.csv)|
 
 ## Simulated
 |16. Ferry|17. Call Center|23. Clothing Sales|

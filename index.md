@@ -13,6 +13,13 @@ description: A collection of data for practice
 |[Avocado](avocado2020.csv)|[Avocado2](avocado2020-2023.csv)|[Cali Avocado](CaliforniaAvocado.csv)|
 |Source: <https://hassavocadoboard.com>|Source: <https://hassavocadoboard.com>|Source: <https://hassavocadoboard.com>|
 
+<br>
+
+|1.4 Strawberry Price|
+|:------------------:|
+|[Strawberry](StrawberryPrice.csv)|
+|Source: <https://fred.stlouisfed.org>|
+
 ## 2. US Companies
 
 |2.1 TSLA Deliveries|2.2 TSLA Energy Storage|2.3 Netflix Subscriptions|
@@ -24,7 +31,7 @@ description: A collection of data for practice
 
 |2.4 Delta Flights|2.5 American Flights|2.6 United Flights|
 |:-----------:|:------:|:------:|
-|[Delta](Delta.csv)|[American](American.csv)|[United]|
+|[Delta](Delta.csv)|[American](American.csv)|[United](United.csv)|
 
 <br>
 
@@ -58,7 +65,7 @@ description: A collection of data for practice
 |6.1 Fertility US|6.2 Consumer Debt|6.3 Inflation |
 |:-----------:|:------:|:--------:|
 |[Fertility](USFertility.csv)|[Debt](USDebt.csv)|[Inflation](Inflation.csv)|
-|Source: <https://www.census.gov>| Source:<https://fred.stlouisfed.org>| Source: <https://www.statista.com>|
+|Source: <https://www.census.gov>| Source: <https://fred.stlouisfed.org>| Source: <https://www.statista.com>|
 
 <br>
 

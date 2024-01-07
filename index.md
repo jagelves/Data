@@ -70,9 +70,9 @@ description: A collection of data for practice
 
 <br>
 
-|6.4 Treasury Yield |6.5 Personal Income|
-|:-----------:|:------:|
-|[TCM5Y](treasury.csv)|[Income](PersonalIncome.csv)|
+|6.4 Treasury Yield |6.5 Growth Personal Income| 6.6 Median Income|
+|:-----------:|:------:|:-------:|
+|[TCM5Y](treasury.csv)|[Income](PersonalIncome.csv)|[Income2](USIncome.csv)|
 
 ## 7. Simulated
 

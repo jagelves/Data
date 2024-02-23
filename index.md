@@ -88,10 +88,10 @@ description: A collection of data for practice
 
 
 
-|1. College| 2. US State Facts|
-|:--------:|:----------------:|
-|[College](College.csv)|[States](USFacts.csv)|
-|Source: <https://collegescorecard.ed.gov/data/>|Source: <https://kiernann.com/usa>|
+|1. College| 2. US State Facts| 3. US People Facts|
+|:--------:|:----------------:|:-----------------:|
+|[College](College.csv)|[States](USFacts.csv)|[People](USPeople.csv)
+|Source: <https://collegescorecard.ed.gov/data/>|Source: R Package usa|Source: R Package usa|
 
 
 |2. Education|3. Food Expenditure|4. Dog Intelligence|5. Crash Data|

@@ -90,7 +90,7 @@ description: A collection of data for practice
 
 |1. College| 2. US State Facts|
 |:--------:|:----------------:|
-|[College](CollegeSC.csv)|[States](USFacts.csv)|
+|[College](College.csv)|[States](USFacts.csv)|
 |Source: <https://collegescorecard.ed.gov/data/>|Source: <https://kiernann.com/usa>|
 
 

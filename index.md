@@ -84,9 +84,19 @@ description: A collection of data for practice
 
 # Cross Section
 
-|1. College|2. Education|3. Food Expenditure|4. Dog Intelligence|5. Crash Data|
-|:--------:|:----------:|:-----------------:|:-----------------:|:-----------:|
-|[College](College.csv)|[Education](Education.csv)|[FoodSpend](FoodSpend.csv)|[Dogs](dog_intelligence.csv)|[Crash](Crash.csv)|
+## 1. US
+
+
+
+|1. College| 2. US State Facts|
+|:--------:|:-----------------|
+|[College](College.csv)|[States](USFacts.csv)|
+|Source: <https://collegescorecard.ed.gov/data/>|Source: <https://kiernann.com/usa>|
+
+2. Education|3. Food Expenditure|4. Dog Intelligence|5. Crash Data|
+|:----------:|:-----------------:|:-----------------:|:-----------:|
+|[Education](Education.csv)|[FoodSpend](FoodSpend.csv)|[Dogs](dog_intelligence.csv)|[Crash](Crash.csv)|
+
 
 |6. Packers Roster|7. Survey|8. Kobe|9. Wage|10. Electric Cars|
 |:--------:|:----------:|:-----------------:|:-----------------:|:-----------:|
@@ -102,6 +112,6 @@ description: A collection of data for practice
 
 |21. Taxes|22. Quarterbacks |23. Crime |24. City|25. US State Facts|
 |:--------:|:----------:|:-----------------:|:-----------------:|:-----------:|
-|[Taxes](Taxes.csv)|[Quarterbacks](Quarterbacks.csv)|[Crime](Crime.csv)|[City Stats](CityData.csv)|[States](USFacts.csv)|
+|[Taxes](Taxes.csv)|[Quarterbacks](Quarterbacks.csv)|[Crime](Crime.csv)|[City Stats](CityData.csv)|
 
 

@@ -89,11 +89,12 @@ description: A collection of data for practice
 
 
 |1. College| 2. US State Facts|
-|:--------:|:-----------------|
-|[College](College.csv)|[States](USFacts.csv)|
+|:--------:|:----------------:|
+|[College](CollegeSC.csv)|[States](USFacts.csv)|
 |Source: <https://collegescorecard.ed.gov/data/>|Source: <https://kiernann.com/usa>|
 
-2. Education|3. Food Expenditure|4. Dog Intelligence|5. Crash Data|
+
+|2. Education|3. Food Expenditure|4. Dog Intelligence|5. Crash Data|
 |:----------:|:-----------------:|:-----------------:|:-----------:|
 |[Education](Education.csv)|[FoodSpend](FoodSpend.csv)|[Dogs](dog_intelligence.csv)|[Crash](Crash.csv)|
 

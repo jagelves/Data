@@ -34,6 +34,11 @@ description: A collection of data for practice
 |[Delta](Delta.csv)|[American](American.csv)|[United](United.csv)|
 |Source: <https://www.transtats.bts.gov>|Source: <https://www.transtats.bts.gov>|Source: <https://www.transtats.bts.gov>|
 
+|2.7 Top 4 Airlines|
+|:----------------:|
+|[Top4 Load Factors](AirlinesLoad.csv)|
+|Source: <https://www.transtats.bts.gov/Data_Elements.aspx?Qn6n=E>|
+
 <br>
 
 ## 3. Personal

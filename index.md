@@ -24,7 +24,7 @@ description: A collection of data for practice
 
 |2.1 TSLA Deliveries|2.2 TSLA Energy Storage|2.3 Netflix Subscriptions|
 |:--------:|:------:|:--------:|
-[Deliveries](tsla_deliveries.csv)|[Tesla Energy](teslaE.csv)|[Subscriptions](Netflix.csv)|
+[Car Deliveries](tsla_deliveries.csv)|[Tesla Energy Deployment](teslaE.csv)|[Worldwide Subscriptions](Netflix.csv)|
 |Source: <https://ir.tesla.com/>|Source: <https://ir.tesla.com/>|Source: <https://ir.netflix.net>|
 
 <br>

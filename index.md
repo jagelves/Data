@@ -35,14 +35,15 @@ description: A collection of data for practice
 |Source: <https://www.transtats.bts.gov>|Source: <https://www.transtats.bts.gov>|Source: <https://www.transtats.bts.gov>|
 
 |2.7 Top 4 Airlines Load|
-|:----------------:|
+|:---------------------:|
 |[Top4 Load Factors](AirlinesLoad.csv)|
 |Source: <https://www.transtats.bts.gov/Data_Elements.aspx?Qn6n=E>|
 
 |2.8 Top 4 Airlines Flights|
-|:----------------:|
+|:------------------------:|
 |[Top4 Flights](AirlinesFlight.csv)|
 |Source: <https://www.transtats.bts.gov/DL_SelectFields.aspx?gnoyr_VQ=FGK&QO_fu146_anzr=b0-gvzr>|
+
 <br>
 
 ## 3. Personal

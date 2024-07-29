@@ -37,7 +37,7 @@ description: A collection of data for practice
 |2.7 Top 4 Airlines Load|
 |:---------------------:|
 |[Top4 Load Factors](AirlinesLoad.csv)|
-|Source: <https://www.transtats.bts.gov/Data_Elements.aspx?Qn6n=E>|
+|Source: <https://www.transtats.bts.gov/Data_Elements.aspx?Data=1>|
 
 |2.8 Top 4 Airlines Flights|
 |:------------------------:|

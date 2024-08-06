@@ -48,9 +48,9 @@ description: A collection of data for practice
 
 ## 3. Personal
 
-|3.1 Electricity Usage|3.2 Electricity Usage2|
-|:-----------:|:------:|
-|[Electricity](ElectricityBill.csv)|[Electricity2](ElectricityBill2.csv)|
+|3.1 Electricity Usage|
+|:-----------:|
+|[Electricity](ElectricityBill.csv)|
 
 ## 4. World
 

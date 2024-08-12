@@ -85,6 +85,12 @@ description: A collection of data for practice
 |:-----------:|:------:|:-------:|
 |[TCM5Y](treasury.csv)|[Income](PersonalIncome.csv)|[Income2](USIncome.csv)|
 
+<br>
+
+|6.7 Population|
+|:------------:|
+|[Decenial](https://www2.census.gov/programs-surveys/decennial/2020/data/demographic-and-housing-characteristics-file/population-pyramid-visualization/nation-populationpyramid-2000-2010-2020.csv)
+
 ## 7. Simulated
 
 |7.1 Ferry|7.2 Call Center|7.3 Clothing Sales|

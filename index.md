@@ -48,9 +48,9 @@ description: A collection of data for practice
 
 ## 3. Personal
 
-|3.1 Electricity Usage|
-|:-----------:|
-|[Electricity](ElectricityBill.csv)|
+|3.1 Electricity Usage|3.2 Premier League 23-24|
+|:-------------------:|:----------------------:|
+|[Electricity](ElectricityBill.csv)|[PL 2023-2024](PL.csv)
 
 ## 4. World
 

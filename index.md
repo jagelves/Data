@@ -75,10 +75,10 @@ description: A collection of data for practice
 
 ## 6. US
 
-|6.1 Fertility US|6.2 Consumer Debt|6.3 Inflation |
+|6.1 Fertility US|6.2 H.H. Debt|6.3 Inflation |
 |:-----------:|:------:|:--------:|
 |[Fertility](USFertility.csv)|[Debt](USDebt.csv)|[Inflation](Inflation.csv)|
-|Source: <https://www.census.gov>| Source: <https://fred.stlouisfed.org>| Source: <https://www.statista.com>|
+|Source: <https://www.census.gov>| Source: <https://www.newyorkfed.org/microeconomics/hhdc>| Source: <https://www.statista.com>|
 
 <br>
 

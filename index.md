@@ -55,9 +55,9 @@ description: A collection of data for practice
 
 ## 4. World
 
-|4.1 Population|4.2 Stock Prices|
-|:------------:|:------:|
-|[Population](UNPOP.csv)|[Prices](Stocks.csv)|
+|4.1 Population|
+|:------------:|
+|[Population](UNPOP.csv)|
 |Source: <https://population.un.org/wpp/Download/Standard/MostUsed/>|
 
 <br>

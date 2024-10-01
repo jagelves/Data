@@ -69,9 +69,13 @@ description: A collection of data for practice
 
 ## 5. Finance
 
-|5.1 Stock Returns|5.2 Pitching|5.3 Homes|Bitcoin|
+|5.1 Stock Returns|5.2 Pitching|5.3 Homes|5.4 Bitcoin|
 |:-----------:|:------:|:--------:|:-----------:|
 |[Returns](returns.csv)|[fastballs](fastballs.csv)|[HomePrices](HomePrices.csv)|[BTC](BTC_USD.csv)|
+
+|5.5 S&P Yearly Returns|
+|:--------------------:|
+|[S&P Yearly Returns](YearlySandP.csv)
 
 ## 6. US
 

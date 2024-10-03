@@ -13,11 +13,11 @@ Hawaii,4,H
 Idaho,4,T
 Illinois,19,H
 Indiana,11,T
-Iowa,6,S
+Iowa,6,T
 Kansas,6,T
 Kentucky,8,T
 Louisiana,8,T
-Maine,4,S
+Maine,4,H
 Maryland,10,H
 Massachusetts,11,H
 Michigan,15,S
@@ -25,15 +25,15 @@ Minnesota,10,H
 Mississippi,6,T
 Missouri,10,T
 Montana,3,T
-Nebraska,5,S
+Nebraska,5,T
 Nevada,6,S
-New Hampshire,4,S
+New Hampshire,4,H
 New Jersey,14,H
 New Mexico,5,H
-New York,28,S
+New York,28,H
 North Carolina,16,S
 North Dakota,3,T
-Ohio,17,S
+Ohio,17,T
 Oklahoma,7,T
 Oregon,8,H
 Pennsylvania,19,S
@@ -41,12 +41,12 @@ Rhode Island,4,T
 South Carolina,9,T
 South Dakota,3,T
 Tennessee,11,T
-Texas,40,S
+Texas,40,T
 Utah,6,T
 Vermont,3,H
 Virginia,13,H
-Washington,12,S
-West Virginia,4,S
-Wisconsin,10,T
+Washington,12,H
+West Virginia,4,T
+Wisconsin,10,S
 Wyoming,3,H
 District of Columbia,3,H

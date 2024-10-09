@@ -133,6 +133,11 @@ description: A collection of data for practice
 |:--------:|:----------:|:-----------------:|:-----------------:|:-----------:|
 |[Study Hours](StudyHours.csv)|[Prime](Prime.csv)|[Oil and Gold](GoldOil.csv)|[Drink](DrinkCalories.csv)|[Food](FoodCalories.csv)|
 
+
+|21. Electoral Votes| 22. 2024 Presidential Election|
+|:-----------------:|:-----------------------------:|
+|[Electoral Votes](ElectoralVotes.csv)|[Polls](Election2024.csv)|
+
 |21. Taxes|22. Quarterbacks |23. Crime |24. City|25. US State Facts|
 |:--------:|:----------:|:-----------------:|:-----------------:|:-----------:|
 |[Taxes](Taxes.csv)|[Quarterbacks](Quarterbacks.csv)|[Crime](Crime.csv)|[City Stats](CityData.csv)|

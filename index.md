@@ -138,8 +138,8 @@ description: A collection of data for practice
 |:-----------------:|:-----------------------------:|
 |[Electoral Votes](ElectoralVotes.csv)|[Polls](Election2024.csv)|
 
-|21. Taxes|22. Quarterbacks |23. Crime |24. City|25. US State Facts|
+|21. Taxes|22. Quarterbacks |23. Crime |24. City|25. Emojis|
 |:--------:|:----------:|:-----------------:|:-----------------:|:-----------:|
-|[Taxes](Taxes.csv)|[Quarterbacks](Quarterbacks.csv)|[Crime](Crime.csv)|[City Stats](CityData.csv)|
+|[Taxes](Taxes.csv)|[Quarterbacks](Quarterbacks.csv)|[Crime](Crime.csv)|[City Stats](CityData.csv)|[Sentiment](Emojis.csv)|
 
 

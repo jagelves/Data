@@ -142,4 +142,7 @@ description: A collection of data for practice
 |:--------:|:----------:|:-----------------:|:-----------------:|:-----------:|
 |[Taxes](Taxes.csv)|[Quarterbacks](Quarterbacks.csv)|[Crime](Crime.csv)|[City Stats](CityData.csv)|[Sentiment](Emoji.csv)|
 
+Emoji source: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.921388/full#supplementary-material
+
+
 

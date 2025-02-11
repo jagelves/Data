@@ -73,9 +73,9 @@ description: A collection of data for practice
 |:-----------:|:------:|:--------:|:-----------:|
 |[Returns](returns.csv)|[fastballs](fastballs.csv)|[HomePrices](HomePrices.csv)|[BTC](BTC_USD.csv)|
 
-|5.5 S&P Yearly Returns|5.6 Money Supply|
-|:--------------------:|:--------------:|
-|[S&P Yearly Returns](YearlySandP.csv)|[M2](M2.csv)
+|5.5 S&P Yearly Returns|5.6 Money Supply|5.7 More Returns|
+|:--------------------:|:--------------:|:--------------:|
+|[S&P Yearly Returns](YearlySandP.csv)|[M2](M2.csv)|[Returns](Returns2.csv)|
 
 ## 6. US
 

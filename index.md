@@ -92,9 +92,10 @@ description: A collection of data for practice
 
 <br>
 
-|6.7 Population|
-|:------------:|
-|[Decenial](https://www2.census.gov/programs-surveys/decennial/2020/data/demographic-and-housing-characteristics-file/population-pyramid-visualization/nation-populationpyramid-2000-2010-2020.csv)
+|6.7 Population|6.8 Federal Reserve|
+|:------------:|:-----------------:|
+|[Decenial](https://www2.census.gov/programs-surveys/decennial/2020/data/demographic-and-housing-characteristics-file/population-pyramid-visualization/nation-populationpyramid-2000-2010-2020.csv)|[Total Assests](WALCL.csv)|
+|Source: <https://www.census.gov>|Source: <https://fred.stlouisfed.org/series/WALCL>|
 
 ## 7. Simulated
 

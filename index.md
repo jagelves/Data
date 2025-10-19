@@ -145,9 +145,9 @@ description: A collection of data for practice
 
 Emoji source: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.921388/full#supplementary-material
 
-|Spin Class|
-|:--------:|
-|[Spin](Spin.csv)|
+|Spin Class|College Football|
+|:--------:|:--------------:|
+|[Spin](Spin.csv)|[Football](cf23.csv)|
 
 
 

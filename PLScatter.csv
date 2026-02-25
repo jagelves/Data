@@ -1,21 +1,24 @@
-HomeTeam,FullGoals,HalfGoals,logo_url,HalfGoals2
-Arsenal,31,11,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Arsenal%20FC.png,20
-Aston Villa,20,8,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Aston%20Villa.png,12
-Bournemouth,20,9,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/AFC%20Bournemouth.png,11
-Brentford,24,9,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Brentford%20FC.png,15
-Brighton,19,7,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Brighton%20%26%20Hove%20Albion.png,12
-Burnley,12,6,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Burnley%20FC.png,6
-Chelsea,23,12,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Chelsea%20FC.png,11
-Crystal Palace,14,7,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Crystal%20Palace.png,7
-Everton,16,7,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Everton%20FC.png,9
-Fulham,22,8,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Fulham%20FC.png,14
-Leeds,22,11,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Leeds%20United.png,11
-Liverpool,17,9,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Liverpool%20FC.png,8
-Man City,34,21,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Manchester%20City.png,13
-Man United,25,13,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Manchester%20United.png,12
-Newcastle,24,9,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Newcastle%20United.png,15
-Nott'm Forest,10,3,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Nottingham%20Forest.png,7
-Sunderland,19,7,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Sunderland%20AFC.png,12
-Tottenham,14,5,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Tottenham%20Hotspur.png,9
-West Ham,17,12,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/West%20Ham%20United.png,5
-Wolves,13,9,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Wolverhampton%20Wanderers.png,4
+team,Total_Goals,Goals_First,Goals_Second,HTotal_Goals,HGoals_First,HGoals_Second,squad_value_m,logo_url
+Arsenal,125,53,72,55,21,34,740,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Arsenal%20FC.png
+Aston Villa,96,37,59,79,34,45,365,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Aston%20Villa.png
+Bournemouth,99,42,57,87,40,47,295,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/AFC%20Bournemouth.png
+Brentford,105,51,54,91,40,51,260,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Brentford%20FC.png
+Brighton,101,39,62,92,45,47,385,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Brighton%20%26%20Hove%20Albion.png
+Burnley,29,13,16,49,27,22,247,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Burnley%20FC.png
+Chelsea,112,50,62,74,35,39,977,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Chelsea%20FC.png
+Crystal Palace,80,33,47,83,38,45,250,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Crystal%20Palace.png
+Everton,71,37,34,75,31,44,245,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Everton%20FC.png
+Fulham,91,35,56,94,40,54,275,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Fulham%20FC.png
+Ipswich,36,22,14,82,40,42,210,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Championship/Ipswich%20Town.png
+Leeds,37,19,18,46,15,31,321,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Leeds%20United.png
+Leicester,33,12,21,80,40,40,302,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Championship/Leicester%20City.png
+Liverpool,124,52,72,74,32,42,665,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Liverpool%20FC.png
+Man City,124,71,53,69,29,40,1100,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Manchester%20City.png
+Man United,92,35,57,91,36,55,835,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Manchester%20United.png
+Newcastle,106,56,50,86,38,48,604,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Newcastle%20United.png
+Nott'm Forest,80,35,45,84,36,48,230,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Nottingham%20Forest.png
+Southampton,26,12,14,86,42,44,185,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Championship/Southampton%20FC.png
+Sunderland,25,9,16,33,15,18,327,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Sunderland%20AFC.png
+Tottenham,98,47,51,106,54,52,747,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Tottenham%20Hotspur.png
+West Ham,78,36,42,108,47,61,434,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/West%20Ham%20United.png
+Wolves,72,36,36,116,57,59,372,https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Wolverhampton%20Wanderers.png

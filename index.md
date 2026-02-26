@@ -48,10 +48,10 @@ description: A collection of data for practice
 
 ## 3. Personal
 
-|3.1 Electricity Usage|3.2 Premier League 23-24|
-|:-------------------:|:----------------------:|
-|[Electricity](ElectricityBill.csv)|[PL 2023-2024](PL.csv)
-||Source:<https://football-data.co.uk/downloadm.php>|
+|3.1 Electricity Usage|3.2 Premier League 23-24|3.3 FPL 2025-2026|3.4 Team EPL|
+|:-------------------:|:----------------------:|:---------------:|:-----------------:|
+|[Electricity](ElectricityBill.csv)|[PL 2023-2024](PL.csv)|[S2025_2026](fpl_2025_26.csv)|[PLScatter](PLScatter.csv)|
+||Source:<https://football-data.co.uk/downloadm.php>|Source:API|
 
 ## 4. World
 
